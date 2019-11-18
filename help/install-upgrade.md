@@ -1,17 +1,15 @@
 ---
 title: Installieren und Konfigurieren der AEM Desktop-App
-seo-title: Installieren und Konfigurieren der AEM Desktop-App
 description: Installieren und konfigurieren Sie die AEM-Desktop-App für die Verwendung mit AEM Assets-Servern und laden Sie die Assets auf Ihr lokales Dateisystem herunter.
-seo-description: Installieren und konfigurieren Sie die AEM-Desktop-App für die Verwendung mit AEM Assets-Servern und laden Sie die Assets auf Ihr lokales Dateisystem herunter.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
-contentOwner: Agupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a46660a3d56100e0d767e7f2b54656782bb5e7a7
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
@@ -37,7 +35,7 @@ Gehen Sie wie folgt vor, um von v1.x auf die neueste Version der App zu aktualis
 1. Starten Sie den Computer neu.
 1. Laden Sie die neueste App herunter und installieren Sie sie. Befolgen Sie die unten stehenden Anweisungen.
 
-## Installieren von {#install-v2}
+## Installieren von Version {#install-v2}
 
 Gehen Sie wie folgt vor, um die Desktop-App zu installieren. Deinstallieren Sie alle vorhandenen Adobe Experience Manager Desktop-Apps der Version 1.x, bevor Sie die neueste App installieren. Weitere Informationen finden Sie oben.
 
