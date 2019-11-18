@@ -1,16 +1,12 @@
 ---
 title: Einführung in die AEM-Desktop-App
-seo-title: Technische Dokumentation und Hilfe zur Adobe Experience Manager-Desktop-App
-description: Technische Dokumentation und Hilfe helfen Ihnen dabei, zu verstehen, wie die AEM-Desktop-App den Arbeitsablauf von kreativen Benutzern optimieren kann, wenn Sie Unternehmensassets direkt von ihrem Desktop aus verwenden.
-seo-description: Erfahren Sie, wie die AEM-Desktop-App den Arbeitsablauf von kreativen Benutzern optimieren kann, wenn Sie Unternehmensassets direkt von ihrem Desktop aus verwenden.
-contentOwner: Agupta
+description: Erfahren Sie, wie Sie mit der AEM-Desktop-App die Asset-Management-Arbeitsabläufe für kreative Benutzer optimieren können, wenn Sie AEM Assets direkt von ihrem Desktop aus verwenden.
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-index: y
-internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b74a3ff5c9a25ee1433dd661a1bce677271a5ebe
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
