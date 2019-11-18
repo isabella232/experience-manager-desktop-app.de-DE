@@ -1,17 +1,15 @@
 ---
 title: Best Practices für AEM Desktop-Apps Version 1.x
-seo-title: Best Practices für AEM Desktop-Apps Version 1.x
 description: Wichtige Funktionen und empfohlene Verwendung der Adobe Experience Manager-Desktop-App Version 1.x
-seo-description: Wichtige Funktionen und empfohlene Verwendung der Adobe Experience Manager-Desktop-App Version 1.x
 uuid: ba8fbc74-e1ad-4085-a031-ffd317628ba6
-contentOwner: Agupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 946b853d740444853525e540ff7af1cbc46f9998
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
@@ -22,7 +20,7 @@ source-git-commit: 946b853d740444853525e540ff7af1cbc46f9998
 
 Die Adobe Experience Manager (AEM)-Desktop-App verknüpft Ihre Digital Asset Management (DAM)-Lösung mit Ihrem Desktop, damit Sie die in der AEM-Web-Benutzeroberfläche verfügbaren Dateien direkt auf dem Desktop öffnen können. Wenn Sie ein Asset vom Desktop aus speichern, wird es am entsprechenden Speicherort in AEM hochgeladen.
 
-Mit der AEM-Desktop-App können Sie keine falschen lokalen Kopien aktualisieren oder ein falsches Asset in AEM aktualisieren. Der benutzerfreundliche Workflow von Desktop App wird mithilfe der Netzwerkfreigabetechnologie aktiviert, die von Desktop-Betriebssystemen bereitgestellt wird. 
+Mit der AEM-Desktop-App können Sie keine falschen lokalen Kopien aktualisieren oder ein falsches Asset in AEM aktualisieren. Der unkomplizierte Workflow der Desktop App wird anhand auf Desktop-Betriebssystemen gängigen Technologien zur Netzwerkfreigabe ermöglicht.
 
 Die Desktop-App bindet das AEM Assets-Repository als Netzwerkfreigabe auf dem Desktop. Daher sieht es so aus, als handle es sich um lokale Ordner und Dateien. Es wird jedoch nicht empfohlen, Digital Asset Management-Vorgänge direkt über den Desktop in der bereitgestellten Netzwerkfreigabe in Finder oder Explorer durchzuführen. Vielmehr empfiehlt Adobe, dass Sie Vorgänge wie das Kopieren oder Verschieben einer großen Anzahl von Assets über die AEM Assets-Webbenutzeroberfläche abwickeln.
 
