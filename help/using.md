@@ -1,18 +1,13 @@
 ---
 title: Verwenden der AEM-Desktop-App
-seo-title: Verwenden der Adobe Experience Manager-Desktopanwendung
 description: Erfahren Sie, wie Sie die Adobe Experience Manager-Desktop-App installieren und verwenden, um mit AEM-Assets direkt von Ihrem Win- oder Mac-Desktop aus zu arbeiten. Machen Sie sich mit Best Practices und Informationen zur Fehlerbehebung vertraut.
-seo-description: Erfahren Sie, wie Sie die Adobe Experience Manager-Desktop-App installieren und verwenden, um mit AEM-Assets direkt von Ihrem Win- oder Mac-Desktop aus zu arbeiten. Machen Sie sich mit Best Practices und Informationen zur Fehlerbehebung vertraut.
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-index: y
-internal: n
-snippet: y
-mini-toc-levels: '1'
+mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: b74a3ff5c9a25ee1433dd661a1bce677271a5ebe
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
