@@ -1,17 +1,15 @@
 ---
 title: Versionshinweise zur AEM-Desktop-App für Version 1.x
-seo-title: Versionshinweise zur AEM-Desktop-App für Version 1.x
 description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für AEM Desktop-App Version 1.x.
-seo-description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für AEM Desktop-App Version 1.x.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
-contentOwner: Agupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c305f57b8ad874bcffc250689d917e31820225e4
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
