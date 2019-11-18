@@ -1,17 +1,15 @@
 ---
 title: Bewährte Verfahren und Fehlerbehebung für die AEM-Desktop-App
-seo-title: Fehlerbehebung und Best Practices für AEM Desktop-Apps
 description: Befolgen Sie die Best Practices und führen Sie eine Fehlerbehebung durch, um gelegentliche Probleme im Zusammenhang mit Installation, Aktualisierung, Konfiguration usw. zu beheben.
-seo-description: Befolgen Sie die Best Practices und führen Sie eine Fehlerbehebung durch, um gelegentliche Probleme im Zusammenhang mit Installation, Aktualisierung, Konfiguration usw. zu beheben.
-uuid: ce98a3e7-5454-41be-aaa-4252b3e0f8dd
-contentOwner: Agupta
+uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a46660a3d56100e0d767e7f2b54656782bb5e7a7
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
