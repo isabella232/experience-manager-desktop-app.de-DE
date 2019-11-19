@@ -7,7 +7,7 @@ products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: f9c2347f8f17d32479207980fafba058825d986f
 
 ---
 
@@ -22,7 +22,7 @@ Wenn Sie die Anwendung nach dem Abmelden oder zum ersten Mal öffnen, geben Sie 
 
 Die Hauptaufgaben, die Sie mit der AEM-Desktop-App ausführen, sind:
 
-![Arbeitsabläufe und Aufgaben, die Sie mit der AEM-Desktop-](assets/do-not-localize/whats-new-desktop-app-v2.png "App ausführen könnenArbeitsabläufe und Aufgaben, die Sie mit der AEM-Desktop-App")ausführen könnenLaden Sie [diese](assets/do-not-localize/aem_desktop_app_usecases_print.pdf) druckfertige PDF-Datei herunter.
+![Arbeitsabläufe und Aufgaben, die Sie mit der AEM-Desktop-](assets/aem_desktop_app_usecases_v2.png "App ausführen könnenArbeitsabläufe und Aufgaben, die Sie mit der AEM-Desktop-App")ausführen könnenLaden Sie [diese](assets/aem_desktop_app_usecases_print.pdf) druckfertige PDF-Datei herunter.
 
 ## Funktionsweise von Desktop-Apps {#how-app-works2}
 
