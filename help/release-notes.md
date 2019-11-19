@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: f9c2347f8f17d32479207980fafba058825d986f
 
 ---
 
@@ -84,7 +84,7 @@ Es ist wichtig, die folgenden Informationen zur Anwendung und deren Funktionswei
 
 Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum lokalen Dateisystem und umgekehrt, wie durch Benutzeraktionen initiiert.
 
-![Fluss von Assets vom AEM-Server zu nativen Desktop-Apps über die Desktop-App](assets/do-not-localize/da20_flow_diagram.png)
+![Fluss von Assets vom AEM-Server zu nativen Desktop-Apps über die Desktop-App](assets/da20_flow_diagram.png)
 
 ## Bekannte Probleme {#known-issues-v2}
 
