@@ -6,7 +6,7 @@ products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 snippet: y
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: f9c2347f8f17d32479207980fafba058825d986f
 
 ---
 
@@ -47,6 +47,6 @@ Die neue App verbessert die Benutzerfreundlichkeit erheblich und bietet gleichze
 
 Die wichtigsten Anwendungsfälle und Verbesserungen der neuen App werden der Customer Journey in der folgenden Abbildung zugeordnet.
 
-![Neue Funktionen in der AEM-Desktop-App](assets/do-not-localize/whats-new-desktop-app-v2.png)
+![Neue Funktionen in der AEM-Desktop-App](assets/aem_desktop_app_usecases_v2.png)
 
 Die Desktop-App ermöglicht es den Benutzern, alle oben genannten Anwendungsfälle direkt in der App auszuführen. Bei Bedarf können Sie auch die Asset-Suche in der Weboberfläche durchführen und dann die Steuerung an die App übergeben, um die Assets zu öffnen und zu bearbeiten.
