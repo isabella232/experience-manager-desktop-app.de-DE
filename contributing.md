@@ -1,6 +1,6 @@
 ---
 source-git-commit: 463470ba99cd3adfabb5ff00211757d1f97de12e
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Beitragen
@@ -14,15 +14,15 @@ Im Folgenden finden Sie eine Reihe von Richtlinien, die bei Beiträgen zu diesem
 Dieses Projekt hält den Adobe-[Verhaltenskodex](code-of-conduct.md) ein. Wir erwarten, dass Sie bei Ihrer Teilnahme diesen Code befolgen. Bitte melden Sie sich inakzeptables Verhalten an
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Dokumentation zum Leitfaden für Beitragende
+## Dokumentation zum Contributor Guide
 
-Siehe [Mitarbeiter-Handbuch](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Siehe [Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
 
 ## Haben Sie eine Frage?
 
 Melden Sie als Erstes ein Problem. Die vorhandenen Verantwortlichen bei diesem Projekt arbeiten daran, einen Konsens in Bezug auf die Richtung des Projekts und Problemlösungen in Problem-Threads zu arbeiten (falls zutreffend).
 
-## Lizenzvereinbarung für Mitwirkende (CLA)
+## Lizenzvereinbarung für Anbieter (CLA)
 
 Alle Drittanbieter-Beiträge zu diesem Projekt müssen von einer unterzeichneten Lizenzvereinbarung für Mitwirkende begleitet werden. Damit kann Adobe Ihre Beiträge als Teil des Projekts weitervertreiben. [Signieren Sie unsere CLA](http://opensource.adobe.com/cla.html). Sie müssen nur einmal eine Adobe-CLA übermitteln. Wenn Sie also bereits eine übermittelt haben, können Sie sofort loslegen!
 
@@ -41,4 +41,4 @@ Wir lieben Beiträge aus unserer Community! Wenn Sie sich von einem Mitwirkenden
 
 ## Sicherheitsprobleme
 
-Sicherheitsprobleme sollten bei diesem Problemtracker nicht gemeldet werden. [Reichen Sie stattdessen ein Problem bei unseren Sicherheitsexperten ein](https://helpx.adobe.com/security/alertus.html).
+Sicherheitsprobleme sollten bei diesem Problemtracker nicht gemeldet werden. [Reichen Sie stattdessen ein Problem bei unseren Sicherheitsexperten ein](https://helpx.adobe.com/de/security/alertus.html).
