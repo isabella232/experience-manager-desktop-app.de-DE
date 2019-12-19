@@ -1,6 +1,6 @@
 ---
-title: Versionshinweise für die AEM-Desktop-App, Version 1.x
-description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für die AEM-Desktop-App, Version 1.x.
+title: Versionshinweise für das AEM-Desktop-Programm, Version 1.x
+description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das AEM-Desktop-Programm, Version 1.x.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -8,17 +8,17 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75e7cbaaa23b441b5e3a6e55381cd5f548231537
 
 ---
 
 
-# Versionshinweise für die AEM-Desktop-App, Version 1.x{#aem-desktop-app-release-notes}
+# Versionshinweise für das AEM-Desktop-Programm, Version 1.x{#aem-desktop-app-release-notes}
 
-Für die Desktop-App Version 1.x sind die folgenden Links und AEM-Kompatibilitätsinformationen verfügbar:
+Für das AEM-Desktop-Programm v1.x sind die folgenden Download-Links und AEM-Kompatibilitätsinformationen verfügbar:
 
-| Produkte | Adobe Experience Manager (AEM)-Desktop-App |
+| Produkte | Adobe Experience Manager (AEM)-Desktop-Programm |
 |---------------|--------------------------------------------------------------------|
 | Version | 1.10 (1.10.0.3 unter Mac und Windows) |
 | Typ | Nebenversion |
@@ -28,59 +28,59 @@ Für die Desktop-App Version 1.x sind die folgenden Links und AEM-Kompatibilitä
 
 >[!NOTE]
 >
->Die Cachegrößenbeschränkung wird nicht erzwungen. Beim Starten der Desktop-App wird die Cachegröße einmal berechnet und es wird eine Benachrichtigung angezeigt, wenn sich die Größe der vordefinierten Beschränkung nähert.
+>Die Cachegrößenbeschränkung wird nicht erzwungen. Beim Starten des Desktop-Programms wird die Cachegröße einmal berechnet und es wird eine Benachrichtigung angezeigt, wenn sich die Größe der vordefinierten Beschränkung nähert.
 
 ## Systemanforderungen und Voraussetzungen {#system-requirements-and-prerequisites}
 
-Die AEM-Desktop-App ist mit den folgenden Betriebssystemen kompatibel:
+Das AEM-Desktop-Programm ist mit den folgenden Betriebssystemen kompatibel:
 
 * Mac OS X 10.10 oder höher mit aktuellen Fehlerbehebungen.
 * Windows 7 und Windows 10 mit den neuesten Service Packs und Fehlerbehebungen.
 
-Adobe empfiehlt dringend, die neueste Version der AEM-Desktop-App zu verwenden, um die neuesten Funktionen, die neuesten Fehlerbehebungen und die bestmögliche Leistung zu nutzen.
+Adobe empfiehlt dringend, die neueste Version des AEM-Desktop-Programms zu verwenden, um die neuesten Funktionen mit den neuesten Fehlerkorrekturen und der bestmöglichen Leistung zu nutzen.
 
-Die Version der AEM-Desktop-App, die Sie auf Ihrem lokalen Computer installieren möchten, erfordert eine bestimmte AEM-Serverversion/zusätzliche serverseitige Komponenten (Service Packs, Hotfixes oder Feature Packs). Stellen Sie sicher, dass der AEM-Server ordnungsgemäß konfiguriert ist, bevor Sie zum ersten Mal eine Verbindung herstellen. Wenn Sie Hilfe benötigen, wenden Sie sich an Ihren AEM-Administrator.
+Für die Version des AEM-Desktop-Programms, die Sie auf Ihrem lokalen Computer installieren möchten, sind eine bestimmte Version von AEM-Server oder zusätzliche serverseitige Komponenten (Service Packs, Hotfixes oder Feature Packs) erforderlich. Stellen Sie sicher, dass der AEM-Server ordnungsgemäß konfiguriert ist, bevor Sie zum ersten Mal eine Verbindung herstellen. Wenn Sie Hilfe benötigen, wenden Sie sich an Ihren AEM-Administrator.
 
 Lesen Sie die Informationen in der [detaillierten Kompatibilitätsmatrix](#compatibilitymatrix) am Ende dieses Dokuments, um die Voraussetzungen für Ihr Setup zu prüfen.
 
-## Neue Funktionen in der AEM-Desktop-App 1.10 {#what-s-new-in-aem-desktop-app}
+## Neue Funktionen im AEM-Desktop-Programm 1.10 {#what-s-new-in-aem-desktop-app}
 
-Die AEM-Desktop-App 1.10 konzentriert sich auf die Verbesserung des Benutzererlebnisses rund um den Upload großer Dateien, Informationen über Hintergrundvorgänge sowie ein optimiertes Erlebnis beim Öffnen von Assets mit verlinkten Dateien (wie InDesign).
+Das AEM-Desktop-Programm 1.10 konzentriert sich auf die Verbesserung des Benutzererlebnisses rund um den Upload großer Dateien, Informationen über Hintergrundvorgänge sowie ein optimiertes Erlebnis beim Öffnen von Assets mit verlinkten Dateien (wie InDesign).
 
 **Lokales Bearbeiten/Auschecken**: Automatische Uploads gespeicherter Asset-Änderungen, die im Statusfenster deaktiviert werden können. So können Benutzer an Dateien arbeiten, die hierbei vorgenommenen Änderungen speichern und, wenn sie bereit sind, alle Änderungen hochladen.
 
 **Vereinfachtes Asset-Statusfenster**: Das Statusfenster wurde vereinfacht: Die Registerkarte „Uploads“ zeigt jetzt sowohl einzelne Assets als auch Ordner-/Massen-Uploads an. Die zuvor vorhandene Registerkarte „Massen-Uploads“ wurde entfernt.
 
-**Anwendungssymbol zur Anzeige von Massen-Uploads**: Das Applikationssymbol gibt an, dass ein Massen-Upload durchgeführt wird, indem das Overlay „Transfer“ (Übertragung) angezeigt wird.
+**Applikationssymbol zur Anzeige von Massen-Uploads**: Das Applikationssymbol gibt an, dass ein Massen-Upload durchgeführt wird, indem das Overlay „Transfer“ (Übertragung) angezeigt wird.
 
-**Hinweise für Update-Konflikte**: Wenn die App beim Aktualisieren eines Assets einen Konflikt feststellt, wird eine Benachrichtigung angezeigt, damit der Benutzer den Fall untersuchen kann, ohne das Statusfenster im Blick behalten zu müssen. Wenn die Anwendung startet, sucht sie nach potenziellen Konflikten, damit der Benutzer sie beheben kann.
+**Hinweise für Update-Konflikte**: Wenn das Programm beim Aktualisieren eines Assets einen Konflikt feststellt, wird eine Benachrichtigung angezeigt, damit der Benutzer den Fall untersuchen kann, ohne das Statusfenster im Blick behalten zu müssen. Wenn die Anwendung startet, sucht sie nach potenziellen Konflikten, damit der Benutzer sie beheben kann.
 
-**Besserer Umgang mit Verbindungsabbrüchen**: Massen-Uploads werden angehalten, wenn die Verbindung unterbrochen wird. Benutzer können sie zu einem späteren Zeitpunkt fortsetzen. Über die Schaltfläche "Wiederholen"können Sie einen fehlgeschlagenen Upload einer einzelnen Datei wiederholen.
+**Besserer Umgang mit Verbindungsabbrüchen**: Massen-Uploads werden angehalten, wenn die Verbindung unterbrochen wird. Benutzer können sie zu einem späteren Zeitpunkt fortsetzen. Für fehlgeschlagene Uploads einzelner Dateien steht Benutzern die Schaltfläche „Retry“ (Wiederholen) zur Verfügung.
 
 ## Installationsanweisungen {#installation-instructions}
 
-Detaillierte Anweisungen finden Sie unter [Installieren und Konfigurieren der AEM-Desktop-App](install-configure-app-v1.md).
+Detaillierte Anweisungen finden Sie unter [Installieren und Konfigurieren des AEM-Desktop-Programms](install-configure-app-v1.md).
 
 ## Verbesserungen in den vorherigen Versionen {#enhancements-in-the-previous-versions}
 
-Diese Version erweitert und ersetzt die Vorgängerversionen der Experience Manager-Desktop-App, die die folgenden wesentlichen Verbesserungen boten:
+Diese Version erweitert und ersetzt die Vorgängerversionen des Experience Manager-Desktop-Programms, die die folgenden wesentlichen Verbesserungen boten:
 
-* **Version 1.9/1.9.1**: fortsetzbare Uploads, verbessertes Statusfenster, App-Symbole, die den Status der App/Verbindung angeben, Vorab-Abruf verknüpfter Assets für InDesign-Dateien
+* **Version 1.9/1.9.1**: fortsetzbare Uploads, verbessertes Statusfenster, Programm-Symbole, die den Status des Programms/der Verbindung angeben, Vorab-Abruf verknüpfter Assets für InDesign-Dateien
 * **Version 1.8**: bessere Steuerung der Cache-Größe für den Benutzer, verbesserte Anmeldung für SAML/SSO unter Windows, Unterstützung des .pac-Netzwerk-Proxys auf Mac-Computern und Behebung der von Kunden gemeldeten Probleme.
 * **Version 1.7.**: Verbesserungen der Stabilität und Caching-Logik, bessere Unterstützung für Netzwerk-Proxys und Möglichkeit, interne Dateien nach der Deinstallation zu bereinigen
-* **Version 1.6**: Verbesserungen am Anmeldeprozess für verschiedene AEM-Sicherheitskonfigurationen sowie an der Stabilität und Leistung der App.
-* **Version 1.5**: App-Stabilität und Ausfallsicherheit bei verschiedenen Netzwerkproblemen, bessere Unterstützungsmöglichkeiten.
+* **Version 1.6**: Verbesserungen am Anmeldeprozess für verschiedene AEM-Sicherheitskonfigurationen sowie an der Stabilität und Leistung des Programms.
+* **Version 1.5**: Programm-Stabilität und Ausfallsicherheit bei verschiedenen Netzwerkproblemen, bessere Unterstützungsmöglichkeiten.
 * **Version 1.4**: Möglichkeit, hierarchische Ordner im Hintergrund mit der Fortschrittsüberwachung hochzuladen.
 * **Version 1.3**: verbesserte Leistung und Stabilität beim Zugriff auf Dateien und Speichern von Änderungen in AEM, insbesondere aus Creative Cloud-Desktop-Applikationen wie InDesign, Illustrator oder Photoshop. Diese Version sollte Benutzern ein Desktop-artiges Erlebnis bei der Arbeit mit Dateien bieten und gleichzeitig Übertragungsvorgänge für Netzwerkdaten im Hintergrund durchführen.
 
-### Seit Einführung der AEM-Desktop-App 1.9 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-19x}
+### Seit Einführung des AEM-Desktop-Programms 1.9 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
-Bei der Adobe Experience Manager (AEM)-Desktop-App 1.9.1 handelte es sich um eine Patch-Version, mit der einige wichtige Kundenprobleme im Hinblick auf das Auschecken von Assets und Kopieren von Dateien aus einer Netzwerkfreigabe in ein lokales Verzeichnis behoben wurden.
+Beim Adobe Experience Manager (AEM)-Desktop-Programm 1.9.1 handelte es sich um eine Patch-Version, mit der einige wichtige Kundenprobleme im Hinblick auf das Auschecken von Assets und Kopieren von Dateien aus einer Netzwerkfreigabe in ein lokales Verzeichnis behoben wurden.
 
 * Assets, die von einem Benutzer ausgecheckt werden, sollten nicht für Bearbeitungen durch andere Benutzer verfügbar sein (CQ-4246009)
 * Unterstützung des Kopierens von einem zugeordneten Ordner in einen lokalen Ordner, wenn sich der Benutzerordner auf einer separaten Laufwerkpartition befindet (CQ-4243978)
 
-Die AEM-Desktop-App 1.9 konzentrierte sich auf die Verbesserung des Benutzererlebnisses rund um den Upload großer Dateien, Informationen über Hintergrundvorgänge sowie ein optimiertes Erlebnis beim Öffnen von Assets mit verlinkten Dateien (wie InDesign).
+Das AEM-Desktop-Programm 1.9 konzentrierte sich auf die Verbesserung des Benutzererlebnisses rund um den Upload großer Dateien, Informationen über Hintergrundvorgänge sowie ein optimiertes Erlebnis beim Öffnen von Assets mit verlinkten Dateien (wie InDesign).
 
 **Fortsetzbare Uploads**
 Für Upload-Vorgänge – insbesondere für große Dateien – ist im neuen Fenster „Asset Status“ (Asset-Status) eine Option zum Pausieren/Fortsetzen verfügbar.
@@ -104,9 +104,9 @@ Downloads
 * Fehlgeschlagene Downloads werden mit einer Fehlermeldung und Übergangsinformationen angezeigt, sofern verfügbar
 * In der Fußzeile werden die Gesamtzahl der heruntergeladenen Dateien und die durchschnittliche Übertragungsrate angezeigt.
 * Wenn ein Benutzer mehrere Dateien über die AEM Assets-Web-Benutzeroberfläche öffnet oder bearbeitet, werden sie zusammen gruppiert und beispielsweise als „meinasset.jpeg und 4 weitere Datei(en)“ angezeigt
-* Beim Herunterladen von InDesign-Dokumenten mit verknüpften Assets, die in AEM Assets gespeichert sind, lädt die Desktop-App zunächst alle verknüpften Assets herunter, bevor das InDesign-Dokument geöffnet und der Download verknüpfter Assets beispielsweise als „(5 of 24)“ (5 von 24) angegeben wird
+* Beim Herunterladen von InDesign-Dokumenten mit verknüpften Assets, die in AEM Assets gespeichert sind, lädt das Desktop-Programm zunächst alle verknüpften Assets herunter, bevor das InDesign-Dokument geöffnet und der Download verknüpfter Assets beispielsweise als „(5 of 24)“ (5 von 24) angegeben wird
 
-Die Verwendung dieses Dialogfelds wird durch das Hochladen von umfangreichen Ordnerhierarchien über „Create“ &gt; „Upload Folder“ (Erstellen &gt; Ordner hochladen) in der AEM-Web-Benutzeroberfläche oder das Kopieren und Auswählen von „Paste Assets“ (Assets einfügen) in Finder/Explorer im Kontextmenü der Desktop-App ausgelöst:
+Die Verwendung dieses Dialogfelds wird durch das Hochladen von umfangreichen Ordnerhierarchien über „Create“ &gt; „Upload Folder“ (Erstellen &gt; Ordner hochladen) in der AEM-Web-Benutzeroberfläche oder das Kopieren und Auswählen von „Paste Assets“ (Assets einfügen) in Finder/Explorer im Kontextmenü des Desktop-Programms ausgelöst:
 
 * Zeigt aktive Uploads an, einschließlich eines Fortschrittsbalkens und des Namens der momentan übertragenen Datei
 * Aktive Uploads beinhalten ein Symbol, über das der Upload per Klick abgebrochen wird. Die Übertragung endet, nachdem die aktuelle Dateiübertragung abgeschlossen ist
@@ -114,19 +114,20 @@ Die Verwendung dieses Dialogfelds wird durch das Hochladen von umfangreichen Ord
 * Wenn die Übertragung einer einzelnen Datei fehlschlägt, wird sie auf der Registerkarte als Fehler angezeigt. Andernfalls werden einzelne Dateien nicht auf der Registerkarte angezeigt, sondern lediglich ein einzelner Eintrag für den gesamten Upload.
 
 **Symbole zur Angabe des Status von Hintergrundoperationen**
-Das App-Symbol zeigt den Status der Hintergrundvorgänge an, um den Benutzern einen besseren visuellen Hinweis zu geben. Wenn die App beispielsweise nicht mit AEM verbunden ist, ist das Symbol ausgegraut. Im Falle eines aktiven Uploads wird eine Synchronisierungsüberlagerung angezeigt usw.
+Das Programm-Symbol zeigt den Status der Hintergrundvorgänge an, um den Benutzern einen besseren visuellen Hinweis zu geben. Wenn das Programm beispielsweise nicht mit AEM verbunden ist, ist das Symbol ausgegraut. Im Falle eines aktiven Uploads wird eine Synchronisierungsüberlagerung angezeigt usw.
 
-**Vorab-Abrufen von verknüpften Assets**Um die Benutzerfreundlichkeit beim Arbeiten mit InDesign-Dokumenten zu verbessern, die in AEM gespeicherte verknüpfte Assets enthalten, versucht die Desktop-App, diese verknüpften Dateien vor dem Herunterladen in den lokalen Cache abzurufen, bevor das InDesign-Dokument geöffnet wird. Somit stehen dem Benutzer die verknüpften Dateien lokal zur Verfügung und er muss beim Zugriff auf diese Dateien in InDesign (im Bereich „Verknüpfungen“) nicht länger warten.
-Beachten Sie, dass das Vorabrufen nur funktioniert, wenn AEM die Links auf dem Server erkennt. Für ein Asset mit erkannten Verknüpfungen wird in der Ansicht „Eigenschaften“ des InDesign-Assets die Liste „Verweise“ aufgeführt.
+**Vorabruf verknüpfter Assets**
+Zur Verbesserung des Benutzererlebnisses beim Arbeiten mit InDesign-Dokumenten, die in AEM gespeicherte verknüpfte Assets beinhalten, versucht das Desktop-Programm, diese verknüpften Dateien vorab in den lokalen Cache zu verschieben, bevor das InDesign-Dokument heruntergeladen und geöffnet wird. Somit stehen dem Benutzer die verknüpften Dateien lokal zur Verfügung und er muss beim Zugriff auf diese Dateien in InDesign (im Bereich „Verknüpfungen“) nicht länger warten.
+Beachten Sie, dass der Vorab-Abruf nur funktioniert, wenn AEM die Verknüpfungen auf der Server-Seite erkennt. Für ein Asset mit erkannten Verknüpfungen wird in der Ansicht „Eigenschaften“ des InDesign-Assets die Liste „Verweise“ aufgeführt.
 
-### Seit Einführung von AEM-Desktop-App 1.8 verfügbare Verbesserungen{#enhancements-available-since-aem-desktop-app-18x}
+### Seit Einführung von AEM-Desktop-Programm 1.8 verfügbare Verbesserungen{#enhancements-available-since-aem-desktop-app-18x}
 
-In der Folgeversion 1.8.1 der AEM-Desktop-App wurden Verbesserungen hinsichtlich des gleichzeitigen Öffnens mehrerer Dateien über die AEM-Benutzeroberfläche gegenüber der Version 1.8 hinzugefügt (CQ-4237747, CQ-4238780). Verbesserungen in der AEM-Desktop-App 1.8:
+In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsichtlich des gleichzeitigen Öffnens mehrerer Dateien über die AEM-Benutzeroberfläche gegenüber der Version 1.8 hinzugefügt (CQ-4237747, CQ-4238780). Verbesserungen im AEM-Desktop-Programm 1.8:
 
-* Caching: Neue Benutzeroberfläche zum Verwalten des Caches der AEM-Desktop-App (CQ-4208690), einschließlich folgender Funktionen:
+* Caching: Neue Benutzeroberfläche zum Verwalten des Caches des AEM-Desktop-Programms (CQ-4208690), einschließlich folgender Funktionen:
    * Aktuelle Cachegröße anzeigen
    * Maximale Cachegröße definieren, bevor eine Benachrichtigung gesendet wird
-   * Die Cache-Größe wird nur beim Start der Desktop-App überprüft. Beim Erreichen der konfigurierten Beschränkung wird eine Meldung angezeigt
+   * Die Cache-Größe wird nur beim Start des Desktop-Programms überprüft. Beim Erreichen der konfigurierten Beschränkung wird eine Meldung angezeigt
    * Auf der neuen Benutzeroberfläche ist eine Schaltfläche zum Löschen des Caches verfügbar
 * Anmeldung: (Win) Anmeldung bei der AEM-Instanz so korrigiert, dass SAML und SSL verwendet wird (CQ-4216353)
 * Netzwerk:
@@ -134,13 +135,13 @@ In der Folgeversion 1.8.1 der AEM-Desktop-App wurden Verbesserungen hinsichtlich
    * (Mac) Neue Unterstützung zum Verbinden mit AEM über eine .pac-Proxy-Konfiguration (CQ-4233430)
    * (Win) Behebung von Problemen mit dem Dialogfeld „Advanced“ &gt; „Login URL“ (Erweitert &gt; Anmelde-URL) (CQ-4236061)
 * Fehlerbehebungen:
-   * Mehr Asset-Informationen, Dialogfeld manchmal war die Aktionsleiste nicht sichtbar (CQ-4208540)
+   * Dialogfeld „More Assets Info“ (Weitere Asset-Informationen): mitunter war die Aktionsleiste nicht sichtbar (CQ-4208540)
    * (Win) Dateien können nun synchronisiert werden, nachdem sie in der AEM Assets-Benutzeroberfläche auf eine ältere Version zurückgesetzt wurden (CQ-4216411)
 
-### Seit Einführung von AEM-Desktop-App 1.7 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-17}
+### Seit Einführung von AEM-Desktop-Programm 1.7 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-17}
 
 * Stabilität:
-   * Verbesserte Stabilität, wenn die AEM-Desktop-App eine Verbindung zu einem überlasteten AEM-Server herstellt (CQ-4224803)
+   * Verbesserte Stabilität, wenn das AEM-Desktop-Programm eine Verbindung zu einem überlasteten AEM-Server herstellt (CQ-4224803)
    * Verbesserte Stabilität, wenn viele Dateien angefordert werden (CQ-4224212)
    * Verbesserte Asset-Aktualisierung mit zusätzlicher Prüfung (CQ-4228291)
 * Caching:
@@ -151,15 +152,15 @@ In der Folgeversion 1.8.1 der AEM-Desktop-App wurden Verbesserungen hinsichtlich
 * Installation und Deinstallation:
    * (Win) Gründlichere Deinstallation (CQ-4220906)
    * [Windows 32-Bit] Installer-Ausführung schlägt beim Versuch fehl, Microsoft.NET Framework Version 4.5 zu installieren (CQ-4218084)
-   * (Mac) Skript zur manuellen Ausführung für das vollständige Entfernen von Desktop-App-Dateien (CQ-4216489)
+   * (Mac) Skript zur manuellen Ausführung für das vollständige Entfernen von Desktop-Programm-Dateien (CQ-4216489)
 
 >[!NOTE]
 >
->In der Beta-Version der AEM-Desktop-App 1.7 festgestellte Probleme (die in Version 1.6 nicht vorhanden waren) werden in den Versionshinweisen nicht aufgeführt.
+>In der Beta-Version des AEM-Desktop-Programms 1.7 festgestellte Probleme (die in Version 1.6 nicht vorhanden waren) werden in den Versionshinweisen nicht aufgeführt.
 
-### Seit Einführung von AEM-Desktop-App 1.6 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-16}
+### Seit Einführung von AEM-Desktop-Programm 1.6 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-16}
 
-* Dokumentation: Neue Dokumentation [Best Practices für die App, v1.x](https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html).
+* Dokumentation: Neue Dokumentation [Best Practices für das Programm, v1.x](https://helpx.adobe.com/de/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html).
 * Verbesserter Anmeldeprozess für AEM:
    * Verbessertes SAML-Handling – Relax-Regeln (CQ-4202781).
    * Zusätzliche Funktion zum Konfigurieren einer separaten Anmelde-URL in den Einstellungen (CQ-4214052, CQ-4214051).
@@ -171,17 +172,17 @@ In der Folgeversion 1.8.1 der AEM-Desktop-App wurden Verbesserungen hinsichtlich
    * Schlosssymbol wird nun für ausgecheckte Assets unter Windows 10 angezeigt (CQ-90957).
    * Ordnerinhalte in Netzwerkfreigaben verschwinden oder erscheinen möglicherweise wieder (CQ-4209160, CQ-4210180).
    * Fehler beim Datei-Upload aufgrund eines Konflikts, der im Bericht zum Upload-Warteschlangen-Status gemeldet ist (CQ-4215727).
-   * Beim Öffnen mehrerer Dateien über den Ordner für die Desktop-App in PS werden möglicherweise Fehlermeldungen zu abgeschnittenen oder unvollständigen Dateien angezeigt (CQ-4216276).
+   * Beim Öffnen mehrerer Dateien über den Ordner für das Desktop-Programm in PS werden möglicherweise Fehlermeldungen zu abgeschnittenen oder unvollständigen Dateien angezeigt (CQ-4216276).
 * Verbesserungen an Stabilität und Performance:
    * Verbesserte Leistung beim Durchsuchen von Ordnern mit vielen Assets (CQ-4214933).
-   * Die Desktop-App 1.5 kann Desktop-Computer mit der Zeit verlangsamen (CQ-4209159).
-   * Die Funktion zum Anzeigen des Warteschlangenstatus funktioniert nur für den Benutzer, der die App installiert hat (CQ-4212199).
+   * Das Desktop-Programm 1.5 kann Desktop-Computer mit der Zeit verlangsamen (CQ-4209159).
+   * Die Funktion zum Anzeigen des Warteschlangenstatus funktioniert nur für den Benutzer, der das Programm installiert hat (CQ-4212199).
    * (Windows) Vergewissern Sie sich, dass das 32-Bit-Installationsprogramm keinen 64-Bit-Code enthält (CQ-4217406).
 * Ausgewählte Probleme, die in Beta 1.6 gefunden und behoben wurden:
    * Hohe CPU-Auslastung (CQ-4218070).
    * Ziehen von Dateien per Drag-and-Drop führt zu Fehler beim Hochladen in AEM (CQ-4217006).
 
-### Seit Einführung von AEM-Desktop-App 1.5 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-15}
+### Seit Einführung von AEM-Desktop-Programm 1.5 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-15}
 
 **Version 1.5.1.5 für Mac OS X:** Die Version 1.5.1.5 bietet folgende Vorteile:
 
@@ -189,8 +190,8 @@ In der Folgeversion 1.8.1 der AEM-Desktop-App wurden Verbesserungen hinsichtlich
 * Fehlerbehebungen:
    * Problem aufgrund von Fehler 43 behoben, das in einigen Fällen beim Umbenennen von Assets aufgetreten ist (CQ-4207900).
    * Beim Zurücksetzen auf eine ältere Version aus der Timeline aktualisiert AEM das Asset nicht in Finder (CQ-4205194).
-   * Die Desktop-App stürzt beim Durchsuchen großer verschachtelter Verzeichnisse ab (CQ-4208539).
-   * Der Desktop-App-Bereitstellungspunkt ist nun „/Volumes/DAM“ und damit für alle Benutzer einheitlich (CQ-4208159).
+   * Das Desktop-Programm stürzt beim Durchsuchen großer verschachtelter Verzeichnisse ab (CQ-4208539).
+   * Der Desktop-Programm-Bereitstellungspunkt ist nun „/Volumes/DAM“ und damit für alle Benutzer einheitlich (CQ-4208159).
    * Beim erstmaligen Platzieren einer Datei in InDesign wird eine Update-Warnung angezeigt (CQ-4207454).
 
 Hinweis zu Link-Warnungen: Creative Cloud-Applikationen (z. B. InDesign) erstellen einen „Schnappschuss“ der letzten Änderung des Elements zum Zeitpunkt seiner Platzierung. Ändert sich dieses Datum zu einem späteren Zeitpunkt, meldet die Adobe Creative Cloud-Applikation, dass die Links veraltet sind. Dies wird auf unterschiedliche Weise gemeldet:
@@ -205,7 +206,7 @@ Dies gilt gleichermaßen für Assets auf lokalen Festplatten und Assets in einem
 
 Diese beiden Fälle treten erwartungsgemäß ein. Sie sind auf die „Delayed Sync“-Architektur von AEM Desktop zurückzuführen.
 
-**Version 1.5.0.x für Mac OS X und Windows:** Diese Version der AEM-Desktop-App bietet die folgenden Vorteile:
+**Version 1.5.0.x für Mac OS X und Windows:** Diese Version des AEM-Desktop-Programms bietet die folgenden Vorteile:
 
 * Bessere Stabilität und Ausfallsicherheit bei verschiedenen Netzwerkproblemen
    * Zuverlässigere Zuordnung von AEM Assets-Ordnern (CQ-103276, CQ-4204669, CQ-4203957)
@@ -222,11 +223,11 @@ Diese beiden Fälle treten erwartungsgemäß ein. Sie sind auf die „Delayed Sy
    * Diverse Verbesserungen hinsichtlich der Stabilität (CQ-4207539, CQ-4200378)
    * Besseres Handling der AEM Assets-URL in den Einstellungen (CQ-97388)
 
-### Seit Einführung von AEM-Desktop-App 1.4 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-14}
+### Seit Einführung von AEM-Desktop-Programm 1.4 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-14}
 
 * Vereinfachter Upload hierarchischer Ordner über die neue Aktion „Erstellen“ &gt; „Ordner hochladen“ in der Touch-optimierten Benutzeroberfläche
-   * Die Aktion löst einen Ordner-Upload-Vorgang aus, der von der Desktop-App ausgeführt wird.
-   * Die Desktop-App durchläuft die jeweilige Ordnerhierarchie auf dem Desktop im Hintergrund und lädt die Dateien in AEM Assets hoch.
+   * Die Aktion löst einen Ordner-Upload-Vorgang aus, der vom Desktop-Programm ausgeführt wird.
+   * Das Desktop-Programm durchläuft die jeweilige Ordnerhierarchie auf dem Desktop im Hintergrund und lädt die Dateien in AEM Assets hoch.
    * Der Benutzer kann den Fortschritt im neuen Fenster für den Upload-Warteschlangen-Status mithilfe des Fortschrittsbalkens für nicht abgeschlossene Vorgänge überwachen.
    * Der Upload-Warteschlangen-Status bietet außerdem bessere Informationen zur Fehlerbehebung (z. B. dass keine Verbindung zum Server besteht).
 * Neue Aktion „Bearbeiten“ in der Touch-optimierten Benutzeroberfläche, die Vorgänge zum Auschecken und Öffnen kombiniert
@@ -234,25 +235,25 @@ Diese beiden Fälle treten erwartungsgemäß ein. Sie sind auf die „Delayed Sy
 * Verbesserte Kompatibilität mit den neuesten Betriebssystemversionen
 * Fehlerbehebungen für von Kunden gemeldete Probleme
 
-### Seit Einführung von AEM-Desktop-App 1.3 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-13}
+### Seit Einführung des AEM-Desktop-Programms 1.3 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-13}
 
 * Höhere Effizienz. Netzwerkvorgänge werden schneller abgeschlossen und die Wartezeiten für Benutzer werden verkürzt.
 * Verbesserte Finder-Integration, die für mehr Stabilität sorgt und den Zugriff auf Funktionen wie Miniaturansichten ermöglicht.
 * Verbesserungen hinsichtlich der Zwischenspeicherung und Leistung.
 * Bessere Unterstützung für das direkte Speichern aus Desktop-Applikationen (PS, ID, AI usw.).
 * Verbesserte Integration mit Mac OS (Protokoll für lokale Netzwerklaufwerke geändert, statt WebDAV zuverlässigeres SMB1)..
-* Die Desktop-App stellt eine Verbindung zum AEM-Server mithilfe des AEM-nativen HTTP RESTful-Protokolls her.
+* Das Desktop-Programm stellt eine Verbindung zum AEM-Server mithilfe des AEM-nativen HTTP RESTful-Protokolls her.
 * Die Dateien werden zunächst lokal gespeichert und nach einer festgelegten Zeit (30 Sek.) im Hintergrund wieder in AEM hochgeladen. Dadurch wird das Speichern von Dateien beschleunigt.
 * Besseres Handling von Desktop-Applikationen, die Zwischenvorgänge zum Speichern von Dateien verwenden (partielles Speichern und temporäre Dateien). Dadurch können in der AEM Assets-Timeline korrekte Versions- und Asset-Upload-Informationen angezeigt werden.
 * Dialogfeld zur Nachverfolgung des Status von im Hintergrund ausgeführten Upload-Aufgaben.
 
-## Liste der Änderungen  {#list-of-changes}
+## Liste der Änderungen   {#list-of-changes}
 
 ### Bereitstellungspunkt für Mac {#mount-point-on-mac}
 
 Mit Einführung von MacOS 10.12 (Sierra) hat Apple die Berechtigungen für den Ordner „/Volumes“ stärker eingeschränkt, der für die Bereitstellung von Netzwerklaufwerken und Geräten verwendet wird. Für das Erstellen eines neuen Bereitstellungspunkts waren Administratorrechte erforderlich. Dieses Problem wurde mit Einführung von MacOS 10.12.5 behoben.
 
-Da die AEM-Desktop-App für Benutzer ausgeführt werden sollte, die keine Administratorrechte auf dem lokalen Computer haben, wurde der Bereitstellungspunkt für das AEM Assets-Repository in 1.4 und 1.5 in einen DAM-Unterordner im lokalen Ordner des Benutzers unter MacOS geändert (CQ-104183).
+Da das AEM-Desktop-Programm für Benutzer ohne Administratorrechte auf lokalen Computern ausgeführt werden sollte, wurde der Bereitstellungspunkt für AEM Assets-Repositorys in Version 1.4 und 1.5 in einen DAM-Unterordner im lokalen Ordner des Benutzers unter macOS geändert (CQ-104183).
 
 Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich sind, wurde diese Änderung mit Version 1.5.1 rückgängig gemacht. Dies ermöglicht es zudem, InDesign-Dokumente mit platzierten AEM-Assets zwischen macOS-Benutzern freizugeben.
 
@@ -260,7 +261,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 
 * Mac OS X:
    * Das Protokoll für lokale Netzwerklaufwerke für die OS X-Desktop-Integration wurde von WebDAV in SMB1 geändert.
-   * Das mit der Desktop-App bereitgestellte AEM-Repository wird in Finder als „smb“-Netzwerklaufwerk anstatt als WebDAV-Laufwerk angezeigt.
+   * Das mit dem Desktop-Programm bereitgestellte AEM-Repository wird in Finder als „smb“-Netzwerklaufwerk anstatt als WebDAV-Laufwerk angezeigt.
 * Windows:
    * Das Protokoll für lokale Netzwerklaufwerke für die Windows-Desktop-Integration wird beibehalten; AEM wird als WebDAV-Freigabe bereitgestellt.
 * Für beide Plattformen (Windows und Mac):
@@ -268,21 +269,21 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 
 >[!NOTE]
 >
->Unter Mac OS X: Die Änderung des Protokolls für lokale Netzwerklaufwerke von WebDAV in SMB1 führt zu einem anderen lokalen Pfad für dasselbe Asset im Repository. Dies kann sich auf Verknüpfungen zu Dateien auswirken, die in Adobe Creative Cloud-Applikationen über den Befehl „Platzieren“ platziert werden. Weitere Informationen finden Sie unter [Verwenden der AEM-Desktop-App](use-app-v1.md).
+>Unter Mac OS X: Die Änderung des Protokolls für lokale Netzwerklaufwerke von WebDAV in SMB1 führt zu einem anderen lokalen Pfad für dasselbe Asset im Repository. Dies kann sich auf Verknüpfungen zu Dateien auswirken, die in Adobe Creative Cloud-Applikationen über den Befehl „Platzieren“ platziert werden. Weitere Informationen finden Sie unter [Verwenden des AEM-Desktop-Programms](use-app-v1.md).
 
 ### Dateiverarbeitung (seit 1.3) {#file-handling-since}
 
 * Ordner werden nach einer festgelegten Verzögerung (derzeit 30 Sek.) automatisch aktualisiert.
 * Dateien, die von anderen Benutzern ausgecheckt wurden, sind als schreibgeschützt markiert.
-* Die Dateien werden in zwei Phasen auf einem Netzwerklaufwerk gespeichert, das über die Desktop-App bereitgestellt wird.
+* Die Dateien werden in zwei Phasen auf einem Netzwerklaufwerk gespeichert, das über das Desktop-Programm bereitgestellt wird.
 * In der ersten Phase wird eine Datei lokal gespeichert. Auf diese Weise muss der Benutzer, der die Datei speichert, nicht warten, bis die Datei vollständig in AEM übertragen wurde, und kann seine Arbeit fortsetzen, sobald die Datei gespeichert wurde.
-* In der zweiten Phase lädt die Desktop-App die aktualisierte Datei nach einer festgelegten Verzögerung auf den AEM-Server hoch (z. B. 30 Sek.). Dieser Vorgang erfolgt im Hintergrund. Verwenden Sie die Option **Status der Dateisynchronisierung im Hintergrund anzeigen**, um den Status des Upload-Vorgangs anzuzeigen.
+* In der zweiten Phase lädt das Desktop-Programm die aktualisierte Datei nach einer festgelegten Verzögerung auf den AEM-Server hoch (z. B. 30 Sek.). Dieser Vorgang erfolgt im Hintergrund. Verwenden Sie die Option **Status der Dateisynchronisierung im Hintergrund anzeigen**, um den Status des Upload-Vorgangs anzuzeigen.
 
 ## Wichtige Hinweise {#important-notices}
 
-**Ordner-Upload.** Es empfiehlt sich, die neue Funktion zum Hochladen von Ordnern zu verwenden, um größere hierarchisch strukturierte Ordner in AEM hochzuladen, anstatt eine Kopie zu verwenden/sie per Drag-and-Drop in ein bereitgestelltes AEM-Repository von der Finder-/Explorer-Ebene zu ziehen. Bei Verwendung der Funktion für den Ordner-Upload kommuniziert die Desktop-App direkt mit AEM und bietet so eine sehr viel bessere Kontrolle über den Gesamtprozess.
+**Ordner-Upload.** Es empfiehlt sich, die neue Funktion zum Hochladen von Ordnern zu verwenden, um größere hierarchisch strukturierte Ordner in AEM hochzuladen, anstatt eine Kopie zu verwenden/sie per Drag-and-Drop in ein bereitgestelltes AEM-Repository von der Finder-/Explorer-Ebene zu ziehen. Bei Verwendung der Funktion für den Ordner-Upload kommuniziert das Desktop-Programm direkt mit AEM und bietet so eine sehr viel bessere Kontrolle über den Gesamtprozess.
 
-**AEM-Sitzung aktivieren.** Die AEM-Desktop-App erfordert für ordnungsgemäße Funktion eine aktive Sitzung auf dem AEM Assets-Server. Für Benutzer, die täglich mit der Desktop-App arbeiten, empfiehlt es sich, die Bereitstellung von AEM Assets abends aufzuheben, um das Abmelden zu erzwingen, und AEM Assets dann morgens wieder bereitzustellen, um sicherzugehen, dass sie angemeldet sind und die Netzwerkfreigabe betriebsbereit ist.
+**AEM-Sitzung aktivieren.** Das AEM-Desktop-Programm erfordert für ordnungsgemäße Funktion eine aktive Sitzung auf dem AEM Assets-Server. Für Benutzer, die täglich mit dem Desktop-Programm arbeiten, empfiehlt es sich, die Bereitstellung von AEM Assets abends aufzuheben, um das Abmelden zu erzwingen, und AEM Assets dann morgens wieder bereitzustellen, um sicherzugehen, dass sie angemeldet sind und die Netzwerkfreigabe betriebsbereit ist.
 
 **Symbolvorschau im Finder deaktivieren.** Um große Ordner mit dem Finder reibungslos zu durchsuchen, insbesondere bei einer schlechten Netzwerkverbindung, sollten Sie sicherstellen, dass sowohl die Symbol- als auch die Symbolvorschau-Ansicht deaktiviert ist. Andernfalls lädt Finder jedes Asset in einen Ordner herunter, um eine kleine Vorschau zu erzeugen, was die Leistung beeinträchtigen und die Bandbreitenauslastung erhöhen kann (CQ-4219779).
 
@@ -292,11 +293,11 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 * Deaktivieren Sie das Kontrollkästchen „Symbolvorschau anzeigen“.
 * Klicken Sie auf „Als Standard verwenden“.
 
-**Cache beim Verbinden mit einem neuen AEM-Server leeren.** Wenn die Desktop-App eine Verbindung zu einem anderen AEM-Server mit derselben URL herstellt, wird der Cache nicht automatisch gelöscht. Leeren Sie den Cache manuell, um eine ordnungsgemäße Funktionsweise sicherzustellen. Beachten Sie, dass dies üblicherweise bei Tests auftritt, wenn AEM-Installationen ersetzt werden können, während sie unter derselben URL ausgeführt werden (CQ-4216982).
+**Cache beim Verbinden mit einem neuen AEM-Server leeren.** Wenn das Desktop-Programm eine Verbindung zu einem anderen AEM-Server mit derselben URL herstellt, wird der Cache nicht automatisch gelöscht. Leeren Sie den Cache manuell, um eine ordnungsgemäße Funktionsweise sicherzustellen. Beachten Sie, dass dies üblicherweise bei Tests auftritt, wenn AEM-Installationen ersetzt werden können, während sie unter derselben URL ausgeführt werden (CQ-4216982).
 
-**CA-signierte SSL-Zertifikate verwenden.** Beachten Sie, dass die AEM-Desktop-App beim Herstellen einer sicheren HTTPS-Verbindung zu AEM keine selbstsignierten SSL-Zertifikate unterstützt. Für derartige Verbindungen ist ein CA-signiertes Zertifikat auf dem Server erforderlich. (CQ-87941)
+**CA-signierte SSL-Zertifikate verwenden.** Beachten Sie, dass das AEM-Desktop-Programm beim Herstellen einer sicheren HTTPS-Verbindung zu AEM keine selbstsignierten SSL-Zertifikate unterstützt. Für derartige Verbindungen ist ein CA-signiertes Zertifikat auf dem Server erforderlich. (CQ-87941)
 
-## Bekannte Probleme  {#known-issues}
+## Bekannte Probleme   {#known-issues}
 
 * Allgemein:
    * Es werden Server-URLs benötigt, um ohne Pfad auf den Server zu verweisen (z. B. `http://server`, `https://server`, `http://server:port` oder `https://server:port`). Außer „/content/dam“ werden keine anderen Kontextpfade und Unterordner unterstützt (CQ-89343, CQ-87272).
@@ -304,9 +305,9 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
    * Datei- und Ordnernamen mit reservierten Zeichen werden nicht ordnungsgemäß verarbeitet. Stellen Sie sicher, dass Sie Datei- und Ordnernamen verwenden, die den Anforderungen entsprechen (CQ-93361, CQ-93308, CQ-89276, CQ-4217183).
    * Einige Applikationen wie Adobe Illustrator erstellen möglicherweise Dateien mit Namen, die in AEM nicht unterstützt werden. Ein Beispiel ist das Hinzufügen von `Converted` nach dem Konvertieren, wodurch das Hochladen verhindert wird (CQ-4216985)
    * Assets mit internationalen Namen erscheinen und verschwinden möglicherweise alle paar Sekunden.
-* Checkin- und Checkout-Funktion:
+* Funktionen für das Ein- und Auschecken:
    * Ein von einem Benutzer ausgechecktes Asset kann nicht von einem anderen Benutzer geöffnet werden, weder über die Aktion „Öffnen“ in der Touch-optimierten Benutzeroberfläche noch direkt auf dem Desktop. Einige Applikationen melden möglicherweise, dass das Asset gesperrt oder beschädigt ist bzw. nicht reagiert, wenn versucht wird, das Asset zu öffnen. (CQ-4199234)
-   * Das gleichzeitige Ändern von Dateien durch mehrere Benutzer kann dazu führen, dass einige Änderungen verloren gehen. Als Problemumgehung können Sie die Funktion zum    Checkin- und Checkout-Funktion, um zu verhindern, dass mehrere Benutzer dieselbe Datei ändern (CQ-97035)
+   * Das gleichzeitige Ändern von Dateien durch mehrere Benutzer kann dazu führen, dass einige Änderungen verloren gehen. Als Problemumgehung können Sie die Funktion zum    Einchecken/Auschecken verwenden, um zu verhindern, dass mehrere Benutzer Änderungen an derselben Datei vornehmen (CQ-97035).
    * Bestimmte Applikationen unterstützen die Schreibschutzkennzeichnung nicht ordnungsgemäß. Dies ermöglicht es Benutzern, eine Datei zu speichern, die von einem anderen Benutzer ausgecheckt wurde. Die geänderte Datei wird erst dann übertragen, wenn der andere Benutzer die Datei wieder eincheckt. Die Änderungen der beiden Benutzer werden in AEM in zwei verschiedenen Versionen des Assets gespeichert (CQ-89551, CQ-87572, CQ-89615).
    * Der Ausgecheckt- und der Schreibschutzstatus werden unabhängig voneinander im Finder gemeldet. Dies führt zur Anzeige von zwei Schlosssymbolen, wenn ein Benutzer ein Asset auscheckt (CQ-89507).
 * Finder-Integration:
@@ -317,19 +318,19 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
    * Fehler beim Umbenennen von Assets, die keine Erweiterung aufweisen (CQ-4218971).
 * Funktion zum Kopieren/EinfügenDie Option zum Einfügen wird angezeigt, obwohl kein Asset in die Zwischenablage kopiert wurde.
 * Windows:
-   * Dateien mit alternativen Datenströmen (ADS) werden nur in NTFS-Dateisystemen vollständig unterstützt. Das Kopieren derartiger Dateien auf die von der Desktop-App bereitgestellte WebDAV-Freigabe führt zur Anzeige einer Warnung, die den Benutzer darauf hinweist, dass die Datei Eigenschaften aufweist, die nicht an den neuen Speicherort kopiert werden können. Das ist normalerweise unproblematisch, da die Eigenschaften nur für eine bestimmte Applikation auf dem Desktop des Benutzers relevant sind und nichts mit dem eigentlichen Dateiinhalt zu tun haben (CQ-103770). (Win)
-   * Unter Windows muss die Desktop-App von dem Benutzer installiert werden, der sie verwenden wird (CQ-4216389). (Win)
-   * Die App kann abstürzen, wenn Benutzer unter bestimmten Umständen (nach Fortsetzen des Massen-Uploads nach einem Verbindungsabbruch) auf die Schaltfläche „Wiederholen“ für einen fehlgeschlagenen Upload klicken (CQ-4251884). (Win)
+   * Dateien mit alternativen Datenströmen (ADS) werden nur in NTFS-Dateisystemen vollständig unterstützt. Das Kopieren derartiger Dateien auf die vom Desktop-Programm bereitgestellte WebDAV-Freigabe führt zur Anzeige einer Warnung, die den Benutzer darauf hinweist, dass die Datei Eigenschaften aufweist, die nicht an den neuen Speicherort kopiert werden können. Das ist normalerweise unproblematisch, da die Eigenschaften nur für eine bestimmte Applikation auf dem Desktop des Benutzers relevant sind und nichts mit dem eigentlichen Dateiinhalt zu tun haben (CQ-103770). (Win)
+   * Unter Windows muss das Desktop-Programm von dem Benutzer installiert werden, der sie verwenden wird (CQ-4216389). (Win)
+   * Das Programm kann abstürzen, wenn Benutzer unter bestimmten Umständen (nach Fortsetzen des Massen-Uploads nach einem Verbindungsabbruch) auf die Schaltfläche „Wiederholen“ für einen fehlgeschlagenen Upload klicken (CQ-4251884). (Win)
 
 ## Hilfreiche Ressourcen {#helpful-resources}
 
-* [Dokumentation zu AEM](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [Verwenden der AEM-Desktop-App, v1.x](use-app-v1.md)
-* [Best Practices für die AEM-Desktop-App, v1.x](best-practices-for-v1.md)
+* [Dokumentation zu AEM](https://helpx.adobe.com/de/support/experience-manager/6-4.html)
+* [Verwenden des AEM-Desktop-Programms, v1.x](use-app-v1.md)
+* [Best Practices für das AEM-Desktop-Programm, v1.x](best-practices-for-v1.md)
 
-## Compatibility matrix and prerequisites {#compatibilitymatrix}
+## Kompatibilitätsmatrix und Voraussetzungen {#compatibilitymatrix}
 
-Die AEM-Desktop-App funktioniert mit verschiedenen Versionen von AEM. Informationen zu den unterstützten Versionen finden Sie in der Kompatibilitätsmatrix.
+Das AEM-Desktop-Programm ist mit verschiedenen AEM-Versionen kompatibel. Informationen zu den unterstützten Versionen finden Sie in der Kompatibilitätsmatrix.
 
 | Version | Revision | Veröffentlichungsdatum | Kompatibilität |
 |---------|------------------------|--------------|-------------------------------------------------------------|
