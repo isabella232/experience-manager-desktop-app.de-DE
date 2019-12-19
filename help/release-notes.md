@@ -1,6 +1,6 @@
 ---
-title: Versionshinweise zur AEM Desktop-App
-description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für die AEM-Desktop-App.
+title: Versionshinweise zum AEM-Desktop-Programm
+description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das AEM-Desktop-Programm.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -9,13 +9,13 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b2015bd65db70a25e4c52e62a4de45a01a6748d5
 
 ---
 
 
-# AEM desktop app release notes {#release-notes-v2}
+# Versionshinweise zum AEM-Desktop-Programm {#release-notes-v2}
 
 | Produkte | Adobe Experience Manager (AEM)-Desktop-Programm |
 |---------------|--------------------------------------------------------------------|
@@ -34,18 +34,18 @@ Das AEM-Desktop-Programm ist mit den folgenden Betriebssystemen kompatibel:
 
 Das Programm kann mit den folgenden AEM-Versionen verwendet werden, unabhängig davon, ob sie lokal oder auf Adobe Managed Services (AMS) bereitgestellt werden:
 
-* [AEM 6.5.0 ](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) oder höher
-* [AEM 6.4.4 ](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) oder höher
+* [AEM 6.5.0 ](https://helpx.adobe.com/de/experience-manager/6-5/release-notes.html) oder höher
+* [AEM 6.4.4 ](https://helpx.adobe.com/de/experience-manager/6-4/release-notes/sp-release-notes.html) oder höher
 * AEM 6.4.0–6.4.3 mit [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
 >
->Die Unterstützung von Desktop-Apps für AEM 6.3 ist veraltet. Adobe empfiehlt ein Upgrade auf eine neuere und unterstützte AEM-Version.
->AEM 6.3.3.1 oder höher funktioniert mit der Desktop-App, nachdem das [Kompatibilitätspaket installiert wurde](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Für AEM 6.3 ist kein solches Paket verfügbar, da keine [Service Packs geplant](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html)sind.
+>Die Unterstützung des Desktop-Programms für AEM 6.3 ist veraltet. Adobe empfiehlt ein Upgrade auf eine neuere und unterstützte AEM-Version.
+>AEM 6.3.3.1 oder höher funktioniert mit dem Desktop-Programm, nachdem das [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installiert wurde. Für AEM 6.3 ist kein solches Paket verfügbar, da keine [Service Packs geplant](https://helpx.adobe.com/de/experience-manager/maintenance-releases-roadmap.html) sind.
 
 Für die Version des AEM-Desktop-Programms, die Sie auf Ihrem lokalen Computer installieren möchten, sind eine bestimmte Server-Version von Adobe Experience Manager oder zusätzliche Server-seitige Komponenten (Service Packs, Hotfixes oder Feature Packs) erforderlich. Wenden Sie sich zwecks Hilfe an Ihren AEM-Administrator.
 
-### Support for different assets and file types {#support-for-file-types}
+### Unterstützung verschiedener Asset- und Dateitypen {#support-for-file-types}
 
 Das Programm unterstützt in AEM gespeicherte Assets, die binäre Dateien für die grundlegenden Vorgänge darstellen. Das Öffnen von Dateien in der nativen Desktop-Applikation hängt von der Betriebssystemverknüpfung bestimmter Dateitypen wie PNG oder JPG mit bestimmten Applikationen wie Mac Preview oder Adobe Photoshop ab.
 
@@ -55,21 +55,21 @@ Einige Dateitypen unterstützen das Platzieren von verknüpften Assets in der Bi
 * Adobe Illustrator-Dateien (AI-Format)
 * Adobe Photoshop-Dateien (PS-Format)
 
-Die Funktion wird von Adobe Creative Cloud 2018 und Adobe Creative Cloud 2019-Versionen der oben genannten Anwendung unterstützt. Das Programm verwendet einen heuristischen, Best-Match-Ansatz, um die lokalen Desktop-Pfade verknüpfter Assets URLs auf dem AEM-Server zuzuordnen. Er beruht auf einigen Annahmen:
+Die Funktion wird in den oben genannten Applikationen in Adobe Creative Cloud 2018 und Adobe Creative Cloud 2019 unterstützt. Das Programm verwendet einen heuristischen, Best-Match-Ansatz, um die lokalen Desktop-Pfade verknüpfter Assets URLs auf dem AEM-Server zuzuordnen. Er beruht auf einigen Annahmen:
 
-* Paths to placed files in the native application use a global desktop path (placed from the local network share shown with [!UICONTROL Reveal] option).
+* Pfade zu platzierten Dateien in der nativen Applikation verwenden einen globalen Desktop-Pfad (platziert von der lokalen Netzwerkfreigabe mit der Option [!UICONTROL Reveal]).
 * Pfade werden von der nativen Applikation im XMP-Datensatz der Datei gespeichert.
-* AEM hat den XMP-Datensatz mit den Pfaden zum Metadatensatz des Assets extrahiert.
-* Die Pfade können mit Assets in AEM übereinstimmen, d. h. die platzierten Dateien befinden sich auch in AEM unter einem übereinstimmenden Pfad).
+* AEM hat den XMP-Datensatz mit den Pfaden zum Metadaten-Datensatz des Assets extrahiert.
+* Die Pfade können mit Assets in AEM übereinstimmen (d. h. die platzierten Dateien befinden sich auch in AEM unter einem übereinstimmenden Pfad).
 
 ## Neue Funktionen und Erweiterungen {#whats-new-added}
 
-To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
+Weitere Informationen finden Sie unter [Neue Funktionen in v2](introduction.md#whats-new-v2).
 
-Fehlerbehebungen und Aktualisierungen in Version 2.0.1 sind:
+Fehlerbehebungen und Aktualisierungen in Version 2.0.1:
 
-* Option zum Konfigurieren des `%Temp%` Ordners mit dem `%APPDATA%` Pfad zulassen. <!-- CQ-4282665 -->
-* Erlauben Sie Benutzern, sich über die Okta SAML-Authentifizierung bei AEM Author anzumelden. <!-- CQ-4278134 -->
+* Option zum Konfigurieren des Verzeichnisses `%Temp%` entsprechend dem Pfad `%APPDATA%`. <!-- CQ-4282665 -->
+* Benutzer können sich über die Okta-SAML-Authentifizierung bei der AEM-Autorenistanz anmelden. <!-- CQ-4278134 -->
 
 
 ## Installationsanweisungen {#installation-instructions-v2}
@@ -100,8 +100,8 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 
 **Probleme mit der Benutzeroberfläche:**
 
-* Manchmal kann die Oberfläche der Desktop-App leer sein. Right-click and click [!UICONTROL Refresh] to re-load the application. Nach einer solchen Aktualisierung beginnen Sie am Stammordner des DAM-Repositorys. Aktualisierungen oder Status Ihrer Assets werden beibehalten. <!-- CQ-4270267 -->
-* Die Navigation in Ordnern/Suchergebnissen ohne Trackpad oder Mauszeiger ist schwierig. The scroll-bar might not appear with mouse devices without mouse wheel. <!-- CQ-4269947 -->
+* Manchmal ist die Oberfläche des Desktop-Programms plötzlich leer. Klicken Sie mit der rechten Maustaste und klicken Sie auf [!UICONTROL Refresh], um das Programm erneut zu laden. Nach einer solchen Aktualisierung beginnen Sie im Stammverzeichnis des DAM-Repositorys. Aktualisierungen oder Status Ihrer Assets werden beibehalten. <!-- CQ-4270267 -->
+* Schwierigkeiten beim Navigieren in Ordnern/Suchergebnissen ohne Trackpad oder Mauszeiger. Die Bildlaufleiste wird bei Mausgeräten ohne Mausrad möglicherweise nicht angezeigt. <!-- CQ-4269947 -->
 * In seltenen Fällen wird die Fortschrittsleiste nicht korrekt angezeigt, wenn sich das hochgeladene Asset ändert.
 * Nach dem Anwenden und Entfernen des Filters, um alle lokal bearbeiteten Assets zu finden, wechselt das Programm nicht zu den Suchergebnissen oder der Ordneransicht, mit denen die Benutzer begonnen haben. Das Programm zeigt den Stammordner des DAM-Repositorys an.
 * Wenn Sie eine Verbindung zu einer URL herstellen, bei der kein AEM-Server ausgeführt wird, reagiert der Bildschirm „Verbindung“ manchmal nicht mehr. Beenden Sie das Programm und starten Sie es erneut.
@@ -109,7 +109,7 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 **CRUD-Probleme (Erstellen, Lesen, Aktualisieren und Löschen):**
 
 * Das Programm versucht, Dateien auch mit ungültigen Zeichen hochzuladen, was möglicherweise zu einem Server-seitigen Upload-Fehler führt. <!-- CQ-4273652 -->
-* Beim Hochladen von Änderungen zu einem Asset mit Kommentaren werden die Kommentare zusammen mit dem Asset in AEM gespeichert, jedoch nicht als Versionskommentare sichtbar. Dieses Problem wurde in AEM 6.4.5 und AEM 6.5.1 behoben. Adobe empfiehlt dringend, die neuesten Service Packs zu installieren. <!-- CQ-4268990 -->
+* Beim Hochladen von Änderungen an einem Asset mit Kommentaren werden die Kommentare mit dem Asset in AEM gespeichert, sind jedoch nicht als Versionskommentare sichtbar. Dieses Problem wurde in AEM 6.4.5 und AEM 6.5.1 behoben. Adobe empfiehlt dringend, die neuesten Service Packs zu installieren. <!-- CQ-4268990 -->
 * Asset-Übertragungen können vom Benutzer nicht abgebrochen werden. Wenn Sie eine unbeabsichtigte große Übertragung ausgelöst haben, beenden Sie das Programm und starten Sie es erneut. <!-- CQ-4278940 -->
 
 **Plattformfragen:**
@@ -118,9 +118,9 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 
 >[!MORELIKETHIS]
 >
->* [Dokumentation zu AEM 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html)
+>* [Dokumentation zu AEM 6.5](https://helpx.adobe.com/de/support/experience-manager/6-5.html)
 >* [Dokumentation zu AEM Assets 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
->* [Verwenden der AEM-Desktop-App](using.md)
+>* [Verwenden des AEM-Desktop-Programms](using.md)
 >* [Installieren und Aktualisieren des Desktop-Programms](install-upgrade.md)
 >* [Best Practices und Fehlerbehebung](troubleshoot.md)
 
