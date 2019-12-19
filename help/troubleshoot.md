@@ -1,5 +1,5 @@
 ---
-title: Best Practices und Fehlerbehebung für die AEM-Desktop-App
+title: Best Practices und Fehlerbehebung für das AEM-Desktop-Programm
 description: Befolgen Sie die Best Practices und führen Sie eine Fehlerbehebung durch, um gelegentliche Probleme im Zusammenhang mit Installation, Aktualisierung, Konfiguration usw. zu beheben.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: AG
@@ -8,45 +8,45 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
 
 ---
 
 
-# Fehlerbehebung für die AEM-Desktop-App {#troubleshoot-v2}
+# Fehlerbehebung für das AEM-Desktop-Programm {#troubleshoot-v2}
 
-Die Adobe Experience Manager (AEM)-Desktop-App stellt eine Verbindung zum DAM-Repository (Digital Asset Management) einer Remote-AEM-Bereitstellung her. Die App ruft Repository-Informationen und Suchergebnisse auf Ihrem Computer ab, lädt Dateien und Ordner herunter und lädt sie hoch und bietet Funktionen zum Verwalten von Konflikten mit der Benutzeroberfläche von AEM Assets.
+Das Adobe Experience Manager (AEM)-Desktop-Programm stellt eine Verbindung zum DAM-Repository (Digital Asset Management) einer Remote-AEM-Bereitstellung her. Das Programm ruft Repository-Informationen und Suchergebnisse auf Ihrem Computer ab, lädt Dateien und Ordner herunter und lädt sie hoch und bietet Funktionen zum Verwalten von Konflikten mit der Benutzeroberfläche von AEM Assets.
 
-Lesen Sie weiter, um Fehler in der App zu beheben, lernen Sie die Best Practices kennen und erfahren Sie mehr über Einschränkungen.
+Lesen Sie weiter, um Fehler im Programm zu beheben, lernen Sie die Best Practices kennen und erfahren Sie mehr über Einschränkungen.
 
 ## Best Practices {#best-practices-to-prevent-troubles}
 
 Befolgen Sie die folgenden Best Practices, um einige häufige Probleme und die Fehlerbehebung zu vermeiden.
 
-* **So funktioniert die Desktop-App**: Bevor Sie mit der Verwendung der App beginnen, sollten Sie sich kurz mit ihrer Funktionsweise vertraut machen. Erfahren Sie mehr über Verknüpfung zwischen Web-Benutzeroberfläche und Desktop, Repository-Zuordnung, Asset-Zwischenspeicherung, lokales Speichern und Hochladen im Hintergrund. Machen Sie sich mit der [Funktionsweise](release-notes.md#how-app-works) vertraut:
+* **So funktioniert das Desktop-Programm**: Bevor Sie mit der Verwendung des Programms beginnen, sollten Sie sich kurz mit ihrer Funktionsweise vertraut machen. Erfahren Sie mehr über Verknüpfung zwischen Web-Benutzeroberfläche und Desktop, Repository-Zuordnung, Asset-Zwischenspeicherung, lokales Speichern und Hochladen im Hintergrund. Machen Sie sich mit der [Funktionsweise](release-notes.md#how-app-works) vertraut:
 
-* **Vermeiden Sie nicht unterstützte Zeichen in Ordnernamen**: Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen und ungültige Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in AEM Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). In einigen AEM-Anwendungsfällen können durch nicht unterstützte Zeichen im Ordnernamen Probleme auftreten.
+* **Vermeiden Sie nicht unterstützte Zeichen in Ordnernamen**: Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen und ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in AEM Assets](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). In einigen AEM-Anwendungsfällen können durch nicht unterstützte Zeichen im Ordnernamen Probleme auftreten.
 
 * **Best Practices zur Vermeidung von Konflikten**: Um mögliche Konflikte bei der Zusammenarbeit mit mehreren Assets zu vermeiden, lesen Sie [Vermeiden von Bearbeitungskonflikten](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **Verwenden Sie den Ordner-Upload für große, hierarchische Ordner**: Verwenden Sie anstelle der Assets-Web-Oberfläche oder anderer Methoden die AEM-Desktop-App, um große Ordner hochzuladen. Die App lädt die Assets mit Protokollierung und Überwachung im Hintergrund hoch. Siehe [Massen-Upload von Assets](using.md#bulk-upload-assets).
+* **Verwenden Sie den Ordner-Upload für große, hierarchische Ordner**: Verwenden Sie anstelle der Assets-Web-Oberfläche oder anderer Methoden das AEM-Desktop-Programm, um große Ordner hochzuladen. Das Programm lädt die Assets mit Protokollierung und Überwachung im Hintergrund hoch. Siehe [Massen-Upload von Assets](using.md#bulk-upload-assets).
 
-* **Verwenden Sie die neueste Version**: Verwenden Sie die neueste App-Version und prüfen Sie immer, ob die Kompatibilität gewährleistet ist, bevor Sie eine neue App-Version installieren oder bevor Sie auf eine neuere AEM-Version aktualisieren. Siehe [Versionshinweise](release-notes.md).
+* **Verwenden Sie die neueste Version**: Verwenden Sie die neueste Programm-Version und prüfen Sie immer, ob die Kompatibilität gewährleistet ist, bevor Sie eine neue Programm-Version installieren oder bevor Sie auf eine neuere AEM-Version aktualisieren. Siehe [Versionshinweise](release-notes.md).
 
 * **Verwenden Sie denselben Laufwerksbuchstaben**: Verwenden Sie im gesamten Unternehmen denselben Laufwerksbuchstaben für das AEM DAM. Damit von anderen Benutzern platzierte Assets angezeigt werden können, müssen die Pfade identisch sein. Mit demselben Laufwerksbuchstaben wird ein konstanter Pfad zu DAM-Assets sichergestellt. Die Assets bleiben platziert und werden auch dann nicht entfernt, wenn verschiedene Laufwerksbuchstaben von verschiedenen Benutzern verwendet werden.
 
-* **Beachten Sie das Netzwerk**: Die Netzwerkleistung ist von entscheidender Bedeutung für die Leistung der AEM-Desktop-App. Wenn die Reaktion auf Dateiübertragungen oder Massenvorgänge verlangsamt ist, deaktivieren Sie die Funktionen oder Apps, die zu viel Netzwerkverkehr führen können.
+* **Beachten Sie das Netzwerk**: Die Netzwerkleistung ist von entscheidender Bedeutung für die Leistung des AEM-Desktop-Programms. Wenn die Reaktion auf Dateiübertragungen oder Massenvorgänge verlangsamt ist, deaktivieren Sie die Funktionen oder Applikationen, die zu viel Netzwerkverkehr führen können.
 
-* **Nicht unterstützte Anwendungsfälle für die Desktop-App**: Verwenden Sie die App nicht für die Migration von Assets (sie erfordert Planung und andere Werkzeuge), für DAM-Vorgänge mit hoher Leistung (z. B. Verschieben großer Ordner, große Uploads, Suchen von Dateien mithilfe erweiterter Metadaten-Suchen) oder als Synchronisierungs-Client (Design- und Nutzungsmuster unterscheiden sich von In-Sync-Clients wie Microsoft OneDrive oder Adobe Creative Cloud-Desktop-Synchronisierung).
+* **Nicht unterstützte Anwendungsfälle für das Desktop-Programm**: Verwenden Sie das Programm nicht für die Migration von Assets (sie erfordert Planung und andere Werkzeuge), für DAM-Vorgänge mit hoher Leistung (z. B. Verschieben großer Ordner, große Uploads, Suchen von Dateien mithilfe erweiterter Metadaten-Suchen) oder als Synchronisierungs-Client (Design- und Nutzungsmuster unterscheiden sich von In-Sync-Clients wie Microsoft OneDrive oder Adobe Creative Cloud-Desktop-Synchronisierung).
 
 ## Fehlerbehebung {#troubleshooting-prep}
 
-Um Probleme mit der Desktop-App zu beheben, beachten Sie die folgenden Informationen. Außerdem werden Sie darauf vorbereitet, die Probleme besser an die Adobe-Kundenunterstützung zu übermitteln, wenn Sie sich für den Support entscheiden.
+Um Probleme mit dem Desktop-Programm zu beheben, beachten Sie die folgenden Informationen. Außerdem werden Sie darauf vorbereitet, die Probleme besser an die Adobe-Kundenunterstützung zu übermitteln, wenn Sie sich für den Support entscheiden.
 
 ### Aktivieren des Debugging-Modus {#enable-debug-mode}
 
-Zur Fehlerbehebung können Sie den Debug-Modus aktivieren und weitere Informationen in den Protokollen abrufen. Um die App im Debug-Modus auszuführen, verwenden Sie die folgenden Befehlszeilenoptionen in einem Terminal oder in der Eingabeaufforderung.
+Zur Fehlerbehebung können Sie den Debug-Modus aktivieren und weitere Informationen in den Protokollen abrufen. Um das Prorgamm im Debug-Modus auszuführen, verwenden Sie die folgenden Befehlszeilenoptionen in einem Terminal oder in der Eingabeaufforderung.
 
 * Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
 
@@ -54,7 +54,7 @@ Zur Fehlerbehebung können Sie den Debug-Modus aktivieren und weitere Informatio
 
 ### Speicherort der Protokolldateien {#check-log-files-v2}
 
-Die Protokolldateien für die AEM-Desktop-App finden Sie in den folgenden Verzeichnissen. Wenn beim Hochladen vieler Assets einige Dateien nicht hochgeladen werden können, finden Sie Informationen zu den fehlgeschlagenen Uploads in der Datei `backend.log` im oben genannten Verzeichnis.
+Die Protokolldateien für das AEM-Desktop-Programm finden Sie in den folgenden Verzeichnissen. Wenn beim Hochladen vieler Assets einige Dateien nicht hochgeladen werden können, finden Sie Informationen zu den fehlgeschlagenen Uploads in der Datei `backend.log` im oben genannten Verzeichnis.
 
 * Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
@@ -66,21 +66,21 @@ Die Protokolldateien für die AEM-Desktop-App finden Sie in den folgenden Verzei
 
 ### Löschen des Cache {#clear-cache-v2}
 
-Beim Löschen des Caches von handelt es sich um eine vorläufige Aufgabe zur Fehlerbehebung, durch die verschiedene Probleme mit der AEM-Desktop-App gelöst werden können. Löschen Sie den Cache in den App-Voreinstellungen. Siehe [Festlegen von Voreinstellungen](install-upgrade.md#set-preferences). Der Standardspeicherort des Cache-Ordners ist:
+Beim Löschen des Caches von handelt es sich um eine vorläufige Aufgabe zur Fehlerbehebung, durch die verschiedene Probleme mit dem AEM-Desktop-Programm gelöst werden können. Löschen Sie den Cache in den Programm-Voreinstellungen. Siehe [Festlegen von Voreinstellungen](install-upgrade.md#set-preferences). Der Standardspeicherort des Cache-Ordners ist:
 
 * Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
 * Mac: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
-Das Verzeichnis kann sich jedoch in Abhängigkeit vom konfigurierten AEM-Endpunkt der AEM-Desktop-App ändern. Der Wert ist eine codierte Version der Ziel-URL. Wenn das Ziel der Applikation beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502%2F`. Um den Cache zu leeren, löschen Sie den entsprechenden Ordner. Ein weiterer Grund, den Cache zu leeren, besteht darin, Speicherplatz freizugeben, wenn Sie wenig Speicherplatz auf der Festplatte haben.
+Das Verzeichnis kann sich jedoch in Abhängigkeit vom konfigurierten AEM-Endpunkt des AEM-Desktop-Programms ändern. Der Wert ist eine codierte Version der Ziel-URL. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502%2F`. Um den Cache zu leeren, löschen Sie den entsprechenden Ordner. Ein weiterer Grund, den Cache zu leeren, besteht darin, Speicherplatz freizugeben, wenn Sie wenig Speicherplatz auf der Festplatte haben.
 
 >[!CAUTION]
 >
 >Wenn Sie den AEM-Desktop-Cache löschen, gehen dabei nicht mit AEM synchronisierte Änderungen lokaler Assets unwiderruflich verloren.
 
-### Ermitteln der AEM-Desktop-App-Version {#know-app-version-v2}
+### Ermitteln der AEM-Desktop-Programm-Version {#know-app-version-v2}
 
-Klicken Sie auf ![App-Menü](assets/do-not-localize/more_options_da2.png), um das Menü der App zu öffnen, und klicken Sie auf **[!UICONTROL Help]** &gt; **[!UICONTROL About]**.
+Klicken Sie auf das ![Programmmenü](assets/do-not-localize/more_options_da2.png), um das Menü des Programms zu öffnen, und klicken Sie auf **[!UICONTROL Help]** &gt; **[!UICONTROL About]**.
 
 ## Platzierte Assets werden nicht angezeigt {#placed-assets-missing}
 
@@ -93,9 +93,9 @@ Wenn Sie die Assets, die Sie oder andere Kreativprofis in den Support-Dateien ge
 
 ## Probleme beim Aktualisieren unter macOS {#issues-when-upgrading-on-macos}
 
-Gelegentlich können bei einem Upgrade der AEM-Desktop-App unter macOS Probleme auftreten. Die Ursache liegt darin, dass der alte Systemordner der AEM-Desktop-App verhindert, dass neue Versionen der AEM-Desktop-App korrekt geladen werden. Zur Behebung dieses Problems können die folgenden Ordner und Dateien manuell entfernt werden.
+Gelegentlich können bei einem Upgrade des AEM-Desktop-Programms unter macOS Probleme auftreten. Die Ursache liegt darin, dass der alte Systemordner des AEM-Desktop-Programms verhindert, dass neue Versionen des AEM-Desktop-Programms korrekt geladen werden. Zur Behebung dieses Problems können die folgenden Ordner und Dateien manuell entfernt werden.
 
-Ziehen Sie die `Adobe Experience Manager Desktop`-App vor dem Ausführen der folgenden Schritte aus dem Ordner „macOS-Anwendungen“ in den Papierkorb. Öffnen Sie dann Terminal, führen Sie den folgenden Befehl aus und geben Sie Ihr Kennwort ein, wenn Sie dazu aufgefordert werden.
+Ziehen Sie das `Adobe Experience Manager Desktop`-Programm vor dem Ausführen der folgenden Schritte aus dem Ordner „macOS-Applikationen“ in den Papierkorb. Öffnen Sie dann Terminal, führen Sie den folgenden Befehl aus und geben Sie Ihr Kennwort ein, wenn Sie dazu aufgefordert werden.
 
 ```shell
 sudo rm -rf ~/Library/Application\ Support/com.adobe.aem.desktop
@@ -108,20 +108,20 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## Dateien können nicht hochgeladen werden {#upload-fails}
 
-Wenn Sie die Desktop-App mit AEM 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Dadurch wird das Problem mit dem Hochladen von Dateien im Zusammenhang mit [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) behoben. Siehe [Installationsanweisungen](install-upgrade.md#install-v2).
+Wenn Sie das Desktop-Programm mit AEM 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Dadurch wird das Problem mit dem Hochladen von Dateien im Zusammenhang mit [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) behoben. Siehe [Installationsanweisungen](install-upgrade.md#install-v2).
 
 ## Problem bei SSL-Konfiguration {#ssl-config-v2}
 
-Die Bibliotheken, die die AEM-Desktop-App zur HTTP-Kommunikation nutzt, setzen auf strikte SSL-Durchsetzung. Mitunter kann zwar über einen Browser eine Verbindung erfolgreich hergestellt werden, aber nicht über die AEM-Desktop-App. Installieren Sie für eine ordnungsgemäße SSL-Konfiguration das fehlende Zwischenzertifikat in Apache. Siehe [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575) (nur auf Englisch verfügbar).
+Die Bibliotheken, die das AEM-Desktop-Programm zur HTTP-Kommunikation nutzt, setzen auf strikte SSL-Durchsetzung. Mitunter kann zwar über einen Browser eine Verbindung erfolgreich hergestellt werden, aber nicht über das AEM-Desktop-Programm. Installieren Sie für eine ordnungsgemäße SSL-Konfiguration das fehlende Zwischenzertifikat in Apache. Siehe [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575) (nur auf Englisch verfügbar).
 
-## Die App reagiert nicht {#unresponsive}
+## Das Programm reagiert nicht {#unresponsive}
 
-In seltenen Fällen reagiert die App möglicherweise nicht mehr, zeigt nur einen weißen Bildschirm an oder zeigt einen Fehler am unteren Rand der Benutzeroberfläche an, ohne dass Optionen auf der Benutzeroberfläche vorhanden sind. Versuchen Sie Folgendes in genannter Reihenfolge:
+In seltenen Fällen reagiert das Programm möglicherweise nicht mehr, zeigt nur einen weißen Bildschirm an oder zeigt einen Fehler am unteren Rand der Benutzeroberfläche an, ohne dass Optionen auf der Benutzeroberfläche vorhanden sind. Versuchen Sie Folgendes in genannter Reihenfolge:
 
-1. Klicken Sie mit der rechten Maustaste auf die App-Oberfläche und klicken Sie auf **[!UICONTROL Refresh]**.
-1. Beenden Sie die App und starten Sie sie neu.
+1. Klicken Sie mit der rechten Maustaste auf die Programm-Oberfläche und klicken Sie auf **[!UICONTROL Refresh]**.
+1. Beenden Sie das Programm und starten Sie es neu.
 
-Bei beiden Methoden startet die App im Stammordner des DAM.
+Bei beiden Methoden startet das Programm im Stammordner des DAM.
 
 >[!MORELIKETHIS]
 >
