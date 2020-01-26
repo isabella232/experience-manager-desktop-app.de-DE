@@ -8,15 +8,19 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
+translation-type: tm+mt
+source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
 
 ---
 
 
 # Installieren und Konfigurieren des AEM-Desktop-Programms, v1.x {#install-and-configure-aem-desktop-app}
 
-Installieren und konfigurieren Sie das AEM-Desktop-Programm für die Verwendung mit AEM Assets-Servern und laden Sie die Assets in Ihr lokales Dateisystem herunter. Wenn Sie das AEM-Desktop-Programm verwenden möchten,
+Mit der AEM-Desktop-App können die Assets in AEM auf Ihrem lokalen Desktop leicht zugänglich gemacht und in allen Desktopanwendungen verwendet werden. Assets können einfach in Mac Finder oder Windows Explorer angezeigt, in Desktopanwendungen geöffnet und lokal geändert werden. Die Änderungen werden beim Hochladen in AEM gespeichert und eine neue Version wird im Repository erstellt.
+
+Dank dieser Integration können unterschiedliche Rollen im Unternehmen die Assets in AEM Assets zentral verwalten und in Creative Cloud und in anderen Applikationen auf sie zugreifen. Gleichzeitig können diverse Standards einschließlich Branding-Vorgaben eingehalten werden.
+
+Wenn Sie das AEM-Desktop-Programm verwenden möchten,
 
 * stellen Sie sicher, dass Ihre AEM-Server-Version vom AEM-Desktop-Programm unterstützt wird. Weitere Informationen finden Sie in der [Kompatibilitätsmatrix](release-notes-of-v1.md#compatibilitymatrix).
 * Laden Sie das Programm herunter und installieren Sie es.
@@ -38,7 +42,7 @@ Einzelheiten dazu finden Sie unter [Installieren des AEM-Desktop-Programms und V
 
 Das AEM-Desktop-Programm verwendet den vordefinierten Proxy des Systems, um über HTTPS eine Internet-Verbindung herzustellen. Das Programm kann die Verbindung nur mit einem Netzwerk-Proxy herstellen, für den keine gesonderte Authentifizierung erforderlich ist.
 
-Wenn Sie Proxyserver-Einstellungen für Windows konfigurieren oder ändern (Internetoptionen &gt; LAN-Einstellungen), starten Sie das AEM-Desktop-Programm neu, damit die Änderungen wirksam werden.
+Wenn Sie Proxyserver-Einstellungen für Windows konfigurieren oder ändern (Internetoptionen > LAN-Einstellungen), starten Sie das AEM-Desktop-Programm neu, damit die Änderungen wirksam werden.
 
 Wenn für den Proxy eine Authentifizierung erforderlich ist, kann die IT-Abteilung die URL von AEM Assets in den Proxyserver-Einstellungen der Whitelist hinzufügen, um den Applikationsdatenverkehr durchzulassen.
 
@@ -86,7 +90,7 @@ Unter Mac OS X befindet sich unter `~/Library/Group Containers/group.com.adobe.a
 
 ### Option zum Verwalten des Cache im Programm {#in-app-option-to-manage-cache}
 
-Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke zur Verfügung gestellt wird. Die Artefakte vom AEM Assets-Server werden für ein reibungsloseres Erlebnis lokal zwischengespeichert. Sie können die Standardeinstellungen Ihren Anforderungen entsprechend anpassen. Außerdem können Sie den Cache löschen, um alle Assets erneut abzurufen. Klicken Sie zum Festlegen der gewünschten Optionen auf das Symbol des Programms und klicken Sie auf **[!UICONTROL Advanced]** &gt; **[!UICONTROL Manage Cache]**. ****
+Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke zur Verfügung gestellt wird. Die Artefakte vom AEM Assets-Server werden für ein reibungsloseres Erlebnis lokal zwischengespeichert. Sie können die Standardeinstellungen Ihren Anforderungen entsprechend anpassen. Außerdem können Sie den Cache löschen, um alle Assets erneut abzurufen. Klicken Sie zum Festlegen der gewünschten Optionen auf das Symbol des Programms und klicken Sie auf **[!UICONTROL Advanced]**>**[!UICONTROL Manage Cache]**. ****
 
 >[!NOTE]
 >
@@ -112,13 +116,13 @@ Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen,
 
    >[!NOTE]
    >
-   >Das Programm erstellt automatisch ein Unterverzeichnis mit der Bezeichnung *&lt;Codierter AEM-Endpunkt&gt;*. Dieses Verhalten kann nicht konfiguriert werden.
+   >Das Programm erstellt automatisch ein Unterverzeichnis mit der Bezeichnung *&lt;Codierter AEM-Endpunkt>*. Dieses Verhalten kann nicht konfiguriert werden.
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
-* [Einführung in das AEM-Desktop-Programm](https://helpx.adobe.com/de/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+* [Einführung in das AEM-Desktop-Programm](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
 * [Verwenden des AEM-Desktop-Programms](use-app-v1.md)
 
-* [Grundlegendes zum Ein- und Auschecken mit dem AEM-Desktop-Programm](https://helpx.adobe.com/de/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Verwenden des Desktop-Programms mit AEM Assets](https://helpx.adobe.com/de/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Grundlegendes zum Ein- und Auschecken mit dem AEM-Desktop-Programm](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Verwenden des Desktop-Programms mit AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
 * [Fehlerbehebung für das AEM-Desktop-Programm](troubleshoot-app-v1.md)
