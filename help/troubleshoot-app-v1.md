@@ -8,8 +8,8 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
+translation-type: tm+mt
+source-git-commit: ab63bfd7eea356be924e1ed62eef387796913e6c
 
 ---
 
@@ -67,6 +67,8 @@ Das AEM-Desktop-Programm ist für intensive Manipulationen des Dateisystems nich
 
 Aufgrund der Beschränkungen des Betriebssystems gilt für Windows eine Dateigrößenbeschränkung von 4.294.967.295 Byte (ca. 4,29 GB). Der Grund dafür ist eine Registrierungseinstellung, die definiert, wie groß eine Datei auf einer Netzwerkfreigabe sein darf. Der Wert der Registrierungseinstellung ist ein DWORD-Ausdruck mit einer maximalen Größe, die der referenzierten Zahl entspricht.
 
+Die Experience Manager-Desktop-App verfügt nicht über einen konfigurierbaren Timeout-Wert, der die Verbindung zwischen Experience Manager-Server und der Desktop-App nach einem bestimmten Zeitintervall trennt. Wenn beim Hochladen großer Assets nach einer Weile eine Zeitüberschreitung der Verbindung eintritt, versucht die App, das Asset einige Male hochzuladen, indem sie den Upload-Timeout erhöht. Es gibt keine empfohlene Möglichkeit, die Standard-Timeout-Einstellungen zu ändern.
+
 ## Caching und Kommunikation mit AEM {#caching-and-communication-with-aem}
 
 Das AEM-Desktop-Programm bietet interne Caching-Funktionen und Funktionen zum Upload im Hintergrund, um das Endbenutzererlebnis zu verbessern. Wenn Sie eine große Datei speichern, wird sie zuerst lokal gespeichert, sodass Sie Ihre Arbeit fortsetzen können. Nach einer gewissen Zeit (momentan 30 Sekunden) wird die Datei dann im Hintergrund an den AEM-Server gesendet.
@@ -87,7 +89,7 @@ Es wird nicht jeder Vorgang lokal zwischengespeichert. Folgendes wird sofort ohn
 
 ## Individuelle Vorgänge   {#individual-operations}
 
-Lesen Sie bei der Fehlerbehebung bei suboptimaler Performance bei einzelnen Benutzern zunächst die Informationen unter [Beschränkungen](https://helpx.adobe.com/de/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations). Die folgenden Abschnitte umfassen Vorschläge zur Verbesserung der Performance für einzelne Benutzer.
+Lesen Sie bei der Fehlerbehebung bei suboptimaler Performance bei einzelnen Benutzern zunächst die Informationen unter [Beschränkungen](https://helpx.adobe.com/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations). Die folgenden Abschnitte umfassen Vorschläge zur Verbesserung der Performance für einzelne Benutzer.
 
 ## Bandbreitenempfehlungen   {#bandwidth-recommendations}
 
@@ -97,7 +99,7 @@ Adobe empfiehlt für einzelne Benutzer eine Upload-Geschwindigkeit von ca. 10 MB
 
 ## Windows-spezifische Konfigurationen   {#windows-specific-configurations}
 
-Wenn Sie AEM unter Windows ausführen, können Sie Windows so konfigurieren, dass die Performance des WebDAV-Clients verbessert wird. Weitere Informationen dazu finden Sie unter [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/de-de/kb/2445570).
+Wenn Sie AEM unter Windows ausführen, können Sie Windows so konfigurieren, dass die Performance des WebDAV-Clients verbessert wird. Weitere Informationen dazu finden Sie unter [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/en-us/kb/2445570).
 
 Unter Windows 7 kann die Leistung von WebDAV durch eine Änderung der IE-Einstellungen verbessert werden. Einzelheiten dazu finden Sie unter [http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/](http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
 
@@ -126,7 +128,7 @@ Wenn sich die WebDAV/SMB-Leistung drastisch vermindert, wenn mehrere Benutzer gl
 Sie können die Leistung auf AEM-Seite verbessern, indem Sie für den Workflow „DAM-Update-Asset“ Übergangs-Workflows aktivieren. Durch die Aktivierung von Übergangs-Workflows wird die zum Aktualisieren von Assets erforderliche Leistung reduziert, wenn sie in AEM erstellt oder aktualisiert werden.
 
 1. Navigieren Sie in der zu konfigurierenden AEM-Instanz zu `/miscadmin` (z. B. `http://[Server]:[Port]/miscadmin`).
-1. Erweitern Sie im Navigationsbaum **Tools** &gt; **Workflow** &gt; **Modelle** &gt; **dam**.
+1. Erweitern Sie im Navigationsbaum **Tools** > **Workflow** > **Modelle** > **dam**.
 1. Doppelklicken Sie auf **DAM-Update-Asset**.
 1. Wechseln Sie im unverankerten Tool-Fenster auf die Registerkarte **Seite** und klicken Sie dann auf **Seiteneigenschaften**.
 1. Aktivieren Sie das Kontrollkästchen **Verlaufs-Workflow** und klicken Sie auf **OK**.
@@ -218,7 +220,7 @@ Mac: ~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/
 
 Das Verzeichnis kann sich jedoch in Abhängigkeit vom konfigurierten AEM-Endpunkt des AEM-Desktop-Programms ändern. Der Wert ist eine codierte Version der Ziel-URL. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502%2F`.
 
-Wenn Sie den Cache löschen möchten, löschen Sie das Verzeichnis &lt;Codierter AEM-Endpunkt&gt;.
+Wenn Sie den Cache löschen möchten, löschen Sie das Verzeichnis &lt;Codierter AEM-Endpunkt>.
 
 >[!NOTE]
 >
