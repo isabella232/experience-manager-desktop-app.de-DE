@@ -1,5 +1,5 @@
 ---
-title: Best Practices und Fehlerbehebung für das AEM-Desktop-Programm
+title: Best Practices und Fehlerbehebung für die Adobe Experience Manager-Desktop-App
 description: Befolgen Sie die Best Practices und führen Sie eine Fehlerbehebung durch, um gelegentliche Probleme im Zusammenhang mit Installation, Aktualisierung, Konfiguration usw. zu beheben.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: AG
@@ -8,15 +8,15 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
+translation-type: tm+mt
+source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ---
 
 
-# Fehlerbehebung für das AEM-Desktop-Programm {#troubleshoot-v2}
+# Troubleshoot Adobe Experience Manager desktop app {#troubleshoot-v2}
 
-Das Adobe Experience Manager (AEM)-Desktop-Programm stellt eine Verbindung zum DAM-Repository (Digital Asset Management) einer Remote-AEM-Bereitstellung her. Das Programm ruft Repository-Informationen und Suchergebnisse auf Ihrem Computer ab, lädt Dateien und Ordner herunter und lädt sie hoch und bietet Funktionen zum Verwalten von Konflikten mit der Benutzeroberfläche von AEM Assets.
+Die Adobe Experience Manager (AEM)-Desktop-App stellt eine Verbindung zum DAM-Repository (Digital Asset Management) einer Experience Manager-Remote-Bereitstellung her. Das Programm ruft Repository-Informationen und Suchergebnisse auf Ihrem Computer ab, lädt Dateien und Ordner herunter und lädt sie hoch und bietet Funktionen zum Verwalten von Konflikten mit der Benutzeroberfläche von AEM Assets.
 
 Lesen Sie weiter, um Fehler im Programm zu beheben, lernen Sie die Best Practices kennen und erfahren Sie mehr über Einschränkungen.
 
@@ -26,19 +26,21 @@ Befolgen Sie die folgenden Best Practices, um einige häufige Probleme und die F
 
 * **So funktioniert das Desktop-Programm**: Bevor Sie mit der Verwendung des Programms beginnen, sollten Sie sich kurz mit ihrer Funktionsweise vertraut machen. Erfahren Sie mehr über Verknüpfung zwischen Web-Benutzeroberfläche und Desktop, Repository-Zuordnung, Asset-Zwischenspeicherung, lokales Speichern und Hochladen im Hintergrund. Machen Sie sich mit der [Funktionsweise](release-notes.md#how-app-works) vertraut:
 
-* **Vermeiden Sie nicht unterstützte Zeichen in Ordnernamen**: Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen und ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in AEM Assets](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). In einigen AEM-Anwendungsfällen können durch nicht unterstützte Zeichen im Ordnernamen Probleme auftreten.
+* **Vermeiden Sie nicht unterstützte Zeichen in Ordnernamen**: Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen und ungültigen Zeichen. See a list of characters at [Create folders in Experience Manager Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). Einige Anwendungsfälle in Adobe Experience Manager können durch nicht unterstützte Zeichen im Ordnernamen beeinträchtigt werden.
 
 * **Best Practices zur Vermeidung von Konflikten**: Um mögliche Konflikte bei der Zusammenarbeit mit mehreren Assets zu vermeiden, lesen Sie [Vermeiden von Bearbeitungskonflikten](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **Verwenden Sie den Ordner-Upload für große, hierarchische Ordner**: Verwenden Sie anstelle der Assets-Web-Oberfläche oder anderer Methoden das AEM-Desktop-Programm, um große Ordner hochzuladen. Das Programm lädt die Assets mit Protokollierung und Überwachung im Hintergrund hoch. Siehe [Massen-Upload von Assets](using.md#bulk-upload-assets).
+* **Verwenden Sie den Ordner-Upload für große, hierarchische Ordner**: Verwenden Sie anstelle der Assets-Weboberfläche oder anderer Methoden die Experience Manager Desktop-App, um große Ordner hochzuladen. Das Programm lädt die Assets mit Protokollierung und Überwachung im Hintergrund hoch. Siehe [Massen-Upload von Assets](using.md#bulk-upload-assets).
 
-* **Verwenden Sie die neueste Version**: Verwenden Sie die neueste Programm-Version und prüfen Sie immer, ob die Kompatibilität gewährleistet ist, bevor Sie eine neue Programm-Version installieren oder bevor Sie auf eine neuere AEM-Version aktualisieren. Siehe [Versionshinweise](release-notes.md).
+* **Verwenden Sie die neueste Version**: Verwenden Sie die neueste App-Version und prüfen Sie immer, ob die Kompatibilität gewährleistet ist, bevor Sie eine neue App-Version installieren oder bevor Sie auf eine neuere Adobe Experience Manager-Version aktualisieren. Siehe [Versionshinweise](release-notes.md).
 
-* **Verwenden Sie denselben Laufwerksbuchstaben**: Verwenden Sie im gesamten Unternehmen denselben Laufwerksbuchstaben für das AEM DAM. Damit von anderen Benutzern platzierte Assets angezeigt werden können, müssen die Pfade identisch sein. Mit demselben Laufwerksbuchstaben wird ein konstanter Pfad zu DAM-Assets sichergestellt. Die Assets bleiben platziert und werden auch dann nicht entfernt, wenn verschiedene Laufwerksbuchstaben von verschiedenen Benutzern verwendet werden.
+* **Verwenden Sie denselben Laufwerksbuchstaben**: Verwenden Sie für die Zuordnung zum Adobe Experience Manager DAM denselben Laufwerksbuchstaben in einem Unternehmen. Damit von anderen Benutzern platzierte Assets angezeigt werden können, müssen die Pfade identisch sein. Mit demselben Laufwerksbuchstaben wird ein konstanter Pfad zu DAM-Assets sichergestellt. Die Assets bleiben platziert und werden auch dann nicht entfernt, wenn verschiedene Laufwerksbuchstaben von verschiedenen Benutzern verwendet werden.
 
-* **Beachten Sie das Netzwerk**: Die Netzwerkleistung ist von entscheidender Bedeutung für die Leistung des AEM-Desktop-Programms. Wenn die Reaktion auf Dateiübertragungen oder Massenvorgänge verlangsamt ist, deaktivieren Sie die Funktionen oder Applikationen, die zu viel Netzwerkverkehr führen können.
+* **Beachten Sie das Netzwerk**: Die Netzwerkleistung ist von entscheidender Bedeutung für die Leistung der Experience Manager Desktop-App. Wenn die Reaktion auf Dateiübertragungen oder Massenvorgänge verlangsamt ist, deaktivieren Sie die Funktionen oder Applikationen, die zu viel Netzwerkverkehr führen können.
 
 * **Nicht unterstützte Anwendungsfälle für das Desktop-Programm**: Verwenden Sie das Programm nicht für die Migration von Assets (sie erfordert Planung und andere Werkzeuge), für DAM-Vorgänge mit hoher Leistung (z. B. Verschieben großer Ordner, große Uploads, Suchen von Dateien mithilfe erweiterter Metadaten-Suchen) oder als Synchronisierungs-Client (Design- und Nutzungsmuster unterscheiden sich von In-Sync-Clients wie Microsoft OneDrive oder Adobe Creative Cloud-Desktop-Synchronisierung).
+
+* **Timeout**: Derzeit verfügt die Desktop-App nicht über einen konfigurierbaren Timeout-Wert, der die Verbindung zwischen dem Experience Manager-Server und der Desktop-App nach einem bestimmten Zeitintervall trennt. Wenn beim Hochladen großer Assets nach einer Weile eine Zeitüberschreitung der Verbindung eintritt, versucht die App, das Asset einige Male hochzuladen, indem sie den Upload-Timeout erhöht. Es gibt keine empfohlene Möglichkeit, die Standard-Timeout-Einstellungen zu ändern.
 
 ## Fehlerbehebung {#troubleshooting-prep}
 
@@ -80,7 +82,7 @@ Das Verzeichnis kann sich jedoch in Abhängigkeit vom konfigurierten AEM-Endpunk
 
 ### Ermitteln der AEM-Desktop-Programm-Version {#know-app-version-v2}
 
-Klicken Sie auf das ![Programmmenü](assets/do-not-localize/more_options_da2.png), um das Menü des Programms zu öffnen, und klicken Sie auf **[!UICONTROL Help]** &gt; **[!UICONTROL About]**.
+Klicken Sie auf das ![Programmmenü](assets/do-not-localize/more_options_da2.png), um das Menü des Programms zu öffnen, und klicken Sie auf **[!UICONTROL Help]**>**[!UICONTROL About]**.
 
 ## Platzierte Assets werden nicht angezeigt {#placed-assets-missing}
 
