@@ -1,45 +1,44 @@
 ---
-title: Verwenden des AEM-Desktop-Programms
-description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm  installieren und verwenden, um direkt von Ihrem Win- oder Mac-Desktop aus mit AEM-Assets zu arbeiten. Machen Sie sich mit Best Practices und Informationen zur Fehlerbehebung vertraut.
+title: Verwenden des Adobe Experience Manager-Desktop-Programms
+description: Erfahren Sie, wie Sie die Adobe Experience Manager-Desktop-App installieren und verwenden, um mit Adobe Experience Manager DAM-Assets direkt von Ihrem Win- oder Mac-Desktop aus zu arbeiten. Machen Sie sich mit Best Practices und Informationen zur Fehlerbehebung vertraut.
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
+translation-type: tm+mt
+source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ---
 
 
-# Verwenden des AEM-Desktop-Programms {#use-aem-desktop-app-v2}
+# Verwenden des Adobe Experience Manager-Desktop-Programms {#use-aem-desktop-app-v2}
 
-Verwenden Sie das Adobe Experience Manager (AEM)-Desktop-Programm, um einfach auf die AEM-Assets auf Ihrem lokalen Desktop zuzugreifen und diese Assets in allen Desktop-Applikationen zu verwenden. Sie können die Assets in Desktop-Applikationen öffnen und die Assets lokal bearbeiten. Laden Sie die Änderungen mit Versionskontrolle zurück, um sie für andere Benutzer freizugeben. Sie können auch neue Dateien und Ordnerhierarchien in AEM hochladen, Ordner erstellen und Assets oder Ordner aus AEM löschen.
+Verwenden Sie die Adobe Experience Manager (AEM)-Desktop-App, um einfach auf die Adobe Experience Manager DAM-Assets auf Ihrem lokalen Desktop zuzugreifen und diese Assets in allen Desktop-Anwendungen zu verwenden. Sie können die Assets in Desktop-Anwendungen öffnen und die Assets lokal bearbeiten. Laden Sie die Änderungen mit Versionskontrolle zurück, um die Updates für andere Benutzer freizugeben. Sie können auch neue Dateien und Ordnerhierarchien in Experience Manager hochladen, Ordner erstellen und Assets oder Ordner aus Experience Manager DAM löschen.
 
-Die Integration ermöglicht es verschiedenen Rollen in der Organisation, die Assets zentral in AEM Assets zu verwalten und auf die Assets auf dem lokalen Desktop in den nativen Applikationen unter Windows oder macOS zuzugreifen.
+Die Integration ermöglicht es verschiedenen Rollen in der Organisation, die Assets zentral in Experience Manager Assets zu verwalten und auf die Assets auf dem lokalen Desktop in den nativen Anwendungen unter Windows oder Mac OS zuzugreifen.
 
-Wenn Sie das Programm nach dem Abmelden oder zum ersten Mal öffnen, geben Sie die URL Ihres AEM-Servers ein. Klicken Sie auf „Connect“ (Verknüpfen). Geben Sie Ihre Anmeldeinformationen ein, um das Programm mit dem Server zu verbinden.
+Wenn Sie die Anwendung nach dem Abmelden oder zum ersten Mal öffnen, geben Sie die URL Ihres Experience Manager-Servers ein. Klicken Sie auf „Connect“ (Verknüpfen). Geben Sie Ihre Anmeldeinformationen ein, um das Programm mit dem Server zu verbinden.
 
-Die Hauptaufgaben, die Sie mit dem AEM-Desktop-Programm ausführen, sind:
+Die Hauptaufgaben, die Sie mit der Experience Manager Desktop-App ausführen, sind:
 
-![Workflows und Aufgaben, die Sie mit dem AEM-Desktop-Programm ausführen können](assets/aem_desktop_app_usecases_v2.png "Workflows und Aufgaben, die Sie mit dem AEM-Desktop-Programm ausführen können")
-Laden Sie [diese](assets/aem_desktop_app_usecases_print.pdf) druckfertige PDF-Datei herunter.
+![Arbeitsabläufe und Aufgaben, die Sie mit der Experience Manager-Desktop-](assets/aem_desktop_app_usecases_v2.png "App ausführen könnenArbeitsabläufe und Aufgaben, die Sie mit der Adobe Experience Manager-Desktop-App")ausführen könnenLaden Sie [diese](assets/aem_desktop_app_usecases_print.pdf) druckfertige PDF-Datei herunter.
 
 ## Funktionsweise des Desktop-Programms {#how-app-works2}
 
 Bevor Sie mit der Nutzung des Programms beginnen, sollten Sie wissen, [wie das Programm funktioniert](release-notes.md#how-app-works). Machen Sie sich auch mit den folgenden Begriffen vertraut:
 
-* **[!UICONTROL Desktop Actions]**: Über die Assets-Benutzeroberfläche in einem Browser können Sie zu den Asset-Speicherorten navigieren oder Assets auschecken und öffnen, um sie in Ihrer nativen Desktop-Applikation zu bearbeiten. Diese Aktionen sind über die Web-Oberfläche verfügbar und verwenden die Funktionalität des Desktop-Programms. Erfahren Sie, [wie Sie Desktop-Aktionen aktivieren](using.md#desktopactions-v2).
+* **[!UICONTROL Desktop Actions]**: Über die Assets-Benutzeroberfläche in einem Browser können Sie zu den Asset-Speicherorten navigieren oder Assets auschecken und öffnen, um sie in Ihrer nativen Desktop-Applikation zu bearbeiten. Diese Aktionen sind über die Web-Oberfläche verfügbar und verwenden die Funktionalität des Desktop-Programms. Erfahren Sie,[wie Sie Desktop-Aktionen aktivieren](using.md#desktopactions-v2).
 
-* Dateistatus **[!UICONTROL Cloud Only]**: Solche Assets werden nicht auf den lokalen Computer heruntergeladen und stehen nur auf dem AEM-Server zur Verfügung.
+* File status is **[!UICONTROL Cloud Only]**: Such assets are not downloaded on the local machine and are available on Experience Manager server only.
 
 * Dateistatus **[!UICONTROL Available locally]**: Die Assets werden wie bisher heruntergeladen und stehen auf dem lokalen Computer zur Verfügung. Die Assets werden nicht geändert.
 
-* Dateistatus **[!UICONTROL Edited locally]**: Diese Assets werden lokal geändert und die Änderungen bleiben beim Hochladen auf den AEM-Server erhalten. Nach dem Hochladen ändert sich der Status in [!UICONTROL Available locally]. Siehe [Bearbeiten von Assets](using.md#edit-assets-upload-updated-assets).
+* File status is **[!UICONTROL Edited locally]**: Such assets are modified locally and the changes remain to the uploaded to Experience Manager server. Nach dem Hochladen ändert sich der Status in[!UICONTROL Available locally]. Siehe[Bearbeiten von Assets](using.md#edit-assets-upload-updated-assets).
 
-* Dateistatus **[!UICONTROL Editing conflict]**: Wenn Sie und andere Benutzer ein Asset gleichzeitig ändern, zeigt das Programm  an, dass ein Bearbeitungskonflikt aufgetreten ist. Das Programm bietet außerdem Optionen zum Beibehalten oder Verwerfen Ihrer Änderungen. Erfahren Sie, [wie Sie Bearbeitungskonflikte vermeiden](using.md#adv-workflow-collaborate-avoid-conflicts).
+* Dateistatus **[!UICONTROL Editing conflict]**: Wenn Sie und andere Benutzer ein Asset gleichzeitig ändern, zeigt das Programm  an, dass ein Bearbeitungskonflikt aufgetreten ist. Das Programm bietet außerdem Optionen zum Beibehalten oder Verwerfen Ihrer Änderungen. Erfahren Sie,[wie Sie Bearbeitungskonflikte vermeiden](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* Dateistatus **[!UICONTROL Modified remotely]**: Das Programm gibt an, ob ein heruntergeladenes Asset auf dem AEM-Server geändert wurde. Das Programm bietet auch die Möglichkeit, die neueste Version herunterzuladen und Ihre lokale Kopie zu aktualisieren. Erfahren Sie, [wie Sie Bearbeitungskonflikte vermeiden](using.md#adv-workflow-collaborate-avoid-conflicts).
+* File status is **[!UICONTROL Modified remotely]**: The app indicates if an asset that you have downloaded is changed on the Experience Manager server. Das Programm bietet auch die Möglichkeit, die neueste Version herunterzuladen und Ihre lokale Kopie zu aktualisieren. Erfahren Sie,[wie Sie Bearbeitungskonflikte vermeiden](using.md#adv-workflow-collaborate-avoid-conflicts).
 
 * **[!UICONTROL Check-out]**: Wenn Sie eine Datei bearbeiten oder eine Datei bearbeiten möchten, können Sie den Status „Auschecken“ aktivieren. Dadurch wird dem Asset im Programm und in der AEM-Web-Oberfläche ein Sperrsymbol hinzugefügt. Das Sperrsymbol zeigt anderen Benutzern an, dass sie dasselbe Asset nicht gleichzeitig bearbeiten sollen, da dies zu einem Bearbeitungskonflikt führt.
 
@@ -47,25 +46,25 @@ Bevor Sie mit der Nutzung des Programms beginnen, sollten Sie wissen, [wie das P
 
 * Aktion **[!UICONTROL Open]**: Öffnen Sie einfach das Asset, um es in der nativen Applikation anzuzeigen. Es wird nicht empfohlen, das Asset mit dieser Aktion zu bearbeiten, da das Asset nicht ausgecheckt wird und andere Benutzer Änderungen vornehmen können, die zu Bearbeitungskonflikten führen.
 
-* Aktion **[!UICONTROL Edit]**: Verwenden Sie die Aktion, um das Bild zu ändern. Durch Klicken auf die Aktion [!UICONTROL Edit] wird das Asset automatisch ausgecheckt und ein Sperrsymbol für das Asset hinzugefügt. Wenn Sie nach dem Klicken auf „Edit“ (Bearbeiten) das Asset nicht bearbeiten möchten, klicken Sie auf [!UICONTROL Toggle check-in]. Verwenden Sie zum Löschen, Umbenennen oder Verschieben von Assets in der AEM DAM-Ordnerhierarchie die AEM-Web-Oberflächenaktionen und nicht die Bearbeitungsaktion.
+* Aktion **[!UICONTROL Edit]**: Verwenden Sie die Aktion, um das Bild zu ändern. Durch Klicken auf die Aktion[!UICONTROL Edit]wird das Asset automatisch ausgecheckt und ein Sperrsymbol für das Asset hinzugefügt. Wenn Sie nach dem Klicken auf „Edit“ (Bearbeiten) das Asset nicht bearbeiten möchten, klicken Sie auf[!UICONTROL Toggle check-in]. Verwenden Sie zum Löschen, Umbenennen oder Verschieben von Assets in der AEM DAM-Ordnerhierarchie die AEM-Web-Oberflächenaktionen und nicht die Bearbeitungsaktion.
 
 * Aktion **[!UICONTROL Download]**: Laden Sie das Asset auf Ihren lokalen Computer herunter. Sie können die Assets jetzt herunterladen und später bearbeiten. Arbeiten Sie offline und laden Sie die Änderungen später hoch. Assets werden in einen Cache-Ordner auf Ihrem Dateisystem heruntergeladen.
 
-* Aktion **[!UICONTROL Reveal File]** oder **[!UICONTROL Reveal Folder]**: Während die Assets in einen lokalen Cache-Ordner heruntergeladen werden, imitiert das Programm ein lokales Netzwerklaufwerk und stellt für jedes Asset einen lokalen Pfad bereit. Um diesen Pfad zu ermitteln, verwenden Sie die entsprechende Einblendeoption im Programm. Zum Platzieren von Assets in der Creative Cloud-Applikation ist die Aktion „Reveal“ (Anzeigen) erforderlich. Siehe [Platzieren von Assets](using.md#place-assets-in-native-documents).
+* Aktion **[!UICONTROL Reveal File]**oder**[!UICONTROL Reveal Folder]**: Während die Assets in einen lokalen Cache-Ordner heruntergeladen werden, imitiert das Programm ein lokales Netzwerklaufwerk und stellt für jedes Asset einen lokalen Pfad bereit. Um diesen Pfad zu ermitteln, verwenden Sie die entsprechende Einblendeoption im Programm. Zum Platzieren von Assets in der Creative Cloud-Applikation ist die Aktion „Reveal“ (Anzeigen) erforderlich. Siehe [Platzieren von Assets](using.md#place-assets-in-native-documents).
 
 * Aktion **[!UICONTROL Open In Web]**: Um das Asset in der AEM-Web-Oberfläche anzuzeigen, öffnen Sie es im Web. Sie können weitere Workflows über die AEM-Oberfläche starten, z. B. das Aktualisieren von Metadaten oder die Asset-Erkennung.
 
-* Aktion **[!UICONTROL Delete]**: Löschen Sie das Asset aus dem AEM DAM-Repository. Durch die Aktion wird die Originalkopie des Assets auf dem AEM-Server gelöscht. Wenn Sie nur Änderungen am lokalen Asset verwerfen möchten, lesen Sie [Verwerfen von Änderungen](using.md#edit-assets-upload-updated-assets).
+* Aktion **[!UICONTROL Delete]**: Löschen Sie das Asset aus dem AEM DAM-Repository. Durch die Aktion wird die Originalkopie des Assets auf dem AEM-Server gelöscht. Wenn Sie nur Änderungen am lokalen Asset verwerfen möchten, lesen Sie[Verwerfen von Änderungen](using.md#edit-assets-upload-updated-assets).
 
-* **[!UICONTROL Upload Changes]**: Das Desktop-Programm lädt das aktualisierte Asset nur hoch, wenn Sie es explizit auf den AEM-Server hochladen. Wenn Sie Ihre Änderungen speichern, werden diese nur auf Ihrem lokalen Computer gespeichert. Beim Hochladen wird das Asset automatisch eingecheckt und das Sperrsymbol entfernt. Siehe [Bearbeiten von Assets](using.md#edit-assets-upload-updated-assets).
+* **[!UICONTROL Upload Changes]**: Das Desktop-Programm lädt das aktualisierte Asset nur hoch, wenn Sie es explizit auf den AEM-Server hochladen. Wenn Sie Ihre Änderungen speichern, werden diese nur auf Ihrem lokalen Computer gespeichert. Beim Hochladen wird das Asset automatisch eingecheckt und das Sperrsymbol entfernt. Siehe[Bearbeiten von Assets](using.md#edit-assets-upload-updated-assets).
 
 ## Aktivieren von Desktop-Aktionen in der AEM-Web-Benutzeroberfläche {#desktopactions-v2}
 
 Über die Assets-Benutzeroberfläche in einem Browser können Sie zu den Asset-Speicherorten navigieren oder Assets auschecken und öffnen, um sie in Ihrem Desktop-Programm zu bearbeiten. Diese Optionen werden als [!UICONTROL Desktop Actions] bezeichnet und sind standardmäßig nicht aktiviert. Gehen Sie zur Aktivierung wie folgt vor.
 
 1. Klicken/tippen Sie in der Assets-Konsole in der Symbolleiste auf das Symbol **[!UICONTROL User]**.
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL My Preferences]**, um das Dialogfeld **[!UICONTROL Preferences]** anzuzeigen.
-1. Wählen Sie im Dialogfeld „Benutzereinstellungen“ die Option **[!UICONTROL Show Desktop Actions For Assets]**. Klicken/tippen Sie auf **[!UICONTROL Accept]**.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL My Preferences]**, um das Dialogfeld**[!UICONTROL Preferences]** anzuzeigen.
+1. Wählen Sie im Dialogfeld „Benutzereinstellungen“ die Option **[!UICONTROL Show Desktop Actions For Assets]**. Klicken/tippen Sie auf**[!UICONTROL Accept]**.
 
    ![Aktivieren Sie „Show Desktop Actions For Assets“ (Desktop-Aktionen für Assets anzeigen), um Desktop-Aktionen zu ermöglichen](assets/chlimage_1-3.png)
 
@@ -83,7 +82,7 @@ Sie können die im AEM-Repository verfügbaren Assets innerhalb des Desktop-Prog
 
    ![Anzeigen einer größeren Vorschau eines Assets und weiterer Aktionen](assets/large_preview_actions_da2.png "Anzeigen einer größeren Vorschau eines Assets und weiterer Aktionen")
 
-1. Klicken Sie auf **[!UICONTROL Open]** oder **[!UICONTROL Edit]**, um die Datei lokal herunterzuladen und sie in der nativen Applikation anzuzeigen oder zu bearbeiten.
+1. Klicken Sie auf **[!UICONTROL Open]**oder**[!UICONTROL Edit]**, um die Datei lokal herunterzuladen und sie in der nativen Applikation anzuzeigen oder zu bearbeiten.
 1. Suchen Sie mithilfe von Suchbegriffen nach einem zugehörigen Asset im AEM-Repository. Verwenden Sie `?` und `*` als Platzhalter. Diese Platzhalter ersetzen ein einzelnes oder mehrere Zeichen. Filtern und sortieren Sie die Ergebnisse nach Bedarf.
 
    ![Beispielsuche mit einem Sternchen-Platzhalter](assets/search_wildcard_da2.png "Beispielsuche mit einem Sternchen-Platzhalter")
@@ -133,9 +132,9 @@ In einigen Fällen, z. B. beim Platzieren eines Assets in einem nativen Dokument
 
 ![Aktion „Datei anzeigen“ für ein Asset](assets/revealfile_action_da2.png "Aktion „Datei anzeigen“ für ein Asset")
 
-Klicken Sie auf **[!UICONTROL Reveal File]** oder in einem Ordner auf **[!UICONTROL Reveal Folder]**, um Windows Explorer oder Mac Finder mit der auf Ihrem lokalen Computer vorab ausgewählten Datei- oder Ordnerauswahl zu öffnen. Die Option ist nützlich, um z. B. die AEM-Dateien in den nativen Applikation zu platzieren, die das Platzieren oder Verknüpfen lokaler Dateien unterstützen. Informationen zum Platzieren von Dateien in Adobe InDesign finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/de/indesign/using/placing-graphics.html).
+Klicken Sie auf **[!UICONTROL Reveal File]**oder in einem Ordner auf**[!UICONTROL Reveal Folder]**, um Windows Explorer oder Mac Finder mit der auf Ihrem lokalen Computer vorab ausgewählten Datei- oder Ordnerauswahl zu öffnen. Die Option ist nützlich, um z. B. die AEM-Dateien in den nativen Applikation zu platzieren, die das Platzieren oder Verknüpfen lokaler Dateien unterstützen. Informationen zum Platzieren von Dateien in Adobe InDesign finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 
-Die Aktion **[!UICONTROL Reveal File]** öffnet eine lokale Netzwerkfreigabe, die nur die lokal verfügbaren Assets anzeigt, d. h. Assets, die mit dem Programm veröffentlicht, heruntergeladen oder geöffnet/bearbeitet wurden. Die lokale Netzwerkfreigabe lädt keine Änderungen in AEM hoch. Verwenden Sie zum Hochladen der Änderungen explizit die Aktionen **[!UICONTROL Upload Changes]** oder **[!UICONTROL Upload]** im Programm.
+Die Aktion **[!UICONTROL Reveal File]**öffnet eine lokale Netzwerkfreigabe, die nur die lokal verfügbaren Assets anzeigt, d. h. Assets, die mit dem Programm veröffentlicht, heruntergeladen oder geöffnet/bearbeitet wurden. Die lokale Netzwerkfreigabe lädt keine Änderungen in AEM hoch. Verwenden Sie zum Hochladen der Änderungen explizit die Aktionen**[!UICONTROL Upload Changes]** oder **[!UICONTROL Upload]**im Programm.
 
 >[!NOTE]
 >
@@ -143,7 +142,7 @@ Die Aktion **[!UICONTROL Reveal File]** öffnet eine lokale Netzwerkfreigabe, di
 
 >[!CAUTION]
 >
->Verwenden Sie nicht die Option **[!UICONTROL Reveal File]**, um Assets in nativen Applikationen zu bearbeiten. Verwenden Sie stattdessen die Aktionen **[!UICONTROL Edit]**. Weitere Informationen finden Sie unter [Erweiterter Workflow: Zusammenarbeit an denselben Dateien und Vermeidung von Bearbeitungskonflikten](#adv-workflow-collaborate-avoid-conflicts).
+>Verwenden Sie nicht die Option **[!UICONTROL Reveal File]**, um Assets in nativen Applikationen zu bearbeiten. Verwenden Sie stattdessen die Aktionen**[!UICONTROL Edit]**. Weitere Informationen finden Sie unter [Erweiterter Workflow: Zusammenarbeit an denselben Dateien und Vermeidung von Bearbeitungskonflikten](#adv-workflow-collaborate-avoid-conflicts).
 
 ## Bearbeiten von Assets und Hochladen aktualisierter Assets in AEM {#edit-assets-upload-updated-assets}
 
@@ -151,12 +150,12 @@ Die Aktion **[!UICONTROL Reveal File]** öffnet eine lokale Netzwerkfreigabe, di
 
 Um ein Asset zu bearbeiten, suchen Sie nach dem Asset oder navigieren Sie zum Speicherort des Assets. Klicken Sie auf ![Mehr](assets/do-not-localize/more2_da2.png) und dann auf **[!UICONTROL Edit]**.
 
-Verwenden Sie **[!UICONTROL Toggle Check-out]** zum Sperren des Assets, um Konflikte mit Bearbeitungen anderer Benutzer in beiden folgenden Situationen zu vermeiden:
+Verwenden Sie **[!UICONTROL Toggle Check-out]**zum Sperren des Assets, um Konflikte mit Bearbeitungen anderer Benutzer in beiden folgenden Situationen zu vermeiden:
 
 * Sie haben begonnen, ein Asset zu bearbeiten, ohne es vorher auszuchecken (indem Sie es einfach öffnen).
 * Sie möchten demnächst mit der Bearbeitung eines Assets beginnen und möchten nicht, dass andere Benutzer es bearbeiten.
 
-Nachdem Sie die Änderungen vorgenommen haben, zeigt das Programm den Status **[!UICONTROL Edited Locally]** für geänderte Assets an. Alle in den Assets gespeicherten Änderungen sind nur lokal verfügbar, bis Sie die Änderungen in AEM hochladen. Um einzelne Assets oder einige Assets einzeln hochzuladen, klicken Sie in den Optionen für ein Asset auf **[!UICONTROL Upload Changes]**. Dadurch wird eine Version des Assets in AEM erstellt. Über die Web-Oberfläche von AEM Assets können Sie den Asset-Verlauf in der [Timeline](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/activity-stream.html) anzeigen.
+Nachdem Sie die Änderungen vorgenommen haben, zeigt das Programm den Status **[!UICONTROL Edited Locally]**für geänderte Assets an. Alle in den Assets gespeicherten Änderungen sind nur lokal verfügbar, bis Sie die Änderungen in AEM hochladen. Um einzelne Assets oder einige Assets einzeln hochzuladen, klicken Sie in den Optionen für ein Asset auf**[!UICONTROL Upload Changes]**. Dadurch wird eine Version des Assets in AEM erstellt. Über die Web-Oberfläche von AEM Assets können Sie den Asset-Verlauf in der [Timeline](https://helpx.adobe.com/experience-manager/6-5/assets/using/activity-stream.html) anzeigen.
 
 ![Option zum Hochladen von Änderungen im Programm](assets/upload_changes_single1_da2.png "Option zum Hochladen von Änderungen im Programm")
 
@@ -174,14 +173,14 @@ Deaktivieren Sie ggf. das Auschecken. Das aktualisierte Asset wird aus dem lokal
 
 ## Hochladen und Hinzufügen neuer Assets zu AEM {#upload-and-add-new-assets-to-aem}
 
-Benutzer können dem DAM-Repository neue Assets hinzufügen. Vielleicht sind Sie z. B. ein Agenturfotograf oder -auftragnehmer sein, der eine große Anzahl von Fotos aus einem Foto-Shooting zum AEM-Repository hinzufügen möchte. Um AEM neue Inhalte hinzuzufügen, klicken Sie auf das Symbol ![In Cloud hochladen](assets/do-not-localize/upload_to_cloud_da2.png) in der oberen Leiste des Programms. Navigieren Sie zu den Asset-Dateien im lokalen Dateisystem und klicken Sie auf **[!UICONTROL Select]**. Das Programm startet das Hochladen des Assets und zeigt am unteren Rand eine Fortschrittsleiste an, wenn das Hochladen des Assets länger dauert. Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen oder ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in AEM Assets](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders).
+Benutzer können dem DAM-Repository neue Assets hinzufügen. Vielleicht sind Sie z. B. ein Agenturfotograf oder -auftragnehmer sein, der eine große Anzahl von Fotos aus einem Foto-Shooting zum AEM-Repository hinzufügen möchte. Um AEM neue Inhalte hinzuzufügen, klicken Sie auf das Symbol ![In Cloud hochladen](assets/do-not-localize/upload_to_cloud_da2.png) in der oberen Leiste des Programms. Navigieren Sie zu den Asset-Dateien im lokalen Dateisystem und klicken Sie auf **[!UICONTROL Select]**. Das Programm startet das Hochladen des Assets und zeigt am unteren Rand eine Fortschrittsleiste an, wenn das Hochladen des Assets länger dauert. Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen oder ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter[Erstellen von Ordnern in AEM Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
 Sie können Ordner oder einzelne Dateien aus Ihrem lokalen Dateisystem hochladen. Die Hierarchie eines Ordners wird beim Hochladen beibehalten. Bevor Sie Assets stapelweise hochladen, lesen Sie [Massen-Uploads](#bulk-upload-assets).
 
-Um die Liste der in einer bestimmten Sitzung übertragenen Assets anzuzeigen, klicken Sie auf **[!UICONTROL View]** &gt; **[!UICONTROL Assets transfers]**. Mit der Liste können Sie die Dateiübertragungen der aktuellen Sitzung anzeigen und schnell überprüfen.
+To view the list of assets transferred in a given session, click **[!UICONTROL View]**>**[!UICONTROL Assets transfers]**. Mit der Liste können Sie die Dateiübertragungen der aktuellen Sitzung anzeigen und schnell überprüfen.
 
 ![Liste der übertragenen Assets in einer bestimmten Sitzung](assets/assets_transfered_da2.png "Liste der übertragenen Assets in einer bestimmten Sitzung")
 
@@ -209,11 +208,11 @@ Klicken Sie auf die Miniaturansicht einiger Assets, um die Assets auszuwählen. 
 
 ![Keine Aktionen in der Symbolleiste, wenn keine gemeinsamen Aktionen für die Auswahl verfügbar sind](assets/actions_bottom_toolbar2_da2.png "Keine Aktionen in der Symbolleiste, wenn keine gemeinsamen Aktionen für die Auswahl verfügbar sind")
 
-Die in der Symbolleiste unten verfügbaren Aktionen hängen vom Status der ausgewählten Dateien ab. Wenn Sie beispielsweise nur Dateien mit dem Status **[!UICONTROL Edited Locally]** auswählen, wird das Symbol **[!UICONTROL Upload Changes]** angezeigt. Wenn Sie eine Mischung aus **[!UICONTROL Edited locally]** und **[!UICONTROL Cloud only]** auswählen, steht die Aktion **[!UICONTROL Upload Changes]** nicht zur Verfügung.
+Die in der Symbolleiste unten verfügbaren Aktionen hängen vom Status der ausgewählten Dateien ab. Wenn Sie beispielsweise nur Dateien mit dem Status **[!UICONTROL Edited Locally]**auswählen, wird das Symbol**[!UICONTROL Upload Changes]** angezeigt. Wenn Sie eine Mischung aus **[!UICONTROL Edited locally]**und**[!UICONTROL Cloud only]** auswählen, steht die Aktion **[!UICONTROL Upload Changes]**nicht zur Verfügung.
 
 ### Alle bearbeiteten Bilder suchen {#find-all-edited-images}
 
-Das Programm bietet eine Ansicht mit der Bezeichnung **[!UICONTROL Edited locally]**, mit der Sie schnell auf alle Dateien zugreifen können, die Sie lokal heruntergeladen haben (über die Aktionen [!UICONTROL Open] oder [!UICONTROL Edit]) und die dann geändert wurden. Mit dem Programm können Sie alle lokal bearbeiteten Assets auswählen und die Änderungen mit wenigen Klicks hochladen. In dieser Ansicht werden auch die lokal bearbeiteten Assets angezeigt, die einen Bearbeitungskonflikt haben.
+Das Programm bietet eine Ansicht mit der Bezeichnung **[!UICONTROL Edited locally]**, mit der Sie schnell auf alle Dateien zugreifen können, die Sie lokal heruntergeladen haben (über die Aktionen[!UICONTROL Open]oder[!UICONTROL Edit]) und die dann geändert wurden. Mit dem Programm können Sie alle lokal bearbeiteten Assets auswählen und die Änderungen mit wenigen Klicks hochladen. In dieser Ansicht werden auch die lokal bearbeiteten Assets angezeigt, die einen Bearbeitungskonflikt haben.
 
 ![Filtern, um alle lokal bearbeiteten Assets anzuzeigen](assets/edited_locally_filter_da2.png "Filtern, um alle lokal bearbeiteten Assets anzuzeigen, z. B. beim Massen-Upload von Bearbeitungen")
 
@@ -227,7 +226,7 @@ Wenn die erwarteten Änderungen nach dem Upload nicht im Programm übernommen we
 
 >[!NOTE]
 >
->Verwenden Sie keine Upload-Funktion, um Assets über zwei AEM-Bereitstellungen zu migrieren. Siehe stattdessen auch [Migrationshandbuch](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/assets-migration-guide.html).
+>Verwenden Sie keine Upload-Funktion, um Assets über zwei AEM-Bereitstellungen zu migrieren. Siehe stattdessen auch [Migrationshandbuch](https://helpx.adobe.com/experience-manager/6-5/assets/using/assets-migration-guide.html).
 
 ### Liste der übertragenen Assets {#list-of-transferred-assets}
 
@@ -260,7 +259,7 @@ Folgende Informationen oder Workflows können Sie nicht über die Web-Oberfläch
 * Upload lokaler Daten in AEM hoch.
 * Verschiedene Status der lokal verfügbaren Dateien.
 
-Sie können im Gegenteil das Asset in der Web-Oberfläche vom Desktop-Programm aus mit der Aktion **[!UICONTROL Open In Web]** öffnen.
+Sie können im Gegenteil das Asset in der Web-Oberfläche vom Desktop-Programm aus mit der Aktion **[!UICONTROL Open In Web]**öffnen.
 
 ## Erweiterter Worfklow: Zusammenarbeit an denselben Dateien und Vermeidung von Bearbeitungskonflikten {#adv-workflow-collaborate-avoid-conflicts}
 
@@ -274,11 +273,11 @@ In kollaborativen Umgebungen arbeiten mehrere Benutzer möglicherweise mit demse
 
 ![Status von Bearbeitungskonflikten](assets/edits_conflicts_status_da2.png "Status von Bearbeitungskonflikten")
 
-Wenn ein lokal heruntergeladenes Asset auf dem AEM-Server aktualisiert wird, zeigt das Programm den Status **[!UICONTROL Modified remotely]** an. Sie können entweder Ihre lokale Kopie entfernen oder Ihre lokale Kopie aktualisieren, indem Sie auf [!UICONTROL Remove] bzw. [!UICONTROL Update] klicken. Über Links im Dialogfeld können Sie beide Versionen des Assets anzeigen.
+Wenn ein lokal heruntergeladenes Asset auf dem AEM-Server aktualisiert wird, zeigt das Programm den Status **[!UICONTROL Modified remotely]**an. Sie können entweder Ihre lokale Kopie entfernen oder Ihre lokale Kopie aktualisieren, indem Sie auf[!UICONTROL Remove]bzw.[!UICONTROL Update]klicken. Über Links im Dialogfeld können Sie beide Versionen des Assets anzeigen.
 
 ![Optionen zum Beheben des Konflikts, wenn das Asset remote bearbeitet wird](assets/modified_remotely_dialog_da2.png "Optionen zum Beheben des Konflikts, wenn das Asset remote bearbeitet wird")
 
-Wenn ein lokal bearbeitetes Asset auch ohne Ihr Wissen auf dem Server aktualisiert wurde, zeigt das Programm den Status **[!UICONTROL Editing Conflict]** an. Sie können eine Version der Änderungen beibehalten - entweder behalten Sie Ihre Aktualisierungen bei (klicken Sie auf **[!UICONTROL Keep Mine]**) und löschen die Bearbeitung des anderen Benutzers oder sie übernehmen die Aktualisierungen des anderen Benutzers und löschen Ihre (**[!UICONTROL Overwrite Mine]**).
+Wenn ein lokal bearbeitetes Asset auch ohne Ihr Wissen auf dem Server aktualisiert wurde, zeigt das Programm den Status **[!UICONTROL Editing Conflict]**an. Sie können eine Version der Änderungen beibehalten - entweder behalten Sie Ihre Aktualisierungen bei (klicken Sie auf**[!UICONTROL Keep Mine]**) und löschen die Bearbeitung des anderen Benutzers oder sie übernehmen die Aktualisierungen des anderen Benutzers und löschen Ihre (**[!UICONTROL Overwrite Mine]**).
 
 ![Optionen zum Beheben eines Bearbeitungskonflikts](assets/editing_conflict_dialog_da2.png "Optionen zum Beheben eines Bearbeitungskonflikts")
 
@@ -296,10 +295,10 @@ Informationen zu den Einschränkungen dieses Workflows finden Sie in den [System
 
 Gehen Sie wie folgt vor, um diesen Workflow mit einem Bild-Asset und InDesign auszuprobieren:
 
-1. Halten Sie eine INDD-Datei mit platzierten Assets in AEM bereit. Informationen zum Erstellen einer solchen INDD-Datei finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/de/indesign/using/placing-graphics.html).
+1. Halten Sie eine INDD-Datei mit platzierten Assets in AEM bereit. Informationen zum Erstellen einer solchen INDD-Datei finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 1. Vom Desktop-Programm aus bearbeiten (**[!UICONTROL Edit]**) Sie die INDD-Datei mit den platzierten Assets in AEM.
 1. Das Programm lädt sowohl die InDesign-Datei als auch die verknüpften Assets herunter. Wenn InDesign das Dokument öffnet, werden die Verknüpfungen aufgelöst, Assets werden heruntergeladen und die Assets werden im InDesign-Dokument angezeigt.
-1. Wenn Sie eine neue Grafik in die InDesign-Datei einfügen möchten, verwenden Sie die Aktion **[!UICONTROL Reveal File]** für das Asset. Die Aktion lädt das Asset lokal herunter und öffnet den Speicherort für die lokale Netzwerkfreigabe in Windows Explorer oder Mac Finder.
+1. Wenn Sie eine neue Grafik in die InDesign-Datei einfügen möchten, verwenden Sie die Aktion **[!UICONTROL Reveal File]**für das Asset. Die Aktion lädt das Asset lokal herunter und öffnet den Speicherort für die lokale Netzwerkfreigabe in Windows Explorer oder Mac Finder.
 1. Platzieren Sie das angezeigte Asset im InDesign-Dokument. Dadurch wird eine Verknüpfung im Dokument erstellt.
 1. Nachdem Sie die Änderungen im InDesign-Dokument abgeschlossen haben, speichern Sie es und laden Sie es mit dem Desktop-Programm in AEM hoch.
 
