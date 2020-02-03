@@ -1,6 +1,6 @@
 ---
-title: Installieren und Konfigurieren des AEM-Desktop-Programms
-description: Installieren und konfigurieren Sie das AEM-Desktop-Programm für die Verwendung mit AEM Assets-Servern und laden Sie die Assets in Ihr lokales Dateisystem herunter.
+title: Installieren und Konfigurieren der Adobe Experience Manager Desktop-App
+description: Installieren und konfigurieren Sie die Adobe Experience Manager Desktop-App, um mit den Adobe Experience Manager Assets-Servern zu arbeiten und die Assets auf Ihr lokales Dateisystem herunterzuladen.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -9,26 +9,26 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
+source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ---
 
 
-# Installieren des AEM-Desktop-Programms {#install-app-v2}
+# Install Adobe Experience Manager desktop app {#install-app-v2}
 
-Mit der AEM-Desktop-App können die Assets in AEM auf Ihrem lokalen Desktop leicht zugänglich gemacht und in allen Desktopanwendungen verwendet werden. Assets können einfach in Mac Finder oder Windows Explorer angezeigt, in Desktopanwendungen geöffnet und lokal geändert werden. Die Änderungen werden beim Hochladen in AEM gespeichert und eine neue Version wird im Repository erstellt.
+Mit der Adobe Experience Manager-Desktop-App sind die Assets in Experience Manager auf Ihrem lokalen Desktop leicht zugänglich und können in allen Desktopanwendungen verwendet werden. Assets können einfach in Mac Finder oder Windows Explorer angezeigt, in Desktopanwendungen geöffnet und lokal geändert werden. Die Änderungen werden beim Hochladen in Experience Manager gespeichert und eine neue Version wird im Repository erstellt.
 
-Dank dieser Integration können unterschiedliche Rollen im Unternehmen die Assets in AEM Assets zentral verwalten und in Creative Cloud und in anderen Applikationen auf sie zugreifen. Gleichzeitig können diverse Standards einschließlich Branding-Vorgaben eingehalten werden.
+Durch eine solche Integration können verschiedene Rollen in der Organisation die Assets zentral in Adobe Experience Manager Assets verwalten und auf sie in der Creative Cloud und anderen Anwendungen zugreifen, während gleichzeitig die Einhaltung der verschiedenen Standards, einschließlich des Brandings, erleichtert wird.
 
-Wenn Sie das AEM-Desktop-Programm verwenden möchten,
+So verwenden Sie die Experience Manager Desktop-App
 
-* stellen Sie sicher, dass Ihre AEM-Server-Version vom AEM-Desktop-Programm unterstützt wird. Weitere Informationen finden Sie in der [Kompatibilitätsmatrix](release-notes-of-v1.md#compatibilitymatrix).
+* Stellen Sie sicher, dass Ihre Experience Manager-Serverversion von der Experience Manager-Desktop-App unterstützt wird. Weitere Informationen finden Sie in der [Kompatibilitätsmatrix](release-notes-of-v1.md#compatibilitymatrix).
 * Laden Sie das Programm herunter und installieren Sie es.
 * Testen Sie die Verbindung mithilfe einiger Assets. Siehe [Zugreifen auf und Öffnen von Assets über den Desktop](use-app-v1.md#openondesktop).
 
-## System requirements prerequisites, and download links {#tech-specs-v2}
+## Systemanforderungen, Voraussetzungen und Download-Links {#tech-specs-v2}
 
-Detaillierte Informationen finden Sie unter [AEM-Desktop-Programm – Versionshinweise](release-notes.md).
+For detailed information, see the [Experience Manager desktop app release notes](release-notes.md).
 
 ## Aktualisieren von v1.x auf v2 des Programms{#upgrade-from-previous-version}
 
