@@ -8,7 +8,7 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
 
 # Installieren und Konfigurieren des AEM-Desktop-Programms, v1.x {#install-and-configure-aem-desktop-app}
 
-Mit der AEM-Desktop-App können die Assets in AEM auf Ihrem lokalen Desktop leicht zugänglich gemacht und in allen Desktopanwendungen verwendet werden. Assets können einfach in Mac Finder oder Windows Explorer angezeigt, in Desktopanwendungen geöffnet und lokal geändert werden. Die Änderungen werden beim Hochladen in AEM gespeichert und eine neue Version wird im Repository erstellt.
+Mithilfe des AEM-Desktop-Programms haben Sie über Ihren lokalen Desktop problemlosen Zugriff auf die Assets in AEM und die Assets können in beliebigen Desktop-Applikationen verwendet werden. Assets können in Mac Finder oder Windows Explorer leicht angezeigt, in Desktop-Applikationen geöffnet und lokal geändert werden. Die Änderungen werden beim Upload dann wieder unter einer neuen, im Repository erstellten Version in AEM gespeichert.
 
 Dank dieser Integration können unterschiedliche Rollen im Unternehmen die Assets in AEM Assets zentral verwalten und in Creative Cloud und in anderen Applikationen auf sie zugreifen. Gleichzeitig können diverse Standards einschließlich Branding-Vorgaben eingehalten werden.
 
@@ -82,7 +82,7 @@ Sie können das Dialogfeld „Asset Info“ (Asset-Informationen) anpassen, inde
 
 Welche Komponente überlagert wird, hängt von der Art der Personalisierung ab. Wenn Sie die Komponenten ändern möchten, die als Teil des Dialogfelds „Asset Info“ angezeigt werden, überlagern Sie die Seite der Granite-Benutzeroberfläche. Um den HTML/CSS/Javascript-Inhalt des Dialogfelds zu ändern, überlagern Sie die HTL-Komponente.
 
-## Verwalten des Cache   {#manage-cache}
+## Verwalten des Cache    {#manage-cache}
 
 In Windows befindet sich der Cache unter `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, wo eine codierte Version des im Desktop-Programm konfigurierten AEM-Hosts gespeichert ist. Beispiel: `http://localhost:4502` wird als `http%3A%2F%2Flocalhost%3A4502%2F` angezeigt.
 
@@ -96,7 +96,7 @@ Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke z
 >
 >Wenn Sie den Cache löschen, werden nicht gespeicherte Änderungen beibehalten. Alle Assets, die nicht auf dem AEM-Server eingecheckt wurden, werden beibehalten und nicht gelöscht.
 
-### Ändern des Cache-Verzeichnisses unter Windows   {#change-location-of-cache-on-windows}
+### Ändern des Cache-Verzeichnisses unter Windows    {#change-location-of-cache-on-windows}
 
 Der Standardspeicherort des Caches für das AEM-Desktop-Programm lautet:
 
@@ -120,9 +120,9 @@ Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen,
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
-* [Einführung in das AEM-Desktop-Programm](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+* [Einführung in das AEM-Desktop-Programm](https://helpx.adobe.com/de/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
 * [Verwenden des AEM-Desktop-Programms](use-app-v1.md)
 
-* [Grundlegendes zum Ein- und Auschecken mit dem AEM-Desktop-Programm](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Verwenden des Desktop-Programms mit AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Grundlegendes zum Ein- und Auschecken mit dem AEM-Desktop-Programm](https://helpx.adobe.com/de/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Verwenden des Desktop-Programms mit AEM Assets](https://helpx.adobe.com/de/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
 * [Fehlerbehebung für das AEM-Desktop-Programm](troubleshoot-app-v1.md)
