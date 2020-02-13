@@ -1,6 +1,6 @@
 ---
-title: Versionshinweise zur Adobe Experience Manager Desktop-App
-description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für die Adobe Experience Manager-Desktop-App.
+title: Versionshinweise zum Adobe Experience Manager-Desktop-Programm
+description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das Adobe Experience Manager-Desktop-Programm.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -9,13 +9,13 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ---
 
 
-# Versionshinweise zur Adobe Experience Manager Desktop-App {#release-notes-v2}
+# Versionshinweise zum Adobe Experience Manager-Desktop-Programm {#release-notes-v2}
 
 | Produkte | Adobe Experience Manager (AEM)-Desktop-Programm |
 |---------------|--------------------------------------------------------------------|
@@ -27,40 +27,40 @@ source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ## Systemanforderungen und Voraussetzungen {#system-requirements-and-prerequisites-v2}
 
-Die Adobe Experience Manager Desktop-App ist mit den folgenden Betriebssystemen kompatibel:
+Das Adobe Experience Manager-Desktop-Programm ist mit den folgenden Betriebssystemen kompatibel:
 
 * Mac OS X 10.10 oder höher mit aktuellen Fehlerbehebungen.
 * Windows 7 und Windows 10 mit den neuesten Service Packs und Fehlerbehebungen.
 
-Die App funktioniert mit den folgenden Experience Manager-Versionen, unabhängig davon, ob diese lokal oder auf Adobe Managed Services (AMS) bereitgestellt werden:
+Das Programm kann mit den folgenden Experience Manager-Versionen verwendet werden, unabhängig davon, ob sie lokal oder über Adobe Managed Services (AMS) bereitgestellt werden:
 
-* [Experience Manager 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) oder höher
-* [Experience Manager 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) oder höher
-* Experience Manager 6.4.0 - 6.4.3 mit [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
+* [Experience Manager 6.5.0](https://helpx.adobe.com/de/experience-manager/6-5/release-notes.html) oder höher
+* [Experience Manager 6.4.4](https://helpx.adobe.com/de/experience-manager/6-4/release-notes/sp-release-notes.html) oder höher
+* Experience Manager 6.4.0 bis 6.4.3 mit [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
 >
->Die Unterstützung von Desktop-Apps für Experience Manager 6.3 ist veraltet. Adobe empfiehlt ein Upgrade auf eine neuere und unterstützte Adobe Experience Manager-Version.
->Experience Manager 6.3.3.1 or later works with desktop app after installing the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). No such package is available for Experience Manager 6.3 as no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
+>Die Unterstützung des Desktop-Programms für Experience Manager 6.3 ist veraltet. Adobe empfiehlt ein Upgrade auf eine neuere und unterstützte Adobe Experience Manager-Version.
+>Experience Manager 6.3.3.1 oder höher funktioniert mit dem Desktop-Programm, nachdem das [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installiert wurde. Für Experience Manager 6.3 ist kein solches Paket verfügbar, da keine [Service Packs geplant](https://helpx.adobe.com/de/experience-manager/maintenance-releases-roadmap.html) sind.
 
-Für die Version des AEM-Desktop-Programms, die Sie auf Ihrem lokalen Computer installieren möchten, sind eine bestimmte Server-Version von Adobe Experience Manager oder zusätzliche Server-seitige Komponenten (Service Packs, Hotfixes oder Feature Packs) erforderlich. Wenden Sie sich zwecks Hilfe an Ihren Adobe Experience Manager-Administrator.
+Für die Version des Programms, die Sie auf Ihrem lokalen Computer installieren möchten, sind eine bestimmte Server-Version von Adobe Experience Manager oder zusätzliche Server-seitige Komponenten (Service Packs, Hotfixes oder Feature Packs) erforderlich. Wenden Sie sich an Ihren Adobe Experience Manager-Administrator, um Hilfe zu erhalten.
 
 ### Unterstützung verschiedener Asset- und Dateitypen {#support-for-file-types}
 
-Die Anwendung unterstützt in Adobe Experience Manager gespeicherte Assets, die binäre Dateien für die grundlegenden Vorgänge darstellen. Das Öffnen von Dateien in der nativen Desktop-Applikation hängt von der Betriebssystemverknüpfung bestimmter Dateitypen wie PNG oder JPG mit bestimmten Applikationen wie Mac Preview oder Adobe Photoshop ab.
+Das Programm unterstützt in Adobe Experience Manager gespeicherte Assets, die Binärdateien für die grundlegenden Vorgänge darstellen. Das Öffnen von Dateien in der nativen Desktop-Applikation hängt von der Betriebssystemverknüpfung bestimmter Dateitypen wie PNG oder JPG mit bestimmten Applikationen wie Mac Preview oder Adobe Photoshop ab.
 
-Einige Dateitypen unterstützen das Platzieren von verknüpften Assets in der Binärdatei. Die Anwendung lädt die verknüpften Assets vorab herunter, wenn das Asset im Experience Manager-Repository vorhanden ist, wenn diese Binärdateien mit der Desktop-App geöffnet werden. Derzeit werden folgende Dateitypen unterstützt:
+Einige Dateitypen unterstützen das Platzieren von verknüpften Assets in der Binärdatei. Das Programm lädt die verknüpften Assets vorab herunter, sofern das Asset im Experience Manager-Repository vorhanden ist, wenn diese Binärdateien mit dem Desktop-Programm geöffnet werden. Derzeit werden folgende Dateitypen unterstützt:
 
 * Adobe InDesign-Dateien (INDD-Format)
 * Adobe Illustrator-Dateien (AI-Format)
 * Adobe Photoshop-Dateien (PS-Format)
 
-Die Funktion wird in den oben genannten Applikationen in Adobe Creative Cloud 2018 und Adobe Creative Cloud 2019 unterstützt. Die App verwendet einen heuristischen, am besten übereinstimmenden Ansatz, um die lokalen Desktop-Pfade verknüpfter Assets URLs auf dem Experience Manager-Server zuzuordnen. Er beruht auf einigen Annahmen:
+Die Funktion wird in den oben genannten Applikationen in Adobe Creative Cloud 2018 und Adobe Creative Cloud 2019 unterstützt. Das Programm verwendet einen heuristischen, Best-Match-Ansatz, um die lokalen Desktop-Pfade verknüpfter Assets URLs auf dem Experience Manager-Server zuzuordnen. Dieser Ansatz beruht auf den folgenden Annahmen:
 
 * Pfade zu platzierten Dateien in der nativen Applikation verwenden einen globalen Desktop-Pfad (platziert von der lokalen Netzwerkfreigabe mit der Option [!UICONTROL Reveal]).
 * Pfade werden von der nativen Applikation im XMP-Datensatz der Datei gespeichert.
-* Experience Manager hat den XMP-Datensatz mit den Pfaden zum Metadatensatz des Assets extrahiert.
-* Die Pfade können mit Assets in Experience Manager übereinstimmen, d. h. die platzierten Dateien befinden sich auch in Experience Manager unter einem entsprechenden Pfad).
+* Experience Manager hat den XMP-Datensatz mit den Pfaden zum Metadaten-Datensatz des Assets extrahiert.
+* Die Pfade können mit Assets in Experience Manager übereinstimmen (d. h. die platzierten Dateien befinden sich auch in Experience Manager unter einem übereinstimmenden Pfad).
 
 ## Neue Funktionen und Erweiterungen {#whats-new-added}
 
@@ -73,9 +73,9 @@ Fehlerbehebungen und Aktualisierungen in Version 2.0.1:
 
 ## Installationsanweisungen {#installation-instructions-v2}
 
-To know how to install and configure the app, see [Install Experience Manager desktop app](install-upgrade.md).
+Informationen zum Installieren und Konfigurieren des Programms finden Sie unter [Installieren des Adobe Experience Manager-Desktop-Programms](install-upgrade.md).
 
-If you are upgrading from a previous Experience Manager desktop app, you must follow these best practices for transitioning that are listed at [upgrade from previous version](install-upgrade.md#upgrade-from-previous-version).
+Wenn Sie von einer vorherigen Version des Experience Manager-Desktop-Programms aktualisieren, müssen Sie die folgenden Best Practices für die Umstellung befolgen, die unter [Upgrade von früherer Version](install-upgrade.md#upgrade-from-previous-version) aufgeführt sind.
 
 ## Wichtige Hinweise zur Funktionsweise des Programms{#how-app-works}
 
@@ -117,9 +117,9 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 
 >[!MORELIKETHIS]
 >
->* [Dokumentation zu AEM 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html)
+>* [Dokumentation zu AEM 6.5](https://helpx.adobe.com/de/support/experience-manager/6-5.html)
 >* [Dokumentation zu AEM Assets 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
->* [Verwenden der Experience Manager-Desktop-App](using.md)
+>* [Verwenden des Adobe Experience Manager-Desktop-Programms](using.md)
 >* [Installieren und Aktualisieren des Desktop-Programms](install-upgrade.md)
 >* [Best Practices und Fehlerbehebung](troubleshoot.md)
 
