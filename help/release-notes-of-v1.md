@@ -8,8 +8,8 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 75e7cbaaa23b441b5e3a6e55381cd5f548231537
+translation-type: tm+mt
+source-git-commit: f69ccbf7acaa277a7f4d07fabba2094459e4ea23
 
 ---
 
@@ -20,10 +20,10 @@ Für das AEM-Desktop-Programm v1.x sind die folgenden Download-Links und AEM-Kom
 
 | Produkte | Adobe Experience Manager (AEM)-Desktop-Programm |
 |---------------|--------------------------------------------------------------------|
-| Version | 1.10 (1.10.0.3 unter Mac und Windows) |
+| Version | 1.10 (1.10.0.6 unter Mac und 1.10.0.3 unter Windows) |
 | Typ | Nebenversion |
-| Datum | 31. August 2018 |
-| Download-URLs | [Mac OS X, 64-Bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.3.dmg); [Windows, 32-Bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe); [Windows, 64-Bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
+| Datum | 1.10.0.6 (Mac): 15. April 2020; 1.10.0.3 (Win): 31. August 2018 |
+| Download-URLs | [Mac OS X, 64-Bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.6.dmg); [Windows, 32-Bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe); [Windows, 64-Bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
 | Kompatibilität | AEM 6.5.x; AEM 6.4.x; AEM 6.3 SP2; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
@@ -46,6 +46,10 @@ Lesen Sie die Informationen in der [detaillierten Kompatibilitätsmatrix](#compa
 ## Neue Funktionen im AEM-Desktop-Programm 1.10 {#what-s-new-in-aem-desktop-app}
 
 Das AEM-Desktop-Programm 1.10 konzentriert sich auf die Verbesserung des Benutzererlebnisses rund um den Upload großer Dateien, Informationen über Hintergrundvorgänge sowie ein optimiertes Erlebnis beim Öffnen von Assets mit verlinkten Dateien (wie InDesign).
+
+>[!NOTE]
+>
+>Wenn Sie macOS 10.15.4 oder höher verwenden, verwenden Sie mindestens Version 1.10.0.6 der App. Dieses Patch Release erfüllt die [Apple-Benachrichtigungsanforderungen](https://developer.apple.com/news/?id=04102019a).
 
 **Lokales Bearbeiten/Auschecken**: Automatische Uploads gespeicherter Asset-Änderungen, die im Statusfenster deaktiviert werden können. So können Benutzer an Dateien arbeiten, die hierbei vorgenommenen Änderungen speichern und, wenn sie bereit sind, alle Änderungen hochladen.
 
@@ -106,7 +110,7 @@ Downloads
 * Wenn ein Benutzer mehrere Dateien über die AEM Assets-Web-Benutzeroberfläche öffnet oder bearbeitet, werden sie zusammen gruppiert und beispielsweise als „meinasset.jpeg und 4 weitere Datei(en)“ angezeigt
 * Beim Herunterladen von InDesign-Dokumenten mit verknüpften Assets, die in AEM Assets gespeichert sind, lädt das Desktop-Programm zunächst alle verknüpften Assets herunter, bevor das InDesign-Dokument geöffnet und der Download verknüpfter Assets beispielsweise als „(5 of 24)“ (5 von 24) angegeben wird
 
-Die Verwendung dieses Dialogfelds wird durch das Hochladen von umfangreichen Ordnerhierarchien über „Create“ &gt; „Upload Folder“ (Erstellen &gt; Ordner hochladen) in der AEM-Web-Benutzeroberfläche oder das Kopieren und Auswählen von „Paste Assets“ (Assets einfügen) in Finder/Explorer im Kontextmenü des Desktop-Programms ausgelöst:
+Die Verwendung dieses Dialogfelds wird durch das Hochladen von umfangreichen Ordnerhierarchien über „Create“ > „Upload Folder“ (Erstellen > Ordner hochladen) in der AEM-Web-Benutzeroberfläche oder das Kopieren und Auswählen von „Paste Assets“ (Assets einfügen) in Finder/Explorer im Kontextmenü des Desktop-Programms ausgelöst:
 
 * Zeigt aktive Uploads an, einschließlich eines Fortschrittsbalkens und des Namens der momentan übertragenen Datei
 * Aktive Uploads beinhalten ein Symbol, über das der Upload per Klick abgebrochen wird. Die Übertragung endet, nachdem die aktuelle Dateiübertragung abgeschlossen ist
@@ -133,7 +137,7 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 * Netzwerk:
    * Beim Ablauf einer AEM-Sitzung wird der Benutzer entsprechend benachrichtigt und er kann auf die Benachrichtigung klicken, um sich erneut anzumelden (CQ-4202028)
    * (Mac) Neue Unterstützung zum Verbinden mit AEM über eine .pac-Proxy-Konfiguration (CQ-4233430)
-   * (Win) Behebung von Problemen mit dem Dialogfeld „Advanced“ &gt; „Login URL“ (Erweitert &gt; Anmelde-URL) (CQ-4236061)
+   * (Win) Behebung von Problemen mit dem Dialogfeld „Advanced“ > „Login URL“ (Erweitert > Anmelde-URL) (CQ-4236061)
 * Fehlerbehebungen:
    * Dialogfeld „More Assets Info“ (Weitere Asset-Informationen): mitunter war die Aktionsleiste nicht sichtbar (CQ-4208540)
    * (Win) Dateien können nun synchronisiert werden, nachdem sie in der AEM Assets-Benutzeroberfläche auf eine ältere Version zurückgesetzt wurden (CQ-4216411)
@@ -225,7 +229,7 @@ Diese beiden Fälle treten erwartungsgemäß ein. Sie sind auf die „Delayed Sy
 
 ### Seit Einführung von AEM-Desktop-Programm 1.4 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-14}
 
-* Vereinfachter Upload hierarchischer Ordner über die neue Aktion „Erstellen“ &gt; „Ordner hochladen“ in der Touch-optimierten Benutzeroberfläche
+* Vereinfachter Upload hierarchischer Ordner über die neue Aktion „Erstellen“ > „Ordner hochladen“ in der Touch-optimierten Benutzeroberfläche
    * Die Aktion löst einen Ordner-Upload-Vorgang aus, der vom Desktop-Programm ausgeführt wird.
    * Das Desktop-Programm durchläuft die jeweilige Ordnerhierarchie auf dem Desktop im Hintergrund und lädt die Dateien in AEM Assets hoch.
    * Der Benutzer kann den Fortschritt im neuen Fenster für den Upload-Warteschlangen-Status mithilfe des Fortschrittsbalkens für nicht abgeschlossene Vorgänge überwachen.
