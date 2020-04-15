@@ -9,21 +9,21 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+translation-type: tm+mt
+source-git-commit: aca68b0c2eb363e33c8a6edec2370758124a4b9e
 
 ---
 
 
 # Versionshinweise zum Adobe Experience Manager-Desktop-Programm {#release-notes-v2}
 
-| Produkte | Adobe Experience Manager (AEM)-Desktop-Programm |
-|---------------|--------------------------------------------------------------------|
-| Programm-Version (Revision) | 2.0 (2.0.1.1) |
-| Unterstützte AEM-Versionen | AEM 6.5, AEM 6.4, AEM 6.3 (mit Kompatibilitätspaket) |
+| Produkte | Adobe Experience Manager-Desktop-Programm |
+|----|----|
+| Programm-Version (Revision) | 2.0 (2.0.2.0) |
+| Unterstützte AEM-Versionen | AEM als Cloud-Dienst; AEM 6.5; AEM 6.4; AEM 6.3 (mit Kompatibilitätspaket) |
 | Typ | Nebenversion |
-| Veröffentlichungsdatum | 12. Dezember 2019 (Mac und Win) |
-| Download-URLs | [MacOS (64-Bit)](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.1.1.dmg); [Windows (64-Bit)](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.1.1.exe); [Windows (32-Bit)](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.1.1.exe) |
+| Veröffentlichungsdatum | 15.04.2020 (Mac und Win) |
+| Download-URLs | [macOS 64-Bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.2.0.dmg); [Windows 64-Bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.2.0.exe); 32-Bit- [Windows](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.2.0.exe) |
 
 ## Systemanforderungen und Voraussetzungen {#system-requirements-and-prerequisites-v2}
 
@@ -32,10 +32,11 @@ Das Adobe Experience Manager-Desktop-Programm ist mit den folgenden Betriebssy
 * Mac OS X 10.10 oder höher mit aktuellen Fehlerbehebungen.
 * Windows 7 und Windows 10 mit den neuesten Service Packs und Fehlerbehebungen.
 
-Das Programm kann mit den folgenden Experience Manager-Versionen verwendet werden, unabhängig davon, ob sie lokal oder über Adobe Managed Services (AMS) bereitgestellt werden:
+Die App funktioniert mit den folgenden Experience Manager-Versionen, unabhängig davon, ob sie als Cloud-Dienst, auf Adobe Managed Services (AMS) oder lokal bereitgestellt werden:
 
-* [Experience Manager 6.5.0](https://helpx.adobe.com/de/experience-manager/6-5/release-notes.html) oder höher
-* [Experience Manager 6.4.4](https://helpx.adobe.com/de/experience-manager/6-4/release-notes/sp-release-notes.html) oder höher
+* [Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/home.html)
+* [Experience Manager 6.5.0+](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html) oder höher
+* [Experience Manager 6.4.4+](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) oder höher
 * Experience Manager 6.4.0 bis 6.4.3 mit [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
@@ -60,13 +61,25 @@ Die Funktion wird in den oben genannten Applikationen in Adobe Creative Cloud 20
 * Pfade zu platzierten Dateien in der nativen Applikation verwenden einen globalen Desktop-Pfad (platziert von der lokalen Netzwerkfreigabe mit der Option [!UICONTROL Reveal]).
 * Pfade werden von der nativen Applikation im XMP-Datensatz der Datei gespeichert.
 * Experience Manager hat den XMP-Datensatz mit den Pfaden zum Metadaten-Datensatz des Assets extrahiert.
-* Die Pfade können mit Assets in Experience Manager übereinstimmen (d. h. die platzierten Dateien befinden sich auch in Experience Manager unter einem übereinstimmenden Pfad).
+* Die Pfade können mit Assets in Experience Manager übereinstimmen (d. h. die platzierten Dateien befinden sich auch in Experience Manager unter einem übereinstimmenden Pfad.
 
 ## Neue Funktionen und Erweiterungen {#whats-new-added}
 
 Weitere Informationen finden Sie unter [Neue Funktionen in v2](introduction.md#whats-new-v2).
 
-Fehlerbehebungen und Aktualisierungen in Version 2.0.1:
+**Aktualisierungen in App Version 2.0.2**
+
+Die folgenden Fehlerbehebungen und Aktualisierungen sind verfügbar:
+
+* Erhöhen Sie zur Verbesserung der Upload-Leistung die Upload-Beschleunigung in [!UICONTROL Preferences]. Wenn diese Einstellung aktiviert ist, verwendet die App mehr lokale CPU-Threads und ist ressourcenintensiver.
+* Problem mit Assets-Uploads behoben, wenn Dateinamen oder Pfade bestimmte GB18030-Zeichen enthalten. <!-- CQ-4283494 -->
+* Die Option Nach Relevanz sortieren ist verfügbar, nachdem in den Suchergebnissen zu einem anderen Sortiertyp gewechselt wurde. <!-- CQ-4286874 -->
+* Die Desktop-App Liste jetzt Unterordner, ohne dass eine explizite Aktualisierung erforderlich ist. <!-- CQ-4285711 -->
+* (Windows) Es wurde ein seltener Fehler bei der nicht verwendbaren App-Schnittstelle auf einigen Windows-Computern behoben. Benutzer können nicht auf die App-Oberfläche klicken, da sie mit dem Clickbereich von Oberflächenelementen verzerrt angezeigt wird, wenn sie &quot;seitlich&quot;verschoben werden. <!-- CQ-4280785 -->
+
+**Aktualisierungen in App Version 2.0.1**
+
+Die folgenden Fehlerbehebungen und Aktualisierungen sind verfügbar:
 
 * Option zum Konfigurieren des Verzeichnisses `%Temp%` entsprechend dem Pfad `%APPDATA%`. <!-- CQ-4282665 -->
 * Benutzer können sich über die Okta-SAML-Authentifizierung bei der AEM-Autorenistanz anmelden. <!-- CQ-4278134 -->
@@ -117,8 +130,8 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 
 >[!MORELIKETHIS]
 >
->* [Dokumentation zu AEM 6.5](https://helpx.adobe.com/de/support/experience-manager/6-5.html)
->* [Dokumentation zu AEM Assets 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
+>* [Dokumentation zu AEM als Cloud-Dienst](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html)
+>* [Dokumentation zu AEM als Cloud-Dienst-Assets](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/home.html)
 >* [Verwenden des Adobe Experience Manager-Desktop-Programms](using.md)
 >* [Installieren und Aktualisieren des Desktop-Programms](install-upgrade.md)
 >* [Best Practices und Fehlerbehebung](troubleshoot.md)
