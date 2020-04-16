@@ -6,8 +6,8 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: e706fe5fe148deff519cadc72b724572f11ddf3c
+translation-type: tm+mt
+source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
 
 ---
 
@@ -184,6 +184,8 @@ Sie können Ordner oder einzelne Dateien aus Ihrem lokalen Dateisystem hochladen
 Um die Liste der in einer bestimmten Sitzung übertragenen Assets anzuzeigen, klicken Sie auf **[!UICONTROL View]** > **[!UICONTROL Assets transfers]**. Mit der Liste können Sie die Dateiübertragungen der aktuellen Sitzung anzeigen und schnell überprüfen.
 
 ![Liste der übertragenen Assets in einer bestimmten Sitzung](assets/assets_transfered_da2.png "Liste der übertragenen Assets in einer bestimmten Sitzung")
+
+Sie können die Upload-Parallelität (Beschleunigung) unter **[!UICONTROL Preferences]** > **[!UICONTROL Upload acceleration]** -Einstellung steuern. Mehr Parallelität führt in der Regel zu schnelleren Uploads, kann aber ressourcenintensiv sein und mehr Verarbeitungsleistung des lokalen Computers verbrauchen. Wenn Sie ein langsames System verwenden, versuchen Sie es erneut mit einem geringeren Wert für Gleichzeitigkeit.
 
 >[!NOTE]
 >
