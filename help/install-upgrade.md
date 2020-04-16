@@ -8,23 +8,26 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+translation-type: tm+mt
+source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
 
 ---
 
 
 # Installieren des Adobe Experience Manager-Desktop-Programms {#install-app-v2}
 
-Mithilfe des Adobe Experience Manager-Desktop-Programms können Sie über Ihren lokalen Desktop problemlos auf die Assets in Experience Manager zugreifen und diese in beliebigen Desktop-Applikationen verwenden. Assets können in Mac Finder oder Windows Explorer leicht angezeigt, in Desktop-Applikationen geöffnet und lokal geändert werden. Die Änderungen werden beim Upload dann wieder unter einer neuen, im Repository erstellten Version in Experience Manager gespeichert.
+Mit der Adobe Experience Manager-Desktop-App sind die Assets in Experience Manager einfach auf Ihrem lokalen Desktop verfügbar und können in allen nativen Desktop-Anwendungen verwendet werden. Assets können in der Vorschau angezeigt, in nativen Desktop-Anwendungen geöffnet, in Mac Finder oder Windows Explorer zur Platzierung in anderen Dokumenten angezeigt und lokal geändert werden. Die Änderungen werden beim Hochladen in Experience Manager gespeichert und eine neue Version wird im Repository erstellt.
 
-Dank dieser Integration können unterschiedliche Rollen in der Organisation die Assets in Adobe Experience Manager Assets zentral verwalten und in Creative Cloud und anderen Applikationen darauf zugreifen. Gleichzeitig können diverse Standards einschließlich Branding-Vorgaben leichter eingehalten werden.
+Eine solche Integration ermöglicht es verschiedenen Rollen in der Organisation,
+
+* Verwalten Sie die Assets zentral in Experience Manager Assets.
+* Greifen Sie auf die Assets in allen nativen Desktop-Anwendungen zu, einschließlich Anwendungen von Drittanbietern und in der Adobe Creative Cloud. Dabei können die Benutzer die verschiedenen Standards, einschließlich des Branding, problemlos einhalten.
 
 Stellen Sie zur Verwendung des Experience Manager-Desktop-Programms sicher,
 
-* dass Ihre Server-Version von Experience Manager vom Experience Manager-Desktop-Programm unterstützt wird. Weitere Informationen finden Sie in der [Kompatibilitätsmatrix](release-notes-of-v1.md#compatibilitymatrix).
-* Laden Sie das Programm herunter und installieren Sie es.
-* Testen Sie die Verbindung mithilfe einiger Assets. Siehe [Zugreifen auf und Öffnen von Assets über den Desktop](use-app-v1.md#openondesktop).
+* Stellen Sie sicher, dass Ihre Experience Manager-Version von der Experience Manager-Desktop-App unterstützt wird. Siehe die [Systemanforderungen](release-notes.md#system-requirements-and-prerequisites-v2) unten.
+* Laden Sie das Programm herunter und installieren Sie es. Siehe [Installieren der Desktop-App](#install-v2) unten.
+* Testen Sie die Verbindung mithilfe einiger Assets. Erfahren Sie, [wie Sie Assets](using.md#browse-search-preview-assets)durchsuchen und suchen.
 
 ## Systemanforderungen, Voraussetzungen und Download-Links {#tech-specs-v2}
 
@@ -32,7 +35,7 @@ Detaillierte Informationen finden Sie unter [Versionshinweise zum Adobe Experie
 
 ## Aktualisieren von v1.x auf v2 des Programms{#upgrade-from-previous-version}
 
-Wenn Sie bereits Benutzer des Programms sind, sollten Sie die Unterschiede und Ähnlichkeiten zwischen der vorherigen und der neuesten Version des Programms kennen. Befolgen Sie außerdem die folgenden Richtlinien, um von v1.x zur neuesten Version zu wechseln.
+Wenn Sie bereits Benutzer des Programms sind, sollten Sie die Unterschiede und Ähnlichkeiten zwischen der vorherigen und der neuesten Version des Programms kennen. Befolgen Sie außerdem die folgenden Richtlinien, um von Version 1.x zur neuesten Transition zu wechseln.
 
 >[!NOTE]
 >
@@ -49,11 +52,11 @@ Gehen Sie wie folgt vor, um von v1.x auf die neueste Version des Programms zu ak
 
 Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren Sie ein eventuell vorhandenes Adobe Experience Manager-Desktop-Programm v1.x, bevor Sie die neueste Version des Programms installieren. Weitere Informationen finden Sie oben.
 
-1. Halten Sie die URL und die Anmeldeinformationen Ihrer AEM-Bereitstellung bereit.
-1. Überspringen Sie diesen Schritt, wenn Sie AEM 6.4.4 oder höher oder AEM 6.5.0 oder höher verwenden. Stellen Sie sicher, dass Ihr AEM-Setup die in den Versionshinweisen erwähnten Kompatibilitätsanforderungen erfüllt. Laden Sie bei Bedarf das entsprechende [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) herunter und installieren Sie es mit AEM Package Manager als AEM-Administrator. Weitere Informationen zur Installation eines Pakets finden Sie unter [Arbeiten mit Paketen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/package-manager.html).
+1. Halten Sie die URL und die Anmeldeinformationen Ihrer Experience Manager-Bereitstellung bereit.
+1. Überspringen Sie diesen Schritt, wenn Sie Experience Manager als Cloud-Dienst, Experience Manager 6.4.4 oder höher oder Experience Manager 6.5.0 oder höher verwenden. Ensure that your Experience Manager setup meets the compatibility requirements mentioned in the [release notes](release-notes.md). If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the Experience Manager Package Manager as an Experience Manager administrator. Weitere Informationen zur Installation eines Pakets finden Sie unter [Arbeiten mit Paketen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/package-manager.html).
 1. Führen Sie die Binärdatei des Installationsprogramms aus und befolgen Sie die Anweisungen auf dem Bildschirm, um die Installation durchzuführen.
 1. Unter Windows werden Sie vom Installationsprogramm möglicherweise zur Installation von `Visual Studio C++ Redistributable 2015` aufgefordert. Folgen Sie den Anweisungen auf dem Bildschirm, um es zu installieren. Wenn die Installation fehlschlägt, installieren Sie es manuell. Laden Sie das Installationsprogramm [hier](https://www.microsoft.com/de-de/download/details.aspx?id=52685) herunter und installieren Sie die Dateien `vc_redist.x64.exe` und `vc_redist.x86.exe`. Führen Sie das Installationsprogramm für das AEM-Desktop-Programm erneut aus.
-1. Starten Sie den Computer nach Aufforderung neu. Starten Sie das Desktop-Programm, um sie zu konfigurieren.
+1. Starten Sie den Computer nach Aufforderung neu. Starten und konfigurieren Sie die Desktop-App.
 1. Um das Programm mit einem AEM-Repository zu verbinden, klicken Sie auf das Programmsymbol in der Ablage, um das Programm zu starten. Geben Sie die Adresse der AEM-Instanz ein. Klicken Sie auf **[!UICONTROL Connect]** und geben Sie die Anmeldeinformationen ein.
 
    ![Verbindungsbildschirm des Desktop-Programms zur Eingabe der Server-Adresse](assets/connect_da2.png "Verbindungsbildschirm zur Eingabe der Server-Adresse")
@@ -66,7 +69,7 @@ Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren
 
    ![Bei Anmeldung zeigt das Programm den DAM-Inhalt an](assets/firstview_da2.png "Bei Anmeldung zeigt das Programm den DAM-Inhalt an")
 
-1. (AEM 6.5.1 oder höher) Wenn Sie das Desktop-Programm mit AEM 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Siehe [Azure-Connector](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/data-store-config.html#AzureDataStore) oder [S3-Connector](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/data-store-config.html#AmazonS3DataStore).
+1. (Experience Manager 6.5.1 oder höher) Wenn Sie eine Desktop-App mit Experience Manager 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azurblase-Connector auf Version 1.10.4 oder höher. Siehe [Azure-Connector](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/data-store-config.html#AzureDataStore) oder [S3-Connector](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/data-store-config.html#AmazonS3DataStore).
 
    Wenn Sie Adobe Managed Services (AMS)-Kunde sind, wenden Sie sich an den Adobe-Kundendienst.
 
@@ -82,6 +85,7 @@ Um die Voreinstellungen zu ändern, klicken Sie auf das Symbol ![Weitere Optione
 * **[!UICONTROL Current cache size]**: Speichergröße der lokal heruntergeladenen Assets. Die Informationen werden erst angezeigt, nachdem Assets mit dem Programm heruntergeladen wurden.
 * **[!UICONTROL Automatically download linked assets]**: Die Assets, die in den unterstützten nativen Creative Cloud-Applikationen platziert wurden, werden automatisch abgerufen, wenn Sie die Originaldatei herunterladen.
 * **[!UICONTROL Maximum number of downloads]**: Beim erstmaligen Herunterladen von Assets (über die Option „Anzeigen“, „Öffnen“, „Bearbeiten“, „Herunterladen“ usw.) werden die Assets nur heruntergeladen, wenn der Stapel weniger als diese Zahl enthält. Der Standardwert ist 50. Ändern Sie sie nicht, wenn Sie sich nicht sicher sind. Eine Erhöhung des Werts kann zu längeren Wartezeiten führen und eine Verringerung des Werts verhindert womöglich, dass Sie die erforderlichen Assets oder Ordner in einem Schritt herunterladen können.
+* **[!UICONTROL Upload Acceleration]**: Beim Hochladen von Assets kann die Anwendung gleichzeitige Uploads verwenden, um die Upload-Geschwindigkeit zu verbessern. Sie können die Gleichzeitigkeit des Uploads erhöhen, indem Sie den Schieberegler nach rechts verschieben. Der Schieberegler ganz links bedeutet keine Parallelität (Upload mit nur einem Thread), die mittlere Position entspricht 10 parallelen Threads, und die maximale Grenze auf der rechten Seite entspricht 20 parallelen Threads. Eine höhere Parallelitätsgrenze erfordert einen höheren Ressourcenverbrauch des lokalen Prozessors.
 
 Um die nicht verfügbaren Voreinstellungen zu aktualisieren, melden Sie sich beim AEM-Server ab. Nachdem Sie die Voreinstellungen aktualisiert haben, klicken Sie auf ![Voreinstellungen speichern](assets/do-not-localize/save_preferences_da2.png), um die Änderungen zu speichern.
 
