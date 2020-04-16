@@ -8,8 +8,8 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+translation-type: tm+mt
+source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
 
 ---
 
@@ -56,15 +56,15 @@ Zur Fehlerbehebung können Sie den Debug-Modus aktivieren und weitere Informatio
 
 ### Speicherort der Protokolldateien {#check-log-files-v2}
 
-Die Protokolldateien für das AEM-Desktop-Programm finden Sie in den folgenden Verzeichnissen. Wenn beim Hochladen vieler Assets einige Dateien nicht hochgeladen werden können, finden Sie Informationen zu den fehlgeschlagenen Uploads in der Datei `backend.log` im oben genannten Verzeichnis.
+Die Protokolldateien für das AEM-Desktop-Programm finden Sie in den folgenden Verzeichnissen. When uploading many assets, if some files fail to upload, see `backend.log` file to identify the failed uploads.
 
-* Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+* Pfad unter Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
-* Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+* Pfad auf Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 >[!NOTE]
 >
->Wenn Sie mit dem Adobe-Kundendienst an einer Support-Anfrage/einem Ticket arbeiten, werden Sie möglicherweise aufgefordert, die Protokolldateien freizugeben, damit das Supportteam das Problem verstehen kann. Archivieren Sie den gesamten Ordner `Logs` und geben Sie ihn für die Kundenunterstützung frei.
+>Wenn Sie mit dem Adobe-Kundendienst an einer Supportanfrage/einem Ticket arbeiten, werden Sie möglicherweise aufgefordert, die Protokolldateien freizugeben, damit das Kundendienstteam das Problem verstehen kann. Archive the entire `Logs` folder and share it with your Customer Care contact.
 
 ### Löschen des Cache {#clear-cache-v2}
 
