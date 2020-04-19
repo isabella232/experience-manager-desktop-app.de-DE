@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
+source-git-commit: 9ae1580475569538838c58f642a7df43f2526d16
 
 ---
 
@@ -48,11 +48,25 @@ Um Probleme mit dem Desktop-Programm zu beheben, beachten Sie die folgenden Info
 
 ### Aktivieren des Debugging-Modus {#enable-debug-mode}
 
-Zur Fehlerbehebung können Sie den Debug-Modus aktivieren und weitere Informationen in den Protokollen abrufen. Um das Prorgamm im Debug-Modus auszuführen, verwenden Sie die folgenden Befehlszeilenoptionen in einem Terminal oder in der Eingabeaufforderung.
+Zur Fehlerbehebung können Sie den Debug-Modus aktivieren und weitere Informationen in den Protokollen abrufen. To use the app in debug mode on Mac, use the following command line options in a terminal or at the command prompt: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
 
-* Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
+Gehen Sie wie folgt vor, um den Debug-Modus unter Windows zu aktivieren:
 
-* Mac: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
+1. Suchen Sie die `Adobe Experience Manager Desktop.exe.config` Datei im Installationsordner der Desktop-App. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`. Speichern und schließen Sie die Datei.
+
+1. Suchen Sie nach `<level value="INFO"/>` dem Dateiende. Ändern Sie den Wert in `DEBUG`, das heißt, `<level value="DEBUG"/>`.
+
+1. Suchen Sie die `logging.json` Datei im Installationsordner der Desktop-App. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
+
+1. Suchen Sie in der `logging.json` Datei alle Instanzen des `level` Parameters. Ändern Sie die Werte von `info` in `debug`. Speichern und schließen Sie die Datei.
+
+1. Löschen Sie die zwischengespeicherten Ordner, die sich an dem in den App-Voreinstellungen festgelegten Speicherort befinden.
+
+1. Starten Sie die Desktop-App neu.
+
+<!-- The Windows command doesn't work for now.
+* On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
+-->
 
 ### Speicherort der Protokolldateien {#check-log-files-v2}
 
