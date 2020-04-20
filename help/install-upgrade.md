@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
+source-git-commit: 0301538b5cc00a187709b484bed8f0ca7b799f03
 
 ---
 
@@ -33,26 +33,28 @@ Stellen Sie zur Verwendung des Experience Manager-Desktop-Programms sicher,
 
 Detaillierte Informationen finden Sie unter [Versionshinweise zum Adobe Experience Manager-Desktop-Programm](release-notes.md).
 
-## Aktualisieren von v1.x auf v2 des Programms{#upgrade-from-previous-version}
+## Upgrade from a previous version {#upgrade-from-previous-version}
 
-Wenn Sie bereits Benutzer des Programms sind, sollten Sie die Unterschiede und Ähnlichkeiten zwischen der vorherigen und der neuesten Version des Programms kennen. Befolgen Sie außerdem die folgenden Richtlinien, um von Version 1.x zur neuesten Transition zu wechseln.
+Wenn Sie Benutzer der Version 1.x der Desktop-App sind, sollten Sie die Unterschiede und Ähnlichkeiten zwischen der vorherigen und der neuesten Version der App kennen. [Neue Funktionen in der Desktop-App](introduction.md#whats-new-v2) und [Funktionsweise der App](release-notes.md#how-app-works)
 
 >[!NOTE]
 >
->Die Versionen 1.x und 2.x des Desktop-Programms können nicht gleichzeitig auf einem Computer installiert sein. Deinstallieren Sie vor der Installation einer Version die andere Version.
+>Zwei Versionen der Desktop-App können auf einem Computer nicht nebeneinander bestehen. Deinstallieren Sie vor der Installation einer Version die andere Version.
 
-Gehen Sie wie folgt vor, um von v1.x auf die neueste Version des Programms zu aktualisieren:
+Gehen Sie wie folgt vor, um eine Aktualisierung von einer früheren Version der App durchzuführen:
 
-1. Synchronisieren Sie vor dem Upgrade alle Assets. Laden Sie alle Änderungen mit v1.x des Programms hoch. Dadurch soll vermieden werden, dass Änderungen beim Deinstallieren von v1.x des Programms verloren gehen.
-1. Deinstallieren Sie v1.x des Programms. Löschen Sie bei der Deinstallation von v1.x den Cache.
+1. Synchronisieren Sie vor dem Upgrade alle Assets und laden Sie Ihre Änderungen in Experience Manager hoch. Dadurch soll vermieden werden, dass Änderungen beim Deinstallieren der App verloren gehen.
+1. Deinstallieren Sie die vorherige Version der App. Wählen Sie bei der Deinstallation die Option zum Löschen des Cache.
 1. Starten Sie den Computer neu.
-1. Laden Sie die neueste Version des Programms herunter und installieren Sie sie. Befolgen Sie die unten stehenden Anweisungen.
+1. [Laden Sie die neueste Version des Programms herunter und installieren Sie sie.](release-notes.md)[](#install-v2) Befolgen Sie die unten stehenden Anweisungen.
 
 ## Installieren {#install-v2}
 
 Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren Sie ein eventuell vorhandenes Adobe Experience Manager-Desktop-Programm v1.x, bevor Sie die neueste Version des Programms installieren. Weitere Informationen finden Sie oben.
 
+1. Laden Sie das neueste Installationsprogramm von der Seite mit den [Versionshinweisen](release-notes.md) herunter.
 1. Halten Sie die URL und die Anmeldeinformationen Ihrer Experience Manager-Bereitstellung bereit.
+1. Wenn Sie ein Upgrade von einer anderen Version der App durchführen, finden Sie weitere Informationen unter [Aktualisieren der Desktop-App](#upgrade-from-previous-version).
 1. Überspringen Sie diesen Schritt, wenn Sie Experience Manager als Cloud-Dienst, Experience Manager 6.4.4 oder höher oder Experience Manager 6.5.0 oder höher verwenden. Ensure that your Experience Manager setup meets the compatibility requirements mentioned in the [release notes](release-notes.md). If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the Experience Manager Package Manager as an Experience Manager administrator. Weitere Informationen zur Installation eines Pakets finden Sie unter [Arbeiten mit Paketen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/package-manager.html).
 1. Führen Sie die Binärdatei des Installationsprogramms aus und befolgen Sie die Anweisungen auf dem Bildschirm, um die Installation durchzuführen.
 1. Unter Windows werden Sie vom Installationsprogramm möglicherweise zur Installation von `Visual Studio C++ Redistributable 2015` aufgefordert. Folgen Sie den Anweisungen auf dem Bildschirm, um es zu installieren. Wenn die Installation fehlschlägt, installieren Sie es manuell. Laden Sie das Installationsprogramm [hier](https://www.microsoft.com/de-de/download/details.aspx?id=52685) herunter und installieren Sie die Dateien `vc_redist.x64.exe` und `vc_redist.x86.exe`. Führen Sie das Installationsprogramm für das AEM-Desktop-Programm erneut aus.
