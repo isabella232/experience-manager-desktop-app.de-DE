@@ -8,7 +8,7 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ea381cc88b5382288b2479d26e976dc7289b88
 
 ---
@@ -49,7 +49,7 @@ Das AEM-Desktop-Programm 1.10 konzentriert sich auf die Verbesserung des Benutz
 
 >[!NOTE]
 >
->Wenn Sie macOS 10.15.4 oder höher verwenden, verwenden Sie mindestens Version 1.10.0.6 der App. Dieses Patch Release erfüllt die [Apple-Benachrichtigungsanforderungen](https://developer.apple.com/news/?id=04102019a).
+>Wenn Sie macOS 10.15.4 oder höher verwenden, verwenden Sie mindestens Version 1.10.0.6 des Programms. Diese Patch-Version erfüllt die [Apple-Benachrichtigungsanforderungen](https://developer.apple.com/news/?id=04102019a).
 
 **Lokales Bearbeiten/Auschecken**: Automatische Uploads gespeicherter Asset-Änderungen, die im Statusfenster deaktiviert werden können. So können Benutzer an Dateien arbeiten, die hierbei vorgenommenen Änderungen speichern und, wenn sie bereit sind, alle Änderungen hochladen.
 
@@ -251,7 +251,7 @@ Diese beiden Fälle treten erwartungsgemäß ein. Sie sind auf die „Delayed Sy
 * Besseres Handling von Desktop-Applikationen, die Zwischenvorgänge zum Speichern von Dateien verwenden (partielles Speichern und temporäre Dateien). Dadurch können in der AEM Assets-Timeline korrekte Versions- und Asset-Upload-Informationen angezeigt werden.
 * Dialogfeld zur Nachverfolgung des Status von im Hintergrund ausgeführten Upload-Aufgaben.
 
-## Liste der Änderungen   {#list-of-changes}
+## Liste der Änderungen     {#list-of-changes}
 
 ### Bereitstellungspunkt für Mac {#mount-point-on-mac}
 
@@ -301,7 +301,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 
 **CA-signierte SSL-Zertifikate verwenden.** Beachten Sie, dass das AEM-Desktop-Programm beim Herstellen einer sicheren HTTPS-Verbindung zu AEM keine selbstsignierten SSL-Zertifikate unterstützt. Für derartige Verbindungen ist ein CA-signiertes Zertifikat auf dem Server erforderlich. (CQ-87941)
 
-## Bekannte Probleme   {#known-issues}
+## Bekannte Probleme     {#known-issues}
 
 * Allgemein:
    * Es werden Server-URLs benötigt, um ohne Pfad auf den Server zu verweisen (z. B. `http://server`, `https://server`, `http://server:port` oder `https://server:port`). Außer „/content/dam“ werden keine anderen Kontextpfade und Unterordner unterstützt (CQ-89343, CQ-87272).
@@ -311,7 +311,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
    * Assets mit internationalen Namen erscheinen und verschwinden möglicherweise alle paar Sekunden.
 * Funktionen für das Ein- und Auschecken:
    * Ein von einem Benutzer ausgechecktes Asset kann nicht von einem anderen Benutzer geöffnet werden, weder über die Aktion „Öffnen“ in der Touch-optimierten Benutzeroberfläche noch direkt auf dem Desktop. Einige Applikationen melden möglicherweise, dass das Asset gesperrt oder beschädigt ist bzw. nicht reagiert, wenn versucht wird, das Asset zu öffnen. (CQ-4199234)
-   * Das gleichzeitige Ändern von Dateien durch mehrere Benutzer kann dazu führen, dass einige Änderungen verloren gehen. Als Problemumgehung können Sie die Funktion zum    Einchecken/Auschecken verwenden, um zu verhindern, dass mehrere Benutzer Änderungen an derselben Datei vornehmen (CQ-97035).
+   * Das gleichzeitige Ändern von Dateien durch mehrere Benutzer kann dazu führen, dass einige Änderungen verloren gehen. Als Problemumgehung können Sie die Funktion zum        Einchecken/Auschecken verwenden, um zu verhindern, dass mehrere Benutzer Änderungen an derselben Datei vornehmen (CQ-97035).
    * Bestimmte Applikationen unterstützen die Schreibschutzkennzeichnung nicht ordnungsgemäß. Dies ermöglicht es Benutzern, eine Datei zu speichern, die von einem anderen Benutzer ausgecheckt wurde. Die geänderte Datei wird erst dann übertragen, wenn der andere Benutzer die Datei wieder eincheckt. Die Änderungen der beiden Benutzer werden in AEM in zwei verschiedenen Versionen des Assets gespeichert (CQ-89551, CQ-87572, CQ-89615).
    * Der Ausgecheckt- und der Schreibschutzstatus werden unabhängig voneinander im Finder gemeldet. Dies führt zur Anzeige von zwei Schlosssymbolen, wenn ein Benutzer ein Asset auscheckt (CQ-89507).
 * Finder-Integration:
