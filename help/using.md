@@ -6,7 +6,7 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
 
 ---
@@ -185,7 +185,7 @@ Um die Liste der in einer bestimmten Sitzung übertragenen Assets anzuzeigen, kl
 
 ![Liste der übertragenen Assets in einer bestimmten Sitzung](assets/assets_transfered_da2.png "Liste der übertragenen Assets in einer bestimmten Sitzung")
 
-Sie können die Upload-Parallelität (Beschleunigung) unter **[!UICONTROL Preferences]** > **[!UICONTROL Upload acceleration]** -Einstellung steuern. Mehr Parallelität führt in der Regel zu schnelleren Uploads, kann aber ressourcenintensiv sein und mehr Verarbeitungsleistung des lokalen Computers verbrauchen. Wenn Sie ein langsames System verwenden, versuchen Sie es erneut mit einem geringeren Wert für Gleichzeitigkeit.
+Sie können die gleichzeitigen Uploads (Beschleunigung) mit der Einstellung **[!UICONTROL Preferences]** > **[!UICONTROL Upload acceleration]** steuern. Mehr gleichzeitige Uploads führen zu einer Beschleunigung des Upload-Vorgangs, können jedoch ressourcenintensiv sein und den Prozessor des lokalen Computers stärker auslasten. Wenn Ihr System nur langsam reagiert, starten Sie den Upload-Vorgang mit einer geringeren Anzahl gleichzeitiger Uploads neu.
 
 >[!NOTE]
 >
