@@ -8,8 +8,8 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
+translation-type: tm+mt
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -90,7 +90,7 @@ Unter Mac OS X befindet sich unter `~/Library/Group Containers/group.com.adobe.a
 
 ### Option zum Verwalten des Cache im Programm {#in-app-option-to-manage-cache}
 
-Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke zur Verfügung gestellt wird. Die Artefakte vom AEM Assets-Server werden für ein reibungsloseres Erlebnis lokal zwischengespeichert. Sie können die Standardeinstellungen Ihren Anforderungen entsprechend anpassen. Außerdem können Sie den Cache löschen, um alle Assets erneut abzurufen. Klicken Sie zum Festlegen der gewünschten Optionen auf das Symbol des Programms und klicken Sie auf **[!UICONTROL Advanced]**>**[!UICONTROL Manage Cache]**. ****
+Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke zur Verfügung gestellt wird. Die Artefakte vom AEM Assets-Server werden für ein reibungsloseres Erlebnis lokal zwischengespeichert. Sie können die Standardeinstellungen Ihren Anforderungen entsprechend anpassen. Außerdem können Sie den Cache löschen, um alle Assets erneut abzurufen. Klicken Sie zum Festlegen der gewünschten Optionen auf das Symbol des Programms und klicken Sie auf **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. ****
 
 >[!NOTE]
 >
@@ -120,9 +120,9 @@ Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen,
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
-* [Einführung in das AEM-Desktop-Programm](https://helpx.adobe.com/de/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+* [Einführung in das AEM-Desktop-Programm](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
 * [Verwenden des AEM-Desktop-Programms](use-app-v1.md)
 
-* [Grundlegendes zum Ein- und Auschecken mit dem AEM-Desktop-Programm](https://helpx.adobe.com/de/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Verwenden des Desktop-Programms mit AEM Assets](https://helpx.adobe.com/de/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Grundlegendes zum Ein- und Auschecken mit dem AEM-Desktop-Programm](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
+* [Verwenden des Desktop-Programms mit AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [Fehlerbehebung für das AEM-Desktop-Programm](troubleshoot-app-v1.md)
