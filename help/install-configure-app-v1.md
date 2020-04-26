@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: bb71cfdfef674be25d059f104a37a9199681358c
 
 ---
 
@@ -118,11 +118,10 @@ Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen,
    >
    >Das Programm erstellt automatisch ein Unterverzeichnis mit der Bezeichnung *&lt;Codierter AEM-Endpunkt>*. Dieses Verhalten kann nicht konfiguriert werden.
 
-## Zusätzliche Ressourcen {#additional-resources}
-
+>[!MORELIKETHIS]
 * [Einführung in das AEM-Desktop-Programm](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
 * [Verwenden des AEM-Desktop-Programms](use-app-v1.md)
-
 * [Grundlegendes zum Ein- und Auschecken mit dem AEM-Desktop-Programm](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [Verwenden des Desktop-Programms mit AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [Fehlerbehebung für das AEM-Desktop-Programm](troubleshoot-app-v1.md)
+
