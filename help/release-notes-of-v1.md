@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: bb71cfdfef674be25d059f104a37a9199681358c
 
 ---
 
@@ -337,7 +337,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 Das AEM-Desktop-Programm ist mit verschiedenen AEM-Versionen kompatibel. Informationen zu den unterstützten Versionen finden Sie in der Kompatibilitätsmatrix.
 
 | Version | Revision | Veröffentlichungsdatum | Kompatibilität |
-|---------|------------------------|--------------|-------------------------------------------------------------|
+|---|---|---|---|
 | 1.10 | 1.10.0.3 (Mac und Win) | 31.08.2018 | AEM 6.5; AEM 6.4 SP1; AEM 6.3 SP2; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
 | 1.9 | 1.9.1.1 (Mac und Win) | 21.06.2018 | AEM 6.4; AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
 | 1.8 | 1.8.1.0 (Mac und Win) | 28.03.2018 | AEM 6.4; AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
