@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: 52f70e5b95318d8b3b3930be1233cc51aa997914
 
 ---
 
@@ -105,7 +105,7 @@ Um Benutzern ein positives AEM-Desktop-Programm-Erlebnis zu ermöglichen, kommt 
 
 Die Best Practices für die AEM Assets-Netzwerkkonfiguration finden Sie im Dokument [Überlegungen zum AEM Assets-Netzwerk](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/assets-migration-guide.html). Folgende Aspekte sind u. a. beim Optimieren des AEM-Desktop-Programm-Erlebnisses für Benutzer nützlich:
 
-* **Ordnungsgemäße Dispatcher-Konfiguration:** Nutzen Sie AEM Dispatcher, um für zusätzliche Sicherheit zu sorgen, und stellen Sie sicher, dass dieser für eine [AEM-Desktop-Programm-Verbindung mit AEM hinter einem Dispatcher](using.md) konfiguriert ist.
+* **Ordnungsgemäße Dispatcher-Konfiguration:** Nutzen Sie AEM Dispatcher, um für zusätzliche Sicherheit zu sorgen, und stellen Sie sicher, dass dieser für eine [AEM-Desktop-Programm-Verbindung mit AEM hinter einem Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher) konfiguriert ist.
 
 * **Brandbreiteneinsparung:** Ziehen Sie unter Mac eine Deaktivierung der Symbolvorschau in Finder in Betracht, wenn Sie das bereitgestellte Repository mit Finder durchsuchen. Finder fordert jede einzelne Datei an, um eine Vorschau zu erzeugen, und bewirkt, dass das AEM-Desktop-Programm das Asset herunterlädt und lokal im Cache speichert. Jedoch gilt es hierbei zu berücksichtigen, dass sich mit der eingesparten Brandbreite auch das Benutzererlebnis auf dem Desktop verschlechtert. So sollte daher beim Arbeiten mit Repositorys mit großen Assets und/oder begrenzter Brandbreite verfahren werden.
 
