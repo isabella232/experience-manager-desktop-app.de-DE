@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9ae1580475569538838c58f642a7df43f2526d16
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -26,7 +26,7 @@ Befolgen Sie die folgenden Best Practices, um einige häufige Probleme und die F
 
 * **So funktioniert das Desktop-Programm**: Bevor Sie mit der Verwendung des Programms beginnen, sollten Sie sich kurz mit ihrer Funktionsweise vertraut machen. Erfahren Sie mehr über Verknüpfung zwischen Web-Benutzeroberfläche und Desktop, Repository-Zuordnung, Asset-Zwischenspeicherung, lokales Speichern und Hochladen im Hintergrund. Machen Sie sich mit der [Funktionsweise](release-notes.md#how-app-works) vertraut:
 
-* **Vermeiden Sie nicht unterstützte Zeichen in Ordnernamen**: Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen und ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in Experience Manager Assets](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). In einigen Adobe Experience Manager-Anwendungsfällen können durch nicht unterstützte Zeichen im Ordnernamen Probleme auftreten.
+* **Vermeiden Sie nicht unterstützte Zeichen in Ordnernamen**: Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen und ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in Experience Manager Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). In einigen Adobe Experience Manager-Anwendungsfällen können durch nicht unterstützte Zeichen im Ordnernamen Probleme auftreten.
 
 * **Best Practices zur Vermeidung von Konflikten**: Um mögliche Konflikte bei der Zusammenarbeit mit mehreren Assets zu vermeiden, lesen Sie [Vermeiden von Bearbeitungskonflikten](using.md#adv-workflow-collaborate-avoid-conflicts).
 
@@ -70,15 +70,15 @@ Gehen Sie wie folgt vor, um den Debug-Modus unter Windows zu aktivieren:
 
 ### Speicherort der Protokolldateien {#check-log-files-v2}
 
-Die Protokolldateien für das AEM-Desktop-Programm finden Sie in den folgenden Verzeichnissen. When uploading many assets, if some files fail to upload, see `backend.log` file to identify the failed uploads.
+Die Protokolldateien für das AEM-Desktop-Programm finden Sie in den folgenden Verzeichnissen. Wenn beim Hochladen vieler Assets einige Dateien nicht hochgeladen werden können, finden Sie in der Datei `backend.log` Informationen zu den fehlgeschlagenen Uploads.
 
 * Pfad unter Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
-* Pfad auf Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+* Pfad unter Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 >[!NOTE]
 >
->Wenn Sie mit dem Adobe-Kundendienst an einer Supportanfrage/einem Ticket arbeiten, werden Sie möglicherweise aufgefordert, die Protokolldateien freizugeben, damit das Kundendienstteam das Problem verstehen kann. Archive the entire `Logs` folder and share it with your Customer Care contact.
+>Wenn Sie mit dem Adobe-Kundendienst an einer Support-Anfrage/einem Ticket arbeiten, werden Sie möglicherweise aufgefordert, die Protokolldateien freizugeben, damit das Kundenunterstützungs-Team das Problem verstehen kann. Archivieren Sie den gesamten Ordner `Logs` und geben Sie ihn für Ihre Kontaktperson bei der Kundenunterstützung frei.
 
 ### Löschen des Cache {#clear-cache-v2}
 
