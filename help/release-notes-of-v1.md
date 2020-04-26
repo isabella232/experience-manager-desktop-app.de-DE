@@ -8,13 +8,13 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f1ea381cc88b5382288b2479d26e976dc7289b88
+translation-type: tm+mt
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
 
-# Versionshinweise für das AEM-Desktop-Programm, Version 1.x{#aem-desktop-app-release-notes}
+# Versionshinweise für das AEM-Desktop-Programm, Version 1.x {#aem-desktop-app-release-notes}
 
 Für das AEM-Desktop-Programm v1.x sind die folgenden Download-Links und AEM-Kompatibilitätsinformationen verfügbar:
 
@@ -124,7 +124,7 @@ Das Programm-Symbol zeigt den Status der Hintergrundvorgänge an, um den Benutze
 Zur Verbesserung des Benutzererlebnisses beim Arbeiten mit InDesign-Dokumenten, die in AEM gespeicherte verknüpfte Assets beinhalten, versucht das Desktop-Programm, diese verknüpften Dateien vorab in den lokalen Cache zu verschieben, bevor das InDesign-Dokument heruntergeladen und geöffnet wird. Somit stehen dem Benutzer die verknüpften Dateien lokal zur Verfügung und er muss beim Zugriff auf diese Dateien in InDesign (im Bereich „Verknüpfungen“) nicht länger warten.
 Beachten Sie, dass der Vorab-Abruf nur funktioniert, wenn AEM die Verknüpfungen auf der Server-Seite erkennt. Für ein Asset mit erkannten Verknüpfungen wird in der Ansicht „Eigenschaften“ des InDesign-Assets die Liste „Verweise“ aufgeführt.
 
-### Seit Einführung von AEM-Desktop-Programm 1.8 verfügbare Verbesserungen{#enhancements-available-since-aem-desktop-app-18x}
+### Seit Einführung von AEM-Desktop-Programm 1.8 verfügbare Verbesserungen {#enhancements-available-since-aem-desktop-app-18x}
 
 In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsichtlich des gleichzeitigen Öffnens mehrerer Dateien über die AEM-Benutzeroberfläche gegenüber der Version 1.8 hinzugefügt (CQ-4237747, CQ-4238780). Verbesserungen im AEM-Desktop-Programm 1.8:
 
@@ -142,7 +142,7 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
    * Dialogfeld „More Assets Info“ (Weitere Asset-Informationen): mitunter war die Aktionsleiste nicht sichtbar (CQ-4208540)
    * (Win) Dateien können nun synchronisiert werden, nachdem sie in der AEM Assets-Benutzeroberfläche auf eine ältere Version zurückgesetzt wurden (CQ-4216411)
 
-### Seit Einführung von AEM-Desktop-Programm 1.7 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-17}
+### Seit Einführung von AEM-Desktop-Programm 1.7 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-17}
 
 * Stabilität:
    * Verbesserte Stabilität, wenn das AEM-Desktop-Programm eine Verbindung zu einem überlasteten AEM-Server herstellt (CQ-4224803)
@@ -162,7 +162,7 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 >
 >In der Beta-Version des AEM-Desktop-Programms 1.7 festgestellte Probleme (die in Version 1.6 nicht vorhanden waren) werden in den Versionshinweisen nicht aufgeführt.
 
-### Seit Einführung von AEM-Desktop-Programm 1.6 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-16}
+### Seit Einführung von AEM-Desktop-Programm 1.6 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
 * Dokumentation: Neue Dokumentation [Best Practices für das Programm, v1.x](https://helpx.adobe.com/de/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html).
 * Verbesserter Anmeldeprozess für AEM:
@@ -186,7 +186,7 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
    * Hohe CPU-Auslastung (CQ-4218070).
    * Ziehen von Dateien per Drag-and-Drop führt zu Fehler beim Hochladen in AEM (CQ-4217006).
 
-### Seit Einführung von AEM-Desktop-Programm 1.5 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-15}
+### Seit Einführung von AEM-Desktop-Programm 1.5 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-15}
 
 **Version 1.5.1.5 für Mac OS X:** Die Version 1.5.1.5 bietet folgende Vorteile:
 
@@ -227,7 +227,7 @@ Diese beiden Fälle treten erwartungsgemäß ein. Sie sind auf die „Delayed Sy
    * Diverse Verbesserungen hinsichtlich der Stabilität (CQ-4207539, CQ-4200378)
    * Besseres Handling der AEM Assets-URL in den Einstellungen (CQ-97388)
 
-### Seit Einführung von AEM-Desktop-Programm 1.4 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-14}
+### Seit Einführung von AEM-Desktop-Programm 1.4 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-14}
 
 * Vereinfachter Upload hierarchischer Ordner über die neue Aktion „Erstellen“ > „Ordner hochladen“ in der Touch-optimierten Benutzeroberfläche
    * Die Aktion löst einen Ordner-Upload-Vorgang aus, der vom Desktop-Programm ausgeführt wird.
@@ -239,7 +239,7 @@ Diese beiden Fälle treten erwartungsgemäß ein. Sie sind auf die „Delayed Sy
 * Verbesserte Kompatibilität mit den neuesten Betriebssystemversionen
 * Fehlerbehebungen für von Kunden gemeldete Probleme
 
-### Seit Einführung des AEM-Desktop-Programms 1.3 verfügbare Verbesserungen{#Enhancements-Available-Since-AEM-Desktop-App-13}
+### Seit Einführung des AEM-Desktop-Programms 1.3 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-13}
 
 * Höhere Effizienz. Netzwerkvorgänge werden schneller abgeschlossen und die Wartezeiten für Benutzer werden verkürzt.
 * Verbesserte Finder-Integration, die für mehr Stabilität sorgt und den Zugriff auf Funktionen wie Miniaturansichten ermöglicht.
