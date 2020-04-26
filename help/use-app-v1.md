@@ -8,8 +8,8 @@ discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
+translation-type: tm+mt
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -78,7 +78,7 @@ Das Programm ermöglicht das Konfigurieren von Einstellungen zum Herstellen und 
 
 **Options (Optionen)** Klicken/tippen Sie in der Ablage des AEM-Desktop-Programms auf „Options“ (Optionen), um auf Einstellungen zuzugreifen, mit denen Sie festlegen, ob das Programm beim Systemstart gestartet wird und ob beim Programmstart eine Verbindung zum AEM-Server hergestellt wird. Außerdem können Sie hier den Buchstaben des lokalen Laufwerks ändern, auf dem AEM Assets nach der Bereitstellung verfügbar ist.
 
-**Advanced &gt; Manage cache (Fortgeschritten &gt; Chache verwalten)** Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke zur Verfügung gestellt wird. Die Artefakte vom AEM Assets-Server werden für ein reibungsloseres Erlebnis lokal zwischengespeichert. Sie können die Standardeinstellungen Ihren Anforderungen entsprechend anpassen. Außerdem können Sie den Cache löschen, um alle Assets erneut abzurufen. Wenn Sie den Cache löschen, werden nicht gespeicherte Änderungen beibehalten. Alle Assets, die nicht auf dem AEM-Server eingecheckt wurden, werden beibehalten und nicht gelöscht.
+**Advanced > Manage cache (Fortgeschritten > Chache verwalten)** Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke zur Verfügung gestellt wird. Die Artefakte vom AEM Assets-Server werden für ein reibungsloseres Erlebnis lokal zwischengespeichert. Sie können die Standardeinstellungen Ihren Anforderungen entsprechend anpassen. Außerdem können Sie den Cache löschen, um alle Assets erneut abzurufen. Wenn Sie den Cache löschen, werden nicht gespeicherte Änderungen beibehalten. Alle Assets, die nicht auf dem AEM-Server eingecheckt wurden, werden beibehalten und nicht gelöscht.
 
 ### Herstellen einer Verbindung zu einem AEM-Server {#connect}
 
@@ -159,7 +159,7 @@ Kontextmenüoptionen zum Zugreifen auf und Öffnen von Assets mithilfe des AEM-D
 
 Mit AEM Assets können Sie Assets zum Bearbeiten auschecken und dann wieder einchecken, wenn Sie keine weiteren Änderungen vornehmen möchten. Wenn Sie ein Asset ausgecheckt haben, können nur Sie das Asset bearbeiten, mit Anmerkungen versehen, veröffentlichen, verschieben oder löschen. Durch das Auschecken eines Assets wird das Asset gesperrt und andere Benutzer können derartige Vorgänge nicht durchführen. Um Assets aus-/einchecken zu können, benötigen Sie entsprechenden Schreibzugriff.
 
-Es gibt zwei Methoden zum Auschecken von Assets über die AEM-Web-Benutzeroberfläche. Ausführliche Informationen zur ersten Methode finden Sie unter [Ein- und Auschecken von Dateien über die Assets-Benutzeroberfläche](https://helpx.adobe.com/de/experience-manager/6-4/assets/using/check-out-and-submit-assets.html). Führen Sie die folgenden Schritte aus, um das Asset anhand der zweiten Methode auszuchecken und zu öffnen, wenn das AEM-Desktop-Programm installiert ist.
+Es gibt zwei Methoden zum Auschecken von Assets über die AEM-Web-Benutzeroberfläche. Ausführliche Informationen zur ersten Methode finden Sie unter [Ein- und Auschecken von Dateien über die Assets-Benutzeroberfläche](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/check-out-and-submit-assets.html). Führen Sie die folgenden Schritte aus, um das Asset anhand der zweiten Methode auszuchecken und zu öffnen, wenn das AEM-Desktop-Programm installiert ist.
 
 1. Öffnen Sie die Benutzeroberfläche von AEM Assets und bewegen Sie den Mauszeiger auf einen Ordner oder ein Asset, um die Desktop-Aktionen in der Kartenansicht in Form von Schnellaktionen anzuzeigen.
 
@@ -256,7 +256,7 @@ Wenn Sie die Arbeit auf dem Desktop vorziehen, können Sie als weitere Alternati
 
 >[!MORELIKETHIS]
 >
->* [Einführung in das AEM-Desktop-Programm](https://helpx.adobe.com/de/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
->* [Grundlegendes zum Ein- und Auschecken mit dem AEM-Desktop-Programm](https://helpx.adobe.com/de/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+>* [Einführung in das AEM-Desktop-Programm](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
+>* [Grundlegendes zum Ein- und Auschecken mit dem AEM-Desktop-Programm](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 >* [Fehlerbehebung für das AEM-Desktop-Programm](troubleshoot-app-v1.md)
 
