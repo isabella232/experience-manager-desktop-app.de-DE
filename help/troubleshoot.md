@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
 
 ---
 
@@ -24,7 +24,7 @@ Lesen Sie weiter, um Fehler im Programm zu beheben, lernen Sie die Best Practice
 
 Befolgen Sie die folgenden Best Practices, um einige häufige Probleme und die Fehlerbehebung zu vermeiden.
 
-* **So funktioniert das Desktop-Programm**: Bevor Sie mit der Verwendung des Programms beginnen, sollten Sie sich kurz mit ihrer Funktionsweise vertraut machen. Erfahren Sie mehr über Verknüpfung zwischen Web-Benutzeroberfläche und Desktop, Repository-Zuordnung, Asset-Zwischenspeicherung, lokales Speichern und Hochladen im Hintergrund. Machen Sie sich mit der [Funktionsweise](release-notes.md#how-app-works) vertraut:
+* **Verstehen Sie, wie die Desktop-App funktioniert**: Bevor Sie mit der Verwendung der Anwendung beginnen, sollten Sie sich kurz mit der Funktionsweise der App vertraut machen. Erfahren Sie mehr über die Verknüpfung zwischen der Experience Manager-Weboberfläche und dem Desktop, Repository-Zuordnung, Asset-Zwischenspeicherung, Lokales Speichern und Hochladen im Hintergrund. Machen Sie sich mit der [Funktionsweise](release-notes.md#how-app-works) vertraut:
 
 * **Vermeiden Sie nicht unterstützte Zeichen in Ordnernamen**: Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen und ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in Experience Manager Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). In einigen Adobe Experience Manager-Anwendungsfällen können durch nicht unterstützte Zeichen im Ordnernamen Probleme auftreten.
 
@@ -48,21 +48,21 @@ Um Probleme mit dem Desktop-Programm zu beheben, beachten Sie die folgenden Info
 
 ### Aktivieren des Debugging-Modus {#enable-debug-mode}
 
-Zur Fehlerbehebung können Sie den Debug-Modus aktivieren und weitere Informationen in den Protokollen abrufen. To use the app in debug mode on Mac, use the following command line options in a terminal or at the command prompt: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
+Zur Fehlerbehebung können Sie den Debug-Modus aktivieren und weitere Informationen in den Protokollen abrufen. Um das Prorgamm im Debug-Modus auszuführen, verwenden Sie die folgenden Befehlszeilenoptionen in einem Terminal oder in der Eingabeaufforderung: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
 
-Gehen Sie wie folgt vor, um den Debug-Modus unter Windows zu aktivieren:
+So aktivieren Sie den Debugging-Modus unter Windows:
 
-1. Suchen Sie die `Adobe Experience Manager Desktop.exe.config` Datei im Installationsordner der Desktop-App. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`. Speichern und schließen Sie die Datei.
+1. Suchen Sie die Datei `Adobe Experience Manager Desktop.exe.config` im Installationsordner des Desktop-Programms. Standardmäßig befindet sich diese im Ordner `C:\Program Files\Adobe\Adobe Experience Manager Desktop`. Speichern und schließen Sie die Datei.
 
-1. Suchen Sie nach `<level value="INFO"/>` dem Dateiende. Ändern Sie den Wert in `DEBUG`, das heißt, `<level value="DEBUG"/>`.
+1. Suchen Sie `<level value="INFO"/>` am Ende der Datei. Ändern Sie den Wert in `DEBUG`, also `<level value="DEBUG"/>`.
 
-1. Suchen Sie die `logging.json` Datei im Installationsordner der Desktop-App. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
+1. Suchen Sie die Datei `logging.json` im Installationsordner des Desktop-Programms. Standardmäßig befindet sich diese im Ordner `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
 
-1. Suchen Sie in der `logging.json` Datei alle Instanzen des `level` Parameters. Ändern Sie die Werte von `info` in `debug`. Speichern und schließen Sie die Datei.
+1. Suchen Sie in der Datei `logging.json` alle Instanzen des Parameters `level`. Ändern Sie die Werte von `info` in `debug`. Speichern und schließen Sie die Datei.
 
-1. Löschen Sie die zwischengespeicherten Ordner, die sich an dem in den App-Voreinstellungen festgelegten Speicherort befinden.
+1. Löschen Sie die zwischengespeicherten Verzeichnisse, die sich am in den Voreinstellungen des Programms festgelegten Speicherort befinden.
 
-1. Starten Sie die Desktop-App neu.
+1. Starten Sie das Desktop-Programm neu.
 
 <!-- The Windows command doesn't work for now.
 * On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
@@ -134,8 +134,8 @@ Die Bibliotheken, die das AEM-Desktop-Programm zur HTTP-Kommunikation nutzt, set
 
 In seltenen Fällen reagiert das Programm möglicherweise nicht mehr, zeigt nur einen weißen Bildschirm an oder zeigt einen Fehler am unteren Rand der Benutzeroberfläche an, ohne dass Optionen auf der Benutzeroberfläche vorhanden sind. Versuchen Sie Folgendes in genannter Reihenfolge:
 
-1. Klicken Sie mit der rechten Maustaste auf die Programmoberfläche und klicken Sie auf **[!UICONTROL Refresh]**.
-1. Beenden Sie das Programm und starten Sie es neu.
+* Klicken Sie mit der rechten Maustaste auf die Programmoberfläche und klicken Sie auf **[!UICONTROL Refresh]**.
+* Beenden Sie die Anwendung und öffnen Sie sie erneut.
 
 Bei beiden Methoden startet das Programm im Stammordner des DAM.
 
