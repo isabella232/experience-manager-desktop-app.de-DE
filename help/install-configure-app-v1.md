@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb71cfdfef674be25d059f104a37a9199681358c
+source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
 
 ---
 
@@ -38,14 +38,6 @@ Einzelheiten dazu finden Sie unter [Installieren des AEM-Desktop-Programms und V
 >
 >Es kann immer nur eine Instanz des AEM-Desktop-Programms installiert und aktiv sein.
 
-## Proxy-Unterstützung {#proxy-support}
-
-Das AEM-Desktop-Programm verwendet den vordefinierten Proxy des Systems, um über HTTPS eine Internet-Verbindung herzustellen. Das Programm kann die Verbindung nur mit einem Netzwerk-Proxy herstellen, für den keine gesonderte Authentifizierung erforderlich ist.
-
-Wenn Sie Proxyserver-Einstellungen für Windows konfigurieren oder ändern (Internetoptionen > LAN-Einstellungen), starten Sie das AEM-Desktop-Programm neu, damit die Änderungen wirksam werden.
-
-Wenn für den Proxy eine Authentifizierung erforderlich ist, kann die IT-Abteilung die URL von AEM Assets in den Proxyserver-Einstellungen der Whitelist hinzufügen, um den Applikationsdatenverkehr durchzulassen.
-
 ## Dateiverarbeitung {#file-handling}
 
 Beim Ändern einer Datei unter einem vom Desktop-Programm bereitgestellten Netzwerkfreigabe-Speicherort werden die Dateien in zwei Phasen in diesem Verzeichnis gespeichert. In der ersten Phase wird eine Datei lokal gespeichert. Ein Benutzer kann die Datei speichern und deren Bearbeitung fortsetzen, ohne auf den Abschluss der Übertragung warten zu müssen.
@@ -69,9 +61,21 @@ Für die Methoden zum Kopieren und Verschieben in der Assets-API ist es erforder
 * X-Tiefe
 * X-Überschreiben
 
-AEM Desktop stellt Verbindungen mit AEM über eine URL her, die einen standardmäßigen Port enthält. Daher sollte die Einstellung `virtualhosts` in der Dispatcher-Konfiguration die standardmäßige Port-Nummer enthalten. Weitere Informationen zur Konfiguration von `virtualhosts` finden Sie unter [Identifizieren von virtuellen Hosts](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+AEM Desktop stellt eine Verbindung mit AEM her, indem eine URL verwendet wird, die den Standardanschluss enthält. Daher sollte die Einstellung `virtualhosts` in der Dispatcher-Konfiguration die standardmäßige Port-Nummer enthalten. For more information around `virtualhosts` configuration, see [identify virtual hosts](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
 
 Weitere Informationen zum Konfigurieren des Dispatchers, sodass diese zusätzlichen Header übermittelt werden können, finden Sie unter [Festlegen der HTTP-Header](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
+
+### Proxy-Unterstützung {#proxy-support}
+
+Das AEM-Desktop-Programm verwendet den vordefinierten Proxy des Systems, um über HTTPS eine Internet-Verbindung herzustellen. Das Programm kann die Verbindung nur mit einem Netzwerk-Proxy herstellen, für den keine gesonderte Authentifizierung erforderlich ist.
+
+Wenn Sie Proxyserver-Einstellungen für Windows konfigurieren oder ändern (Internetoptionen > LAN-Einstellungen), starten Sie das AEM-Desktop-Programm neu, damit die Änderungen wirksam werden.
+
+>[!NOTE]
+>
+>Proxy-Konfiguration wird nur angewendet, wenn Sie die Desktop-App Beginn haben. Schließen Sie die App und starten Sie sie erneut, damit alle Änderungen wirksam werden.
+
+Wenn für den Proxy eine Authentifizierung erforderlich ist, kann die IT-Abteilung die URL von AEM Assets in den Proxyserver-Einstellungen der Whitelist hinzufügen, um den Applikationsdatenverkehr durchzulassen.
 
 ## Anpassen des Dialogfelds „Asset Info“{#customize-the-asset-info-dialog}
 
