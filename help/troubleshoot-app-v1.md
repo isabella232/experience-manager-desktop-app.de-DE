@@ -8,8 +8,8 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ab63bfd7eea356be924e1ed62eef387796913e6c
+translation-type: tm+mt
+source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
 
 ---
 
@@ -76,6 +76,10 @@ Das AEM-Desktop-Programm bietet interne Caching-Funktionen und Funktionen zum Up
 Im Gegensatz zu Creative Cloud Desktop oder anderen Dateisynchronisierungslösungen wie Microsoft One Drive handelt es sich beim AEM-Desktop-Programm nicht um einen vollständigen Desktop-Synchronisierungs-Client. Der Grund dafür liegt darin, dass sie Zugriff auf das gesamte AEM Assets-Repository bietet, das für eine vollständige Synchronisierung extrem umfangreich sein kann (mehrere hunderte Gigabyte oder Terabyte).
 
 Das Caching bietet die Möglichkeit, den Mehraufwand bezüglich des Netzwerks/Speichers auf eine Teilmenge von Assets zu beschränken, die für den Benutzer relevant sind.
+
+>[!CAUTION]
+>
+>Adobe empfiehlt, die Erstellung von Miniaturbildern zu deaktivieren, um das Browsen zu beschleunigen. Wenn Sie die Vorschauen für Symbole aktivieren, speichert die App die digitalen Assets zwischen, wenn Sie durch den gemounteten Ordner navigieren. Die App lädt außerdem Assets herunter, die dem Benutzer möglicherweise unwichtig sind. Dadurch wird der Server geladen, die Bandbreite des Benutzers genutzt und der Speicherplatz des Benutzers wird größer.
 
 So erfolgt das Caching im AEM-Desktop-Programm:
 
