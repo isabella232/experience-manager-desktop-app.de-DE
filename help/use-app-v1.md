@@ -1,15 +1,9 @@
 ---
-title: Verwenden des AEM-Desktop-Programms, Version 1.x
+title: Verwenden des AEM-Desktop-Programms, Version 1.x.
 description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm, Version 1.x verwenden und Ihre Arbeit mit Assets auf dem Desktop optimieren können.
-uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
 
 ---
 
@@ -22,19 +16,18 @@ Dank dieser Integration können unterschiedliche Rollen im Unternehmen die Asset
 
 Zu den Hauptaufgaben, die Sie mit dem AEM-Desktop-Programm v1 ausführen, gehören:
 
-* [Verbindung zu einem AEM-Server herstellen](#installandconnect)
+1. [Verbindung zu einem AEM-Server herstellen](#installandconnect)
+1. [Assets direkt auf dem Desktop öffnen](#openondesktop)
+1. [Assets auf dem Desktop bearbeiten und auschecken](#workonassets)
+1. [Assets und Ordner stapelweise hochladen](#bulkupload)
 
-* [Assets direkt auf dem Desktop öffnen](#openondesktop)
-* [Assets auf dem Desktop bearbeiten und auschecken](#workonassets)
-
-* [Assets und Ordner stapelweise hochladen](#bulkupload)
-
-Informationen zu den empfohlenen und nicht empfohlenen Vorgehensweisen finden Sie unter [Best Practices zur Verwendung des Programms](best-practices-for-v1.md). Wenn Sie bei der Verwendung des Programms Probleme haben, finden Sie weitere Informationen unter [Fehlerbehebung für AEM Desktop](troubleshoot-app-v1.md).
+Informationen zu den empfohlenen und nicht empfohlenen Vorgehensweisen finden Sie unter [Best Practices zur Verwendung des Programms](best-practices-for-v1.md). If you face issues using the App, see how to [troubleshoot AEM desktop](troubleshoot-app-v1.md).
 
 >[!NOTE]
+>
 >Das AEM-Desktop-Programm wurde in der AEM-Version 6.1 unter der Bezeichnung AEM Assets Companion App eingeführt.
 
-## Touchpoints des AEM-Desktop-Programms im kreativen Workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
+## AEM desktop app touch-points in the creative workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
 Das AEM-Desktop-Programm fügt sich zusammen mit AEM Assets in Ihren kreativen Workflow ein und bietet die folgenden Touchpoints.
 
@@ -98,22 +91,39 @@ Das Programm unterstützt die Proxy-Konfiguration unter Mac und Windows. Die Kon
 
 ### Aktivieren von Desktop-Aktionen in der AEM-Web-Benutzeroberfläche {#desktopactions}
 
-Über die Assets-Benutzeroberfläche in einem Browser können Sie zu den Asset-Speicherorten navigieren oder Assets auschecken und öffnen, um sie in Ihrer Desktop-Applikation zu bearbeiten. Diese Optionen werden als Desktop-Aktionen bezeichnet und sind standardmäßig nicht aktiviert. Führen Sie die folgenden Schritte aus, um sie zu aktivieren.
+In der Benutzeroberfläche &quot;Assets&quot;können Sie die Asset-Speicherorte erkunden oder das Asset auschecken und zur Bearbeitung in Ihrer Desktop-Anwendung öffnen. Diese Optionen werden Desktop-Aktionen genannt und sind nicht standardmäßig aktiviert. Führen Sie die folgenden Schritte aus, um sie zu aktivieren.
 
-1. Klicken/tippen Sie in der Assets-Konsole in der Symbolleiste auf das Symbol **Benutzer**.
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL My Preferences]**, um das Dialogfeld **[!UICONTROL Preferences]** anzuzeigen.
-1. Wählen Sie im Dialogfeld „Benutzereinstellungen“ die Option **[!UICONTROL Show Desktop Actions For Assets]**. Klicken/tippen Sie auf **[!UICONTROL Accept]**.
+1. Klicken Sie in der Benutzeroberfläche &quot;Assets&quot;auf das Symbol User (Benutzer) in der oberen rechten Ecke der Symbolleiste.
+1. Klicken Sie auf **[!UICONTROL My Preferences]** , um das **[!UICONTROL Preferences]** Dialogfeld anzuzeigen.
+
+   ![AEM-Schnittstelle mit Benutzereinstellungen](assets/aem_ui_user_preferences.png)
+
+1. Wählen Sie im Dialogfeld „Benutzereinstellungen“ die Option **[!UICONTROL Show Desktop Actions For Assets]**. Klicken Sie auf **[!UICONTROL Accept]**.
 
    ![Aktivieren Sie „Show Desktop Actions For Assets“ (Desktop-Aktionen für Assets anzeigen), um Desktop-Aktionen zu ermöglichen](assets/chlimage_1-3.png)
 
-   „Desktop-Aktionen für Assets anzeigen“ aktivieren, um Desktop-Aktionen zu ermöglichen
+   *Abbildung: Aktivieren Sie Desktop-Aktionen für Assets anzeigen, um die Desktop-Aktionen zu aktivieren.*
 
 ## Zugreifen auf und Öffnen von Assets über den Desktop   {#openondesktop}
+
+Wenn Sie auf **Öffnen** klicken, um ein Asset auf einem lokalen Computer zu öffnen, lädt die App das Asset in den internen Cache herunter. Die App startet die native Desktop-Anwendung, die mit dem Dateityp des heruntergeladenen Assets verknüpft ist.
+
+On Mac, select **Open** from the context menu to open an asset through AEM desktop app. Wählen Sie unter Windows im Kontextmenü die Option „Open on Web“ (Im Web öffnen) aus, um das Asset zu öffnen. Klicken Sie im Fenster „Asset Status“ (Asset-Status) auf das Symbol ![Auf dem Desktop öffnen](assets/aemassets_icon_openondesktop.png), bzw. tippen Sie darauf, um das Asset zu öffnen.
+
+Wählen Sie bei Adobe InDesign-Dateien (INDD) im Kontextmenü die Option **[!UICONTROL Open]** aus. Wenn Sie auf diese Option klicken, lädt das Programm die verknüpften Assets in Ihr lokales Dateisystem herunter und öffnet anschließend die INDD-Datei in Adobe InDesign. Mithilfe dieser Methode wird sichergestellt, dass die erforderlichen Assets beim Bearbeiten einer INDD-Datei lokal verfügbar sind.
+
+![Kontextmenüoptionen zum Zugreifen auf und Öffnen von Assets mithilfe des AEM-Desktop-Programms](assets/aem_desktopapp_mac_context_menu.png)
+
+*Abbildung: Optionen im Kontextmenü, um mit der AEM-Desktop-App auf Assets zuzugreifen und sie zu öffnen.*
 
 >[!NOTE]
 >Unter Windows verhindert die [Windows 7-Standardeinstellung](https://support.microsoft.com/de-de/kb/2668751), dass das AEM-Desktop-Programm Dateien verarbeitet, die größer als 50 MB sind.
 
-### Anzeigen des Speicherorts zugeordneter Assets über die AEM-Web-Benutzeroberfläche {#reveal-the-location-of-mapped-assets-from-aem-web-interface}
+>[!NOTE]
+>
+>Adobe empfiehlt, dass Sie unter Mac die Optionen &quot;Optionen für Finder-Ansicht&quot;aufrufen und die Optionen **&quot;Elementinformationen** anzeigen&quot;, &quot;Vorschau **des Elements** anzeigen&quot;und &quot;Vorschau **anzeigen&quot;für den bereitgestellten AEM Assets-Ordner deaktivieren** . Es verbessert die Leistung.
+
+### Zusätzliche Optionen in der AEM-Oberfläche {#additional-options-in-aem-assets}
 
 Nachdem Sie Ihrem lokalen Laufwerk das AEM Assets-Repository zugeordnet haben, können Sie zusätzliche Symbole sowie die Funktion „Ordner-Upload“ aktivieren, die für zugeordnete Assets und Ordner angezeigt werden.
 
@@ -121,31 +131,17 @@ Nachdem Sie Ihrem lokalen Laufwerk das AEM Assets-Repository zugeordnet haben, 
 
    ![Schnellaktionsmenü in der Assets-Benutzeroberfläche öffnen, um Desktop-Aktionen anzuzeigen](assets/chlimage_1-4.png)
 
-   Schnellaktionsmenü in der Assets-Benutzeroberfläche öffnen, um Desktop-Aktionen anzuzeigen
+   *Abbildung: Öffnen Sie in der Benutzeroberfläche &quot;Assets&quot;das Menü &quot;Schnellaktionen&quot;, um Desktop-Aktionen anzuzeigen.*
 
-   Sie können auch auf diese Desktop-Aktionen zugreifen, indem Sie in der Symbolleiste auf das Symbol **Desktop-Aktionen** klicken/tippen, nachdem Sie das Asset ausgewählt haben. Eine weitere Möglichkeit bietet die Symbolleiste auf der Asset-Seite.
+   These desktop actions are also available when you click the **Desktop Actions** icon in the toolbar after selecting the asset or from the toolbar in the asset page.
 
 1. Wenn Sie das Asset in der Desktop-Applikation öffnen möchten, die der jeweiligen Dateierweiterung zugeordnet ist, klicken/tippen Sie auf die Schnellaktion **Auf dem Desktop öffnen**![Auf dem Desktop öffnen](assets/aemassets_icon_openondesktop.png).
 
    Alternativ können Sie die Option **Öffnen** über das Menü **Desktop-Aktionen** in der Symbolleiste auswählen.
 
-1. Klicken/tippen Sie auf die Schnellaktion **Anzeigen**![Anzeigen](assets/aemassets_reveal_icon.png), um das entsprechende Asset in Ihrem lokalen Dateisystem zu suchen.
+Um das gewünschte Asset in Ihrem lokalen Dateisystem zu finden, klicken Sie auf das Symbol &quot;Schnellaktion **anzeigen** &quot; ![Anzeigen&quot;](assets/aemassets_reveal_icon.png). Alternativ können Sie die Option **Anzeigen** über das Menü **Desktop-Aktionen** in der Symbolleiste auswählen.
 
-   Alternativ können Sie die Option **Anzeigen** über das Menü **Desktop-Aktionen** in der Symbolleiste auswählen.
-
-### Öffnen von AEM-Assets über Finder oder Explorer {#open-aem-assets-from-the-finder-or-the-explorer}
-
-Wählen Sie auf einem Mac im Kontextmenü die Option „Öffnen“ aus, um ein Asset über das AEM-Desktop-Programm zu öffnen.
-
-Wählen Sie bei Adobe InDesign-Dateien (INDD) im Kontextmenü die Option **[!UICONTROL Open]** aus. Wenn Sie auf diese Option klicken, lädt das Programm die verknüpften Assets in Ihr lokales Dateisystem herunter und öffnet anschließend die INDD-Datei in Adobe InDesign. Mithilfe dieser Methode wird sichergestellt, dass die erforderlichen Assets beim Bearbeiten einer INDD-Datei lokal verfügbar sind.
-
-Wählen Sie unter Windows im Kontextmenü die Option „Open on Web“ (Im Web öffnen) aus, um das Asset zu öffnen. Klicken Sie im Fenster „Asset Status“ (Asset-Status) auf das Symbol ![Auf dem Desktop öffnen](assets/aemassets_icon_openondesktop.png), bzw. tippen Sie darauf, um das Asset zu öffnen.
-
-![Kontextmenüoptionen zum Zugreifen auf und Öffnen von Assets mithilfe des AEM-Desktop-Programms](assets/aem_desktopapp_mac_context_menu.png)
-
-Kontextmenüoptionen zum Zugreifen auf und Öffnen von Assets mithilfe des AEM-Desktop-Programms
-
-### Grundlegendes zu den Asset-Status   {#understand-the-asset-statuses}
+## Grundlegendes zu den Asset-Status   {#understand-the-asset-statuses}
 
 | ![Windows-Standardapplikationssymbol](assets/win_default.png) | Das Programm ist mit dem Server verbunden und alle Assets sind synchronisiert. |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -181,7 +177,7 @@ Es gibt zwei Methoden zum Auschecken von Assets über die AEM-Web-Benutzeroberfl
 1. Wählen Sie die Menüoption „Öffnen“ aus. Die ausgewählten Assets werden im Vorschaumodus geöffnet.
 1. Um die Assets zu bearbeiten, wählen Sie die Option „Bearbeiten“ aus. Die Assets werden im Bearbeitungsmodus geöffnet.
 
-### Auschecken von Assets unter Mac   {#check-out-assets-on-mac}
+### Assets aus Finder unter Mac OS auschecken {#check-out-assets-on-mac}
 
 Mithilfe des Programms können Sie Dateien auschecken, damit andere Benutzer keine Änderungen an den Dateien vornehmen können, an denen Sie gerade arbeiten.
 
@@ -219,19 +215,17 @@ Mithilfe des Programms können Sie Dateien auschecken, damit andere Benutzer kei
 1. Prüfen Sie das Asset in Explorer. Das Sperrsymbol auf dem Asset ![Asset-Sperrsymbol](assets/aemassets_icon_lockcheckout.png) gibt an, dass Sie das Asset ausgecheckt haben.
 
    >[!NOTE]
-   >Das Sperrsymbol wird möglicherweise mit einigen Minuten Verzögerung angezeigt. Das AEM-Desktop-Programm speichert die Assets für einen schnellen Zugriff zwischen. Daher kann es einen Moment dauern, bis der Sperrstatus aktualisiert wird.
+   >Das Schloss-Symbol wird möglicherweise nach einiger Verzögerung angezeigt. Die AEM-Desktop-App speichert die Assets für schnellen Zugriff zwischen, sodass es einige Augenblicke dauern kann, den gesperrten Status zu aktualisieren.
 
 1. Wenn Sie das Asset einchecken möchten, sodass es für andere Benutzer verfügbar ist, klicken/tippen Sie im Dialogfeld **Asset Info** (Asset-Informationen) auf das Symbol „Einchecken“.
 
 ### Einchecken eines Assets mit Finder oder Explorer und der Web-Benutzeroberfläche   {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
-Wenn Sie mit dem Bearbeiten der Assets fertig sind, speichern Sie sie in Ihrem Desktop-Programm. Wählen Sie im Kontextmenü die Option „More Assets Info“ (Weitere Asset-Informationen) aus und klicken/tippen Sie auf „Einchecken“.
+Wenn Sie mit dem Bearbeiten der Assets fertig sind, speichern Sie sie in Ihrem Desktop-Programm. From the context menu, select **More Assets Info** and click check-in.
 
-Die Assets werden auf den AEM-Server hochgeladen. Optional können Sie den Status des Uploads überprüfen, indem Sie unter dem Ablagesymbol die Option „View Asset Status“ (Asset-Status anzeigen) auswählen.
+Die Assets werden auf den AEM-Server hochgeladen. Optionally, you can check the status of the upload by selecting **View Asset Status** from the system tray icon. Alternativ können Sie ein Asset über die AEM-Web-Benutzeroberfläche einchecken. Klicken Sie auf die ausgecheckten Assets oder wählen Sie sie aus. From the toolbar, click the check in icon ![check-in icon](assets/aemassets_icon_checkin.png).
 
-![Dateiübertragung mit dem AEM-Desktop-Programm und Upload-Statusfenster](assets/aem_desktopapp_upload_status.png)
-
-Alternativ können Sie ein Asset über die AEM-Web-Benutzeroberfläche einchecken. Klicken/tippen Sie auf die ausgecheckten Assets oder wählen Sie sie aus. Klicken/tippen Sie in der Symbolleiste auf das Symbol ![Einchecken](assets/aemassets_icon_checkin.png).
+Ein Asset wird automatisch nach dem Speichern der Änderungen auf AEM hochgeladen. Beim Einchecken wird das Asset anderen AEM-Benutzern zur Bearbeitung zur Verfügung gestellt.
 
 ### Massen-Upload von Assets und Ordnern auf den AEM-Server {#bulkupload}
 
@@ -250,13 +244,13 @@ Mit AEM Desktop können Sie einen ganzen Ordner mit Assets aus Ihrem lokalen Da
 
 1. Wenn der Upload abgeschlossen ist, schließen Sie das Dialogfeld und navigieren Sie zur Assets-Benutzeroberfläche. Der hochgeladene Ordner wird in der Web-Benutzeroberfläche angezeigt.
 
-Hinweis: *Wir raten davon ab*, eine größere Anzahl Dateien/verschachtelte Ordner von der lokalen Festplatte per Kopieren und Einfügen oder per Drag-and-Drop in Finder oder Explorer in den Netzwerkfreigabebereich zu verschieben, der durch das AEM-Desktop-Programm zugeordnet wird. Diese Methode ist weniger zuverlässig als die zuvor beschriebene Funktion „Ordner hochladen“.
+Es wird nicht empfohlen, eine größere Anzahl von Dateien oder verschachtelten Ordnern aus dem lokalen Dateisystem in den Freigabebereich des Netzwerks zu kopieren und einzufügen. Die App kann den Upload-Prozess aufgrund technischer Einschränkungen nicht steuern, und die Leistung ist schlecht.
 
-Wenn Sie die Arbeit auf dem Desktop vorziehen, können Sie als weitere Alternative die in AEM hochzuladenden Dateien/Ordner in Finder oder Explorer auswählen, in die Zwischenablage des Systems kopieren, anschließend zum Zielordner im Netzwerkfreigabebereich navigieren und im Kontextmenü des AEM-Desktop-Programms die Option „Paste Assets“ (Assets einfügen) auswählen. Auf diese Weise beginnt das AEM-Desktop-Programm ähnlich wie die zuvor beschriebene Funktion „Ordner hochladen“ mit dem Hochladen der eingefügten Assets
+Alternativ können Sie Dateien/Ordner, die Sie in AEM hochladen möchten, im Finder oder Explorer auswählen, sie in die Systemzwischenablage kopieren, zum Ordner &quot;Zielgruppe&quot;im Bereich &quot;Network Share&quot;navigieren und im Kontextmenü der AEM-Desktop-App die Option &quot;Assets **einfügen&quot;** wählen. Auf diese Weise laden AEM-Desktop-App-Beginn die eingefügten Assets hoch, ähnlich der Option &quot;Ordner **hochladen&quot;** , die in der AEM-Weboberfläche verfügbar ist.
 
 >[!MORELIKETHIS]
 >
 >* [Einführung in das AEM-Desktop-Programm](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
->* [Grundlegendes zum Ein- und Auschecken mit dem AEM-Desktop-Programm](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
->* [Fehlerbehebung für das AEM-Desktop-Programm](troubleshoot-app-v1.md)
+>* [Einchecken/Auschecken mit der AEM-Desktop-App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
+>* [Fehlerbehebung bei der AEM Desktop-App-Anwendung](troubleshoot-app-v1.md)
 
