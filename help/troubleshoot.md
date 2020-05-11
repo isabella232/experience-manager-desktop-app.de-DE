@@ -8,7 +8,7 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
 
 ---
@@ -24,9 +24,9 @@ Lesen Sie weiter, um Fehler im Programm zu beheben, lernen Sie die Best Practice
 
 Befolgen Sie die folgenden Best Practices, um einige häufige Probleme und die Fehlerbehebung zu vermeiden.
 
-* **Verstehen Sie, wie die Desktop-App funktioniert**: Bevor Sie mit der Verwendung der Anwendung beginnen, sollten Sie sich kurz mit der Funktionsweise der App vertraut machen. Erfahren Sie mehr über die Verknüpfung zwischen der Experience Manager-Weboberfläche und dem Desktop, Repository-Zuordnung, Asset-Zwischenspeicherung, Lokales Speichern und Hochladen im Hintergrund. Machen Sie sich mit der [Funktionsweise](release-notes.md#how-app-works) vertraut:
+* **So funktioniert das Desktop-Programm**: Bevor Sie mit der Verwendung des Programms beginnen, sollten Sie sich kurz mit ihrer Funktionsweise vertraut machen. Erfahren Sie mehr über Verknüpfung zwischen der Web-Oberfläche von Experience Manager und dem Desktop-Programm, Repository-Zuordnung, Asset-Zwischenspeicherung, lokales Speichern und Hochladen im Hintergrund. Machen Sie sich mit der [Funktionsweise](release-notes.md#how-app-works) vertraut:
 
-* **Vermeiden Sie nicht unterstützte Zeichen in Ordnernamen**: Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen und ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in Experience Manager Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). In einigen Adobe Experience Manager-Anwendungsfällen können durch nicht unterstützte Zeichen im Ordnernamen Probleme auftreten.
+* **Vermeiden Sie nicht unterstützte Zeichen in Ordnernamen**: Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen und ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in Experience Manager Assets](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). In einigen Adobe Experience Manager-Anwendungsfällen können durch nicht unterstützte Zeichen im Ordnernamen Probleme auftreten.
 
 * **Best Practices zur Vermeidung von Konflikten**: Um mögliche Konflikte bei der Zusammenarbeit mit mehreren Assets zu vermeiden, lesen Sie [Vermeiden von Bearbeitungskonflikten](using.md#adv-workflow-collaborate-avoid-conflicts).
 
@@ -135,7 +135,7 @@ Die Bibliotheken, die das AEM-Desktop-Programm zur HTTP-Kommunikation nutzt, set
 In seltenen Fällen reagiert das Programm möglicherweise nicht mehr, zeigt nur einen weißen Bildschirm an oder zeigt einen Fehler am unteren Rand der Benutzeroberfläche an, ohne dass Optionen auf der Benutzeroberfläche vorhanden sind. Versuchen Sie Folgendes in genannter Reihenfolge:
 
 * Klicken Sie mit der rechten Maustaste auf die Programmoberfläche und klicken Sie auf **[!UICONTROL Refresh]**.
-* Beenden Sie die Anwendung und öffnen Sie sie erneut.
+* Beenden Sie das Programm und starten Sie es erneut.
 
 Bei beiden Methoden startet das Programm im Stammordner des DAM.
 
