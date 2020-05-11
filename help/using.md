@@ -6,7 +6,7 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
@@ -156,7 +156,7 @@ Verwenden Sie **[!UICONTROL Toggle Check-out]** zum Sperren des Assets, um Konfl
 * Sie haben begonnen, ein Asset zu bearbeiten, ohne es vorher auszuchecken (indem Sie es einfach öffnen).
 * Sie möchten demnächst mit der Bearbeitung eines Assets beginnen und möchten nicht, dass andere Benutzer es bearbeiten.
 
-Nachdem Sie die Bearbeitungen vorgenommen haben, zeigt das Programm den Status **[!UICONTROL Edited Locally]** für geänderte Assets an. Alle in den Assets gespeicherten Änderungen sind nur lokal verfügbar, bis Sie die Änderungen in AEM hochladen. Um einzelne Assets oder einige Assets einzeln hochzuladen, klicken Sie in den Optionen für ein Asset auf **[!UICONTROL Upload Changes]**. Dadurch wird eine Version des Assets in AEM erstellt. Über die Web-Oberfläche von AEM Assets können Sie den Asset-Verlauf in der [Timeline](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/activity-stream.html) anzeigen.
+Nachdem Sie die Bearbeitungen vorgenommen haben, zeigt das Programm den Status **[!UICONTROL Edited Locally]** für geänderte Assets an. Alle in den Assets gespeicherten Änderungen sind nur lokal verfügbar, bis Sie die Änderungen in AEM hochladen. Um einzelne Assets oder einige Assets einzeln hochzuladen, klicken Sie in den Optionen für ein Asset auf **[!UICONTROL Upload Changes]**. Dadurch wird eine Version des Assets in AEM erstellt. Über die Web-Oberfläche von AEM Assets können Sie den Asset-Verlauf in der [Timeline](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/using/activity-stream.html) anzeigen.
 
 ![Option zum Hochladen von Änderungen im Programm](assets/upload_changes_single1_da2.png "Option zum Hochladen von Änderungen im Programm")
 
@@ -174,7 +174,7 @@ Deaktivieren Sie ggf. das Auschecken. Das aktualisierte Asset wird aus dem lokal
 
 ## Hochladen und Hinzufügen neuer Assets zu AEM {#upload-and-add-new-assets-to-aem}
 
-Benutzer können dem DAM-Repository neue Assets hinzufügen. Vielleicht sind Sie z. B. ein Agenturfotograf oder -auftragnehmer sein, der eine große Anzahl von Fotos aus einem Foto-Shooting zum AEM-Repository hinzufügen möchte. Um AEM neue Inhalte hinzuzufügen, klicken Sie auf das Symbol ![In Cloud hochladen](assets/do-not-localize/upload_to_cloud_da2.png) in der oberen Leiste des Programms. Navigieren Sie zu den Asset-Dateien im lokalen Dateisystem und klicken Sie auf **[!UICONTROL Select]**. Das Programm startet das Hochladen des Assets und zeigt am unteren Rand eine Fortschrittsleiste an, wenn das Hochladen des Assets länger dauert. Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen oder ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders).
+Benutzer können dem DAM-Repository neue Assets hinzufügen. Vielleicht sind Sie z. B. ein Agenturfotograf oder -auftragnehmer sein, der eine große Anzahl von Fotos aus einem Foto-Shooting zum AEM-Repository hinzufügen möchte. Um AEM neue Inhalte hinzuzufügen, klicken Sie auf das Symbol ![In Cloud hochladen](assets/do-not-localize/upload_to_cloud_da2.png) in der oberen Leiste des Programms. Navigieren Sie zu den Asset-Dateien im lokalen Dateisystem und klicken Sie auf **[!UICONTROL Select]**. Das Programm startet das Hochladen des Assets und zeigt am unteren Rand eine Fortschrittsleiste an, wenn das Hochladen des Assets länger dauert. Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen oder ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in AEM Assets](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
@@ -229,7 +229,7 @@ Wenn die erwarteten Änderungen nach dem Upload nicht im Programm übernommen we
 
 >[!NOTE]
 >
->Verwenden Sie keine Upload-Funktion, um Assets über zwei AEM-Bereitstellungen zu migrieren. Siehe stattdessen auch [Migrationshandbuch](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/assets-migration-guide.html).
+>Verwenden Sie keine Upload-Funktion, um Assets über zwei AEM-Bereitstellungen zu migrieren. Siehe stattdessen auch [Migrationshandbuch](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/administer/assets-migration-guide.html).
 
 ### Liste der übertragenen Assets {#list-of-transferred-assets}
 
