@@ -8,7 +8,7 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
@@ -33,20 +33,20 @@ Stellen Sie zur Verwendung des Experience Manager-Desktop-Programms sicher,
 
 Detaillierte Informationen finden Sie unter [Versionshinweise zum Adobe Experience Manager-Desktop-Programm](release-notes.md).
 
-## Upgrade from a previous version {#upgrade-from-previous-version}
+## Upgrade von einer früheren Version {#upgrade-from-previous-version}
 
-Wenn Sie Benutzer der Version 1.x der Desktop-App sind, sollten Sie die Unterschiede und Ähnlichkeiten zwischen der vorherigen und der neuesten Version der App kennen. [Neue Funktionen in der Desktop-App](introduction.md#whats-new-v2) und [Funktionsweise der App](release-notes.md#how-app-works)
+Wenn Sie bereits Version 1.x des Desktop-Programms benutzen, sollten Sie die Unterschiede und Ähnlichkeiten zwischen der vorherigen und der aktuellen Version des Programms kennen. Siehe [Neue Funktionen im Desktop-Programm](introduction.md#whats-new-v2) und [Funktionsweise des Programms](release-notes.md#how-app-works)
 
 >[!NOTE]
 >
->Zwei Versionen der Desktop-App können auf einem Computer nicht nebeneinander bestehen. Deinstallieren Sie vor der Installation einer Version die andere Version.
+>Auf einem Computer können nicht zwei Versionen des Desktop-Programms gleichzeitig installiert sein. Deinstallieren Sie vor der Installation einer Version die andere Version.
 
-Gehen Sie wie folgt vor, um eine Aktualisierung von einer früheren Version der App durchzuführen:
+Gehen Sie wie folgt vor, um von einer früheren Version des Programms zu aktualisieren:
 
-1. Synchronisieren Sie vor dem Upgrade alle Assets und laden Sie Ihre Änderungen in Experience Manager hoch. Dadurch soll vermieden werden, dass Änderungen beim Deinstallieren der App verloren gehen.
-1. Deinstallieren Sie die vorherige Version der App. Wählen Sie bei der Deinstallation die Option zum Löschen des Cache.
+1. Synchronisieren Sie vor dem Upgrade alle Assets und laden Sie Ihre Änderungen in Experience Manager hoch. Dadurch soll vermieden werden, dass Änderungen beim Deinstallieren des Programms verloren gehen.
+1. Deinstallieren Sie die vorherige Version des Programms. Wählen Sie bei der Deinstallation die Option zum Löschen des Cache.
 1. Starten Sie den Computer neu.
-1. [Laden Sie die neueste Version des Programms herunter und installieren Sie sie.](release-notes.md)[](#install-v2) Befolgen Sie die unten stehenden Anweisungen.
+1. [Laden Sie die neueste Version des Programms herunter](release-notes.md) und [installieren Sie sie](#install-v2). Befolgen Sie die unten stehenden Anweisungen.
 
 ## Installieren {#install-v2}
 
@@ -54,7 +54,7 @@ Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren
 
 1. Laden Sie das neueste Installationsprogramm von der Seite mit den [Versionshinweisen](release-notes.md) herunter.
 1. Halten Sie die URL und die Anmeldeinformationen Ihrer Experience Manager-Bereitstellung bereit.
-1. Wenn Sie ein Upgrade von einer anderen Version der App durchführen, finden Sie weitere Informationen unter [Aktualisieren der Desktop-App](#upgrade-from-previous-version).
+1. Wenn Sie ein Upgrade von einer anderen Version des Programms durchführen, finden Sie weitere Informationen unter [Aktualisieren des Desktop-Programms](#upgrade-from-previous-version).
 1. Überspringen Sie diesen Schritt, wenn Sie Experience Manager as a Cloud Service, Experience Manager 6.4.4 oder höher bzw. Experience Manager 6.5.0 oder höher verwenden. Stellen Sie sicher, dass Ihr Experience Manager-Setup die in den [Versionshinweisen](release-notes.md) erwähnten Kompatibilitätsanforderungen erfüllt. Laden Sie bei Bedarf das entsprechende [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) herunter und installieren Sie es mit Experience Manager Package Manager als Experience Manager-Administrator. Weitere Informationen zur Installation eines Pakets finden Sie unter [Arbeiten mit Paketen](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html).
 1. Führen Sie die Binärdatei des Installationsprogramms aus und befolgen Sie die Anweisungen auf dem Bildschirm, um die Installation durchzuführen.
 1. Unter Windows werden Sie vom Installationsprogramm möglicherweise zur Installation von `Visual Studio C++ Redistributable 2015` aufgefordert. Folgen Sie den Anweisungen auf dem Bildschirm, um es zu installieren. Wenn die Installation fehlschlägt, installieren Sie es manuell. Laden Sie das Installationsprogramm [hier](https://www.microsoft.com/de-de/download/details.aspx?id=52685) herunter und installieren Sie die Dateien `vc_redist.x64.exe` und `vc_redist.x86.exe`. Führen Sie das Installationsprogramm für das AEM-Desktop-Programm erneut aus.
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren
 
    ![Bei Anmeldung zeigt das Programm den DAM-Inhalt an](assets/firstview_da2.png "Bei Anmeldung zeigt das Programm den DAM-Inhalt an")
 
-1. (Experience Manager 6.5.1 oder höher) Wenn Sie das Desktop-Programm mit Experience Manager 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Siehe [Azure-Connector](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) oder [S3-Connector](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore).
+1. (Experience Manager 6.5.1 oder höher) Wenn Sie das Desktop-Programm mit Experience Manager 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Siehe [Azure-Connector](https://docs.adobe.com/content/help/de-DE/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) oder [S3-Connector](https://docs.adobe.com/content/help/de-DE/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore).
 
    Wenn Sie Adobe Managed Services (AMS)-Kunde sind, wenden Sie sich an den Adobe-Kundendienst.
 
