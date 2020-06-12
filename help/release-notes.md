@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: 63cb82b6bdafeb87d296a895d68cb3912045839a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2e634c13ef1bcb0cd1868100f5a2d7cb20c189be
+workflow-type: tm+mt
 source-wordcount: '1318'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -38,8 +38,8 @@ Das Adobe Experience Manager-Desktop-Programm ist mit den folgenden Betriebssy
 Das Programm funktioniert mit den folgenden Experience Manager-Versionen, unabhängig davon, ob sie als Cloud Service, auf Adobe Managed Services (AMS) oder on-Premise bereitgestellt werden:
 
 * [Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/release-notes/home.html)
-* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/de-DE/experience-manager-65/release-notes/release-notes.html) oder höher
-* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/de-DE/experience-manager-64/release-notes/release-notes.html) oder höher
+* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/de-DE/experience-manager-65/release-notes/release-notes.html) oder neuer
+* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/de-DE/experience-manager-64/release-notes/release-notes.html) oder höher
 * Experience Manager 6.4.0 bis 6.4.3 mit [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
