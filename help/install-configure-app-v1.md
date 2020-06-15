@@ -8,8 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
+translation-type: tm+mt
+source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
+workflow-type: tm+mt
+source-wordcount: '992'
+ht-degree: 97%
 
 ---
 
@@ -75,7 +78,7 @@ Wenn Sie Proxyserver-Einstellungen für Windows konfigurieren oder ändern (Inte
 >
 >Proxy-Konfiguration wird nur angewendet, wenn Sie das Desktop-Programm starten. Schließen Sie das Programm und starten Sie es erneut, damit Änderungen wirksam werden.
 
-Wenn für den Proxy eine Authentifizierung erforderlich ist, kann die IT-Abteilung die URL von AEM Assets in den Proxyserver-Einstellungen der Whitelist hinzufügen, um den Applikationsdatenverkehr durchzulassen.
+Wenn Ihr Proxy authentifiziert werden muss, kann das IT-Team die Experience Manager-Assets-URL in den Proxy-Servereinstellungen zulassen, damit der Anwendungs-Traffic durchlaufen werden kann.
 
 ## Anpassen des Dialogfelds „Asset Info“{#customize-the-asset-info-dialog}
 
