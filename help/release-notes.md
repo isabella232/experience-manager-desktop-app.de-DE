@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7a803edce0b6300b4a4142dcdc2f61d8347acea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1319'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,14 +32,14 @@ ht-degree: 98%
 
 Das Adobe Experience Manager-Desktop-Programm ist mit den folgenden Betriebssystemen kompatibel:
 
-* Mac OS X 10.14 oder neuer mit den neuesten Fehlerkorrekturen.
+* Mac OS X 10.14 oder höher mit aktuellen Fehlerbehebungen.
 * Windows 7 und Windows 10 mit den neuesten Service Packs und Fehlerbehebungen.
 
 Das Programm funktioniert mit den folgenden Experience Manager-Versionen, unabhängig davon, ob sie als Cloud Service, auf Adobe Managed Services (AMS) oder on-Premise bereitgestellt werden:
 
 * [Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/release-notes/home.html)
-* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/de-DE/experience-manager-65/release-notes/release-notes.html) oder neuer
-* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/de-DE/experience-manager-64/release-notes/release-notes.html) oder höher
+* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/de-DE/experience-manager-65/release-notes/release-notes.html) oder neuer
+* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/de-DE/experience-manager-64/release-notes/release-notes.html) oder neuer
 * Experience Manager 6.4.0 bis 6.4.3 mit [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
