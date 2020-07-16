@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: a7a803edce0b6300b4a4142dcdc2f61d8347acea
-workflow-type: ht
-source-wordcount: '1319'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eda366b969edb3c266ae8a5900ea7c0409846db0
+workflow-type: tm+mt
+source-wordcount: '1326'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Das Programm funktioniert mit den folgenden Experience Manager-Versionen, unabh�
 * [Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/release-notes/home.html)
 * [Experience Manager 6.5.0](https://docs.adobe.com/content/help/de-DE/experience-manager-65/release-notes/release-notes.html) oder neuer
 * [Experience Manager 6.4.4](https://docs.adobe.com/content/help/de-DE/experience-manager-64/release-notes/release-notes.html) oder neuer
-* Experience Manager 6.4.0 bis 6.4.3 mit [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
+* Experience Manager 6.4.0 bis 6.4.3 mit [Kompatibilitätspaket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
 >
