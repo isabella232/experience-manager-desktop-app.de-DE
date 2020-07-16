@@ -8,11 +8,11 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4e2926adfe46265c78f85b63696c98859f895134
+workflow-type: tm+mt
 source-wordcount: '1240'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -55,15 +55,15 @@ Zur Fehlerbehebung können Sie den Debug-Modus aktivieren und weitere Informatio
 
 So aktivieren Sie den Debugging-Modus unter Windows:
 
-1. Suchen Sie die Datei `Adobe Experience Manager Desktop.exe.config` im Installationsordner des Desktop-Programms. Standardmäßig befindet sich diese im Ordner `C:\Program Files\Adobe\Adobe Experience Manager Desktop`. Speichern und schließen Sie die Datei.
+1. Suchen Sie die Datei `Adobe Experience Manager Desktop.exe.config` im Installationsordner des Desktop-Programms. Standardmäßig befindet sich diese im Ordner `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.
 
-1. Suchen Sie `<level value="INFO"/>` am Ende der Datei. Ändern Sie den Wert in `DEBUG`, also `<level value="DEBUG"/>`.
+1. Suchen Sie `<level value="INFO"/>` am Ende der Datei. Ändern Sie den Wert von `INFO` in `DEBUG`, d. h. `<level value="DEBUG"/>`. Speichern und schließen Sie die Datei.
 
 1. Suchen Sie die Datei `logging.json` im Installationsordner des Desktop-Programms. Standardmäßig befindet sich diese im Ordner `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
 
-1. Suchen Sie in der Datei `logging.json` alle Instanzen des Parameters `level`. Ändern Sie die Werte von `info` in `debug`. Speichern und schließen Sie die Datei.
+1. In `logging.json` file, locate all the instances of `"level": "info"`. Ändern Sie die Werte von `info` in `debug`. Speichern und schließen Sie die Datei.
 
-1. Löschen Sie die zwischengespeicherten Verzeichnisse, die sich am in den Voreinstellungen des Programms festgelegten Speicherort befinden.
+1. Clear the cached directories that are at the location set in the application [Preferences](/help/install-upgrade.md#set-preferences).
 
 1. Starten Sie das Desktop-Programm neu.
 
