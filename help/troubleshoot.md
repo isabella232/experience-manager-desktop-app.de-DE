@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 9954d0b290c4e1071a6068be4f858b29d26dc712
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -57,13 +57,13 @@ So aktivieren Sie den Debugging-Modus unter Windows:
 
 1. Suchen Sie die Datei `Adobe Experience Manager Desktop.exe.config` im Installationsordner des Desktop-Programms. Standardmäßig befindet sich diese im Ordner `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.
 
-1. Suchen Sie `<level value="INFO"/>` am Ende der Datei. Ändern Sie den Wert von `INFO` in `DEBUG`, d. h. `<level value="DEBUG"/>`. Speichern und schließen Sie die Datei.
+1. Suchen Sie `<level value="INFO"/>` am Ende der Datei. Ändern Sie den Wert von `INFO` in `DEBUG`, d. h. `<level value="DEBUG"/>`. Speichern und schließen Sie die Datei.
 
 1. Suchen Sie die Datei `logging.json` im Installationsordner des Desktop-Programms. Standardmäßig befindet sich diese im Ordner `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
 
-1. In `logging.json` file, locate all the instances of `"level": "info"`. Ändern Sie die Werte von `info` in `debug`, das heißt `"level": "debug"`. Speichern und schließen Sie die Datei.
+1. Suchen Sie in der Datei `logging.json` alle Instanzen von `"level": "info"`. Change the values from `info` to `debug`, which is `"level": "debug"`. Speichern und schließen Sie die Datei.
 
-1. Clear the cached directories that are at the location set in the application [Preferences](/help/install-upgrade.md#set-preferences).
+1. Löschen Sie die zwischengespeicherten Verzeichnisse, die sich in den [Voreinstellungen](/help/install-upgrade.md#set-preferences) des Programms festgelegten Speicherort befinden.
 
 1. Starten Sie das Desktop-Programm neu.
 
