@@ -2,8 +2,11 @@
 title: Verwenden des AEM-Desktop-Programms, Version 1.x.
 description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm, Version 1.x verwenden und Ihre Arbeit mit Assets auf dem Desktop optimieren können.
 contentOwner: AG
-translation-type: ht
-source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
+translation-type: tm+mt
+source-git-commit: f1bd50a439059ac66e0368eeefc6af67ff160d9b
+workflow-type: tm+mt
+source-wordcount: '2516'
+ht-degree: 100%
 
 ---
 
@@ -47,6 +50,7 @@ Bevor Sie mit der Erstellung oder Bearbeitung von Kreativ-Assets beginnen könne
 Das AEM-Desktop-Programm verwendet eine HTTPS-Verbindung, um eine Verbindung zum AEM-Server herzustellen, damit Ihre Assets sicher übertragen werden.
 
 >[!NOTE]
+>
 >Möglicherweise benötigen Sie bei einigen oder allen Installations- und Konfigurationsschritten Hilfe von Ihrem AEM-Administrator oder Systemadministrator.
 
 ### Installieren des Programms {#installapp}
@@ -59,6 +63,7 @@ Je nach Netzwerk- und Systemvoreinstellungen kann eine detaillierte Konfiguratio
 1. Starten Sie die heruntergeladene Installationsdatei und befolgen Sie die Bildschirmanweisungen, um das Programm zu installieren.
 
    >[!NOTE]
+   >
    >Es kann immer nur eine Instanz des AEM-Desktop-Programms installiert und aktiv sein.
 
 ### Grundlegendes zu den Optionen und Voreinstellungen des Programms {#inapppref}
@@ -117,6 +122,7 @@ Wählen Sie bei Adobe InDesign-Dateien (INDD) im Kontextmenü die Option **[!UIC
 *Abbildung : Kontextmenüoptionen zum Zugreifen auf und Öffnen von Assets mithilfe des AEM-Desktop-Programms.*
 
 >[!NOTE]
+>
 >Unter Windows verhindert die [Windows 7-Standardeinstellung](https://support.microsoft.com/de-de/kb/2668751), dass das AEM-Desktop-Programm Dateien verarbeitet, die größer als 50 MB sind.
 
 >[!NOTE]
@@ -168,6 +174,7 @@ Es gibt zwei Methoden zum Auschecken von Assets über die AEM-Web-Benutzeroberfl
    Alternativ können Sie die Option „Öffnen“ über das Menü „Desktop-Aktionen“ in der Symbolleiste auswählen.
 
    >[!NOTE]
+   >
    >Wenn Sie eine Datei bearbeiten, die gerade geöffnet ist und nicht ausgecheckt wurde, erfahren andere Benutzer nicht, dass Sie ein Asset aktualisieren.
 
 1. Wenn Sie ein Asset für die Bearbeitung in einer Adobe Creative Cloud-Applikation öffnen möchten, klicken/tippen Sie auf die Schnellaktion ![Desktop bearbeiten](assets/aemassets_icon_editdesktop.png). Dadurch wird das Asset auch zur Bearbeitung ausgecheckt. Checken Sie das Asset nach Abschluss der Bearbeitung ein, um die Änderungen in AEM Assets zu aktualisieren.
@@ -215,6 +222,7 @@ Mithilfe des Programms können Sie Dateien auschecken, damit andere Benutzer kei
 1. Prüfen Sie das Asset in Explorer. Das Sperrsymbol auf dem Asset ![Asset-Sperrsymbol](assets/aemassets_icon_lockcheckout.png) gibt an, dass Sie das Asset ausgecheckt haben.
 
    >[!NOTE]
+   >
    >Das Schlosssymbol wird möglicherweise mit einiger Verzögerung angezeigt. Das AEM-Desktop-Programm speichert die Assets für einen schnellen Zugriff zwischen. Daher kann es einen Moment dauern, bis der Sperrstatus aktualisiert wird.
 
 1. Wenn Sie das Asset einchecken möchten, sodass es für andere Benutzer verfügbar ist, klicken/tippen Sie im Dialogfeld **Asset Info** (Asset-Informationen) auf das Symbol „Einchecken“.
@@ -240,6 +248,7 @@ Mit AEM Desktop können Sie einen ganzen Ordner mit Assets aus Ihrem lokalen Da
    Status des Uploads im Fenster „Assets Status“ anzeigen
 
    >[!NOTE]
+   >
    >Sie können den Upload manuell pausieren oder abbrechen, indem Sie auf das entsprechende Symbol klicken/tippen.
 
 1. Wenn der Upload abgeschlossen ist, schließen Sie das Dialogfeld und navigieren Sie zur Assets-Benutzeroberfläche. Der hochgeladene Ordner wird in der Web-Benutzeroberfläche angezeigt.
