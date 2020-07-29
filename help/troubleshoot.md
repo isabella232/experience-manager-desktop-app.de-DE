@@ -8,11 +8,11 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9954d0b290c4e1071a6068be4f858b29d26dc712
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ So aktivieren Sie den Debugging-Modus unter Windows:
 
 1. Suchen Sie die Datei `logging.json` im Installationsordner des Desktop-Programms. Standardmäßig befindet sich diese im Ordner `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
 
-1. Suchen Sie in der Datei `logging.json` alle Instanzen von `"level": "info"`. Change the values from `info` to `debug`, which is `"level": "debug"`. Speichern und schließen Sie die Datei.
+1. Suchen Sie in der Datei `logging.json` alle Instanzen von `"level": "info"`. Ändern Sie die Werte von `info` in `debug`, d. h. `"level": "debug"`. Speichern und schließen Sie die Datei.
 
 1. Löschen Sie die zwischengespeicherten Verzeichnisse, die sich in den [Voreinstellungen](/help/install-upgrade.md#set-preferences) des Programms festgelegten Speicherort befinden.
 
