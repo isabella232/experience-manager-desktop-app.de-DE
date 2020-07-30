@@ -8,9 +8,9 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9954d0b290c4e1071a6068be4f858b29d26dc712
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 100%
 
@@ -146,3 +146,4 @@ Bei beiden Methoden startet das Programm im Stammordner des DAM.
 >
 >* [Bekannte Probleme](release-notes.md#known-issues-v2)
 >* [Vermeiden von Bearbeitungskonflikten](using.md#adv-workflow-collaborate-avoid-conflicts)
+
