@@ -8,8 +8,11 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
+translation-type: tm+mt
+source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+workflow-type: tm+mt
+source-wordcount: '3374'
+ht-degree: 99%
 
 ---
 
@@ -142,7 +145,7 @@ Sie können die Leistung auf AEM-Seite verbessern, indem Sie für den Workflow �
 Eine weitere Methode zum Verbessern der AEM-Leistung besteht darin, den Wert der maximal zulässigen parallelen Aufträge für die Warteschlange für Granite-Übergangs-Workflows zu konfigurieren. Der empfohlene Wert beträgt ungefähr die Hälfte der CPU, die für den Server verfügbar sind. Führen Sie die folgenden Schritte aus, um den Wert anzupassen:
 
 1. Navigieren Sie in der zu konfigurierenden AEM-Instanz zu */system/console/configMgr* (z. B. <http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr>).
-1. Suchen Sie nach **QueueConfiguration** und klicken Sie, um die einzelnen Aufträge zu öffnen, bis Sie den Auftrag **Warteschlange für Granite-Übergangs-Workflow** gefunden haben. Klicken Sie daneben auf das Symbol „Bearbeiten“.
+1. Suchen Sie nach **QueueConfiguration** und klicken Sie, um die einzelnen Aufträge zu öffnen, bis Sie den Auftrag **Warteschlange für Granite-Übergangs-Workflow** gefunden haben. Klicken Sie auf Bearbeiten.
 1. Ändern Sie den Wert **Maximale Anzahl an parallelen Aufträgen** und klicken Sie auf **Speichern**.
 
 ## AWS-Konfiguration      {#aws-configuration}
@@ -187,7 +190,7 @@ Nach dem Installieren des Desktop-Programms wird in der Menüleiste das Menüsym
 1. Geben Sie den folgenden Befehl ein und drücken Sie die Eingabetaste:
 
    ```shell
-   rm -r com.adobe.aem.assetscompanion 
+   rm -r com.adobe.aem.assetscompanion
    ```
 
 1. Geben Sie den folgenden Befehl ein und drücken Sie die Eingabetaste:
@@ -218,9 +221,10 @@ Die einfachste Methode zum Beheben dieser Situation besteht darin, die in Konfli
 
 Beim Löschen des Caches von AEM Desktop handelt es sich um eine vorläufige Aufgabe zur Fehlerbehebung, durch die verschiedene Probleme mit AEM Desktop gelöst werden können.
 
-Sie können den Cache löschen, indem Sie das Cache-Verzeichnis des Programms unter den folgenden Verzeichnissen löschen: Windows: %LocalAppData%\Adobe\AssetsCompanion\Cache\
+Sie können den Cache löschen, indem Sie den Cacheverzeichnis der Anwendung an den folgenden Speicherorten löschen.
+Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
-Mac: ~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/
+Mac OS `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
 Das Verzeichnis kann sich jedoch in Abhängigkeit vom konfigurierten AEM-Endpunkt des AEM-Desktop-Programms ändern. Der Wert ist eine codierte Version der Ziel-URL. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502%2F`.
 
