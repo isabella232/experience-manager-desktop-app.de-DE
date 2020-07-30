@@ -5,8 +5,11 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 snippet: y
-translation-type: ht
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+translation-type: tm+mt
+source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Eine solche Integration ermöglicht es verschiedenen Rollen in der Organisation,
 Die Dokumentation zum Desktop-Programm enthält Informationen zu den folgenden Rollen und Anwendungsfällen.
 
 | Erforderliche Informationen | Hilfeinhalt |
-|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+|--- |--- |
 | Möchten Sie einen schnellen Überblick über neue Funktionen und Verbesserungen in der neuesten Version erhalten? | [Neue Funktionen im Programm](#whats-new-v2) |
 | Möchten Sie die Voraussetzungen und technischen Spezifikationen kennenlernen? Benötigen Sie Links zum Herunterladen? | [Versionshinweise](release-notes.md) |
 | Sie kennen das Desktop-Programm bereits? Sie wollen eine Aktualisierung durchführen und einen reibungslosen Übergang sicherstellen? | [Upgrade von früherer Version](install-upgrade.md#upgrade-from-previous-version) |
@@ -41,8 +44,11 @@ Version 2.0 des Programms wurde von Grund auf neu entwickelt, um im Vergleich zu
 Das neue Programm verbessert die Benutzerfreundlichkeit erheblich und unterstützt gleichzeitig dieselben Anwendungsfälle wie bisher. Im Folgenden werden die wichtigsten Verbesserungen beschrieben.
 
 * Benutzer können Assets in einem integrierten Browser im Programm suchen und durchsuchen, anstatt sie in einer virtuellen Netzwerkfreigabe in Mac Finder oder Windows Explorer anzuzeigen.
+
 * Klare Hinweise zu den Aktionen sind für Benutzer verfügbar.
+
 * Die Leistung wird durch die Reduzierung der Bandbreitennutzung verbessert. Die ursprünglichen Binärdateien werden nur bei Bedarf heruntergeladen. Beim Durchsuchen und Suchen von Assets werden nur kleine Miniaturansichten übertragen.
+
 * Optimiert für Massenvorgänge, z. B. Massen-Upload.
 
 Die wichtigsten Anwendungsfälle und Verbesserungen des neuen Programms und ihre Bedeutung für die Customer Journey werden in der folgenden Abbildung gezeigt.
