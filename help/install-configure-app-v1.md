@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
-workflow-type: ht
-source-wordcount: '992'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+workflow-type: tm+mt
+source-wordcount: '997'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,9 @@ Dank dieser Integration können unterschiedliche Rollen im Unternehmen die Asset
 Wenn Sie das AEM-Desktop-Programm verwenden möchten,
 
 * stellen Sie sicher, dass Ihre AEM-Server-Version vom AEM-Desktop-Programm unterstützt wird. Weitere Informationen finden Sie in der [Kompatibilitätsmatrix](release-notes-of-v1.md#compatibilitymatrix).
+
 * Laden Sie das Programm herunter und installieren Sie es.
+
 * Testen Sie die Verbindung mithilfe einiger Assets. Siehe [Zugreifen auf und Öffnen von Assets über den Desktop](use-app-v1.md#openondesktop).
 
 ## Systemanforderungen, Voraussetzungen und Download-Links {#system-requirements-prerequisites-and-download-links}
@@ -48,8 +50,11 @@ Beim Ändern einer Datei unter einem vom Desktop-Programm bereitgestellten Netzw
 In der zweiten Phase lädt das Desktop-Programm die aktualisierte Datei nach einer festgelegten Verzögerung (z. B. 30 Sek.) auf den AEM-Server hoch. Dieser Vorgang erfolgt im Hintergrund. Verwenden Sie die Option „View Asset Status“ (Asset-Status anzeigen), um den Status des Upload-Vorgangs anzuzeigen.
 
 1. Hochladen eines Assets in AEM Assets.
+
 1. Klicken/tippen Sie in der Symbolleiste auf das Symbol „AEM-Desktop-Programm“.
+
 1. Wählen Sie im Menü die Option „View Asset Status“ (Asset-Status anzeigen) aus.
+
 1. Überprüfen Sie im Dialogfeld den Status des Upload-Vorgangs.
 
 >[!NOTE]
@@ -84,10 +89,11 @@ Wenn für den Proxy eine Authentifizierung erforderlich ist, kann die IT-Abteilu
 
 Sie können das Dialogfeld „Asset Info“ (Asset-Informationen) anpassen, indem Sie es mit mindestens einer dieser beiden Komponenten überlagern:
 
-* Seite der Granite-Benutzeroberfläche unter `/libs/dam/gui/content/assets/moreinfo`
-* HTL-Komponente `/css/javascript` unter `/libs/dam/gui/components/admin/moreinfo`
+* Seite der Granite-Benutzeroberfläche unter `/libs/dam/gui/content/assets/moreinfo`.
 
-Welche Komponente überlagert wird, hängt von der Art der Personalisierung ab. Wenn Sie die Komponenten ändern möchten, die als Teil des Dialogfelds „Asset Info“ angezeigt werden, überlagern Sie die Seite der Granite-Benutzeroberfläche. Um den HTML/CSS/Javascript-Inhalt des Dialogfelds zu ändern, überlagern Sie die HTL-Komponente.
+* HTL-Komponente `/css/javascript` unter `/libs/dam/gui/components/admin/moreinfo`.
+
+Welche Komponente überlagert wird, hängt von der Art der Personalisierung ab. Wenn Sie die Komponenten ändern möchten, die als Teil des Dialogfelds „Asset Info“ angezeigt werden, überlagern Sie die Seite der Granite-Benutzeroberfläche. Um den HTML-, CSS- oder Javascript-Inhalt des Dialogfelds zu ändern, überlagern Sie die HTML-Komponente.
 
 ## Verwalten des Cache      {#manage-cache}
 
@@ -105,16 +111,18 @@ Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke z
 
 ### Ändern des Cache-Verzeichnisses unter Windows      {#change-location-of-cache-on-windows}
 
-Der Standardspeicherort des Caches für das AEM-Desktop-Programm lautet:
+Der Standardspeicherort für den Cache für die AEM Desktop-App lautet wie folgt:
 
-* Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\EncodedAEMEndpoint`
-* Mac: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`
+* Unter Windows `%LocalAppData%\Adobe\AssetsCompanion\Cache\EncodedAEMEndpoint`.
+
+* Mac, `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`.
 
 `EncodedAEMEndpoint` ist die konfigurierte AEM-Endpunkt-URL des AEM-Desktop-Programms. Der Wert ist eine codierte Version der Ziel-URL für den AEM-Server. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502`. Der Windows-Pfad zum Cache-Verzeichnis in diesem Beispiel lautet „%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502“.
 
 Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen, bearbeiten Sie die Konfigurationsdatei des Programms.
 
 1. Navigieren Sie zum Installationsverzeichnis des Programms. Der Standardspeicherort unter Windows ist `C:\Program Files (x86)\Adobe\Adobe Experience Manager Desktop`.
+
 1. Bearbeiten Sie die Datei „Adobe Experience Manager Desktop.exe.config“ mit einem Texteditor.
 
    Zum Speichern von an dieser Datei vorgenommenen Änderungen sind Administratorberechtigungen erforderlich.
@@ -123,7 +131,7 @@ Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen,
 
    >[!NOTE]
    >
-   >Das Programm erstellt automatisch ein Unterverzeichnis mit der Bezeichnung *&lt;Codierter AEM-Endpunkt>*. Dieses Verhalten kann nicht konfiguriert werden.
+   >The app automatically creates an *&lt;Encoded AEM Endpoint>* subdirectory. This behavior is not configurable.
 
 >[!MORELIKETHIS]
 * [Einführung in das AEM-Desktop-Programm](https://helpx.adobe.com/de/customer-care-office-hours/aem/desktop-app.html)
