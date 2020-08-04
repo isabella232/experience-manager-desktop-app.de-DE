@@ -6,11 +6,11 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27cc0ba26622016ce82b758fb0607652176f6992
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3995'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,8 @@ Wenn Sie das Programm nach dem Abmelden oder zum ersten Mal öffnen, geben Sie d
 
 Die wichtigsten Aufgaben, die Sie mit dem Experience Manager-Desktop-Programm ausführen, sind:
 
-![Workflows und Aufgaben, die Sie mit der [!DNL Experience Manager] Desktop-](assets/aem_desktop_app_usecases_v2.png "App ausführen könnenArbeitsabläufe und Aufgaben, die Sie mit der Adobe Experience Manager-Desktop-App")durchführen könnenLaden Sie [diese](assets/aem_desktop_app_usecases_print.pdf) druckfertige PDF-Datei herunter.
+![Workflows und Aufgaben, die Sie mit dem [!DNL Experience Manager]-Desktop-Programm ausführen können](assets/aem_desktop_app_usecases_v2.png "Workflows und Aufgaben, die Sie mit dem Adobe Experience Manager-Desktop-Programm ausführen können")
+Laden Sie [diese](assets/aem_desktop_app_usecases_print.pdf) druckfertige PDF-Datei herunter.
 
 ## Funktionsweise des Desktop-Programms {#how-app-works2}
 
