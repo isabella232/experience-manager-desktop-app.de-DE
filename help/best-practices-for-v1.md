@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+source-git-commit: 3e10be1fd9dd1ff5293e96b46565825e6be1fc4f
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1705'
 ht-degree: 70%
 
 ---
@@ -45,7 +45,7 @@ Das zusätzliche Caching bei Schreibvorgängen führt, wenn eine Datei gespeiche
 
 Zu den Hauptfunktionen und -merkmalen des AEM-Desktop-Programms gehören u. a.:
 
-* **Öffnen von Dateien über die Web-Benutzeroberfläche von AEM Assets auf dem Desktop**. Über die Web-Benutzeroberfläche können Sie Assets auf dem Desktop (im Finder, Explorer) anzeigen oder ein Asset mit einer Desktop-Anwendung öffnen.
+* **Öffnen von Dateien über die AEM Assets Web-Benutzeroberfläche auf dem Desktop**. Über die Web-Benutzeroberfläche können Sie Assets auf dem Desktop (im Finder, Explorer) anzeigen oder ein Asset mit einer Desktop-Anwendung öffnen.
 
 * **Checkout und Check-in**. Assets können zur Bearbeitung ausgecheckt werden, sie werden in AEM Assets als gesperrt markiert. Nach dem Bearbeiten können die Assets dann wieder eingecheckt und damit entsperrt werden.
 
@@ -63,7 +63,7 @@ Zu den Hauptfunktionen und -merkmalen des AEM-Desktop-Programms gehören u. a.:
 
 * Setzen Sie das AEM-Desktop-Programm nicht ein, um Assets über den Desktop zu verwalten. Das AEM-Desktop-Programm wurde nicht als Ersatz für Netzlaufwerke entwickelt. Verwenden Sie stattdessen die folgenden Funktionen:
 
-   * AEM Assets-Web-Benutzeroberfläche für die digitale Asset-Verwaltung (Suchen oder Freigeben von Assets, Metadaten und Kopieren oder Verschieben).
+   * AEM Assets Web-Benutzeroberfläche für die Verwaltung digitaler Assets (Suchen oder Freigeben von Assets, Metadaten und Kopieren oder Verschieben).
 
    * AEM desktop app [!UICONTROL Folder Upload] to upload large, hierarchical folders.
 
@@ -71,7 +71,7 @@ Zu den Hauptfunktionen und -merkmalen des AEM-Desktop-Programms gehören u. a.:
 
 * Setzen Sie AEM-Desktop-Programm-Netzlaufwerke nicht zum regelmäßigen Speichern von Assets ein. Alle Speichervorgänge werden an AEM Assets übertragen. Daher ist es unpraktisch, intensive Bearbeitungsvorgänge direkt in dem bereitgestellten AEM Assets-Repository durchzuführen. Wird ein Asset direkt im bereitgestellten Repository bearbeitet, wird die Zeitleiste des Assets mit irrelevanten Versionen „vollgestopft“ und der Server wird durch Mehraufwand belastet.
 
-* Setzen Sie das AEM-Desktop-Programm nicht ein, um große Datenmengen von einer AEM-Instanz zu einer anderen zu migrieren. Informationen zum Planen und Ausführen von Asset-Migrationen finden Sie im [Migrationshandbuch](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/administer/assets-migration-guide.html). In contrast, desktop app [supports bulk uploading](use-app-v1.md#bulkupload) large number of assets for the first time in [!DNL Adobe Experience Manager].
+* Setzen Sie das AEM-Desktop-Programm nicht ein, um große Datenmengen von einer AEM-Instanz zu einer anderen zu migrieren. See the [Migration Guide](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/administer/assets-migration-guide.html) to plan and execute asset migrations. In contrast, desktop app [supports bulk uploading](use-app-v1.md#bulkupload) large number of assets for the first time in [!DNL Adobe Experience Manager].
 
 ## Empfehlungen für ausgewählte Anwendungsfälle{#recommendations-for-selected-use-cases}
 
@@ -115,7 +115,7 @@ Gehen Sie wie folgt vor, wenn ein in AEM gespeichertes Asset aktualisiert werden
 
    * Öffnen Sie mithilfe der Option „Anzeigen“ den entsprechenden Ordner auf dem Desktop..
 
-   * Kopieren Sie die Datei in einen WIP-Ordner außerhalb der zugeordneten AEM Assets, die freigegeben sind (kopieren Sie die Datei beispielsweise in einen mit der Adobe Creative Cloud Desktop-App synchronisierten Ordner).
+   * Kopieren Sie die Datei in einen WIP-Ordner außerhalb der zugeordneten AEM Assets Share (kopieren Sie die Datei beispielsweise in einen Ordner, der mit der Adobe Creative Cloud Desktop-App synchronisiert wird).
 
    * Arbeiten Sie an der Datei und speichern Sie sie zwischendurch. Die Änderungen werden nicht in AEM Assets gespeichert..
 
@@ -129,7 +129,7 @@ Um Benutzern ein positives AEM-Desktop-Programm-Erlebnis zu ermöglichen, kommt 
 
 Die Best Practices für die AEM Assets-Netzwerkkonfiguration finden Sie im Dokument [Überlegungen zum AEM Assets-Netzwerk](https://docs.adobe.com/content/help/de-DE/experience-manager-64/assets/administer/assets-migration-guide.html). Folgende Aspekte sind u. a. beim Optimieren des AEM-Desktop-Programm-Erlebnisses für Benutzer nützlich:
 
-* **Verwenden Sie ordnungsgemäß konfigurierten Dispatcher**. Verwenden Sie AEM Dispatcher für zusätzliche Sicherheit und stellen Sie sicher, dass er für [AEM Desktop-App-Verbindung für AEM hinter einem Dispatcher konfiguriert ist.](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
+* **Verwenden Sie ordnungsgemäß konfigurierten Dispatcher**. Verwenden Sie AEM Dispatcher für zusätzliche Sicherheit und stellen Sie sicher, dass er für [AEM Desktop-App-Verbindung konfiguriert ist, um hinter einem Dispatcher AEM zu werden.](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
 * **Sparen Sie Bandbreite**. Sie sollten die Vorschau der Symbole in Finder auf Mac deaktivieren - wenn Sie das gemountete Repository mit Finder durchsuchen. Finder fordert jede einzelne Datei an, um eine Vorschau zu erzeugen, und bewirkt, dass das AEM-Desktop-Programm das Asset herunterlädt und lokal im Cache speichert. Jedoch gilt es hierbei zu berücksichtigen, dass sich mit der eingesparten Brandbreite auch das Benutzererlebnis auf dem Desktop verschlechtert. So sollte daher beim Arbeiten mit Repositorys mit großen Assets und/oder begrenzter Brandbreite verfahren werden.
 
