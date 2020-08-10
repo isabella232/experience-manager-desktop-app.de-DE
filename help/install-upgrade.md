@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1239'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -77,9 +77,9 @@ Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren
 
 1. Um das Programm mit einem AEM-Repository zu verbinden, klicken Sie auf das Programmsymbol in der Ablage, um das Programm zu starten. Geben Sie die Adresse der AEM-Instanz ein. Klicken Sie auf **[!UICONTROL Connect]** und geben Sie die Anmeldeinformationen ein.
 
-   ![Verbindungsbildschirm der Desktop-App mit der Adresse des Eingabeservers](assets/connect_da2.png)
+   ![Verbindungsbildschirm des Desktop-Programms zur Eingabe der Server-Adresse](assets/connect_da2.png)
 
-   *Abbildung: Verbindungsbildschirm zur Eingabe der Serveradresse*
+   *Abbildung: Verbindungsbildschirm zur Eingabe der Server-Adresse*
 
    >[!CVorsicht]
    >
@@ -87,9 +87,9 @@ Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren
 
 1. Nach erfolgreicher Verbindung können Sie die Liste der Ordner und Assets anzeigen, die im Stammordner von AEM DAM verfügbar sind. Sie können die Ordner im Programm durchsuchen.
 
-   ![Bei Anmeldung zeigt die App den DAM-Inhalt an](assets/firstview_da2.png)
+   ![Nach der Anmeldung zeigt das Programm den DAM-Inhalt an](assets/firstview_da2.png)
 
-   *Abbildung: Die Anwendung zeigt den DAM-Inhalt nach der Anmeldung an*
+   *Abbildung: Das Programm zeigt nach der Anmeldung den DAM-Inhalt an*
 
 1. (Experience Manager 6.5.1 oder höher) Wenn Sie das Desktop-Programm mit Experience Manager 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Siehe [Azure-Connector](https://docs.adobe.com/content/help/de-DE/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) oder [S3-Connector](https://docs.adobe.com/content/help/de-DE/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore).
 
@@ -119,9 +119,9 @@ Um die Voreinstellungen zu ändern, klicken Sie auf das Symbol ![Weitere Optione
 
 Um die nicht verfügbaren Voreinstellungen zu aktualisieren, melden Sie sich beim AEM-Server ab. Nachdem Sie die Voreinstellungen aktualisiert haben, klicken Sie auf ![Voreinstellungen speichern](assets/do-not-localize/save_preferences_da2.png), um die Änderungen zu speichern.
 
-![Voreinstellungen und Einstellungen für Desktop-Apps](assets/preferences_da2.png)
+![Voreinstellungen und Einstellungen für das Desktop-Programm](assets/preferences_da2.png)
 
-*Abbildung: Voreinstellungen für Desktop-Apps*
+*Abbildung: Voreinstellungen für das Desktop-Programm*
 
 ## Deinstallieren des Programms {#uninstall-the-app}
 
@@ -133,7 +133,7 @@ Gehen Sie wie folgt vor, um das Programm unter Windows zu deinstallieren:
 
 1. Um den Cache und die Protokolle zu entfernen, aktivieren Sie das entsprechende Kontrollkästchen.
 
-   ![Deinstallationsdialogfeld zum Entfernen von Protokollen und Zwischenspeichern](assets/uninstall_da2.png)
+   ![Dialogfeld zur Deinstallation mit Auswahl zum Entfernen von Protokollen und Cache](assets/uninstall_da2.png)
 
 1. Folgen Sie den angezeigten Anweisungen. Starten Sie nach Abschluss des Vorgangs den Computer neu.
 
@@ -143,7 +143,7 @@ Gehen Sie wie folgt vor, um das Programm auf einem Mac zu deinstallieren:
 
 1. Entfernen Sie `Adobe Experience Manager Desktop.app` aus `/Applications`.
 
-Alternativ können Sie den folgenden Befehl im Terminal ausführen, um interne Programm-Caches auf dem Mac zu löschen und das Programm zu deinstallieren:
+Alternativ können Sie unter Mac OS den folgenden Befehl im Terminal ausführen, um interne Programm-Caches zu löschen und das Programm zu deinstallieren:
 
 ```shell
 /Applications/Adobe Experience Manager Desktop/Contents/Resources/uninstall-osx/uninstall.sh
