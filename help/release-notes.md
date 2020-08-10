@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1320'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,9 +40,9 @@ Das Programm funktioniert mit den folgenden Experience Manager-Versionen, unabh�
 
 * [Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/release-notes/home.html).
 
-* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/de-DE/experience-manager-65/release-notes/release-notes.html) oder neuer.
+* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/de-DE/experience-manager-65/release-notes/release-notes.html) oder höher.
 
-* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/de-DE/experience-manager-64/release-notes/release-notes.html) oder neuer.
+* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/de-DE/experience-manager-64/release-notes/release-notes.html) oder höher.
 
 * Experience Manager 6.4.0 bis 6.4.3 mit [Kompatibilitätspaket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support).
 
@@ -59,11 +59,11 @@ Das Programm unterstützt in Adobe Experience Manager gespeicherte Assets, die
 
 Einige Dateitypen unterstützen das Platzieren von verknüpften Assets in der Binärdatei. Das Programm lädt die verknüpften Assets vorab herunter, sofern das Asset im Experience Manager-Repository vorhanden ist, wenn diese Binärdateien mit dem Desktop-Programm geöffnet werden. Derzeit werden folgende Dateitypen unterstützt:
 
-* [!DNL Adobe InDesign] Dateien (INDD-Format)
-* [!DNL Adobe Illustrator] Dateien (AI-Format)
-* [!DNL Adobe Photoshop] Dateien (PS-Format)
+* [!DNL Adobe InDesign]-Dateien (INDD-Format)
+* [!DNL Adobe Illustrator]-Dateien (AI-Format)
+* [!DNL Adobe Photoshop]-Dateien (PS-Format)
 
-Die Funktion wird in den oben genannten Applikationen in Adobe Creative Cloud 2018 und Adobe Creative Cloud 2019 unterstützt. Das Programm verwendet einen heuristischen, Best-Match-Ansatz, um die lokalen Desktop-Pfade verknüpfter Assets URLs auf dem Experience Manager-Server zuzuordnen. Dieser Ansatz beruht auf den folgenden Annahmen:
+Die Funktion wird in den Adobe Creative Cloud-Versionen 2018 und 2019 der oben genannten Programme unterstützt. Das Programm verwendet einen heuristischen, Best-Match-Ansatz, um die lokalen Desktop-Pfade verknüpfter Assets URLs auf dem Experience Manager-Server zuzuordnen. Dieser Ansatz beruht auf den folgenden Annahmen:
 
 * Pfade zu platzierten Dateien in der nativen Applikation verwenden einen globalen Desktop-Pfad (platziert von der lokalen Netzwerkfreigabe mit der Option [!UICONTROL Reveal]).
 
@@ -75,13 +75,13 @@ Die Funktion wird in den oben genannten Applikationen in Adobe Creative Cloud 20
 
 ## Neue Funktionen und Erweiterungen {#whats-new-added}
 
-Weitere Informationen finden Sie unter [Neue Funktionen in v2](introduction.md#whats-new-v2).
+Weitere Informationen finden Sie unter [Neue Funktionen in v2.0](introduction.md#whats-new-v2).
 
-**Updates in der Programm-Version 2.0.2**
+**Aktualisierungen in der Programmversion 2.0.2**
 
 Die folgenden Fehlerbehebungen und Aktualisierungen sind verfügbar:
 
-* Erhöhen Sie zur Verbesserung der Upload-Leistung die Upload-Beschleunigung in [!UICONTROL Preferences]. Wenn diese Einstellung aktiviert ist, verwendet das Programm mehr lokale CPU-Threads und ist ressourcenintensiver.
+* Verbesserung der Upload-Leistung durch Erhöhung der Upload-Beschleunigung in [!UICONTROL Preferences]. Wenn diese Einstellung aktiviert ist, verwendet das Programm mehr lokale CPU-Threads und ist ressourcenintensiver.
 
 * Problem mit Asset-Uploads behoben, wenn Dateinamen oder Pfade bestimmte GB18030-Zeichen enthalten. <!-- CQ-4283494 -->
 
@@ -91,7 +91,7 @@ Die folgenden Fehlerbehebungen und Aktualisierungen sind verfügbar:
 
 * (Windows) Ein seltener Fehler mit einer nicht verwendbaren Programm-Oberfläche auf einigen Windows-Computern wurde behoben. Benutzer können nicht auf die Programm-Oberfläche klicken, da sie verzerrt angezeigt wird und der Klickbereich der Oberflächenelemente seitlich „verschoben“ ist. <!-- CQ-4280785 -->
 
-**Aktualisierungen in der Programm-Version 2.0.1**
+**Aktualisierungen in der Programmversion 2.0.1**
 
 Die folgenden Fehlerbehebungen und Aktualisierungen sind verfügbar:
 
@@ -163,5 +163,5 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 >* [Dokumentation zu AEM as a Cloud Service Assets](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/home.html)
 >* [Verwenden des Adobe Experience Manager-Desktop-Programms](using.md)
 >* [Installieren und Aktualisieren des Desktop-Programms](install-upgrade.md)
->* [Best Practices und Fehlerbehebung](troubleshoot.md)
+>* [Best Practices und Tipps zur Fehlerbehebung](troubleshoot.md)
 
