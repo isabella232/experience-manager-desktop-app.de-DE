@@ -1,6 +1,6 @@
 ---
 title: Fehlerbehebung für das AEM-Desktop-Programm, Version 1.x
-description: Fehlerbehebung für das AEM-Desktop-Programm,     Version 1.x durch, um die vereinzelten Probleme zu lösen, die bei der Installation, bei Upgrades, bei der Konfiguration usw. auftreten können.
+description: Informationen zur Fehlerbehebung für das AEM-Desktop-Programm der  Version 1.x, um die vereinzelten Probleme zu lösen, die bei der Installation, bei Upgrades, bei der Konfiguration usw. auftreten können.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -8,11 +8,11 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3374'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Dies ist nicht der einzige Anwendungsfall. Er veranschaulicht jedoch die bequeme
 
 Die WebDAV/SMB1-Netzwerkfreigabe bietet den Komfort, in einem Explorer/Finder-Fenster mit Dateien arbeiten zu können. Explorer/Finder und AEM kommunizieren jedoch über eine Netzwerkverbindung, die gewissen Einschränkungen unterliegt. Die zum Kopieren einer 1 GB großen Datei in das bereitgestellte WebDAV/SMB-Verzeichnis benötigte Zeit ist beispielsweise identisch mit dem Zeitaufwand zum Hochladen einer 1 GB großen Datei auf eine Website mit einem Webbrowser. Tatsächlich kann im ersten Fall mehr Zeit nötig sein. Ursache dafür sind die Ineffizienzen des WebDAV/SMB-Protokolls und der WebDAV/SMB-Clients des Betriebssystems (insbesondere Mac OS X).
 
-Die mit einem bereitgestellten Verzeichnis ausführbaren Aufgaben sind beschränkt. Generell kann sich das Arbeiten mit großen Dateien schwierig gestalten, insbesondere bei schlechten Netzwerkverbindungen oder Netzwerkverbindungen mit hoher Latenz/geringer Bandbreite und insbesondere beim Bearbeiten großer Dateien.
+Die mit einem bereitgestellten Verzeichnis ausführbaren Aufgaben sind beschränkt. Grundsätzlich gestaltet sich die Arbeit mit größeren Dateien in Netzwerken mit unzureichender Verbindungsqualität, hoher Latenz oder geringer Bandbreite schwierig, was insbesondere für die Dateibearbeitung gilt.
 
 Adobe empfiehlt, einige Anwendungsfälle zu testen, bevor Sie einem Kunden bestätigen, dass bestimmte Dateitypen über das bereitgestellte Verzeichnis effizient bearbeitet werden können.
 
@@ -94,23 +94,23 @@ Es wird nicht jeder Vorgang lokal zwischengespeichert. Folgendes wird sofort ohn
 * Jegliche Vorgänge für Ordner, z. B. Erstellen, Löschen usw.
 * Mithilfe der in Version 1.4 eingeführten Funktion „Folder Upload“ (Ordner hochladen) wird eine lokale Ordnerhierarchie ohne lokales Caching der Dateien hochgeladen.
 
-## Individuelle Vorgänge      {#individual-operations}
+## Individuelle Vorgänge  {#individual-operations}
 
 Lesen Sie bei der Fehlerbehebung bei suboptimaler Performance bei einzelnen Benutzern zunächst die Informationen unter [Beschränkungen](https://helpx.adobe.com/de/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations). Die folgenden Abschnitte umfassen Vorschläge zur Verbesserung der Performance für einzelne Benutzer.
 
-## Bandbreitenempfehlungen      {#bandwidth-recommendations}
+## Bandbreitenempfehlungen  {#bandwidth-recommendations}
 
 Die für einen einzelnen Benutzer verfügbare Bandbreite spielt eine entscheidende Rolle bei der Performance des WebDAV/SMB-Clients.
 
 Adobe empfiehlt für einzelne Benutzer eine Upload-Geschwindigkeit von ca. 10 MBit/s. Bei drahtlosen Verbindungen wird die Bandbreite oftmals zwischen mehreren Benutzern aufgeteilt. Wenn mehrere Benutzer gleichzeitig Aufgaben durchführen, die Netzwerkbandbreite verbrauchen, kann sich die Performance weiter verschlechtern. Verwenden Sie eine kabelgebundene Verbindung, um derartige Probleme zu vermeiden.
 
-## Windows-spezifische Konfigurationen      {#windows-specific-configurations}
+## Windows-spezifische Konfigurationen  {#windows-specific-configurations}
 
 Wenn Sie AEM unter Windows ausführen, können Sie Windows so konfigurieren, dass die Performance des WebDAV-Clients verbessert wird. Weitere Informationen dazu finden Sie unter [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/de-de/kb/2445570).
 
 Unter Windows 7 kann die Leistung von WebDAV durch eine Änderung der IE-Einstellungen verbessert werden. Einzelheiten dazu finden Sie unter [http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/](http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
 
-## Gleichzeitig ausgeführte Vorgänge      {#concurrent-operations}
+## Gleichzeitig ausgeführte Vorgänge  {#concurrent-operations}
 
 Wenn Sie lokal mit einer Datei interagieren, überprüft AEM Desktop, ob in AEM eine neuere Version der Datei verfügbar ist. Wenn eine neue Version verfügbar ist, lädt das Programm eine neue Kopie der Datei in den lokalen Cache herunter. AEM Desktop überschreibt jedoch eine lokal zwischengespeicherte Datei nicht, wenn sie geändert wurde. Diese Funktion verhindert, dass Ihre Arbeit unbeabsichtigt überschrieben wird.
 
@@ -126,11 +126,11 @@ Sie sollten zusätzliche Faktoren berücksichtigen, wenn mehrere Benutzer versuc
 * Ob vor der AEM-Zielinstanz ein Dispatcher vorhanden ist
 * Aktuelle Auslastung der AEM-Zielinstanz
 
-## Zusätzliche AEM-Konfigurationen      {#additional-aem-configurations}
+## Zusätzliche AEM-Konfigurationen  {#additional-aem-configurations}
 
 Wenn sich die WebDAV/SMB-Leistung drastisch vermindert, wenn mehrere Benutzer gleichzeitig arbeiten, können Sie in AEM einige Einstellungen konfigurieren, um die Leistung zu verbessern.
 
-## Aktualisieren des Übergangs-Workflows für Assets      {#update-asset-transient-workflows}
+## Aktualisieren des Übergangs-Workflows für Assets  {#update-asset-transient-workflows}
 
 Sie können die Leistung auf AEM-Seite verbessern, indem Sie für den Workflow „DAM-Update-Asset“ Übergangs-Workflows aktivieren. Durch die Aktivierung von Übergangs-Workflows wird die zum Aktualisieren von Assets erforderliche Leistung reduziert, wenn sie in AEM erstellt oder aktualisiert werden.
 
@@ -145,10 +145,10 @@ Sie können die Leistung auf AEM-Seite verbessern, indem Sie für den Workflow �
 Eine weitere Methode zum Verbessern der AEM-Leistung besteht darin, den Wert der maximal zulässigen parallelen Aufträge für die Warteschlange für Granite-Übergangs-Workflows zu konfigurieren. Der empfohlene Wert beträgt ungefähr die Hälfte der CPU, die für den Server verfügbar sind. Führen Sie die folgenden Schritte aus, um den Wert anzupassen:
 
 1. Navigieren Sie in der zu konfigurierenden AEM-Instanz zu */system/console/configMgr* (z. B. <http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr>).
-1. Suchen Sie nach **QueueConfiguration** und klicken Sie, um die einzelnen Aufträge zu öffnen, bis Sie den Auftrag **Warteschlange für Granite-Übergangs-Workflow** gefunden haben. Klicken Sie auf Bearbeiten.
+1. Suchen Sie nach **QueueConfiguration** und klicken Sie, um die einzelnen Aufträge zu öffnen, bis Sie den Auftrag **Warteschlange für Granite-Übergangs-Workflow** gefunden haben. Klicken Sie auf das daneben befindliche Symbol zum Bearbeiten.
 1. Ändern Sie den Wert **Maximale Anzahl an parallelen Aufträgen** und klicken Sie auf **Speichern**.
 
-## AWS-Konfiguration      {#aws-configuration}
+## AWS-Konfiguration  {#aws-configuration}
 
 Aufgrund der Netzwerk-Bandbreitenbeschränkungen kann sich die Leistung von WebDAV/SMB verschlechtern, wenn mehrere Benutzer gleichzeitig arbeiten. Adobe empfiehlt, die Größe der AWS-Instanz für eine AEM-Zielinstanz zu erhöhen, die in AWS ausgeführt wird, um die WebDAV/SMB-Leistung zu verbessern.
 
@@ -158,7 +158,7 @@ Durch diese Maßnahme wird insbesondere die für den Server verfügbare Netzwerk
 * Im Rahmen der Fehlerbehebung für einen großen Kunden hat Adobe die Größe seiner AEM-Instanz auf c4.8xlarge konfiguriert, hauptsächlich für die dedizierte Bandbreite von 4000 MBit/s, die bereitgestellt wird.
 * Wenn sich vor der AEM-Instanz ein Dispatcher befindet, stellen Sie sicher, dass er eine geeignete Größe hat. Wenn die AEM-Instanz 4000 MBit/s, der Dispatcher jedoch nur 500 MBit/s bereitstellt, beträgt die effektive Bandbreite lediglich 500 MBit/s. Die Ursache dafür ist der Engpass, der sich durch den Dispatcher ergibt.
 
-## Beschränkungen für ausgecheckte Dateien      {#checked-out-file-limitations}
+## Beschränkungen für ausgecheckte Dateien  {#checked-out-file-limitations}
 
 Es existieren einige bekannte Beschränkungen hinsichtlich der Art und Weise, wie Sie im Explorer/Finder mit ausgecheckten Dateien interagieren können. Wenn eine Datei ausgecheckt ist, sollte sie mit Ausnahme des Benutzers, der sie auscheckt, für alle Personen schreibgeschützt sein. Diese Regel wird durch die Implementierung des WebDAV/SMB1-Protokolls in AEM erzwungen. Die WebDAV/SMB-Clients des Betriebssystems interagieren jedoch häufig nicht perfekt mit ausgecheckten Dateien. Einige Eigenheiten werden im Folgenden beschrieben.
 
@@ -172,7 +172,7 @@ Die WebDAV-Clients verhalten sich nicht immer erwartungsgemäß. Es können weit
 
 Das Löschen einer Datei scheint erfolgreich zu sein, da die Datei nicht mehr im Datei-Explorer von Windows angezeigt wird. Beim Aktualisieren des Verzeichnisses und der Überprüfung in AEM Assets wird jedoch deutlich, dass die Datei noch vorhanden ist. Darüber hinaus scheint das Bearbeiten von Dateien erfolgreich zu verlaufen (es werden keine Warnungsdialogfelder oder Fehlermeldungen angezeigt). Beim Erneuten Öffnen der Datei oder der Überprüfung in AEM Assets wird jedoch deutlich, dass die Datei unverändert ist.
 
-#### Mac OS X      {#mac-os-x}
+#### Mac OS X  {#mac-os-x}
 
 Beim Ersetzen einer Datei wird keine Warnung und kein Fehler angezeigt, aber bei der Überprüfung des Assets in AEM wird deutlich, dass es unverändert ist. Aktualisieren oder überprüfen Sie das Asset in AEM, um sicherzustellen, dass es nicht geändert wird.
 
@@ -221,10 +221,10 @@ Die einfachste Methode zum Beheben dieser Situation besteht darin, die in Konfli
 
 Beim Löschen des Caches von AEM Desktop handelt es sich um eine vorläufige Aufgabe zur Fehlerbehebung, durch die verschiedene Probleme mit AEM Desktop gelöst werden können.
 
-Sie können den Cache löschen, indem Sie den Cacheverzeichnis der Anwendung an den folgenden Speicherorten löschen.
-Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
+Sie können den Cache löschen, indem Sie das Cache-Verzeichnis des Programms an den folgenden Speicherorten löschen.
+Unter Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
-Mac OS `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
+Unter Mac OS: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
 Das Verzeichnis kann sich jedoch in Abhängigkeit vom konfigurierten AEM-Endpunkt des AEM-Desktop-Programms ändern. Der Wert ist eine codierte Version der Ziel-URL. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502%2F`.
 
@@ -259,7 +259,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-## Speichern einer von anderen Benutzern ausgecheckten Datei      {#saving-a-file-checked-out-by-others}
+## Speichern einer von anderen Benutzern ausgecheckten Datei  {#saving-a-file-checked-out-by-others}
 
 Technische Beschränkungen des Betriebssystems verhindern ein konsistentes Benutzererlebnis beim versuchten Überschreiben einer Datei, die von anderen Benutzern ausgecheckt wurde. Das Erlebnis variiert je nach Applikation, die zum Bearbeiten der ausgecheckten Datei verwendet wird. Mitunter zeigt die Applikation eine Fehlermeldung mit dem Hinweis an, dass ein Fehler beim Schreiben auf das Laufwerk aufgetreten ist, oder es wird ein scheinbar nicht relevanter oder allgemeiner Fehler angezeigt. Es kann auch sein, dass gar keine Fehlermeldung angezeigt und der Vorgang scheinbar erfolgreich ausgeführt wird.
 
@@ -267,11 +267,11 @@ In diesem Fall können Sie durch Schließen und erneutes Öffnen der Datei fests
 
 Unabhängig vom Verhalten bleibt die Datei unverändert, wenn Sie sie einchecken. Selbst wenn eine andere Version der Datei angezeigt wird, erfolgt keine Synchronisierung der Änderungen mit AEM.
 
-## Beheben von Problemen beim Verschieben von Dateien      {#troubleshooting-problems-around-moving-files}
+## Beheben von Problemen beim Verschieben von Dateien  {#troubleshooting-problems-around-moving-files}
 
 Für die Server-API müssen zusätzliche Header und Werte für X-Ziel, X-Tiefe und X-Überschreiben übergeben werden, damit die Verschiebungs- und Kopiervorgänge funktionieren. Standardmäßig werden diese Header vom Dispatcher nicht übergeben, wodurch diese Vorgänge fehlschlagen. Weitere Informationen finden Sie unter [Herstellen einer Verbindung zu AEM hinter einem Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
-## Beheben von AEM Desktop-Verbindungsproblemen      {#troubleshooting-aem-desktop-connection-issues}
+## Beheben von AEM Desktop-Verbindungsproblemen  {#troubleshooting-aem-desktop-connection-issues}
 
 ### Problem bei SAML-Umleitung {#saml-redirect-issue}
 
