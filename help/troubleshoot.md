@@ -8,9 +8,9 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Befolgen Sie die folgenden Best Practices, um einige häufige Probleme und die F
 
 * **Beachten Sie das Netzwerk**: Die Netzwerkleistung ist von entscheidender Bedeutung für die Leistung des Experience Manager-Desktop-Programms. Wenn die Reaktion auf Dateiübertragungen oder Massenvorgänge verlangsamt ist, deaktivieren Sie die Funktionen oder Applikationen, die zu viel Netzwerkverkehr führen können.
 
-* **Nicht unterstützte Anwendungsfälle für das Desktop-Programm**: Verwenden Sie das Programm nicht für die Migration von Assets (sie erfordert Planung und andere Werkzeuge), für DAM-Vorgänge mit hoher Leistung (z. B. Verschieben großer Ordner, große Uploads, Suchen von Dateien mithilfe erweiterter Metadaten-Suchen) oder als Synchronisierungs-Client (Design- und Nutzungsmuster unterscheiden sich von In-Sync-Clients wie Microsoft OneDrive oder Adobe Creative Cloud-Desktop-Synchronisierung).
+* **Vom Desktop-Programm nicht unterstützte Anwendungsfälle**: Verwenden Sie das Programm nicht für die Asset-Migration (diese muss gründlich geplant werden und erfordert andere Tools), anspruchsvolle DAM-Operationen (z. B. Verschieben großer Ordner, Uploads großer Dateien, Suchen von Dateien anhand erweiterter Metadaten-Suchen) oder als Synchronisierungs-Client (Design- und Nutzungsmuster unterscheiden sich von In-Sync-Clients wie Microsoft OneDrive oder Adobe Creative Cloud-Desktop-Synchronisierung).
 
 * **Timeout**: Das Desktop-Programm weist derzeit keinen konfigurierbaren Timeout-Wert auf, um die Verbindung zwischen dem Experience Manager-Server und dem Programm nach einem bestimmten Zeitintervall zu trennen. Wenn beim Hochladen großer Assets nach einiger Zeit ein Verbindungs-Timeout eintritt, versucht das Programm, das Asset einige Male hochzuladen, indem es den Timeout-Wert für den Upload erhöht. Es gibt keine empfohlene Vorgehensweise, um die Standardeinstellungen für den Timeout zu ändern.
 
@@ -87,9 +87,9 @@ Die Protokolldateien für das AEM-Desktop-Programm finden Sie in den folgenden V
 
 Beim Löschen des Caches von handelt es sich um eine vorläufige Aufgabe zur Fehlerbehebung, durch die verschiedene Probleme mit dem AEM-Desktop-Programm gelöst werden können. Löschen Sie den Cache in den Programm-Voreinstellungen. Siehe [Festlegen von Voreinstellungen](install-upgrade.md#set-preferences). Der Standardspeicherort des Cache-Ordners ist:
 
-* Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
+* Unter Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
-* Mac: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
+* Unter Mac OS: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
 Das Verzeichnis kann sich jedoch in Abhängigkeit vom konfigurierten AEM-Endpunkt des AEM-Desktop-Programms ändern. Der Wert ist eine codierte Version der Ziel-URL. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502%2F`. Um den Cache zu leeren, löschen Sie den entsprechenden Ordner. Ein weiterer Grund, den Cache zu leeren, besteht darin, Speicherplatz freizugeben, wenn Sie wenig Speicherplatz auf der Festplatte haben.
 
