@@ -8,11 +8,11 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3857'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Für das AEM-Desktop-Programm v1.x sind die folgenden Download-Links und AEM-Kom
 | Version | 1.10 (1.10.0.6 unter Mac und 1.10.0.3 unter Windows) |
 | Typ | Nebenversion |
 | Datum | 1.10.0.6 (Mac): 15. April 2020; 1.10.0.3 (Win): 31. August 2018 |
-| Download-URLs | [Mac OS X, 64-Bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.6.dmg); [Windows, 32-Bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe); [Windows, 64-Bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
+| Download-URLs | [Mac OS X (64 Bit)](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.6.dmg); [Windows (32 Bit)](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe); [Windows (64 Bit)](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
 | Kompatibilität | AEM 6.5.x; AEM 6.4.x; AEM 6.3 SP2; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
@@ -56,11 +56,11 @@ Das AEM-Desktop-Programm 1.10 konzentriert sich auf die Verbesserung des Benutz
 
 **Lokales Bearbeiten/Auschecken**: Automatische Uploads gespeicherter Asset-Änderungen, die im Statusfenster deaktiviert werden können. So können Benutzer an Dateien arbeiten, die hierbei vorgenommenen Änderungen speichern und, wenn sie bereit sind, alle Änderungen hochladen.
 
-**Vereinfachtes Asset-Statusfenster**. Das Statusfenster wurde vereinfacht. Auf der [!UICONTROL Uploads] Registerkarte werden jetzt sowohl einzelne Assets als auch Ordner- oder Massen-Uploads angezeigt. Die zuvor vorhandene Registerkarte „Massen-Uploads“ wurde entfernt.
+**Vereinfachtes Asset-Statusfenster**. Das Statusfenster wurde vereinfacht. Auf der Registerkarte [!UICONTROL Uploads] werden jetzt sowohl einzelne Assets als auch Ordner- oder Massen-Uploads angezeigt. Die zuvor vorhandene Registerkarte „Massen-Uploads“ wurde entfernt.
 
-**Applikationssymbol zur Anzeige von Massen-Uploads**. Das Anwendungssymbol zeigt an, dass ein Massen-Upload ausgeführt wird, indem eine Überlagerung vom Typ &quot;Transfer&quot;angezeigt wird.
+**Programmsymbol zur Anzeige von Massen-Uploads**. Das Programmsymbol zeigt anhand der Überlagerung „Transfer“ (Übertragung) an, dass ein Massen-Upload durchgeführt wird, indem die Überlagerung angezeigt wird.
 
-**Benachrichtigungen für Aktualisierungskonflikte**. Wenn die Anwendung beim Versuch, ein Asset zu aktualisieren, einen Konflikt erkennt, wird eine Benachrichtigung angezeigt, sodass der Benutzer diesen überprüfen kann, ohne das Statusfenster überwachen zu müssen. Wenn die Anwendung startet, sucht sie nach potenziellen Konflikten, damit der Benutzer sie beheben kann.
+**Benachrichtigungen bezüglich Aktualisierungskonflikten**. Wenn das Programm beim Aktualisieren eines Assets einen Konflikt feststellt, wird eine Benachrichtigung angezeigt, damit der Benutzer den Fall untersuchen kann, ohne das Statusfenster im Blick behalten zu müssen. Wenn die Anwendung startet, sucht sie nach potenziellen Konflikten, damit der Benutzer sie beheben kann.
 
 **Besserer Umgang mit Verbindungsabbrüchen**. Massen-Uploads werden angehalten, wenn die Verbindung unterbrochen wird. Benutzer können sie zu einem späteren Zeitpunkt fortsetzen. Für fehlgeschlagene Uploads einzelner Dateien steht Benutzern die Schaltfläche „Retry“ (Wiederholen) zur Verfügung.
 
@@ -72,7 +72,7 @@ Detaillierte Anweisungen finden Sie unter [Installieren und Konfigurieren des AE
 
 Diese Version erweitert und ersetzt die Vorgängerversionen des Experience Manager-Desktop-Programms, die die folgenden wesentlichen Verbesserungen boten:
 
-* **Version 1.9/1.9.1**: fortsetzbare Uploads, verbessertes Statusfenster, Programm-Symbole, die den Status des Programms/der Verbindung angeben, Vorab-Abruf verknüpfter Assets für InDesign-Dateien.
+* **Version 1.9/1.9.1**: fortsetzbare Uploads, verbessertes Statusfenster, Programmsymbole, die den Status des Programms/der Verbindung angeben, Vorab-Abruf verknüpfter Assets für InDesign-Dateien.
 
 * **Version 1.8**: bessere Steuerung der Cache-Größe für den Benutzer, verbesserte Anmeldung für SAML/SSO unter Windows, Unterstützung des .pac-Netzwerk-Proxys auf Mac-Computern und Behebung der von Kunden gemeldeten Probleme.
 
@@ -97,9 +97,10 @@ Beim Adobe Experience Manager (AEM)-Desktop-Programm 1.9.1 handelte es sich um 
 Das AEM-Desktop-Programm 1.9 konzentrierte sich auf die Verbesserung des Benutzererlebnisses rund um den Upload großer Dateien, Informationen über Hintergrundvorgänge sowie ein optimiertes Erlebnis beim Öffnen von Assets mit verlinkten Dateien (wie InDesign).
 
 **Fortsetzbare Uploads**
-Für Upload-Vorgänge – insbesondere für große Dateien – ist im neuen Fenster „Asset Status“ (Asset-Status) eine Option zum Pausieren/Fortsetzen verfügbar.
+Für Upload-Vorgänge – insbesondere für große Dateien – ist im neuen Fenster „Asset-Status“ eine Option zum Anhalten/Fortsetzen verfügbar.
 
-**Verbessertes Asset-Statusfenster** Ein verbessertes Asset-Statusfenster enthält die folgenden Informationen zu Assets.
+**Fenster mit verbesserter Einsicht in Asset-Status**
+Das Fenster zum Asset-Status bietet folgende Informationen zu Assets.
 
 [!UICONTROL Changes]
 
@@ -115,9 +116,9 @@ Für Upload-Vorgänge – insbesondere für große Dateien – ist im neuen Fens
 
 * Für in Konflikt stehende Dateien wird ein Symbol angezeigt, auf das der Benutzer klicken kann. Durch das Klicken auf das Symbol wird ein Dialogfeld mit einer Erklärung und zwei Optionen angezeigt:
 
-   * [!UICONTROL Keep Mine] lädt die Datei sofort auf den Server hoch.
+   * [!UICONTROL Keep Mine] lädt die Datei sofort auf den Server hoch
 
-   * [!UICONTROL Overwrite Mine] löscht sofort die lokale Datei und lädt eine neue Kopie vom Server herunter.
+   * [!UICONTROL Overwrite Mine] löscht die lokale Datei sofort und lädt eine neue Kopie vom Server herunter
 
 [!UICONTROL Downloads]
 
@@ -125,17 +126,17 @@ Für Upload-Vorgänge – insbesondere für große Dateien – ist im neuen Fens
 
 * Abgeschlossene Downloads werden mit der übertragenen Datenmenge, der Übertragungsrate und einem Symbol angezeigt, über das die Datei per Klick geöffnet wird (nur für einzelne Dateien verfügbar).
 
-* Fehlgeschlagene Downloads werden mit einer Fehlermeldung und Übergangsinformationen angezeigt, sofern verfügbar.
+* Fehlgeschlagene Downloads werden mit einer Fehlermeldung und Übertragungsinformationen angezeigt, sofern verfügbar.
 
 * In der Fußzeile werden die Gesamtzahl der heruntergeladenen Dateien und die durchschnittliche Übertragungsrate angezeigt.
 
-* Wenn ein Experience Manager mehrere Dateien in der Benutzeroberfläche &quot;Assets Web&quot;öffnen oder bearbeiten möchte, werden diese gruppiert. Beispiel: myasset.jpeg und 4 weitere Dateien.
+* Bei Verwendung der Web-Benutzeroberfläche von Experience Manager Assets, um mehrere Dateien zu öffnen, werden diese gruppiert. Beispiel: meinasset.jpeg und 4 weitere Dateien.
 
-* When downloading InDesign Documents including linked assets that are stored in AEM Assets, the desktop app will download all of the linked Assets first, before opening the [!UICONTROL Adobe InDesign] document and indicate the download of linked assets. Beispiel: 5 von 24.
+* Beim Herunterladen von InDesign-Dokumenten mit verknüpften Assets, die in AEM Assets gespeichert sind, lädt das Desktop-Programm zunächst alle verknüpften Assets herunter, bevor das [!UICONTROL Adobe InDesign]-Dokument geöffnet und der Download verknüpfter Assets angezeigt wird. Beispiel: 5 von 24.
 
 [!UICONTROL Bulk Uploads]
 
-Uploading large folder hierarchies via [!UICONTROL Create] > [!UICONTROL Upload Folder] in AEM web UI or copying and selecting &quot;Paste Assets&quot; in Finder or Explorer in the desktop app context menu will trigger usage of this dialog.
+Durch das Hochladen von umfangreichen Ordnerhierarchien über [!UICONTROL Create] > [!UICONTROL Upload Folder] in der AEM-Web-Benutzeroberfläche oder durch das Kopieren und Auswählen von „Paste Assets“ (Assets einfügen) in Finder/Explorer wird im Kontextmenü des Desktop-Programms die Verwendung dieses Dialogfelds ausgelöst.
 
 * Zeigt aktive Uploads an, einschließlich eines Fortschrittsbalkens und des Namens der momentan übertragenen Datei.
 
@@ -147,11 +148,11 @@ Uploading large folder hierarchies via [!UICONTROL Create] > [!UICONTROL Upload 
 
 **Symbole für den Status von Hintergrundvorgängen**
 
-Das Applikationssymbol gibt den Status von Hintergrundvorgängen an, um bessere visuelle Hinweise für die Benutzer bereitzustellen. Wenn das Programm beispielsweise nicht mit AEM verbunden ist, ist das Symbol ausgegraut. Im Falle eines aktiven Uploads wird eine Synchronisierungsüberlagerung angezeigt usw.
+Das Programmsymbol gibt den Status von Hintergrundvorgängen an, um bessere visuelle Hinweise für die Benutzer bereitzustellen. Wenn das Programm beispielsweise nicht mit AEM verbunden ist, ist das Symbol ausgegraut. Im Falle eines aktiven Uploads wird eine Synchronisierungsüberlagerung angezeigt usw.
 
 **Vorab-Abruf verknüpfter Assets**
 
-Um die Benutzerfreundlichkeit beim Arbeiten mit InDesign-Dokumenten zu verbessern, die in AEM gespeicherte verknüpfte Assets enthalten, versucht die Desktop-App, diese verknüpften Dateien im lokalen Cache abzurufen, bevor sie heruntergeladen und das InDesign-Dokument geöffnet wird. Somit stehen dem Benutzer die verknüpften Dateien lokal zur Verfügung und er muss beim Zugriff auf diese Dateien in InDesign (im Bereich „Verknüpfungen“) nicht länger warten.
+Zur Verbesserung des Benutzererlebnisses beim Arbeiten mit InDesign-Dokumenten, die in AEM gespeicherte verknüpfte Assets beinhalten, versucht das Desktop-Programm, diese verknüpften Dateien vorab in den lokalen Cache zu verschieben, bevor das InDesign-Dokument heruntergeladen und geöffnet wird. Somit stehen dem Benutzer die verknüpften Dateien lokal zur Verfügung und er muss beim Zugriff auf diese Dateien in InDesign (im Bereich „Verknüpfungen“) nicht länger warten.
 Beachten Sie, dass der Vorab-Abruf nur funktioniert, wenn AEM die Verknüpfungen auf der Server-Seite erkennt. Für ein Asset mit erkannten Verknüpfungen wird in der Ansicht „Eigenschaften“ des InDesign-Assets die Liste „Verweise“ aufgeführt.
 
 ### Seit Einführung von AEM-Desktop-Programm 1.8 verfügbare Verbesserungen {#enhancements-available-since-aem-desktop-app-18x}
@@ -162,13 +163,13 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 
    * Aktuelle Cachegröße anzeigen
 
-   * maximale Cachegröße festlegen, bevor eine Benachrichtigung gesendet wird
+   * Maximale Cache-Größe definieren, bevor eine Benachrichtigung gesendet wird
 
-   * Die Cache-Größe wird nur beim Start des Desktop-Programms überprüft. Beim Erreichen der konfigurierten Beschränkung wird eine Meldung angezeigt
+   * Die Cache-Größe wird nur beim Start des Desktop-Programms überprüft. Beim Erreichen der konfigurierten Beschränkung wird eine Meldung angezeigt.
 
-   * Auf der neuen Benutzeroberfläche ist eine Schaltfläche zum Löschen des Caches verfügbar
+   * Die neue Benutzeroberfläche bietet eine Schaltfläche zum Löschen des Caches.
 
-* Anmeldung: (Win) Anmeldung bei der AEM-Instanz so korrigiert, dass SAML und SSL verwendet wird (CQ-4216353)
+* Anmeldung: (Windows) Anmeldung bei der AEM-Instanz so konfiguriert, dass SAML und SSL verwendet wird (CQ-4216353)
 
 * Netzwerk:
 
@@ -176,13 +177,13 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 
    * (Mac) Neue Unterstützung zum Verbinden mit AEM über eine .pac-Proxy-Konfiguration (CQ-4233430).
 
-   * (Win) Behebung von Problemen mit dem Dialogfeld „Advanced“ > „Login URL“ (Erweitert > Anmelde-URL) (CQ-4236061).
+   * (Windows) Behebung von Problemen mit dem Dialogfeld „Advanced“ > „Login URL“ (Erweitert > Anmelde-URL) (CQ-4236061).
 
 * Fehlerbehebungen:
 
    * Dialogfeld „More Assets Info“ (Weitere Asset-Informationen): mitunter war die Aktionsleiste nicht sichtbar (CQ-4208540).
 
-   * (Win) Dateien können nun synchronisiert werden, nachdem sie in der AEM Assets-Benutzeroberfläche auf eine ältere Version zurückgesetzt wurden (CQ-4216411).
+   * (Windows) Dateien können nun synchronisiert werden, nachdem sie in der AEM Assets-Benutzeroberfläche auf eine ältere Version zurückgesetzt wurden (CQ-4216411).
 
 ### Seit Einführung von AEM-Desktop-Programm 1.7 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-17}
 
@@ -200,7 +201,7 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 
    * Verbesserte Zwischenspeicherung zur Vermeidung von Binärdateien mit Größe null (CQ-4216599).
 
-* Anmelden: Für spezielle Konfigurationen (wie lokal ausgestellte Zertifikate) ist die Verbindung mit striktem SSL deaktiviert (CQ-4223949).
+* Anmeldung: Ermöglichung der Verbindungsherstellung mit deaktiviertem strictSSL für spezielle Konfigurationen (z. B. lokal ausgestellte Zertifikate) (CQ-4223949).
 
 * Netzwerke: Verbesserte Unterstützung für die Verbindung über Netzwerk-Proxy (CQ-4223477, CQ-4221280, CQ-4206854).
 
@@ -208,7 +209,7 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 
    * (Win) Gründlichere Deinstallation (CQ-4220906).
 
-   * [Windows 32-Bit] Installer-Ausführung schlägt beim Versuch fehl, Microsoft.NET Framework Version 4.5 zu installieren (CQ-4218084).
+   * [Windows (32 Bit)] Installationsprogramm schlägt beim Versuch zur Installation von Microsoft.NET Framework Version 4.5 zu fehl  (CQ-4218084).
 
    * (Mac) Skript zur manuellen Ausführung für das vollständige Entfernen von Desktop-Programm-Dateien (CQ-4216489).
 
@@ -270,13 +271,13 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 
    * Problem aufgrund von Fehler 43 behoben, das in einigen Fällen beim Umbenennen von Assets aufgetreten ist (CQ-4207900)..
 
-   * Durch das Zurückkehren zu einer älteren Version aus der Zeitschiene in AEM wird das Asset im Finder nicht aktualisiert (CQ-4205194).
+   * Beim Zurücksetzen auf eine ältere Version aus der Timeline aktualisiert AEM das Asset nicht in Finder (CQ-4205194).
 
-   * Die Desktop-App stürzt beim Durchsuchen großer verschachtelter Ordner ab (CQ-4208539).
+   * Das Desktop-Programm stürzt beim Durchsuchen großer verschachtelter Verzeichnisse ab (CQ-4208539).
 
-   * Der Mount-Point der Desktop-App ist jetzt /Volumes/DAM, sodass er für alle Benutzer konsistent ist (CQ-4208159).
+   * Der Desktop-Programm-Bereitstellungspunkt ist nun „/Volumes/DAM“ und damit für alle Benutzer einheitlich (CQ-4208159).
 
-   * Durch das erstmalige Platzieren der Datei in InDesign wird eine Aktualisierungswarnung ausgelöst (CQ-4207454).
+   * Beim erstmaligen Platzieren einer Datei in InDesign wird eine Warnung bezüglich der Aktualisierung angezeigt (CQ-4207454).
 
 Hinweis zu Link-Warnungen: Creative Cloud-Applikationen (z. B. InDesign) erstellen einen „Schnappschuss“ der letzten Änderung des Elements zum Zeitpunkt seiner Platzierung. Ändert sich dieses Datum zu einem späteren Zeitpunkt, meldet die Adobe Creative Cloud-Applikation, dass die Links veraltet sind. Dies wird auf unterschiedliche Weise gemeldet:
 
@@ -298,28 +299,28 @@ Diese beiden Fälle treten erwartungsgemäß ein. Sie sind auf die „Delayed Sy
 
    * Zuverlässigere Zuordnung von AEM Assets-Ordnern (CQ-103276, CQ-4204669, CQ-4203957).
 
-   * Besseres Handling zwischengespeicherter Dateien (CQ-4204336, CQ-4206263).
+   * Verbesserte Handhabung zwischengespeicherter Dateien (CQ-4204336, CQ-4206263).
 
-   * Verbesserte Handhabung beim Herunterladen/Hochladen großer Dateien mit einer Größe von mehr als 2 GB (CQ-4206438).
+   * Verbesserte Handhabung von Downloads/Uploads von Dateien mit einer Größe von mehr als 2 GB (CQ-4206438).
 
    * Behebung von Fehler 36 beim Verschieben oder Umbenennen einer großen Anzahl von Dateien in Finder (CQ-4204640).
 
 * Optimierung der Netzwerkkommunikation mit dem AEM-Server (CQ-4204974, CQ-100903).
 
-* Verbesserte Zuverlässigkeit beim Öffnen, Platzieren und Speichern von AEM-Assets in Creative Cloud-Applikationen (CQ-4203968, CQ-4205511, CQ-103543, CQ-4207141, CQ-90980).
+* Verbesserte Zuverlässigkeit beim Öffnen, Platzieren und Speichern von AEM-Assets in Creative Cloud-Programmen (CQ-4203968, CQ-4205511, CQ-103543, CQ-4207141, CQ-90980).
 
 * Verbesserte Unterstützungsmöglichkeit: Option zum Leeren des Cache (CQ-4202541), einfacher Zugriff auf Protokolle (CQ-4202340, CQ-4204673).
 
 * Weitere Fehlerbehebungen:
-   * Bessere Unterstützung für Assets und Ordner mit japanischen Zeichen im Namen/nicht englischen Spracheinstellungen (CQ-4195433, CQ-4205793, CQ-4199446).
+   * Verbesserte Unterstützung für Assets und Ordner, die japanische Zeichen im Namen enthalten oder nicht-englische Spracheinstellungen aufweisen (CQ-4195433, CQ-4205793, CQ-4199446).
 
-   * Besseres Handling der Anmeldung mit SSL (CQ-4200217).
+   * Verbesserte Handhabung der Anmeldung mit SSL (CQ-4200217).
 
    * Zuverlässigere Freigabebereitstellung (CQ-4200793).
 
    * Diverse Verbesserungen hinsichtlich der Stabilität (CQ-4207539, CQ-4200378).
 
-   * Besseres Handling der AEM Assets-URL in den Einstellungen (CQ-97388).
+   * Verbesserte Handhabung der AEM Assets-URL in den Voreinstellungen (CQ-97388).
 
 ### Seit Einführung von AEM-Desktop-Programm 1.4 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-14}
 
@@ -345,7 +346,7 @@ Diese beiden Fälle treten erwartungsgemäß ein. Sie sind auf die „Delayed Sy
 * Besseres Handling von Desktop-Applikationen, die Zwischenvorgänge zum Speichern von Dateien verwenden (partielles Speichern und temporäre Dateien). Dadurch können in der AEM Assets-Timeline korrekte Versions- und Asset-Upload-Informationen angezeigt werden.
 * Dialogfeld zur Nachverfolgung des Status von im Hintergrund ausgeführten Upload-Aufgaben.
 
-## Liste der Änderungen      {#list-of-changes}
+## Liste der Änderungen  {#list-of-changes}
 
 ### Bereitstellungspunkt für Mac {#mount-point-on-mac}
 
@@ -395,7 +396,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 
 **CA-signierte SSL-Zertifikate verwenden.** Beachten Sie, dass das AEM-Desktop-Programm beim Herstellen einer sicheren HTTPS-Verbindung zu AEM keine selbstsignierten SSL-Zertifikate unterstützt. Für derartige Verbindungen ist ein CA-signiertes Zertifikat auf dem Server erforderlich. (CQ-87941)
 
-## Bekannte Probleme      {#known-issues}
+## Bekannte Probleme  {#known-issues}
 
 * Allgemein:
    * Es werden Server-URLs benötigt, um ohne Pfad auf den Server zu verweisen (z. B. `http://server`, `https://server`, `http://server:port` oder `https://server:port`). Außer „/content/dam“ werden keine anderen Kontextpfade und Unterordner unterstützt (CQ-89343, CQ-87272).
@@ -405,7 +406,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
    * Assets mit internationalen Namen erscheinen und verschwinden möglicherweise alle paar Sekunden.
 * Funktionen für das Ein- und Auschecken:
    * Ein von einem Benutzer ausgechecktes Asset kann nicht von einem anderen Benutzer geöffnet werden, weder über die Aktion „Öffnen“ in der Touch-optimierten Benutzeroberfläche noch direkt auf dem Desktop. Einige Applikationen melden möglicherweise, dass das Asset gesperrt oder beschädigt ist bzw. nicht reagiert, wenn versucht wird, das Asset zu öffnen. (CQ-4199234)
-   * Das gleichzeitige Ändern von Dateien durch mehrere Benutzer kann dazu führen, dass einige Änderungen verloren gehen. Als Problemumgehung können Sie die Funktion zum          Einchecken/Auschecken verwenden, um zu verhindern, dass mehrere Benutzer Änderungen an derselben Datei vornehmen (CQ-97035).
+   * Das gleichzeitige Ändern von Dateien durch mehrere Benutzer kann dazu führen, dass einige Änderungen verloren gehen. Als Abhilfe können Sie die Funktion zum    Einchecken/Auschecken verwenden, um zu verhindern, dass mehrere Benutzer Änderungen an derselben Datei vornehmen (CQ-97035).
    * Bestimmte Applikationen unterstützen die Schreibschutzkennzeichnung nicht ordnungsgemäß. Dies ermöglicht es Benutzern, eine Datei zu speichern, die von einem anderen Benutzer ausgecheckt wurde. Die geänderte Datei wird erst dann übertragen, wenn der andere Benutzer die Datei wieder eincheckt. Die Änderungen der beiden Benutzer werden in AEM in zwei verschiedenen Versionen des Assets gespeichert (CQ-89551, CQ-87572, CQ-89615).
    * Der Ausgecheckt- und der Schreibschutzstatus werden unabhängig voneinander im Finder gemeldet. Dies führt zur Anzeige von zwei Schlosssymbolen, wenn ein Benutzer ein Asset auscheckt (CQ-89507).
 * Finder-Integration:
