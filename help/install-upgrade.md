@@ -8,10 +8,10 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: ht
-source-wordcount: '1239'
+translation-type: tm+mt
+source-git-commit: a6f33efdd5702cc2f411d0deed8f54e7335c09ed
+workflow-type: tm+mt
+source-wordcount: '1238'
 ht-degree: 100%
 
 ---
@@ -81,7 +81,7 @@ Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren
 
    *Abbildung: Verbindungsbildschirm zur Eingabe der Server-Adresse*
 
-   >[!CVorsicht]
+   >[!CAUTION]
    >
    >Stellen Sie sicher, dass vor oder nach der Adresse des AEM-Servers keine führenden oder nachfolgenden Leerzeichen vorhanden sind. Andernfalls kann das Programm keine Verbindung zum AEM-Server herstellen.
 
