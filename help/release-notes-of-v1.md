@@ -8,11 +8,11 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: ht
-source-wordcount: '3857'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9de9d086be4c0eccda7a60bd3dcbe68735394fad
+workflow-type: tm+mt
+source-wordcount: '3869'
+ht-degree: 98%
 
 ---
 
@@ -35,10 +35,15 @@ Für das AEM-Desktop-Programm v1.x sind die folgenden Download-Links und AEM-Kom
 
 ## Systemanforderungen und Voraussetzungen {#system-requirements-and-prerequisites}
 
-Das AEM-Desktop-Programm ist mit den folgenden Betriebssystemen kompatibel:
+[!DNL Adobe Experience Manager] Die Desktop-App ist mit den folgenden Betriebssystemen kompatibel:
 
-* Mac OS X 10.10 oder höher mit aktuellen Fehlerbehebungen.
-* Windows 7 und Windows 10 mit den neuesten Service Packs und Fehlerbehebungen.
+* Mac OS X 10.10 oder neuer mit den neuesten Fehlerkorrekturen.
+
+* Windows 10 mit den neuesten Service Packs und Fehlerbehebungen.
+
+>[!NOTE]
+>
+>Windows 7 wird nicht mehr vom Anbieter unterstützt (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 Adobe empfiehlt dringend, die neueste Version des AEM-Desktop-Programms zu verwenden, um die neuesten Funktionen mit den neuesten Fehlerkorrekturen und der bestmöglichen Leistung zu nutzen.
 
@@ -169,7 +174,7 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 
    * Die neue Benutzeroberfläche bietet eine Schaltfläche zum Löschen des Caches.
 
-* Anmeldung: (Windows) Anmeldung bei der AEM-Instanz so konfiguriert, dass SAML und SSL verwendet wird (CQ-4216353)
+* Anmelden: (Win) Die Anmeldung bei AEM Instanz, die für die Verwendung von SAML und SSL konfiguriert wurde, wurde korrigiert (CQ-4216353)
 
 * Netzwerk:
 
