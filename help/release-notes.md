@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 91de08ba317de97a1d1900dc2351efcb4d6cf95f
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,11 +34,11 @@ Das Adobe Experience Manager-Desktop-Programm ist mit den folgenden Betriebssy
 
 * Mac OS X 10.14 oder höher mit aktuellen Fehlerbehebungen.
 
-* Windows 10 mit den neuesten Service Packs und Fehlerbehebungen.
+* Windows 10 mit den aktuellsten Service Packs und Fehlerbehebungen.
 
 >[!NOTE]
 >
->Windows 7 wird nicht mehr vom Anbieter unterstützt (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+>Windows 7 wird vom Anbieter nicht mehr unterstützt (https://support.microsoft.com/de-de/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 Das Programm funktioniert mit den folgenden Experience Manager-Versionen, unabhängig davon, ob sie als Cloud Service, auf Adobe Managed Services (AMS) oder on-Premise bereitgestellt werden:
 
@@ -83,15 +83,15 @@ Weitere Informationen finden Sie unter [Neue Funktionen in v2.0](introduction.md
 
 **Aktualisierungen in der Programmversion 2.0.3**
 
-Der in der aktuellen Version behobene Fehler lautet:
+Folgender Fehler wurde in der aktuellen Version behoben:
 
-* Korrektur des Anmeldeproblems, das Windows-Benutzern auftrat, die versuchten, mithilfe der App auf das DAM-Repository in der [!DNL Adobe Experience Manager] 6.5.5.0-Instanz zuzugreifen.
+* Korrektur des Anmeldeproblems, das bei Windows-Benutzern auftrat, wenn sie versuchten, mithilfe des Programms unter [!DNL Adobe Experience Manager] 6.5.5.0 auf das DAM-Repository zuzugreifen.
 
 **Aktualisierungen in der Programmversion 2.0.2**
 
 Die folgenden Fehlerbehebungen und Aktualisierungen sind verfügbar:
 
-* Verbesserung der Upload-Leistung durch Erhöhung der Upload-Beschleunigung in [!UICONTROL Preferences]. Wenn diese Einstellung aktiviert ist, verwendet die App mehr lokale CPU-Threads und ist ressourcenintensiver.
+* Verbesserung der Upload-Leistung durch Erhöhung der Upload-Beschleunigung in [!UICONTROL Preferences]. Wenn diese Einstellung aktiviert ist, verwendet das Programm mehr lokale CPU-Threads und ist ressourcenintensiver.
 
 * Problem mit Asset-Uploads behoben, wenn Dateinamen oder Pfade bestimmte GB18030-Zeichen enthalten. <!-- CQ-4283494 -->
 
