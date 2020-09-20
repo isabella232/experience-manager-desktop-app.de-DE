@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a6f33efdd5702cc2f411d0deed8f54e7335c09ed
-workflow-type: ht
-source-wordcount: '1238'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 29bbcc21f01dd0c1338fdbf3e979ef363a93533c
+workflow-type: tm+mt
+source-wordcount: '1241'
+ht-degree: 97%
 
 ---
 
@@ -75,7 +75,9 @@ Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren
 
 1. Starten Sie den Computer nach Aufforderung neu. Starten und konfigurieren Sie das Desktop-Programm.
 
-1. Um das Programm mit einem AEM-Repository zu verbinden, klicken Sie auf das Programmsymbol in der Ablage, um das Programm zu starten. Geben Sie die Adresse der AEM-Instanz ein. Klicken Sie auf **[!UICONTROL Connect]** und geben Sie die Anmeldeinformationen ein.
+1. Um die App mit einem AEM Repository zu verbinden, klicken Sie auf das App-Symbol in der Ablage und starten Sie die App. Geben Sie die Adresse des AEM-Servers im Format ein `https://[aem-server-url]:[port]/`.
+
+   Klicken Sie auf **[!UICONTROL Connect]** und geben Sie die Anmeldeinformationen ein.
 
    ![Verbindungsbildschirm des Desktop-Programms zur Eingabe der Server-Adresse](assets/connect_da2.png)
 
