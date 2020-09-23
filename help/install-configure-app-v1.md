@@ -3,14 +3,14 @@ title: Installieren und Konfigurieren des AEM-Desktop-Programms, Version 1.x
 description: Installieren und konfigurieren Sie das AEM-Desktop-Programm, Version 1.x, um mit AEM Assets-Servern zu arbeiten und die Assets für die Bereitstellung als Laufwerk auf Ihrem Desktop zuzuordnen.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS,SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 100%
 
