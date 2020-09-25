@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '3997'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Verwenden Sie das Adobe Experience Manager (AEM)-Desktop-Programm, um einfach 
 
 Die Integration ermöglicht es verschiedenen Rollen in der Organisation, die Assets zentral in Experience Manager Assets zu verwalten und auf die Assets auf dem lokalen Desktop in den nativen Applikationen unter Windows oder macOS zuzugreifen.
 
-When you open the application after logging out or for the first time, provide the URL of your Experience Manager server in the format `https://[aem-server-url]:[port]/`. Klicken Sie auf „Connect“ (Verknüpfen). Geben Sie Anmeldeinformationen ein, um die App mit dem Server zu verbinden.
+Wenn Sie das Programm nach dem Abmelden zum ersten Mal öffnen, geben Sie die URL des Experience Manager-Servers in folgendem Format ein: `https://[aem-server-url]:[port]/`. Klicken Sie auf „Connect“ (Verknüpfen). Geben Sie Ihre Anmeldeinformationen ein, um das Programm mit dem Server zu verbinden.
 
 Die wichtigsten Aufgaben, die Sie mit dem Experience Manager-Desktop-Programm ausführen, sind:
 
