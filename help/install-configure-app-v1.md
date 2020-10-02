@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
-source-wordcount: '997'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ef87dc011297fda181a9a7643a261e8a42e35a8b
+workflow-type: tm+mt
+source-wordcount: '984'
+ht-degree: 97%
 
 ---
 
@@ -117,7 +117,7 @@ Der Standardspeicherort des Caches für das AEM-Desktop-Programm lautet:
 
 * Unter Mac OS:`~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`
 
-`EncodedAEMEndpoint` ist die konfigurierte AEM-Endpunkt-URL des AEM-Desktop-Programms. Der Wert ist eine codierte Version der Ziel-URL für den AEM-Server. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502`. Der Windows-Pfad zum Cache-Verzeichnis in diesem Beispiel lautet „%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502“.
+`EncodedAEMEndpoint` ist die konfigurierte AEM-Endpunkt-URL des AEM-Desktop-Programms. Der Wert ist eine codierte Version der Ziel-URL für den AEM-Server. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502`. The Windows path to the cache directory in this example is `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
 
 Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen, bearbeiten Sie die Konfigurationsdatei des Programms.
 
@@ -127,7 +127,7 @@ Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen,
 
    Zum Speichern von an dieser Datei vorgenommenen Änderungen sind Administratorberechtigungen erforderlich.
 
-1. Suchen Sie nach der Zeichenfolge „ProxyCacheRoot“. Sie stellen fest, dass der zugehörige Wert auf das Cache-Verzeichnis „%LocalAppData%\Adobe\AssetsCompanion\Cache“ festgelegt ist. Ändern Sie diesen Wert einfach in einen beliebigen gültigen Pfad.
+1. Suchen Sie nach der Zeichenfolge „ProxyCacheRoot“. You see that its value is set to the cache location `%LocalAppData%\Adobe\AssetsCompanion\Cache`. Ändern Sie diesen Wert einfach in einen beliebigen gültigen Pfad.
 
    >[!NOTE]
    >
