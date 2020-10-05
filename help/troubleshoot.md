@@ -8,11 +8,11 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
-source-wordcount: '1242'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 381e586077c7db63dd57a468b1c6abc60c63e34e
+workflow-type: tm+mt
+source-wordcount: '1537'
+ht-degree: 70%
 
 ---
 
@@ -51,37 +51,41 @@ Um Probleme mit dem Desktop-Programm zu beheben, beachten Sie die folgenden Info
 
 ### Aktivieren des Debugging-Modus {#enable-debug-mode}
 
-Zur Fehlerbehebung können Sie den Debug-Modus aktivieren und weitere Informationen in den Protokollen abrufen. Um das Prorgamm im Debug-Modus auszuführen, verwenden Sie die folgenden Befehlszeilenoptionen in einem Terminal oder in der Eingabeaufforderung: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
-
-So aktivieren Sie den Debugging-Modus unter Windows:
-
-1. Suchen Sie die Datei `Adobe Experience Manager Desktop.exe.config` im Installationsordner des Desktop-Programms. Standardmäßig befindet sich diese im Ordner `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.
-
-1. Suchen Sie `<level value="INFO"/>` am Ende der Datei. Ändern Sie den Wert von `INFO` in `DEBUG`, d. h. `<level value="DEBUG"/>`. Speichern und schließen Sie die Datei.
-
-1. Suchen Sie die Datei `logging.json` im Installationsordner des Desktop-Programms. Standardmäßig befindet sich diese im Ordner `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
-
-1. Suchen Sie in der Datei `logging.json` alle Instanzen von `"level": "info"`. Ändern Sie die Werte von `info` in `debug`, d. h. `"level": "debug"`. Speichern und schließen Sie die Datei.
-
-1. Löschen Sie die zwischengespeicherten Verzeichnisse, die sich in den [Voreinstellungen](/help/install-upgrade.md#set-preferences) des Programms festgelegten Speicherort befinden.
-
-1. Starten Sie das Desktop-Programm neu.
-
-<!-- The Windows command doesn't work for now.
-* On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
--->
-
-### Speicherort der Protokolldateien {#check-log-files-v2}
-
-Die Protokolldateien für das AEM-Desktop-Programm finden Sie in den folgenden Verzeichnissen. Wenn beim Hochladen vieler Assets einige Dateien nicht hochgeladen werden können, finden Sie in der Datei `backend.log` Informationen zu den fehlgeschlagenen Uploads.
-
-* Pfad unter Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
-
-* Pfad unter Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+Zur Fehlerbehebung können Sie den Debug-Modus aktivieren und weitere Informationen in den Protokollen abrufen.
 
 >[!NOTE]
 >
->Wenn Sie mit dem Adobe-Kundendienst an einer Support-Anfrage/einem Ticket arbeiten, werden Sie möglicherweise aufgefordert, die Protokolldateien freizugeben, damit das Kundenunterstützungs-Team das Problem verstehen kann. Archivieren Sie den gesamten Ordner `Logs` und geben Sie ihn für Ihre Kontaktperson bei der Kundenunterstützung frei.
+>Gültige Protokollebenen sind DEBUG, INFO, WARN oder FEHLER. Die Ausführlichkeit der Protokolle ist im DEBUG am höchsten und im FEHLER am niedrigsten.
+
+So verwenden Sie die App im Debug-Modus unter Mac:
+
+1. Öffnen Sie ein Terminalfenster oder eine Eingabeaufforderung.
+
+1. Starten Sie die [!DNL Experience Manager] Desktop-App, indem Sie den folgenden Befehl ausführen:
+
+   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
+
+So aktivieren Sie den Debug-Modus unter Windows:
+
+1. Öffnen Sie ein Befehlsfenster.
+
+1. Starten Sie die [!DNL Experience Manager] Desktop-App, indem Sie den folgenden Befehl ausführen:
+
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
+
+### Speicherort der Protokolldateien {#check-log-files-v2}
+
+[!DNL Experience Manager] Die Desktop-App speichert ihre Protokolldateien je nach Betriebssystem an den folgenden Speicherorten:
+
+Unter Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+
+Unter Mac OS: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+
+Wenn beim Hochladen vieler Assets einige Dateien nicht hochgeladen werden können, finden Sie in der Datei `backend.log` Informationen zu den fehlgeschlagenen Uploads.
+
+>[!NOTE]
+>
+>Wenn Sie bei einer Supportanfrage oder einem Ticket mit der Kundenunterstützung der Adobe arbeiten, können Sie gebeten werden, die Protokolldateien freizugeben, damit das Kundendienstteam das Problem besser verstehen kann. Archivieren Sie den gesamten Ordner `Logs` und geben Sie ihn für Ihre Kontaktperson bei der Kundenunterstützung frei.
 
 ### Löschen des Cache {#clear-cache-v2}
 
@@ -129,7 +133,60 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 Wenn Sie das Desktop-Programm mit AEM 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Dadurch wird das Problem mit dem Hochladen von Dateien im Zusammenhang mit [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) behoben. Siehe [Installationsanweisungen](install-upgrade.md#install-v2).
 
-## Problem bei SSL-Konfiguration {#ssl-config-v2}
+## [!DNL Experience Manager] Verbindungsprobleme mit Desktop-Apps {#connection-issues}
+
+### SAML-Anmeldeauthentifizierung funktioniert nicht {#da-connection-issue-with-saml-aem}
+
+Wenn die [!DNL Experience Manager] Desktop-App keine Verbindung zu Ihrer SSO-aktivierten [!DNL Adobe Experience Manager] Instanz (SAML) herstellt, lesen Sie diesen Abschnitt, um eine Fehlerbehebung durchzuführen. SSO-Prozesse sind vielfältig, manchmal komplex, und das Design der Anwendung bietet das Beste, um diese Arten von Verbindungen aufzunehmen. Einige Setups erfordern jedoch eine zusätzliche Fehlerbehebung.
+
+Manchmal leitet der SAML-Prozess nicht zum ursprünglich angeforderten Pfad zurück, oder die endgültige Umleitung erfolgt zu einem Host, der sich von dem unterscheidet, was in der [!DNL Adobe Experience Manager] Desktop-App konfiguriert wurde. So überprüfen Sie, ob dies nicht der Fall ist:
+
+1. Öffnen Sie einen Webbrowser.
+
+1. Geben Sie die URL `<AEM host>/content/dam.json` in die Adressleiste ein.
+
+   Ersetzen Sie `<AEM host>` dies beispielsweise durch die Zielgruppe- [!DNL Adobe Experience Manager] Instanz `http://localhost:4502/content/dam.json`.
+
+1. Log in to the [!DNL Adobe Experience Manager] instance.
+
+1. Wenn die Anmeldung abgeschlossen ist, sehen Sie sich die aktuelle Adresse des Browsers in der Adressleiste an. Er sollte exakt mit der URL übereinstimmen, die ursprünglich eingegeben wurde.
+
+1. Überprüfen Sie außerdem, ob alle zuvor `/content/dam.json` festgelegten Werte mit dem in den Einstellungen der [!DNL Adobe Experience Manager] Desktop-App konfigurierten [!DNL Adobe Experience Manager] Wert für die Zielgruppe übereinstimmen.
+
+**Der SAML-Anmeldeprozess funktioniert gemäß den oben genannten Schritten korrekt, aber die Benutzer können sich trotzdem nicht anmelden**
+
+Das Fenster innerhalb der [!DNL Adobe Experience Manager] Desktop-App, in dem der Anmeldevorgang angezeigt wird, ist lediglich ein Webbrowser, in dem die Webbenutzeroberfläche [!DNL Adobe Experience Manager] der Instanz der Zielgruppe angezeigt wird:
+
+* Die Mac-Version verwendet eine [WebView](https://developer.apple.com/documentation/webkit/webview).
+
+* Die Windows-Version verwendet Chromium-basiertes [CefSharp](https://cefsharp.github.io/).
+
+Stellen Sie sicher, dass der SAML-Prozess diese Browser unterstützt.
+
+Zur weiteren Fehlerbehebung können die exakten URLs, die der Browser zu laden versucht, Ansicht werden. So sehen Sie diese Informationen:
+
+1. Befolgen Sie die Anweisungen zum Starten der Anwendung im [Debug-Modus](#enable-debug-mode).
+
+1. Reproduzieren Sie den Anmeldeversuch.
+
+1. Navigieren Sie zum [Protokollverzeichnis](#check-log-files-v2) der Anwendung
+
+1. Für Windows:
+
+   1. Öffnen Sie &quot;aembegleitonlog.txt&quot;.
+
+   1. Suchen Sie nach Meldungen, die mit &quot;Login-Browser-Adresse geändert zu&quot;beginnen. Diese Einträge enthalten auch die URL, die die Anwendung geladen hat.
+
+   Mac:
+
+   1. `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`, wobei das **n** durch die Nummern ersetzt wird, die im neuesten Dateinamen stehen.
+
+   1. Suchen Sie nach Meldungen, die mit &quot;loaded frame&quot;beginnen. Diese Einträge enthalten auch die URL, die die Anwendung geladen hat.
+
+
+Wenn Sie sich die URL-Sequenz ansehen, die geladen wird, können Sie die Fehlerbehebung am SAML-Ende durchführen, um festzustellen, was falsch ist.
+
+### Problem bei SSL-Konfiguration {#ssl-config-v2}
 
 Die Bibliotheken, die das AEM-Desktop-Programm zur HTTP-Kommunikation nutzt, setzen auf strikte SSL-Durchsetzung. Mitunter kann zwar über einen Browser eine Verbindung erfolgreich hergestellt werden, aber nicht über das AEM-Desktop-Programm. Installieren Sie für eine ordnungsgemäße SSL-Konfiguration das fehlende Zwischenzertifikat in Apache. Siehe [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575) (nur auf Englisch verfügbar).
 
