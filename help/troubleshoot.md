@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4add64df21991495d5cc01e6250bbc9fc444ff0
+source-git-commit: a7a334df5eaa2b8a8d0412bff1ed2a47d39ca1a2
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 58%
+source-wordcount: '2230'
+ht-degree: 44%
 
 ---
 
@@ -49,6 +49,48 @@ Befolgen Sie die folgenden Best Practices, um einige häufige Probleme und die F
 
 Um Probleme mit dem Desktop-Programm zu beheben, beachten Sie die folgenden Informationen. Außerdem werden Sie darauf vorbereitet, die Probleme besser an die Adobe-Kundenunterstützung zu übermitteln, wenn Sie sich für den Support entscheiden.
 
+### Speicherort der Protokolldateien {#check-log-files-v2}
+
+[!DNL Experience Manager] Die Desktop-App speichert ihre Protokolldateien je nach Betriebssystem an den folgenden Speicherorten:
+
+Unter Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+
+Unter Mac OS: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+
+Wenn beim Hochladen vieler Assets einige Dateien nicht hochgeladen werden können, finden Sie in der Datei `backend.log` Informationen zu den fehlgeschlagenen Uploads.
+
+>[!NOTE]
+>
+>Wenn Sie bei einer Supportanfrage oder einem Ticket mit der Kundenunterstützung der Adobe arbeiten, können Sie gebeten werden, die Protokolldateien freizugeben, damit das Kundendienstteam das Problem besser verstehen kann. Archivieren Sie den gesamten Ordner `Logs` und geben Sie ihn für Ihre Kontaktperson bei der Kundenunterstützung frei.
+
+### Detailstufe in Protokolldateien ändern {#level-of-details-in-log}
+
+So ändern Sie die Detailebene in Protokolldateien:
+
+1. Vergewissern Sie sich, dass die Anwendung nicht ausgeführt wird.
+
+1. Windows-System:
+
+   1. Öffnen Sie ein Befehlsfenster.
+
+   1. Starten Sie die [!DNL Adobe Experience Manager] Desktop-App, indem Sie den Befehl ausführen:
+
+   ```shell
+   set AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe
+   ```
+
+   Mac-System:
+
+   1. Öffnen Sie ein Terminal-Fenster.
+
+   1. Starten Sie die [!DNL Adobe Experience Manager] Desktop-App, indem Sie den Befehl ausführen:
+
+   ```shell
+   AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app
+   ```
+
+Die gültigen Protokollebenen sind DEBUG, INFO, WARN oder FEHLER. Die Ausführlichkeit der Protokolle ist im DEBUG am höchsten und im FEHLER am niedrigsten.
+
 ### Aktivieren des Debugging-Modus {#enable-debug-mode}
 
 Zur Fehlerbehebung können Sie den Debug-Modus aktivieren und weitere Informationen in den Protokollen abrufen.
@@ -73,46 +115,61 @@ So aktivieren Sie den Debug-Modus unter Windows:
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
-### Speicherort der Protokolldateien {#check-log-files-v2}
-
-[!DNL Experience Manager] Die Desktop-App speichert ihre Protokolldateien je nach Betriebssystem an den folgenden Speicherorten:
-
-Unter Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
-
-Unter Mac OS: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
-
-Wenn beim Hochladen vieler Assets einige Dateien nicht hochgeladen werden können, finden Sie in der Datei `backend.log` Informationen zu den fehlgeschlagenen Uploads.
-
->[!NOTE]
->
->Wenn Sie bei einer Supportanfrage oder einem Ticket mit der Kundenunterstützung der Adobe arbeiten, können Sie gebeten werden, die Protokolldateien freizugeben, damit das Kundendienstteam das Problem besser verstehen kann. Archivieren Sie den gesamten Ordner `Logs` und geben Sie ihn für Ihre Kontaktperson bei der Kundenunterstützung frei.
-
 ### Löschen des Cache {#clear-cache-v2}
 
-Beim Löschen des Caches von handelt es sich um eine vorläufige Aufgabe zur Fehlerbehebung, durch die verschiedene Probleme mit dem AEM-Desktop-Programm gelöst werden können. Löschen Sie den Cache in den Programm-Voreinstellungen. Siehe [Festlegen von Voreinstellungen](install-upgrade.md#set-preferences). Der Standardspeicherort des Cache-Ordners ist:
+Führen Sie die folgenden Schritte durch:
 
-* Unter Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
+1. Beginn der Anwendung und Verbinden Sie eine AEM Instanz.
 
-* Unter Mac OS: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
+1. Öffnen Sie die Voreinstellungen der Anwendung, indem Sie auf die Auslassungspunkte in der oberen rechten Ecke klicken und [!UICONTROL Preferences]die Option auswählen.
 
-Das Verzeichnis kann sich jedoch in Abhängigkeit vom konfigurierten AEM-Endpunkt des AEM-Desktop-Programms ändern. Der Wert ist eine codierte Version der Ziel-URL. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502%2F`. Um den Cache zu leeren, löschen Sie den entsprechenden Ordner. Ein weiterer Grund, den Cache zu leeren, besteht darin, Speicherplatz freizugeben, wenn Sie wenig Speicherplatz auf der Festplatte haben.
+1. Suchen Sie den Eintrag, der die [!UICONTROL Current Cache Size]. Klicken Sie auf das Papierkorbsymbol neben diesem Element.
+
+Gehen Sie wie folgt vor, um den Cache manuell zu leeren.
 
 >[!CAUTION]
 >
->Wenn Sie den AEM-Desktop-Cache löschen, gehen dabei nicht mit AEM synchronisierte Änderungen lokaler Assets unwiderruflich verloren.
+>Dies ist ein potenziell destruktiver Vorgang. Wenn lokale Dateiänderungen vorliegen, die nicht in hochgeladen werden, gehen diese Änderungen verloren, indem Sie fortfahren. [!DNL Adobe Experience Manager]
 
-### Ermitteln der AEM-Desktop-Programm-Version {#know-app-version-v2}
+Der Cache wird gelöscht, indem der Cache-Ordner der Anwendung gelöscht wird, der in den Voreinstellungen der Anwendung enthalten ist.
 
-Klicken Sie auf das ![Programmmenü](assets/do-not-localize/more_options_da2.png), um das Menü des Programms zu öffnen, und klicken Sie auf **[!UICONTROL Help]** > **[!UICONTROL About]**.
+1. Starten Sie die Anwendung.
+
+1. Öffnen Sie die Voreinstellungen der Anwendung, indem Sie die Ellipsen in der oberen rechten Ecke auswählen und dann [!UICONTROL Preferences]auswählen.
+
+1. Notieren Sie den [!UICONTROL Cache Directory] Wert.
+
+   In diesem Verzeichnis befinden sich Unterordner, die nach den kodierten [!DNL Adobe Experience Manager] Endpunkten benannt sind. The names is an encoded version of the targeted [!DNL Adobe Experience Manager] URL. For example, if the application is targeting `localhost:4502` then the directory name will be `localhost_4502`.
+
+To clear the cache, delete the desired Encoded [!DNL Adobe Experience Manager] Endpoint directory. Wenn Sie stattdessen den gesamten in den Voreinstellungen angegebenen Ordner löschen, wird der Cache für alle von der Anwendung verwendeten Instanzen gelöscht.
+
+Clearing [!DNL Adobe Experience Manager]] desktop app&#39;s cache is a preliminary troubleshooting task that can resolve several issues. Löschen Sie den Cache in den Programm-Voreinstellungen. Siehe [Festlegen von Voreinstellungen](install-upgrade.md#set-preferences). Der Standardspeicherort des Cache-Ordners ist:
+
+### Know the [!DNL Adobe Experience Manager] desktop app version {#know-app-version-v2}
+
+So sehen Sie die Versionsnummer:
+
+1. Starten Sie die Anwendung.
+
+1. Klicken Sie auf die Ellipsen in der oberen rechten Ecke, halten Sie den Mauszeiger über [!UICONTROL Help]und klicken Sie auf [!UICONTROL About].
+
+   Die Versionsnummer wird auf diesem Bildschirm angezeigt.
 
 ### Platzierte Assets werden nicht angezeigt {#placed-assets-missing}
 
 Wenn Sie die Assets, die Sie oder andere Kreativprofis in den Support-Dateien gespeichert haben (z. B. INDD-Dateien), nicht sehen können, überprüfen Sie Folgendes:
 
 * Verbindung zum Server. Instabile Netzwerkverbindungen können das Herunterladen von Assets verzögern.
+
 * Dateigröße. Das Herunterladen und Anzeigen großer Assets dauert länger.
+
 * Konsistenz der Laufwerksbuchstaben. Wenn Sie oder ein anderer Mitarbeiter die Assets platziert haben, während das AEM DAM einem anderen Laufwerksbuchstaben zugeordnet wurde, werden die platzierten Assets nicht angezeigt
+
 * Berechtigungen. Wenden Sie sich an Ihren AEM-Administrator, um zu prüfen, ob Sie berechtigt sind, die platzierten Assets abzurufen.
+
+### Änderungen an Dateien in der Benutzeroberfläche der Desktop-App werden nicht [!DNL Adobe Experience Manager] sofort übernommen {#changes-on-da-not-visible-on-aem}
+
+[!DNL Adobe Experience Manager] Die Desktop-App überlässt es dem Benutzer, zu entscheiden, wann alle Änderungen an einer Datei abgeschlossen sind. Je nach Größe und Komplexität einer Datei dauert es sehr lange, die neue Version einer Datei wieder in [!DNL Adobe Experience Manager]zu übertragen. Das Design der Anwendung erfordert eine Minimierung der Anzahl der Übermittlungen einer Datei vor und zurück, anstatt zu vermuten, wann die Dateibearbeitungen abgeschlossen sind und automatisch hochgeladen werden. Es wird empfohlen, dass der Benutzer die Übertragung der Datei wieder auf einleitet, [!DNL Adobe Experience Manager] indem er die Änderungen einer Datei hochlädt.
 
 ### Probleme beim Aktualisieren unter macOS {#issues-when-upgrading-on-macos}
 
@@ -247,6 +304,22 @@ In seltenen Fällen reagiert das Programm möglicherweise nicht mehr, zeigt nur 
 * Beenden Sie das Programm und starten Sie es erneut.
 
 Bei beiden Methoden startet das Programm im Stammordner des DAM.
+
+### Benötigen Sie zusätzliche Hilfe mit der [!DNL Experience Manager] Desktop-App {#additional-help}
+
+Erstellen Sie ein Jira-Ticket mit den folgenden Informationen:
+
+* Verwenden Sie `DAM - Companion App` als [!UICONTROL Component].
+
+* Ausführliche Schritte zum Reproduzieren des Problems in [!UICONTROL Description].
+
+* Protokolle auf DEBUG-Ebene, die beim Reproduzieren des Problems erfasst wurden.
+
+* Target AEM-Version.
+
+* Betriebssystemversion.
+
+* [!DNL Adobe Experience Manager] Desktop-App-Version. Informationen zur App-Version finden Sie unter [Suchen der Desktop-App-Version](#know-app-version-v2).
 
 >[!MORELIKETHIS]
 >
