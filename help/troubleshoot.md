@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7a334df5eaa2b8a8d0412bff1ed2a47d39ca1a2
+source-git-commit: 540821ad10f14ad855c66a2b93d356ba118515c7
 workflow-type: tm+mt
 source-wordcount: '2230'
 ht-degree: 44%
@@ -143,7 +143,7 @@ Der Cache wird gelöscht, indem der Cache-Ordner der Anwendung gelöscht wird, d
 
 To clear the cache, delete the desired Encoded [!DNL Adobe Experience Manager] Endpoint directory. Wenn Sie stattdessen den gesamten in den Voreinstellungen angegebenen Ordner löschen, wird der Cache für alle von der Anwendung verwendeten Instanzen gelöscht.
 
-Clearing [!DNL Adobe Experience Manager]] desktop app&#39;s cache is a preliminary troubleshooting task that can resolve several issues. Löschen Sie den Cache in den Programm-Voreinstellungen. Siehe [Festlegen von Voreinstellungen](install-upgrade.md#set-preferences). Der Standardspeicherort des Cache-Ordners ist:
+Clearing [!DNL Adobe Experience Manager] desktop app&#39;s cache is a preliminary troubleshooting task that can resolve several issues. Löschen Sie den Cache in den Programm-Voreinstellungen. Siehe [Festlegen von Voreinstellungen](install-upgrade.md#set-preferences). Der Standardspeicherort des Cache-Ordners ist:
 
 ### Know the [!DNL Adobe Experience Manager] desktop app version {#know-app-version-v2}
 
