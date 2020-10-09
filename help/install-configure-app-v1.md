@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ef87dc011297fda181a9a7643a261e8a42e35a8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '984'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Sie können das Dialogfeld „Asset Info“ (Asset-Informationen) anpassen, inde
 
 Welche Komponente überlagert wird, hängt von der Art der Personalisierung ab. Wenn Sie die Komponenten ändern möchten, die als Teil des Dialogfelds „Asset Info“ angezeigt werden, überlagern Sie die Seite der Granite-Benutzeroberfläche. Um den HTML-, CSS- oder Javascript-Inhalt des Dialogfelds zu ändern, überlagern Sie die HTL-Komponente.
 
-## Verwalten des Caches  {#manage-cache}
+## Verwalten des Caches   {#manage-cache}
 
 In Windows befindet sich der Cache unter `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, wo eine codierte Version des im Desktop-Programm konfigurierten AEM-Hosts gespeichert ist. Beispiel: `http://localhost:4502` wird als `http%3A%2F%2Flocalhost%3A4502%2F` angezeigt.
 
@@ -109,7 +109,7 @@ Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke z
 >
 >Wenn Sie den Cache löschen, werden nicht gespeicherte Änderungen beibehalten. Alle Assets, die nicht auf dem AEM-Server eingecheckt wurden, werden beibehalten und nicht gelöscht.
 
-### Ändern des Cache-Verzeichnisses unter Windows  {#change-location-of-cache-on-windows}
+### Ändern des Cache-Verzeichnisses unter Windows   {#change-location-of-cache-on-windows}
 
 Der Standardspeicherort des Caches für das AEM-Desktop-Programm lautet:
 
@@ -117,7 +117,7 @@ Der Standardspeicherort des Caches für das AEM-Desktop-Programm lautet:
 
 * Unter Mac OS:`~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`
 
-`EncodedAEMEndpoint` ist die konfigurierte AEM-Endpunkt-URL des AEM-Desktop-Programms. Der Wert ist eine codierte Version der Ziel-URL für den AEM-Server. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502`. The Windows path to the cache directory in this example is `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
+`EncodedAEMEndpoint` ist die konfigurierte AEM-Endpunkt-URL des AEM-Desktop-Programms. Der Wert ist eine codierte Version der Ziel-URL für den AEM-Server. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502`. Der Windows-Pfad zum Cache-Verzeichnis in diesem Beispiel lautet `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`
 
 Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen, bearbeiten Sie die Konfigurationsdatei des Programms.
 
@@ -127,7 +127,7 @@ Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen,
 
    Zum Speichern von an dieser Datei vorgenommenen Änderungen sind Administratorberechtigungen erforderlich.
 
-1. Suchen Sie nach der Zeichenfolge „ProxyCacheRoot“. You see that its value is set to the cache location `%LocalAppData%\Adobe\AssetsCompanion\Cache`. Ändern Sie diesen Wert einfach in einen beliebigen gültigen Pfad.
+1. Suchen Sie nach der Zeichenfolge „ProxyCacheRoot“. Sie stellen fest, dass der zugehörige Wert auf das Cache-Verzeichnis `%LocalAppData%\Adobe\AssetsCompanion\Cache` festgelegt ist. Ändern Sie diesen Wert einfach in einen beliebigen gültigen Pfad.
 
    >[!NOTE]
    >
