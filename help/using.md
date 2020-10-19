@@ -6,11 +6,11 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f5f65fa8ddceae62f2e046f2d20e853aef572f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3999'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Verwenden Sie das Adobe Experience Manager (AEM)-Desktop-Programm, um einfach 
 
 Die Integration ermöglicht es verschiedenen Rollen in der Organisation, die Assets zentral in Experience Manager Assets zu verwalten und auf die Assets auf dem lokalen Desktop in den nativen Applikationen unter Windows oder macOS zuzugreifen.
 
-Wenn Sie das Programm nach dem Abmelden zum ersten Mal öffnen, geben Sie die URL des Experience Manager-Servers in folgendem Format ein: `https://[aem-server-url]:[port]/`. Wählen Sie dann die [!UICONTROL Connect] Option aus. Geben Sie Ihre Anmeldeinformationen ein, um das Programm mit dem Server zu verbinden.
+Wenn Sie das Programm nach dem Abmelden zum ersten Mal öffnen, geben Sie die URL des Experience Manager-Servers in folgendem Format ein: `https://[aem-server-url]:[port]/`. Wählen Sie dann die Option [!UICONTROL Connect] aus. Geben Sie Ihre Anmeldeinformationen ein, um das Programm mit dem Server zu verbinden.
 
 Die wichtigsten Aufgaben, die Sie mit dem Experience Manager-Desktop-Programm ausführen, sind:
 
