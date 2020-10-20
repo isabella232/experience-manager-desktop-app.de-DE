@@ -8,9 +8,9 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 540821ad10f14ad855c66a2b93d356ba118515c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2230'
 ht-degree: 100%
 
