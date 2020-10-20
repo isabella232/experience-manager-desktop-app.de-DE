@@ -190,7 +190,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 Wenn Sie das Desktop-Programm mit AEM 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Dadurch wird das Problem mit dem Hochladen von Dateien im Zusammenhang mit [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) behoben. Siehe [Installationsanweisungen](install-upgrade.md#install-v2).
 
-###  Verbindungsprobleme mit dem [!DNL Experience Manager]-Desktop-Programm {#connection-issues}
+### Verbindungsprobleme mit dem [!DNL Experience Manager]-Desktop-Programm {#connection-issues}
 
 Wenn allgemeine Verbindungsprobleme auftreten, finden Sie hier einige Möglichkeiten, weitere Informationen zum [!DNL Experience Manager]-Desktop-Programm zu erhalten.
 
