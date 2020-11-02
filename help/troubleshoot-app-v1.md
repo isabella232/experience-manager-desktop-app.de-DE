@@ -8,9 +8,9 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
+workflow-type: tm+mt
 source-wordcount: '3374'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ Sie können die Leistung auf AEM-Seite verbessern, indem Sie für den Workflow �
 
 Eine weitere Methode zum Verbessern der AEM-Leistung besteht darin, den Wert der maximal zulässigen parallelen Aufträge für die Warteschlange für Granite-Übergangs-Workflows zu konfigurieren. Der empfohlene Wert beträgt ungefähr die Hälfte der CPU, die für den Server verfügbar sind. Führen Sie die folgenden Schritte aus, um den Wert anzupassen:
 
-1. Navigieren Sie in der zu konfigurierenden AEM-Instanz zu */system/console/configMgr* (z. B. <http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr>).
+1. Navigieren Sie in der zu konfigurierenden AEM-Instanz zu */system/console/configMgr* (z. B. `http://[aem_server]:[port]/system/console/configMgr`).
 1. Suchen Sie nach **QueueConfiguration** und klicken Sie, um die einzelnen Aufträge zu öffnen, bis Sie den Auftrag **Warteschlange für Granite-Übergangs-Workflow** gefunden haben. Klicken Sie auf das daneben befindliche Symbol zum Bearbeiten.
 1. Ändern Sie den Wert **Maximale Anzahl an parallelen Aufträgen** und klicken Sie auf **Speichern**.
 
