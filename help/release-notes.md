@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1415'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -115,7 +115,7 @@ Informationen zum Installieren und Konfigurieren des Programms finden Sie unter 
 
 Wenn Sie von einer vorherigen Version des Experience Manager-Desktop-Programms aktualisieren, müssen Sie die folgenden Best Practices für die Umstellung befolgen, die unter [Upgrade von früherer Version](install-upgrade.md#upgrade-from-previous-version) aufgeführt sind.
 
-## Wichtige Hinweise zur Funktionsweise des Programms{#how-app-works}
+## Wichtige Hinweise zur Funktionsweise des Programms {#how-app-works}
 
 Es ist wichtig, die folgenden Informationen zum Programm und dessen Funktionsweise zu verstehen.
 
@@ -170,7 +170,7 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 >[!MORELIKETHIS]
 >
 >* [Dokumentation zu AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html)
->* [Dokumentation zu AEM as a Cloud Service Assets](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/home.html)
+>* [Dokumentation zu AEM as a Cloud Service Assets](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/assets/home.html)
 >* [Verwenden des Adobe Experience Manager-Desktop-Programms](using.md)
 >* [Installieren und Aktualisieren des Desktop-Programms](install-upgrade.md)
 >* [Best Practices und Tipps zur Fehlerbehebung](troubleshoot.md)
