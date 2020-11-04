@@ -2,11 +2,11 @@
 title: Verwenden des AEM-Desktop-Programms, Version 1.x.
 description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm, Version 1.x verwenden und Ihre Arbeit mit Assets auf dem Desktop optimieren können.
 contentOwner: AG
-translation-type: ht
-source-git-commit: 67e117648de8298f78992afea5ae0962fd2c698b
-workflow-type: ht
-source-wordcount: '2516'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+workflow-type: tm+mt
+source-wordcount: '2500'
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,7 @@ Das Programm unterstützt die Proxy-Konfiguration unter Mac und Windows. Die Kon
 
 1. Geben Sie im Anmeldebildschirm den Benutzernamen und das Kennwort für Ihre Instanz an. Wenn Sie eine alternative AEM-Instanz angeben möchten, wählen Sie die Option **[!UICONTROL Alternate Login URL]** aus.
 
-   ![Anmeldedaten für den AEM-Server auf dem Anmeldebildschirm von AEM Desktop angeben](assets/chlimage_1-2.png)
+   ![Geben Sie AEM Serverberechtigungen auf dem Anmeldebildschirm in AEM Desktop-App an](assets/login_screen_v1.png)
 
 ### Aktivieren von Desktop-Aktionen in der AEM-Web-Benutzeroberfläche {#desktopactions}
 
@@ -105,7 +105,7 @@ Das Programm unterstützt die Proxy-Konfiguration unter Mac und Windows. Die Kon
 
 1. Wählen Sie im Dialogfeld „Benutzereinstellungen“ die Option **[!UICONTROL Show Desktop Actions For Assets]**. Klicken Sie auf **[!UICONTROL Accept]**.
 
-   ![Aktivieren Sie „Show Desktop Actions For Assets“ (Desktop-Aktionen für Assets anzeigen), um Desktop-Aktionen zu ermöglichen](assets/chlimage_1-3.png)
+   ![Aktivieren Sie [!UICONTROL Show Desktop Actions For Assets], um Desktop-Aktionen zu aktivieren.](assets/enable_desktop_actions.png)
 
    *Abbildung: Aktivieren von „Desktop-Aktionen für Assets anzeigen“ zur Ermöglichung von Desktop-Aktionen.*
 
@@ -135,13 +135,13 @@ Nachdem Sie Ihrem lokalen Laufwerk das AEM Assets-Repository zugeordnet haben, 
 
 1. Öffnen Sie die Benutzeroberfläche von AEM Assets und bewegen Sie den Mauszeiger auf einen Ordner oder ein Asset, um die Desktop-Aktionen in der Kartenansicht in Form von Schnellaktionen anzuzeigen.
 
-   ![Schnellaktionsmenü in der Assets-Benutzeroberfläche öffnen, um Desktop-Aktionen anzuzeigen](assets/chlimage_1-4.png)
+   ![Schnellaktionsmenü in der Assets-Benutzeroberfläche öffnen, um Desktop-Aktionen anzuzeigen](assets/desktop_actions_in_card_view.png)
 
    *Abbildung: Schnellaktionsmenü in der Assets-Benutzeroberfläche öffnen, um Desktop-Aktionen anzuzeigen.*
 
-   Sie können auch auf diese Desktop-Aktionen zugreifen, indem Sie in der Symbolleiste auf das Symbol **Desktop-Aktionen** klicken, nachdem Sie das Asset ausgewählt haben. Eine weitere Möglichkeit bietet die Symbolleiste auf der Asset-Seite.
+   These desktop actions are also available when you click the **Desktop Actions** option in the toolbar after selecting the asset or from the toolbar in the asset page.
 
-1. Wenn Sie das Asset in der Desktop-Applikation öffnen möchten, die der jeweiligen Dateierweiterung zugeordnet ist, klicken/tippen Sie auf die Schnellaktion **Auf dem Desktop öffnen**![Auf dem Desktop öffnen](assets/do-not-localize/aemassets_icon_openondesktop.png).
+1. To open the asset in the desktop application that is associated with the specific file extension, click the **Open on desktop** quick action ![Open on Desktop icon](assets/do-not-localize/aemassets_icon_openondesktop.png).
 
    Alternativ können Sie die Option **Öffnen** über das Menü **Desktop-Aktionen** in der Symbolleiste auswählen.
 
@@ -165,7 +165,7 @@ Es gibt zwei Methoden zum Auschecken von Assets über die AEM-Web-Benutzeroberfl
 
 1. Öffnen Sie die Benutzeroberfläche von AEM Assets und bewegen Sie den Mauszeiger auf einen Ordner oder ein Asset, um die Desktop-Aktionen in der Kartenansicht in Form von Schnellaktionen anzuzeigen.
 
-   ![Option „Eigenschaften“ in der Kartenansicht](assets/chlimage_1-4.png)
+   ![Option „Eigenschaften“ in der Kartenansicht](assets/desktop_actions_in_card_view.png)
 
    Sie können auch auf diese Desktop-Aktionen zugreifen, indem Sie in der Symbolleiste auf das Symbol „Desktop-Aktionen“ klicken/tippen, nachdem Sie das Asset ausgewählt haben. Eine weitere Möglichkeit bietet die Symbolleiste auf der Asset-Seite.
 
@@ -195,13 +195,10 @@ Mithilfe des Programms können Sie Dateien auschecken, damit andere Benutzer kei
    Kontextmenüoptionen zum Zugreifen auf und Öffnen von Assets mithilfe des AEM-Desktop-Programms
 
 1. Navigieren Sie zu dem Asset, das Sie auschecken möchten.
-
-   ![Im AEM Assets-Kontextmenü auf Mac öffnen](assets/chlimage_1-5.png)
-
 1. Klicken Sie mit der rechten Maustaste auf das Asset und wählen Sie im Kontextmenü die Option „More Assets Info“ (Weitere Asset-Informationen) aus.
 1. Klicken/tippen Sie im Dialogfeld „Asset Info“ (Asset-Informationen) auf das Symbol „Auschecken“, um das Asset auszuchecken. Das Symbol „Auschecken“ wird zum Symbol „Einchecken“, nachdem Sie darauf geklickt/getippt haben.
 
-   ![Zum Asset navigieren um auszuchecken](assets/chlimage_1-6.png)
+   ![Zum Asset navigieren um auszuchecken](assets/browse_assets_to_checkout.png)
 
 1. Wenn Sie das Asset einchecken möchten, sodass es für andere Benutzer verfügbar ist, klicken/tippen Sie im Dialogfeld „Asset Info“ (Asset-Informationen) auf das Symbol „Einchecken“.
 
@@ -211,13 +208,10 @@ Mithilfe des Programms können Sie Dateien auschecken, damit andere Benutzer kei
 
 1. Wählen Sie im Kontextmenü die Option „Explore Assets“ (Assets durchsuchen), um Explorer zu öffnen.
 1. Navigieren Sie in Explorer zum Speicherort des Assets, das Sie auschecken möchten.
-
-   ![Symbol „Auschecken“](assets/chlimage_1-7.png)
-
 1. Klicken Sie mit der rechten Maustaste auf das Asset und wählen Sie aus dem Kontextmenü die Option „Open on Web“ (Im Web öffnen) aus.
 1. Klicken/tippen Sie im Dialogfeld „Asset Info“ (Asset-Informationen) auf das Symbol „Checkout“ (Auschecken). Das Symbol „Auschecken“ wird zum Symbol „Einchecken“
 
-   ![Symbol „Auschecken“](assets/chlimage_1-8.png)
+   ![Symbol „Auschecken“](assets/checkout_icon_toggles.png)
 
 1. Prüfen Sie das Asset in Explorer. Das Sperrsymbol auf dem Asset ![Asset-Sperrsymbol](assets/do-not-localize/aemassets_icon_lockcheckout.png) gibt an, dass Sie das Asset ausgecheckt haben.
 
