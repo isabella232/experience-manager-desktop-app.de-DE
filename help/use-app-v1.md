@@ -3,9 +3,9 @@ title: Verwenden des AEM-Desktop-Programms, Version 1.x.
 description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm, Version 1.x verwenden und Ihre Arbeit mit Assets auf dem Desktop optimieren können.
 contentOwner: AG
 translation-type: tm+mt
-source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2474'
 ht-degree: 97%
 
 ---
@@ -253,7 +253,5 @@ Alternativ können Sie Dateien/Ordner, die Sie in AEM hochladen möchten, im Fin
 
 >[!MORELIKETHIS]
 >
->* [Einführung in das AEM-Desktop-Programm](https://helpx.adobe.com/de/customer-care-office-hours/aem/desktop-app.html)
->* [Grundlegendes zum Ein- und Auschecken mit dem AEM-Desktop-Programm](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 >* [Fehlerbehebung für das AEM-Desktop-Programm](troubleshoot-app-v1.md)
 
