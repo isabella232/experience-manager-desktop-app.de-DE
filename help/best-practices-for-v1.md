@@ -8,9 +8,9 @@ discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Das Desktop-Programm stellt das AEM Assets-Repository als Netzwerkfreigabe auf d
 
 Das AEM-Desktop-Programm stellt Netzwerkfreigaben über WebDAV (Windows) oder SMB (Mac) bereit. Die bereitgestellte Netzwerkfreigabe liegt ausschließlich lokal vor. Das AEM-Desktop-Programm fängt die Aufrufe (Öffnen, Lesen, Schreiben) ab und bietet zusätzliches lokales Caching. Das Programm übersetzt Remote-Aufrufe an den AEM Assets-Server in optimierte AEM-HTTP-Anforderungen. Die folgende Abbildung zeigt die Architektur des AEM-Desktop-Programms.
 
-![Architektur des AEM-Desktop-Programms](assets/chlimage_1.png)
+![Architektur des AEM-Desktop-Programms](assets/arch_v1.png)
 
 *Abbildung: Architektur des Desktop-Programms*
 
