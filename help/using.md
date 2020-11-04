@@ -6,9 +6,9 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: f5f65fa8ddceae62f2e046f2d20e853aef572f2c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+workflow-type: tm+mt
 source-wordcount: '3999'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Bevor Sie mit der Nutzung des Programms beginnen, sollten Sie wissen, [wie das P
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL My Preferences]**, um das Dialogfeld **[!UICONTROL Preferences]** anzuzeigen.
 1. Wählen Sie im Dialogfeld „Benutzereinstellungen“ die Option **[!UICONTROL Show Desktop Actions For Assets]**. Klicken/tippen Sie auf **[!UICONTROL Accept]**.
 
-   ![Aktivieren Sie „Show Desktop Actions For Assets“ (Desktop-Aktionen für Assets anzeigen), um Desktop-Aktionen zu ermöglichen](assets/chlimage_1-3.png)
+   ![Aktivieren Sie „Show Desktop Actions For Assets“ (Desktop-Aktionen für Assets anzeigen), um Desktop-Aktionen zu ermöglichen](assets/enable_desktop_actions.png)
 
    Aktivieren Sie [!UICONTROL Show Desktop Actions For Assets], um Desktop-Aktionen zu aktivieren.
 
