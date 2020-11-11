@@ -1,6 +1,9 @@
 ---
-source-git-commit: 26373450fd36a4d726190c0252f60c4d77bf8b7f
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '534'
+ht-degree: 98%
 
 ---
 # Beitragen zur Dokumentation der Adobe Experience Manager-Desktop App
@@ -57,4 +60,4 @@ Wir freuen uns über jeden Beitrag und überprüfen Ihren Beitrag, wenn er im ö
 
 ## Weiterführende Informationen
 
-Weitere Informationen zur Verwendung der GitHub-Autoren-Plattform finden Sie im [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Weitere Informationen zur Verwendung der GitHub-Autoren-Plattform finden Sie im [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
