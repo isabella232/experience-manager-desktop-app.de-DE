@@ -1,18 +1,11 @@
 ---
 title: 'Best Practices für das AEM-Desktop-Programm, Version 1.x '
 description: Wichtige Funktionen und empfohlene Verwendung des Adobe Experience Manager-Desktop-Programms, Version 1.x.
-uuid: ba8fbc74-e1ad-4085-a031-ffd317628ba6
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 100%
+source-wordcount: '1694'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +22,7 @@ Das Desktop-Programm stellt das AEM Assets-Repository als Netzwerkfreigabe auf d
 
 >[!NOTE]
 >
->Vor der Lektüre dieses Dokuments können Sie sich die allgemeinen [Best Practices zur AEM- und Creative Cloud-Integration](https://docs.adobe.com/content/help/de-DE/experience-manager-64/assets/administer/aem-cc-integration-best-practices.html) durchlesen, wenn Sie sich zunächst einen Überblick über dieses Thema verschaffen möchten.
+>Vor der Lektüre dieses Dokuments können Sie sich die allgemeinen [Best Practices zur AEM- und Creative Cloud-Integration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/aem-cc-integration-best-practices.html) durchlesen, wenn Sie sich zunächst einen Überblick über dieses Thema verschaffen möchten.
 
 ## Architektur des AEM-Desktop-Programms {#aem-desktop-app-architecture}
 
@@ -71,7 +64,7 @@ Zu den Hauptfunktionen und -merkmalen des AEM-Desktop-Programms gehören u. a.:
 
 * Setzen Sie AEM-Desktop-Programm-Netzlaufwerke nicht zum regelmäßigen Speichern von Assets ein. Alle Speichervorgänge werden an AEM Assets übertragen. Daher ist es unpraktisch, intensive Bearbeitungsvorgänge direkt in dem bereitgestellten AEM Assets-Repository durchzuführen. Wird ein Asset direkt im bereitgestellten Repository bearbeitet, wird die Zeitleiste des Assets mit irrelevanten Versionen „vollgestopft“ und der Server wird durch Mehraufwand belastet.
 
-* Setzen Sie das AEM-Desktop-Programm nicht ein, um große Datenmengen von einer AEM-Instanz zu einer anderen zu migrieren. Informationen zum Planen und Ausführen von Asset-Migrationen finden Sie im [Migrationshandbuch](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/administer/assets-migration-guide.html). Das AEM-Desktop-Programm ist stattdessen darauf ausgelegt, Assets via [Massen-Upload](use-app-v1.md#bulkupload) erstmalig in [!DNL Adobe Experience Manager] hochzuladen.
+* Setzen Sie das AEM-Desktop-Programm nicht ein, um große Datenmengen von einer AEM-Instanz zu einer anderen zu migrieren. Informationen zum Planen und Ausführen von Asset-Migrationen finden Sie im [Migrationshandbuch](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html). Das AEM-Desktop-Programm ist stattdessen darauf ausgelegt, Assets via [Massen-Upload](use-app-v1.md#bulkupload) erstmalig in [!DNL Adobe Experience Manager] hochzuladen.
 
 ## Empfehlungen für ausgewählte Anwendungsfälle{#recommendations-for-selected-use-cases}
 
@@ -127,7 +120,7 @@ Für ein positives Benutzererlebnis mit dem AEM-Desktop-Programm kommt es in ers
 
 ### Überlegungen zum Netzwerk   {#network-considerations}
 
-Die Best Practices für die AEM Assets-Netzwerkkonfiguration finden Sie im Dokument [Überlegungen zum AEM Assets-Netzwerk](https://docs.adobe.com/content/help/de-DE/experience-manager-64/assets/administer/assets-migration-guide.html). Folgende Aspekte sind u. a. beim Optimieren des AEM-Desktop-Programm-Erlebnisses für Benutzer nützlich:
+Die Best Practices für die AEM Assets-Netzwerkkonfiguration finden Sie im Dokument [Überlegungen zum AEM Assets-Netzwerk](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-migration-guide.html). Folgende Aspekte sind u. a. beim Optimieren des AEM-Desktop-Programm-Erlebnisses für Benutzer nützlich:
 
 * **Ordnungsgemäße Dispatcher-Konfiguration**. Nutzen Sie AEM Dispatcher, um für zusätzliche Sicherheit zu sorgen, und stellen Sie sicher, dass dieser für eine [Verbindung des AEM-Desktop-Programms mit AEM hinter einem Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher) konfiguriert ist.
 
@@ -139,8 +132,8 @@ Die Best Practices für die AEM Assets-Netzwerkkonfiguration finden Sie im Dokum
 
 ### Optimieren der Serverleistung   {#optimizing-server-performance}
 
-Informationen zur Leistungsoptimierung des AEM Assets-Servers finden Sie im [Handbuch zur Optimierung der AEM Assets-Leistung](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/administer/performance-tuning-guidelines.html). Einige wichtige Aspekte im Zusammenhang mit der Server-Leistung des AEM-Desktop-Programms beziehen sich auf das Optimieren der Workflow-Konfiguration für Asset-Uploads:
+Informationen zur Leistungsoptimierung des AEM Assets-Servers finden Sie im [Handbuch zur Optimierung der AEM Assets-Leistung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html). Einige wichtige Aspekte im Zusammenhang mit der Server-Leistung des AEM-Desktop-Programms beziehen sich auf das Optimieren der Workflow-Konfiguration für Asset-Uploads:
 
-* **Leistungsstärkere Asset-Uploads**. Konfigurieren Sie das [AEM-Workflow-Modell „AEM-Asset-Update“ als Übergangs-Workflow](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/administer/performance-tuning-guidelines.html#Workflows).
+* **Leistungsstärkere Asset-Uploads**. Konfigurieren Sie das [AEM-Workflow-Modell „AEM-Asset-Update“ als Übergangs-Workflow](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html).
 
 * **Server-Prozessoren für Uploads beschränken**. Stellen Sie sicher, dass der Parameter für parallele Workflow-Aufträge korrekt eingestellt ist, damit bei Uploads nicht die gesamte CPU ausgereizt wird.
