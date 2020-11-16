@@ -85,7 +85,7 @@ Wenn Sie Proxyserver-Einstellungen für Windows konfigurieren oder ändern (Inte
 
 Wenn für den Proxy eine Authentifizierung erforderlich ist, kann die IT-Abteilung die URL von Experience Manager Assets in den Proxyserver-Einstellungen zulassen, um den Applikationsdatenverkehr durchzulassen.
 
-## Anpassen des Dialogfelds „Asset Info“{#customize-the-asset-info-dialog}
+## Anpassen des Dialogfelds „Asset Info“ {#customize-the-asset-info-dialog}
 
 Sie können das Dialogfeld „Asset Info“ (Asset-Informationen) anpassen, indem Sie es mit mindestens einer dieser beiden Komponenten überlagern:
 
@@ -95,7 +95,7 @@ Sie können das Dialogfeld „Asset Info“ (Asset-Informationen) anpassen, inde
 
 Welche Komponente überlagert wird, hängt von der Art der Personalisierung ab. Wenn Sie die Komponenten ändern möchten, die als Teil des Dialogfelds „Asset Info“ angezeigt werden, überlagern Sie die Seite der Granite-Benutzeroberfläche. Um den HTML-, CSS- oder Javascript-Inhalt des Dialogfelds zu ändern, überlagern Sie die HTL-Komponente.
 
-## Verwalten des Caches   {#manage-cache}
+## Verwalten des Caches {#manage-cache}
 
 In Windows befindet sich der Cache unter `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, wo eine codierte Version des im Desktop-Programm konfigurierten AEM-Hosts gespeichert ist. Beispiel: `http://localhost:4502` wird als `http%3A%2F%2Flocalhost%3A4502%2F` angezeigt.
 
@@ -103,21 +103,21 @@ Unter Mac OS X befindet sich unter `~/Library/Group Containers/group.com.adobe.a
 
 ### Option zum Verwalten des Cache im Programm {#in-app-option-to-manage-cache}
 
-Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke zur Verfügung gestellt wird. Die Artefakte vom AEM Assets-Server werden für ein reibungsloseres Erlebnis lokal zwischengespeichert. Sie können die Standardeinstellungen Ihren Anforderungen entsprechend anpassen. Außerdem können Sie den Cache löschen, um alle Assets erneut abzurufen. Klicken Sie zum Festlegen der gewünschten Optionen auf das Symbol des Programms und klicken Sie auf **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. ****
+Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke zur Verfügung gestellt wird. Die Artefakte vom AEM Assets-Server werden für ein reibungsloseres Erlebnis lokal zwischengespeichert. Sie können die Standardeinstellungen Ihren Anforderungen entsprechend anpassen. Außerdem können Sie den Cache löschen, um alle Assets erneut abzurufen. Klicken Sie zum Festlegen der gewünschten Optionen auf das Symbol des Programms und klicken Sie auf **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. 
 
 >[!NOTE]
 >
 >Wenn Sie den Cache löschen, werden nicht gespeicherte Änderungen beibehalten. Alle Assets, die nicht auf dem AEM-Server eingecheckt wurden, werden beibehalten und nicht gelöscht.
 
-### Ändern des Cache-Verzeichnisses unter Windows   {#change-location-of-cache-on-windows}
+### Ändern des Cache-Verzeichnisses unter Windows {#change-location-of-cache-on-windows}
 
 Der Standardspeicherort des Caches für das AEM-Desktop-Programm lautet:
 
-* Unter Windows:`%LocalAppData%\Adobe\AssetsCompanion\Cache\EncodedAEMEndpoint`
+* Unter Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\EncodedAEMEndpoint`
 
-* Unter Mac OS:`~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`
+* Unter Mac OS: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`
 
-`EncodedAEMEndpoint` ist die konfigurierte AEM-Endpunkt-URL des AEM-Desktop-Programms. Der Wert ist eine codierte Version der Ziel-URL für den AEM-Server. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502`. Der Windows-Pfad zum Cache-Verzeichnis in diesem Beispiel lautet `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`
+`EncodedAEMEndpoint` ist die konfigurierte AEM-Endpunkt-URL des AEM-Desktop-Programms. Der Wert ist eine codierte Version der Ziel-URL für den AEM-Server. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502`. Der Windows-Pfad zum Cache-Verzeichnis in diesem Beispiel lautet `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
 
 Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen, bearbeiten Sie die Konfigurationsdatei des Programms.
 
@@ -131,7 +131,7 @@ Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen,
 
    >[!NOTE]
    >
-   >Das Programm erstellt automatisch ein Unterverzeichnis mit der Bezeichnung *&lt;Codierter AEM-Endpunkt>*. Dieses Verhalten kann nicht konfiguriert werden.
+   >Das Programm erstellt automatisch ein Unterverzeichnis mit der Bezeichnung *&lt;Encoded AEM Endpoint>*. Dieses Verhalten kann nicht konfiguriert werden.
 
 >[!MORELIKETHIS]
 * [Einführung in das AEM-Desktop-Programm](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
