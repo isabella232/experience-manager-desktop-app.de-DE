@@ -1,9 +1,9 @@
 ---
 source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '534'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # Beitragen zur Dokumentation der Adobe Experience Manager-Desktop App
@@ -19,7 +19,7 @@ Dieses Projekt folgt dem [Adobe Open Source-Verhaltenskodex](code-of-conduct.md)
 
 ## Richtlinien für Beiträge
 
-Wir freuen uns zwar über jeden Beitrag, um die AEM-Dokumentation zu verbessern, bitten jedoch darum, dass die Beiträge möglichst bestimmten Richtlinien und Standards entsprechen. Weitere Informationen finden Sie in den [Richtlinien zur Teilnahme an der AEM-Dokumentation](guidelines.md) .
+Wir freuen uns zwar über jeden Beitrag, um die AEM-Dokumentation zu verbessern, bitten jedoch darum, dass die Beiträge möglichst bestimmten Richtlinien und Standards entsprechen. Weitere Informationen finden Sie in den [Richtlinien zur Teilnahme an der AEM-Dokumentation](guidelines.md).
 
 ## So können Sie einen Beitrag leisten
 
@@ -32,7 +32,7 @@ Wählen Sie die Methode aus, die für Sie zum Bearbeiten der Dokumentation in Gi
 
 >[!NOTE]
 >
->Eingereichte Beiträge unterliegen den [Allgemeinen Nutzungsbedingungen von Adobe.](https://www.adobe.com/legal/terms.html)
+>Eingereichte Beiträge unterliegen den [Allgemeinen Nutzungsbedingungen von Adobe.](https://www.adobe.com/de/legal/terms.html)
 
 ### Erstellen eines Problems {#create-an-issue}
 
@@ -50,7 +50,7 @@ Für Pull-Anforderungen muss eine [Lizenzvereinbarung für Mitwirkende (CLA) unt
 
 Im folgenden Video erhalten Sie einen schnellen Überblick darüber, wie Probleme erstellt und Anforderungen abgerufen werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/27069)
+>[!VIDEO](https://video.tv.adobe.com/v/27069?captions=ger)
 
 ### Beiträge von Adobe-Mitarbeitern
 
@@ -60,4 +60,4 @@ Wir freuen uns über jeden Beitrag und überprüfen Ihren Beitrag, wenn er im ö
 
 ## Weiterführende Informationen
 
-Weitere Informationen zur Verwendung der GitHub-Autoren-Plattform finden Sie im [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Weitere Informationen zur Verwendung der GitHub-Autoren-Plattform finden Sie im [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=de).
