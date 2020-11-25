@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9c11f0b8ace17e7f596bcfe26e69f4ca649e0126
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,9 +69,9 @@ Für die Methoden zum Kopieren und Verschieben in der Assets-API ist es erforder
 * X-Tiefe
 * X-Überschreiben
 
-Das AEM-Desktop-Programm stellt Verbindungen mit AEM über eine URL her, die einen standardmäßigen Port enthält. Daher sollte die Einstellung `virtualhosts` in der Dispatcher-Konfiguration die standardmäßige Port-Nummer enthalten. Weitere Informationen zur Konfiguration von `virtualhosts` finden Sie unter [Identifizieren von virtuellen Hosts](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+Das AEM-Desktop-Programm stellt Verbindungen mit AEM über eine URL her, die einen standardmäßigen Port enthält. Daher sollte die Einstellung `virtualhosts` in der Dispatcher-Konfiguration die standardmäßige Port-Nummer enthalten. Weitere Informationen zur Konfiguration von `virtualhosts` finden Sie unter [Identifizieren von virtuellen Hosts](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=de#identifying-virtual-hosts-virtualhosts).
 
-Weitere Informationen zum Konfigurieren des Dispatchers, sodass diese zusätzlichen Header übermittelt werden können, finden Sie unter [Festlegen der HTTP-Header](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
+Weitere Informationen zum Konfigurieren des Dispatchers, sodass diese zusätzlichen Header übermittelt werden können, finden Sie unter [Festlegen der HTTP-Header](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=de#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Proxy-Unterstützung {#proxy-support}
 
@@ -103,7 +103,7 @@ Unter Mac OS X befindet sich unter `~/Library/Group Containers/group.com.adobe.a
 
 ### Option zum Verwalten des Cache im Programm {#in-app-option-to-manage-cache}
 
-Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke zur Verfügung gestellt wird. Die Artefakte vom AEM Assets-Server werden für ein reibungsloseres Erlebnis lokal zwischengespeichert. Sie können die Standardeinstellungen Ihren Anforderungen entsprechend anpassen. Außerdem können Sie den Cache löschen, um alle Assets erneut abzurufen. Klicken Sie zum Festlegen der gewünschten Optionen auf das Symbol des Programms und klicken Sie auf **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. 
+Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke zur Verfügung gestellt wird. Die Artefakte vom AEM Assets-Server werden für ein reibungsloseres Erlebnis lokal zwischengespeichert. Sie können die Standardeinstellungen Ihren Anforderungen entsprechend anpassen. Außerdem können Sie den Cache löschen, um alle Assets erneut abzurufen. Klicken Sie zum Festlegen der gewünschten Optionen auf das Symbol des Programms und klicken Sie auf **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**.
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen,
    >Das Programm erstellt automatisch ein Unterverzeichnis mit der Bezeichnung *&lt;Encoded AEM Endpoint>*. Dieses Verhalten kann nicht konfiguriert werden.
 
 >[!MORELIKETHIS]
-* [Einführung in das AEM-Desktop-Programm](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+* [Einführung in das AEM-Desktop-Programm](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=de).
 * [Verwenden des AEM-Desktop-Programms](use-app-v1.md).
 * [Fehlerbehebung für das AEM-Desktop-Programm](troubleshoot-app-v1.md).
 
