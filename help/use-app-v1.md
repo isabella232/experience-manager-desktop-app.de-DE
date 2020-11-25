@@ -2,11 +2,11 @@
 title: Verwenden des AEM-Desktop-Programms, Version 1.x.
 description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm, Version 1.x verwenden und Ihre Arbeit mit Assets auf dem Desktop optimieren können.
 contentOwner: AG
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2472'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Das Programm unterstützt die Proxy-Konfiguration unter Mac und Windows. Die Kon
 
 1. Geben Sie im Anmeldebildschirm den Benutzernamen und das Kennwort für Ihre Instanz an. Wenn Sie eine alternative AEM-Instanz angeben möchten, wählen Sie die Option **[!UICONTROL Alternate Login URL]** aus.
 
-   ![Geben Sie AEM Serverberechtigungen auf dem Anmeldebildschirm in AEM Desktop-App an](assets/login_screen_v1.png)
+   ![Anmeldedaten für den AEM-Server auf dem Anmeldebildschirm des AEM-Desktop-Programms angeben](assets/login_screen_v1.png)
 
 ### Aktivieren von Desktop-Aktionen in der AEM-Web-Benutzeroberfläche {#desktopactions}
 
@@ -109,7 +109,7 @@ Das Programm unterstützt die Proxy-Konfiguration unter Mac und Windows. Die Kon
 
    *Abbildung: Aktivieren von „Desktop-Aktionen für Assets anzeigen“ zur Ermöglichung von Desktop-Aktionen.*
 
-## Zugreifen auf und Öffnen von Assets über den Desktop  {#openondesktop}
+## Zugreifen auf und Öffnen von Assets über den Desktop {#openondesktop}
 
 Wenn Sie auf **Öffnen** klicken, um ein Asset auf einem lokalen Computer zu öffnen, lädt das Programm das Asset in den internen Cache herunter. Das Programm startet das native Desktop-Programm, das dem Dateityp des heruntergeladenen Assets zugeordnet ist.
 
@@ -119,7 +119,7 @@ Wählen Sie bei Adobe InDesign-Dateien (INDD) im Kontextmenü die Option **[!UIC
 
 ![Kontextmenüoptionen zum Zugreifen auf und Öffnen von Assets mithilfe des AEM-Desktop-Programms](assets/aem_desktopapp_mac_context_menu.png)
 
-*Abbildung : Kontextmenüoptionen zum Zugreifen auf und Öffnen von Assets mithilfe des AEM-Desktop-Programms.*
+*Abbildung: Kontextmenüoptionen zum Zugreifen auf und Öffnen von Assets mithilfe des AEM-Desktop-Programms.*
 
 >[!NOTE]
 >
@@ -139,15 +139,15 @@ Nachdem Sie Ihrem lokalen Laufwerk das AEM Assets-Repository zugeordnet haben, 
 
    *Abbildung: Schnellaktionsmenü in der Assets-Benutzeroberfläche öffnen, um Desktop-Aktionen anzuzeigen.*
 
-   These desktop actions are also available when you click the **Desktop Actions** option in the toolbar after selecting the asset or from the toolbar in the asset page.
+   Sie können auch auf diese Desktop-Aktionen zugreifen, indem Sie in der Symbolleiste auf die Option **Desktop-Aktionen** klicken, nachdem Sie das Asset ausgewählt haben. Eine weitere Möglichkeit bietet die Symbolleiste auf der Asset-Seite.
 
-1. To open the asset in the desktop application that is associated with the specific file extension, click the **Open on desktop** quick action ![Open on Desktop icon](assets/do-not-localize/aemassets_icon_openondesktop.png).
+1. Wenn Sie das Asset in der Desktop-Applikation öffnen möchten, die der jeweiligen Dateierweiterung zugeordnet ist, klicken Sie auf die Schnellaktion **Auf dem Desktop öffnen**![Auf dem Desktop öffnen](assets/do-not-localize/aemassets_icon_openondesktop.png).
 
    Alternativ können Sie die Option **Öffnen** über das Menü **Desktop-Aktionen** in der Symbolleiste auswählen.
 
 Um das gewünschte Asset in Ihrem lokalen Dateisystem zu finden, klicken Sie auf die Schnellaktion **Anzeigen** ![Symbol „Anzeigen“](assets/do-not-localize/aemassets_reveal_icon.png). Alternativ können Sie die Option **Anzeigen** über das Menü **Desktop-Aktionen** in der Symbolleiste auswählen.
 
-## Grundlegendes zu den Asset-Status  {#understand-the-asset-statuses}
+## Grundlegendes zu den Asset-Status {#understand-the-asset-statuses}
 
 | ![Windows-Standardapplikationssymbol](assets/do-not-localize/win_default.png) | Das Programm ist mit dem Server verbunden und alle Assets sind synchronisiert. |
 --- |--- |
@@ -161,7 +161,7 @@ Um das gewünschte Asset in Ihrem lokalen Dateisystem zu finden, klicken Sie auf
 
 Mit AEM Assets können Sie Assets zum Bearbeiten auschecken und dann wieder einchecken, wenn Sie keine weiteren Änderungen vornehmen möchten. Wenn Sie ein Asset ausgecheckt haben, können nur Sie das Asset bearbeiten, mit Anmerkungen versehen, veröffentlichen, verschieben oder löschen. Durch das Auschecken eines Assets wird das Asset gesperrt und andere Benutzer können derartige Vorgänge nicht durchführen. Um Assets aus-/einchecken zu können, benötigen Sie entsprechenden Schreibzugriff.
 
-Es gibt zwei Methoden zum Auschecken von Assets über die AEM-Web-Benutzeroberfläche. Ausführliche Informationen zur ersten Methode finden Sie unter [Ein- und Auschecken von Dateien über die Assets-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/check-out-and-submit-assets.html). Führen Sie die folgenden Schritte aus, um das Asset anhand der zweiten Methode auszuchecken und zu öffnen, wenn das AEM-Desktop-Programm installiert ist.
+Es gibt zwei Methoden zum Auschecken von Assets über die AEM-Web-Benutzeroberfläche. Ausführliche Informationen zur ersten Methode finden Sie unter [Ein- und Auschecken von Dateien über die Assets-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/check-out-and-submit-assets.html?lang=de). Führen Sie die folgenden Schritte aus, um das Asset anhand der zweiten Methode auszuchecken und zu öffnen, wenn das AEM-Desktop-Programm installiert ist.
 
 1. Öffnen Sie die Benutzeroberfläche von AEM Assets und bewegen Sie den Mauszeiger auf einen Ordner oder ein Asset, um die Desktop-Aktionen in der Kartenansicht in Form von Schnellaktionen anzuzeigen.
 
@@ -221,7 +221,7 @@ Mithilfe des Programms können Sie Dateien auschecken, damit andere Benutzer kei
 
 1. Wenn Sie das Asset einchecken möchten, sodass es für andere Benutzer verfügbar ist, klicken/tippen Sie im Dialogfeld **Asset Info** (Asset-Informationen) auf das Symbol „Einchecken“.
 
-### Einchecken eines Assets mit Finder oder Explorer und der Web-Benutzeroberfläche  {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Einchecken eines Assets mit Finder oder Explorer und der Web-Benutzeroberfläche {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Wenn Sie mit dem Bearbeiten der Assets fertig sind, speichern Sie sie in Ihrem Desktop-Programm. Wählen Sie im Kontextmenü die Option **Weitere Asset-Informationen** aus und klicken/tippen Sie auf „Einchecken“.
 
