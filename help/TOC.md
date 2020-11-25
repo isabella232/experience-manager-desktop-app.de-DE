@@ -6,15 +6,15 @@ user-guide-title: Benutzerhandbuch für das AEM-Desktop-Programm
 breadcrumb-title: Handbuch für das Desktop-Programm
 user-guide-description: Erfahren Sie, wie Sie mit dem AEM-Desktop-Programm Repositorys und Desktop-Programme verbinden und so schneller auf Ressourcen zugreifen und Workflows optimieren können.
 solution-title: AEM Assets
-solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html
-getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html
+solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=de
+getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=de
 tutorials-title: AEM-Tutorials
 tutorials-url: https://helpx.adobe.com/de/experience-manager/kt/index/aem-tutorials.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '83'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
