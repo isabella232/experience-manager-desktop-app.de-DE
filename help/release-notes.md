@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: ht
-source-wordcount: '1406'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+workflow-type: tm+mt
+source-wordcount: '1422'
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 | Produkte | Adobe Experience Manager-Desktop-Programm |
 |--- |--- |
 | Programm-Version (Revision) | 2.0 (2.0.3.2) |
-| Unterstützte AEM-Versionen | AEM as a Cloud Service; AEM 6.5; AEM 6.4; AEM 6.3 (mit Kompatibilitätspaket) |
+| Unterstützte Experience Manager-Versionen | Experience Manager als Cloud Service; Experience Manager 6.5; Experience Manager 6.4; Experience Manager 6.3 (mit Kompatibilitätspaket) |
 | Typ | Nebenversion |
 | Veröffentlichungsdatum | 27. August 2020 (Mac und Win) |
 | Download-URLs | [macOS (64-Bit)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg); [Windows (64-Bit)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe); [Windows (32-Bit)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
@@ -107,7 +107,7 @@ Die folgenden Fehlerbehebungen und Aktualisierungen sind verfügbar:
 
 * Option zum Konfigurieren des Verzeichnisses `%Temp%` entsprechend dem Pfad `%APPDATA%`. <!-- CQ-4282665 -->
 
-* Benutzer können sich über die Okta-SAML-Authentifizierung bei der AEM-Autorenistanz anmelden. <!-- CQ-4278134 -->
+* Allow users to log in on Experience Manager Author via Okta SAML authentication. <!-- CQ-4278134 -->
 
 ## Installationsanweisungen {#installation-instructions-v2}
 
@@ -119,17 +119,17 @@ Wenn Sie von einer vorherigen Version des Experience Manager-Desktop-Programms 
 
 Es ist wichtig, die folgenden Informationen zum Programm und dessen Funktionsweise zu verstehen.
 
-* Das Programm bietet vollständige Kontrolle über Vorgänge, bei denen Asset-Binärdateien vollständig von und nach AEM übertragen werden müssen (Öffnen, Bearbeiten, Hochladen von Assets und Hochladen von Änderungen).
+* Die Anwendung bietet vollständige Kontrolle über Vorgänge, bei denen Asset-Binärdateien vollständig von und auf Experience Manager übertragen werden müssen (Öffnen, Bearbeiten, Hochladen von Änderungen und Hochladen von Assets).
 
    * Wenn Sie mit dem Asset auf dem Desktop arbeiten möchten, müssen Sie es explizit auf Ihrem Desktop öffnen, bearbeiten oder herunterladen, entweder einzeln, in einem Ordner oder über eine Mehrfachauswahl.
 
-   * Wenn Sie möchten, dass lokale Änderungen an in AEM hochgeladen werden, müssen Sie [!UICONTROL Upload Changes] entweder einzeln oder über eine Mehrfachauswahl auswählen.
+   * If you want to get local changes to assets uploaded to Experience Manager, you need to select [!UICONTROL Upload Changes], either individually or via multi-selection.
 
-   * Das Programm ist kein „Synchronisierungs-Client“, der Assets auf dem Desktop und in AEM synchron hält.
+   * Die Anwendung ist kein &quot;Synchronisierungs-Client&quot;, der Assets über den Desktop und den Experience Manager hinweg synchronisiert.
 
-   * Das Programm stellt keine Netzwerkfreigabe bereit, die das AEM-Repository als eine virtuelle Ordnerstruktur zuordnet.
+   * Die Anwendung stellt keine Netzwerkfreigabe bereit, die das Experience Manager-Repository als virtuelle Ordnerstruktur zuordnet.
 
-* Die Liste der vom Programm angezeigten Assets basiert auf dem Status des AEM Assets-Repositorys. Dateien, die lokal heruntergeladen und dann in den lokalen Dateien oder im Cache-Ordner umbenannt wurden, werden vom Programm nicht angezeigt oder verwaltet.
+* Die Liste der vom Programm angezeigten Assets basiert auf dem Status des Assets-Repositorys. Dateien, die lokal heruntergeladen und dann in den lokalen Dateien oder im Cache-Ordner umbenannt wurden, werden vom Programm nicht angezeigt oder verwaltet.
 
 * Wenn das Programm nicht die erwarteten Ergebnisse anzeigt, klicken Sie in der oberen Leiste auf das Aktualisierungssymbol.
 
@@ -139,7 +139,7 @@ Es ist wichtig, die folgenden Informationen zum Programm und dessen Funktionswei
 
 Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum lokalen Dateisystem und umgekehrt, der durch Benutzeraktionen initiiert wird.
 
-![Fluss von Assets vom AEM-Server zu nativen Desktop-Applikationen über das Desktop-Programm](assets/da20_flow_diagram.png)
+![Fluss von Assets vom Experience Manager-Server zu nativen Desktop-Apps über die Desktop-App](assets/da20_flow_diagram.png)
 
 ## Bekannte Probleme {#known-issues-v2}
 
@@ -153,13 +153,13 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 
 * Nach dem Anwenden und Entfernen des Filters, um alle lokal bearbeiteten Assets zu finden, wechselt das Programm nicht zu den Suchergebnissen oder der Ordneransicht, mit denen die Benutzer begonnen haben. Das Programm zeigt den Stammordner des DAM-Repositorys an.
 
-* Wenn Sie eine Verbindung zu einer URL herstellen, bei der kein AEM-Server ausgeführt wird, reagiert der Bildschirm „Verbindung“ manchmal nicht mehr. Beenden Sie das Programm und starten Sie es erneut.
+* Wenn Sie eine Verbindung zu einer URL herstellen, für die kein Experience Manager-Server ausgeführt wird, reagiert der Bildschirm &quot;Verbindung&quot;manchmal nicht mehr. Beenden Sie das Programm und starten Sie es erneut.
 
 **CRUD-Probleme (Erstellen, Lesen, Aktualisieren und Löschen):**
 
 * Das Programm versucht, Dateien auch mit ungültigen Zeichen hochzuladen, was möglicherweise zu einem Server-seitigen Upload-Fehler führt. <!-- CQ-4273652 -->
 
-* Beim Hochladen von Änderungen an einem Asset mit Kommentaren werden die Kommentare mit dem Asset in AEM gespeichert, sind jedoch nicht als Versionskommentare sichtbar. Dieses Problem wurde in AEM 6.4.5 und AEM 6.5.1 behoben. Adobe empfiehlt dringend, die neuesten Service Packs zu installieren. <!-- CQ-4268990 -->
+* Beim Hochladen von Änderungen zu einem Asset mit Kommentaren werden die Kommentare mit dem Asset in Experience Manager gespeichert, jedoch nicht als Versionshinweise angezeigt. This issue is resolved in Experience Manager 6.4.5 and Experience Manager 6.5.1. Adobe strongly recommends installing the latest service packs. <!-- CQ-4268990 -->
 
 * Asset-Übertragungen können vom Benutzer nicht abgebrochen werden. Wenn Sie eine unbeabsichtigte große Übertragung ausgelöst haben, beenden Sie das Programm und starten Sie es erneut. <!-- CQ-4278940 -->
 
@@ -169,8 +169,8 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 
 >[!MORELIKETHIS]
 >
->* [Dokumentation zu AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de)
->* [Dokumentation zu AEM as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=de)
+>* [Dokumentation zu Experience Manager als Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de)
+>* [Dokumentation zu Experience Manager als Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=de)
 >* [Verwenden des Adobe Experience Manager-Desktop-Programms](using.md)
 >* [Installieren und Aktualisieren des Desktop-Programms](install-upgrade.md)
 >* [Best Practices und Tipps zur Fehlerbehebung](troubleshoot.md)
