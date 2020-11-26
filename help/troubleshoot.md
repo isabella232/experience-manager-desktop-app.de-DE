@@ -8,18 +8,18 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: ht
-source-wordcount: '2228'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+workflow-type: tm+mt
+source-wordcount: '2171'
+ht-degree: 91%
 
 ---
 
 
 # Fehlerbehebung für das Adobe Experience Manager-Desktop-Programm {#troubleshoot-v2}
 
-Das Adobe Experience Manager-Desktop-Programm (AEM) stellt eine Verbindung zum Digital Asset Management-Repository (DAM) einer Remote-Bereitstellung von Experience Manager her. Das Programm ruft Repository-Informationen und Suchergebnisse auf Ihrem Computer ab, lädt Dateien und Ordner herunter und lädt sie hoch und bietet Funktionen zum Verwalten von Konflikten mit der Benutzeroberfläche von AEM Assets.
+Die Adobe Experience Manager-Desktop-App stellt eine Verbindung zum DAM-Repository (Digital Asset Management) einer Remote-Bereitstellung für Experience Manager her. Das Programm ruft Repository-Informationen und Suchergebnisse auf Ihrem Computer ab, lädt Dateien und Ordner herunter und lädt sie hoch und bietet Funktionen zum Verwalten von Konflikten mit der Benutzeroberfläche von Assets.
 
 Lesen Sie weiter, um Fehler im Programm zu beheben, lernen Sie die Best Practices kennen und erfahren Sie mehr über Einschränkungen.
 
@@ -119,7 +119,7 @@ So aktivieren Sie den Debug-Modus unter Windows:
 
 Führen Sie die folgenden Schritte durch:
 
-1. Starten Sie das Programm und verbinden Sie eine AEM-Instanz.
+1. Beginn der Anwendung und Verbinden Sie eine Experience Manager-Instanz.
 
 1. Öffnen Sie die Voreinstellungen des Programms, indem Sie auf die Auslassungspunkte in der oberen rechten Ecke klicken und die Option [!UICONTROL Preferences] auswählen.
 
@@ -163,9 +163,9 @@ Wenn Sie die Assets, die Sie oder andere Kreativprofis in den Support-Dateien ge
 
 * Dateigröße. Das Herunterladen und Anzeigen großer Assets dauert länger.
 
-* Konsistenz der Laufwerksbuchstaben. Wenn Sie oder ein anderer Mitarbeiter die Assets platziert haben, während das AEM DAM einem anderen Laufwerksbuchstaben zugeordnet wurde, werden die platzierten Assets nicht angezeigt
+* Konsistenz der Laufwerksbuchstaben. Wenn Sie oder ein anderer Mitarbeiter die Assets platziert haben, während Sie den Experience Manager-DAM einem anderen Laufwerksbuchstaben zuordnen, werden die platzierten Assets nicht angezeigt.
 
-* Berechtigungen. Wenden Sie sich an Ihren AEM-Administrator, um zu prüfen, ob Sie berechtigt sind, die platzierten Assets abzurufen.
+* Berechtigungen. Wenden Sie sich an Ihren Experience Manager-Administrator, um zu prüfen, ob Sie berechtigt sind, die platzierten Assets abzurufen.
 
 ### Änderungen an Dateien in der Benutzeroberfläche des Desktop-Programms werden in [!DNL Adobe Experience Manager] nicht sofort übernommen {#changes-on-da-not-visible-on-aem}
 
@@ -173,7 +173,7 @@ Das [!DNL Adobe Experience Manager]-Desktop-Programm überlässt es dem Benutzer
 
 ### Probleme beim Aktualisieren unter macOS {#issues-when-upgrading-on-macos}
 
-Gelegentlich können bei einem Upgrade des AEM-Desktop-Programms unter macOS Probleme auftreten. Die Ursache liegt darin, dass der alte Systemordner des AEM-Desktop-Programms verhindert, dass neue Versionen des AEM-Desktop-Programms korrekt geladen werden. Zur Behebung dieses Problems können die folgenden Ordner und Dateien manuell entfernt werden.
+Gelegentlich können Probleme auftreten, wenn Sie die Experience Manager-Desktop-App unter macOS aktualisieren. Dies wird durch den alten Systemordner für die Desktop-App von Experience Manager verursacht, sodass neue Versionen der Experience Manager-Desktop-App nicht korrekt geladen werden. Zur Behebung dieses Problems können die folgenden Ordner und Dateien manuell entfernt werden.
 
 Ziehen Sie das `Adobe Experience Manager Desktop`-Programm vor dem Ausführen der folgenden Schritte aus dem Ordner „macOS-Applikationen“ in den Papierkorb. Öffnen Sie dann Terminal, führen Sie den folgenden Befehl aus und geben Sie Ihr Kennwort ein, wenn Sie dazu aufgefordert werden.
 
@@ -188,7 +188,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ### Dateien können nicht hochgeladen werden {#upload-fails}
 
-Wenn Sie das Desktop-Programm mit AEM 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Dadurch wird das Problem mit dem Hochladen von Dateien im Zusammenhang mit [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) behoben. Siehe [Installationsanweisungen](install-upgrade.md#install-v2).
+Wenn Sie eine Desktop-App mit Experience Manager 6.5.1 oder höher verwenden, aktualisieren Sie S3 oder Azurblase Connector auf Version 1.10.4 oder höher. Dadurch wird das Problem mit dem Hochladen von Dateien im Zusammenhang mit [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) behoben. Siehe [Installationsanweisungen](install-upgrade.md#install-v2).
 
 ### Verbindungsprobleme mit dem [!DNL Experience Manager]-Desktop-Programm {#connection-issues}
 
@@ -213,13 +213,9 @@ Wenn das [!DNL Experience Manager]-Desktop-Programm keine Verbindung zu Ihrer SS
 
 Manchmal leitet der SAML-Prozess nicht zum ursprünglich angeforderten Pfad zurück oder die endgültige Umleitung erfolgt zu einem Host, der sich von dem unterscheidet, was im [!DNL Adobe Experience Manager]-Desktop-Programm konfiguriert wurde. So stellen Sie sicher, dass dies nicht der Fall ist:
 
-1. Öffnen Sie einen Webbrowser.
+1. Öffnen Sie einen Webbrowser. Zugriff auf `https://[aem_server]:[port]/content/dam.json` URL.
 
-1. Geben Sie die URL `<AEM host>/content/dam.json` in die Adressleiste ein.
-
-   Ersetzen Sie `<AEM host>` mit der Zielinstanz von [!DNL Adobe Experience Manager], beispielsweise `http://localhost:4502/content/dam.json`.
-
-1. Melden Sie sich bei der [!DNL Adobe Experience Manager]-Instanz an.
+1. Log in to the [!DNL Adobe Experience Manager] deployment.
 
 1. Wenn die Anmeldung abgeschlossen ist, sehen Sie sich die aktuelle Adresse des Browsers in der Adressleiste an. Sie sollte genau mit der ursprünglich von Ihnen eingegeben URL übereinstimmen.
 
@@ -260,10 +256,9 @@ Wenn Sie sich die URL-Sequenz ansehen, die geladen wird, können Sie die Fehlerb
 
 #### Problem bei SSL-Konfiguration {#ssl-config-v2}
 
-Die Bibliotheken, die das AEM-Desktop-Programm zur HTTP-Kommunikation nutzt, setzen auf strikte SSL-Durchsetzung. Mitunter kann zwar über einen Browser eine Verbindung erfolgreich hergestellt werden, aber nicht über das AEM-Desktop-Programm. Installieren Sie für eine ordnungsgemäße SSL-Konfiguration das fehlende Zwischenzertifikat in Apache. Siehe [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575) (nur auf Englisch verfügbar).
+Die Bibliotheken, die die Experience Manager-Desktop-App für die HTTP-Kommunikation verwendet, verwenden eine strikte SSL-Durchsetzung. Manchmal kann es bei der Verwendung eines Browsers erfolgreich sein, wenn die Desktop-App von Experience Manager verwendet wird. Installieren Sie für eine ordnungsgemäße SSL-Konfiguration das fehlende Zwischenzertifikat in Apache. Siehe [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575) (nur auf Englisch verfügbar).
 
-
-Die Bibliotheken, die das AEM-Desktop-Programm zur HTTP-Kommunikation nutzt, setzen auf strikte SSL-Durchsetzung. Es kann also Fälle geben, in denen SSL-Verbindungen, die über einen Browser erfolgreich sind, mit dem [!DNL Adobe Experience Manager]-Desktop-Programm fehlschlagen. Dies ist gut, da es die korrekte Konfiguration von SSL fördert und die Sicherheit erhöht, kann aber frustrierend sein, wenn das Programm keine Verbindung herstellen kann.
+Die Bibliotheken, die Experience Manager Desktop für die HTTP-Kommunikation verwendet, verwenden eine strikte SSL-Durchsetzung. Es kann also Fälle geben, in denen SSL-Verbindungen, die über einen Browser erfolgreich sind, mit dem [!DNL Adobe Experience Manager]-Desktop-Programm fehlschlagen. Dies ist gut, da es die korrekte Konfiguration von SSL fördert und die Sicherheit erhöht, kann aber frustrierend sein, wenn das Programm keine Verbindung herstellen kann.
 
 Der empfohlene Ansatz in diesem Fall besteht darin, ein Tool zu verwenden, um das SSL-Zertifikat eines Servers zu analysieren und Probleme zu identifizieren, damit diese korrigiert werden können. Es gibt Websites, die das Zertifikat eines Servers bei der Übermittlung seiner URL überprüfen.
 
@@ -305,21 +300,23 @@ In seltenen Fällen reagiert das Programm möglicherweise nicht mehr, zeigt nur 
 
 Bei beiden Methoden startet das Programm im Stammordner des DAM.
 
-### Benötigen Sie zusätzliche Hilfe mit dem [!DNL Experience Manager]-Desktop-Programm? {#additional-help}
+<!--
+### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
 
-Erstellen Sie ein Jira-Ticket mit den folgenden Informationen:
+Create Jira ticket with the following information:
 
-* Verwenden Sie `DAM - Companion App` als [!UICONTROL Component].
+* Use `DAM - Companion App` as the [!UICONTROL Component].
 
-* Ausführliche Schritte zum Reproduzieren des Problems in [!UICONTROL Description].
+* Detailed steps to reproduce the issue in [!UICONTROL Description].
 
-* Protokolle auf DEBUG-Ebene, die beim Reproduzieren des Problems erfasst wurden.
+* DEBUG level logs that were captured while reproducing the issue.
 
-* AEM-Zielversion.
+* Target Experience Manager version.
 
-* Betriebssystemversion.
+* Operating system version.
 
-* [!DNL Adobe Experience Manager]-Desktop-Programm-Version. Informationen zur Programm-Version finden Sie unter [Suchen der Desktop-Programm-Version](#know-app-version-v2).
+* [!DNL Adobe Experience Manager] desktop app version. To know your app version, see [finding the desktop app version](#know-app-version-v2).
+-->
 
 >[!MORELIKETHIS]
 >
