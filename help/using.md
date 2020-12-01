@@ -11,9 +11,9 @@ ht-degree: 80%
 ---
 
 
-# Use [!DNL Adobe Experience Manager] desktop app {#use-aem-desktop-app-v2}
+# Verwenden Sie die [!DNL Adobe Experience Manager] Desktop-App {#use-aem-desktop-app-v2}
 
-Use the [!DNL Adobe Experience Manager] desktop app, to easily access the Adobe Experience Manager DAM assets on your local desktop and use these assets in any desktop applications. Sie können die Assets in Desktop-Applikationen öffnen und lokal bearbeiten. Laden Sie die Änderungen mit Versionskontrolle zurück in Experience Manager, um sie für andere Benutzer freizugeben. Sie können auch neue Dateien und Ordnerhierarchien in Experience Manager hochladen, Ordner erstellen und Assets oder Ordner aus Experience Manager DAM löschen.
+Verwenden Sie die Desktop-App [!DNL Adobe Experience Manager], um einfach auf die Adobe Experience Manager DAM-Assets auf Ihrem lokalen Desktop zuzugreifen und diese Assets in allen Desktop-Anwendungen zu verwenden. Sie können die Assets in Desktop-Applikationen öffnen und lokal bearbeiten. Laden Sie die Änderungen mit Versionskontrolle zurück in Experience Manager, um sie für andere Benutzer freizugeben. Sie können auch neue Dateien und Ordnerhierarchien in Experience Manager hochladen, Ordner erstellen und Assets oder Ordner aus Experience Manager DAM löschen.
 
 Die Integration ermöglicht es verschiedenen Rollen in der Organisation, die Assets zentral in Experience Manager Assets zu verwalten und auf die Assets auf dem lokalen Desktop in den nativen Applikationen unter Windows oder macOS zuzugreifen.
 
@@ -58,7 +58,7 @@ Bevor Sie mit der Nutzung des Programms beginnen, sollten Sie wissen, [wie das P
 
 * **[!UICONTROL Upload Changes]**: Die Desktop-App lädt das aktualisierte Asset nur hoch, wenn Sie es explizit auf den Experience Manager-Server hochladen. Wenn Sie Ihre Änderungen speichern, werden diese nur auf Ihrem lokalen Computer gespeichert. Beim Hochladen wird das Asset automatisch eingecheckt und das Sperrsymbol entfernt. Siehe [Bearbeiten von Assets](using.md#edit-assets-upload-updated-assets).
 
-## Enable desktop actions in Experience Manager web interface {#desktopactions-v2}
+## Aktivieren von Desktop-Aktionen in der Experience Manager-Weboberfläche {#desktopactions-v2}
 
 Über die Assets-Benutzeroberfläche in einem Browser können Sie zu den Asset-Speicherorten navigieren oder Assets auschecken und öffnen, um sie in Ihrem Desktop-Programm zu bearbeiten. Diese Optionen werden als [!UICONTROL Desktop Actions] bezeichnet und sind standardmäßig nicht aktiviert. Gehen Sie zur Aktivierung wie folgt vor.
 
@@ -144,7 +144,7 @@ Die Aktion **[!UICONTROL Reveal File]** öffnet eine lokale Netzwerkfreigabe, di
 >
 >Verwenden Sie nicht die Option **[!UICONTROL Reveal File]**, um Assets in nativen Applikationen zu bearbeiten. Verwenden Sie stattdessen die Aktionen **[!UICONTROL Edit]**. Weitere Informationen finden Sie unter [Erweiterter Workflow: Zusammenarbeit an denselben Dateien und Vermeidung von Bearbeitungskonflikten](#adv-workflow-collaborate-avoid-conflicts).
 
-## Edit assets and upload updated assets to Experience Manager {#edit-assets-upload-updated-assets}
+## Bearbeiten Sie Assets und laden Sie aktualisierte Assets auf den Experience Manager {#edit-assets-upload-updated-assets} hoch
 
 Öffnen Sie Assets zur Bearbeitung, wenn Sie Änderungen vornehmen und die aktualisierten Assets auf den AEM Experience ManagerEM-Server hochladen möchten. Um Konflikte mit Bearbeitungen anderer Benutzer zu vermeiden, verwenden Sie das Programm, um eine Bearbeitungssitzung zu starten. Bevor Sie mit der Bearbeitung beginnen, stellen Sie sicher, dass das Asset kein Sperrsymbol enthält, d. h., dass kein anderer Benutzer das Asset bearbeitet.
 
@@ -155,7 +155,7 @@ Verwenden Sie **[!UICONTROL Toggle Check-out]** zum Sperren des Assets, um Konfl
 * Sie haben begonnen, ein Asset zu bearbeiten, ohne es vorher auszuchecken (indem Sie es einfach öffnen).
 * Sie möchten demnächst mit der Bearbeitung eines Assets beginnen und möchten nicht, dass andere Benutzer es bearbeiten.
 
-Nachdem Sie die Bearbeitungen vorgenommen haben, zeigt das Programm den Status **[!UICONTROL Edited Locally]** für geänderte Assets an. Alle in den Assets gespeicherten Änderungen sind nur lokal verfügbar, bis Sie die Änderungen in Experience Manager hochladen. Um einzelne Assets oder einige Assets einzeln hochzuladen, klicken Sie in den Optionen für ein Asset auf **[!UICONTROL Upload Changes]**. Es wird eine Version des Assets in Experience Manager erstellt. Using the web interface of [!DNL Assets], you can see asset history in the [Timeline view](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=de).
+Nachdem Sie die Bearbeitungen vorgenommen haben, zeigt das Programm den Status **[!UICONTROL Edited Locally]** für geänderte Assets an. Alle in den Assets gespeicherten Änderungen sind nur lokal verfügbar, bis Sie die Änderungen in Experience Manager hochladen. Um einzelne Assets oder einige Assets einzeln hochzuladen, klicken Sie in den Optionen für ein Asset auf **[!UICONTROL Upload Changes]**. Es wird eine Version des Assets in Experience Manager erstellt. Mithilfe der Weboberfläche von [!DNL Assets] können Sie den Asset-Verlauf in der [Zeitschiene-Ansicht](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=de) sehen.
 
 ![Option zum Hochladen von Änderungen im Programm](assets/upload_changes_single1_da2.png "Option zum Hochladen von Änderungen im Programm")
 
@@ -171,9 +171,9 @@ In den folgenden Fällen möchten Sie Ihre Änderungen und Bearbeitungen am loka
 
 Deaktivieren Sie ggf. das Auschecken. Das aktualisierte Asset wird aus dem lokalen Cache-Ordner entfernt und erneut heruntergeladen, wenn Sie es bearbeiten oder öffnen.
 
-## Upload and add new assets to Experience Manager {#upload-and-add-new-assets-to-aem}
+## Hochladen und Hinzufügen neuer Elemente zu Experience Manager {#upload-and-add-new-assets-to-aem}
 
-Benutzer können dem DAM-Repository neue Assets hinzufügen. Sie können z.B. ein Agenturfotograf oder ein Vertragspartner sein, der eine große Anzahl von Fotos von einem Fotoshot zum Experience Manager-Repository hinzufügen möchte. To add fresh content to Experience Manager, click ![Upload to cloud icon](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Navigieren Sie zu den Asset-Dateien im lokalen Dateisystem und klicken Sie auf **[!UICONTROL Select]**. Das Programm startet das Hochladen des Assets und zeigt am unteren Rand eine Fortschrittsleiste an, wenn das Hochladen des Assets länger dauert. Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen oder ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=de#creating-folders).
+Benutzer können dem DAM-Repository neue Assets hinzufügen. Sie können z.B. ein Agenturfotograf oder ein Vertragspartner sein, der eine große Anzahl von Fotos von einem Fotoshot zum Experience Manager-Repository hinzufügen möchte. Um neue Inhalte zu Experience Manager hinzuzufügen, klicken Sie in der oberen Leiste der App auf das Symbol ![In Cloud hochladen](assets/do-not-localize/upload_to_cloud_da2.png). Navigieren Sie zu den Asset-Dateien im lokalen Dateisystem und klicken Sie auf **[!UICONTROL Select]**. Das Programm startet das Hochladen des Assets und zeigt am unteren Rand eine Fortschrittsleiste an, wenn das Hochladen des Assets länger dauert. Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen oder ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=de#creating-folders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
@@ -192,7 +192,7 @@ Sie können die gleichzeitigen Uploads (Beschleunigung) mit der Einstellung **[!
 
 >[!NOTE]
 >
->If the files fail to upload and if you are connecting to Experience Manager 6.5.1 or later deployment, see this [troubleshooting information](troubleshoot.md#upload-fails).
+>Wenn die Dateien nicht hochgeladen werden können und Sie eine Verbindung zu Experience Manager 6.5.1 oder einer späteren Bereitstellung herstellen, finden Sie weitere Informationen unter [Informationen zur Fehlerbehebung](troubleshoot.md#upload-fails).
 
 ## Arbeiten mit mehreren Assets {#work-with-multiple-assets}
 
@@ -220,9 +220,9 @@ Das Programm bietet eine Ansicht mit der Bezeichnung **[!UICONTROL Edited locall
 
 ### Massen-Upload von Assets {#bulk-upload-assets}
 
-Benutzer oder Organisationen, wie Fotografen oder Kreativagenturen, können zahlreiche lokale Assets in Szenarien erstellen, z. B. Fotoaufnahmen, Retuschieren oder Auswahl aus einem größeren Satz, der außerhalb des Experience Managers ausgeführt wird. They can upload these large local folders to [!DNL Assets] directly from the desktop app. Die Ordnerhierarchien bleiben erhalten und alle verschachtelten Unterordner und eingeschlossenen Assets werden hochgeladen. Die hochgeladenen Assets stehen auch anderen Benutzern auf demselben Server sofort zur Verfügung. Das Hochladen von Assets erfolgt im Hintergrund und ist daher nicht an eine Webbrowser-Sitzung gebunden.
+Benutzer oder Organisationen, wie Fotografen oder Kreativagenturen, können zahlreiche lokale Assets in Szenarien erstellen, z. B. Fotoaufnahmen, Retuschieren oder Auswahl aus einem größeren Satz, der außerhalb des Experience Managers ausgeführt wird. Sie können diese großen lokalen Ordner direkt von der Desktop-App auf [!DNL Assets] hochladen. Die Ordnerhierarchien bleiben erhalten und alle verschachtelten Unterordner und eingeschlossenen Assets werden hochgeladen. Die hochgeladenen Assets stehen auch anderen Benutzern auf demselben Server sofort zur Verfügung. Das Hochladen von Assets erfolgt im Hintergrund und ist daher nicht an eine Webbrowser-Sitzung gebunden.
 
-![Massen Sie mehrere lokale Ordner von Ihrem Desktop in Experience](assets/upload_local_folders_da2.png "Manager hochMassen laden Sie mehrere lokale Ordner von Ihrem Desktop in den Experience Manager hoch")
+![Massen Sie mehrere lokale Ordner von Ihrem Desktop in Experience ](assets/upload_local_folders_da2.png "Manager hochMassen laden Sie mehrere lokale Ordner von Ihrem Desktop in den Experience Manager hoch")
 
 Wenn die erwarteten Änderungen nach dem Upload nicht im Programm übernommen werden, klicken Sie auf das Symbol ![Aktualisieren](assets/do-not-localize/refresh.png).
 
@@ -232,9 +232,9 @@ Wenn die erwarteten Änderungen nach dem Upload nicht im Programm übernommen we
 
 ### Liste der übertragenen Assets {#list-of-transferred-assets}
 
-To view the list of assets transferred in a given session, see [Upload assets to Experience Manager](#upload-and-add-new-assets-to-aem).
+Informationen zur Ansicht der Liste von Assets, die in einer bestimmten Sitzung übertragen wurden, finden Sie unter [Hochladen von Assets in Experience Manager](#upload-and-add-new-assets-to-aem).
 
-## Advanced workflow: start from the [!DNL Assets] web interface {#adv-workflow-start-from-aem-ui}
+## Erweiterter Arbeitsablauf: beginn der [!DNL Assets]-Webschnittstelle {#adv-workflow-start-from-aem-ui}
 
 Starten Sie bei Bedarf Ihren Workflow über die Assets-Web-Oberfläche. Die Desktop-App wird mit dem Experience Manager integriert, um sie bei Bedarf mithilfe von Desktop-Aktionen zu übernehmen.
 
@@ -275,7 +275,7 @@ In kollaborativen Umgebungen arbeiten mehrere Benutzer möglicherweise mit demse
 
 ![Status von Bearbeitungskonflikten](assets/edits_conflicts_status_da2.png "Status von Bearbeitungskonflikten")
 
-If a locally downloaded asset is updated on the Experience Manager server, the app displays a **[!UICONTROL Modified remotely]** status. Sie können entweder Ihre lokale Kopie entfernen oder Ihre lokale Kopie aktualisieren, indem Sie auf [!UICONTROL Remove] bzw. [!UICONTROL Update] klicken. Über Links im Dialogfeld können Sie beide Versionen des Assets anzeigen.
+Wenn ein lokal heruntergeladenes Asset auf dem Experience Manager-Server aktualisiert wird, zeigt die App den Status **[!UICONTROL Modified remotely]** an. Sie können entweder Ihre lokale Kopie entfernen oder Ihre lokale Kopie aktualisieren, indem Sie auf [!UICONTROL Remove] bzw. [!UICONTROL Update] klicken. Über Links im Dialogfeld können Sie beide Versionen des Assets anzeigen.
 
 ![Optionen zum Beheben des Konflikts, wenn das Asset remote bearbeitet wird](assets/modified_remotely_dialog_da2.png "Optionen zum Beheben des Konflikts, wenn das Asset remote bearbeitet wird")
 
@@ -297,8 +297,8 @@ Informationen zu den Einschränkungen dieses Workflows finden Sie in den [System
 
 Gehen Sie wie folgt vor, um diesen Workflow mit einem Bild-Asset und InDesign auszuprobieren:
 
-1. Halten Sie eine INDD-Datei mit den platzierten Assets im Experience Manager praktisch bereit. Informationen zum Erstellen einer solchen INDD-Datei finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/de/indesign/using/placing-graphics.html).
-1. From within desktop app, **[!UICONTROL Edit]** the INDD file with placed assets in Experience Manager.
+1. Halten Sie eine INDD-Datei mit den platzierten Assets im Experience Manager praktisch bereit. Informationen zum Erstellen einer solchen INDD-Datei finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+1. **[!UICONTROL Edit]** der INDD-Datei mit den platzierten Assets in Experience Manager.
 1. Das Programm lädt sowohl die InDesign-Datei als auch die verknüpften Assets herunter. Wenn InDesign das Dokument öffnet, werden die Verknüpfungen aufgelöst, Assets werden heruntergeladen und die Assets werden im InDesign-Dokument angezeigt.
 1. Wenn Sie eine neue Grafik in die InDesign-Datei einfügen möchten, verwenden Sie die Aktion **[!UICONTROL Reveal File]** für das Asset. Die Aktion lädt das Asset lokal herunter und öffnet den Speicherort für die lokale Netzwerkfreigabe in Windows Explorer oder Mac Finder.
 1. Platzieren Sie das angezeigte Asset im InDesign-Dokument. Dadurch wird eine Verknüpfung im Dokument erstellt.
@@ -314,6 +314,6 @@ Wenn Sie mit der Aktion [!UICONTROL Open] ein Asset in einer nativen Desktop-App
 
 Wenn Sie den Speicherort eines Assets oder Ordners im Programm anzeigen, wird das Asset oder der Ordner zunächst lokal heruntergeladen und dann auf Ihrem Computer in der lokalen Netzwerkfreigabe geöffnet. Siehe [Öffnen von Assets](#openondesktop-v2).
 
-Wenn Sie die Aktion [!UICONTROL Edit] zum Bearbeiten eines Assets in einer nativen Desktop-Applikation verwenden, wird das Asset lokal heruntergeladen, wenn es nicht bereits lokal verfügbar ist. See [Edit assets and upload updated assets to Experience Manager](#edit-assets-upload-updated-assets).
+Wenn Sie die Aktion [!UICONTROL Edit] zum Bearbeiten eines Assets in einer nativen Desktop-Applikation verwenden, wird das Asset lokal heruntergeladen, wenn es nicht bereits lokal verfügbar ist. Siehe [Bearbeiten Sie Assets und laden Sie aktualisierte Assets in Experience Manager](#edit-assets-upload-updated-assets) hoch.
 
-If the app is installed and permitted to, it completes the actions when you use [!UICONTROL Desktop Actions] from Experience Manager web interface. Das Programm lädt das Asset zuerst herunter und schließt dann die Aktion ab.
+Wenn die App installiert ist und darf, werden die Aktionen ausgeführt, wenn Sie [!UICONTROL Desktop Actions] über die Experience Manager-Weboberfläche verwenden. Das Programm lädt das Asset zuerst herunter und schließt dann die Aktion ab.
