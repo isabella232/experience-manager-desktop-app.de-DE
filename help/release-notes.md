@@ -40,7 +40,7 @@ Das Adobe Experience Manager-Desktop-Programm ist mit den folgenden Betriebssy
 >
 >Windows 7 wird vom Anbieter nicht mehr unterstützt (https://support.microsoft.com/de-de/help/4057281/windows-7-support-ended-on-january-14-2020).
 
-Das Programm funktioniert mit den folgenden Experience Manager-Versionen, unabhängig davon, ob sie als Cloud Service, auf Adobe Managed Services (AMS) oder on-Premise bereitgestellt werden:
+Das Programm funktioniert mit den folgenden Experience Manager-Versionen, unabhängig davon, ob sie as a Cloud Service, auf Adobe Managed Services (AMS) oder on-Premise bereitgestellt werden:
 
 * [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=de).
 
@@ -107,7 +107,7 @@ Die folgenden Fehlerbehebungen und Aktualisierungen sind verfügbar:
 
 * Option zum Konfigurieren des Verzeichnisses `%Temp%` entsprechend dem Pfad `%APPDATA%`. <!-- CQ-4282665 -->
 
-* Allow users to log in on Experience Manager Author via Okta SAML authentication. <!-- CQ-4278134 -->
+* Erlauben Sie Benutzern, sich über die Okta SAML-Authentifizierung bei Experience Manager Author anzumelden. <!-- CQ-4278134 -->
 
 ## Installationsanweisungen {#installation-instructions-v2}
 
@@ -123,7 +123,7 @@ Es ist wichtig, die folgenden Informationen zum Programm und dessen Funktionswei
 
    * Wenn Sie mit dem Asset auf dem Desktop arbeiten möchten, müssen Sie es explizit auf Ihrem Desktop öffnen, bearbeiten oder herunterladen, entweder einzeln, in einem Ordner oder über eine Mehrfachauswahl.
 
-   * If you want to get local changes to assets uploaded to Experience Manager, you need to select [!UICONTROL Upload Changes], either individually or via multi-selection.
+   * Wenn Sie lokale Änderungen an Assets in Experience Manager hochladen möchten, müssen Sie [!UICONTROL Upload Changes] entweder einzeln oder über eine Mehrfachauswahl auswählen.
 
    * Die Anwendung ist kein &quot;Synchronisierungs-Client&quot;, der Assets über den Desktop und den Experience Manager hinweg synchronisiert.
 
@@ -159,7 +159,7 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 
 * Das Programm versucht, Dateien auch mit ungültigen Zeichen hochzuladen, was möglicherweise zu einem Server-seitigen Upload-Fehler führt. <!-- CQ-4273652 -->
 
-* Beim Hochladen von Änderungen zu einem Asset mit Kommentaren werden die Kommentare mit dem Asset in Experience Manager gespeichert, jedoch nicht als Versionshinweise angezeigt. This issue is resolved in Experience Manager 6.4.5 and Experience Manager 6.5.1. Adobe strongly recommends installing the latest service packs. <!-- CQ-4268990 -->
+* Beim Hochladen von Änderungen zu einem Asset mit Kommentaren werden die Kommentare mit dem Asset in Experience Manager gespeichert, jedoch nicht als Versionshinweise angezeigt. Dieses Problem wurde in Experience Manager 6.4.5 und Experience Manager 6.5.1 behoben. Adobe empfiehlt dringend, die neuesten Service Packs zu installieren. <!-- CQ-4268990 -->
 
 * Asset-Übertragungen können vom Benutzer nicht abgebrochen werden. Wenn Sie eine unbeabsichtigte große Übertragung ausgelöst haben, beenden Sie das Programm und starten Sie es erneut. <!-- CQ-4278940 -->
 
