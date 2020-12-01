@@ -1,6 +1,6 @@
 ---
-title: Install and configure [!DNL Experience Manager] desktop app version 1.x
-description: Installieren und [!DNL Experience Manager] desktop app version 1.x to work with [!DNL Assets] konfigurieren Sie die Assets und ordnen Sie sie als Laufwerk auf Ihrem Desktop zu.
+title: Installieren und konfigurieren Sie [!DNL Experience Manager] die Desktop-App-Version 1.x
+description: 'Installieren und konfigurieren Sie die Server und ordnen Sie die Assets als Laufwerk auf Ihrem Desktop zu. [!DNL Experience Manager] desktop app version 1.x to work with [!DNL Assets] '
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS,SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -17,15 +17,15 @@ ht-degree: 62%
 ---
 
 
-# Install and configure [!DNL Experience Manager] desktop app v1.x {#install-and-configure-aem-desktop-app}
+# [!DNL Experience Manager] Desktop-App v1.x {#install-and-configure-aem-desktop-app} installieren und konfigurieren
 
-Using the [!DNL Experience Manager] desktop app, the assets within [!DNL Experience Manager] are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally – the changes are saved back to [!DNL Experience Manager] when you upload and a new version is created in the repository.
+Mit der Desktop-App [!DNL Experience Manager] können die Elemente innerhalb von [!DNL Experience Manager] problemlos auf Ihrem lokalen Desktop aufgerufen werden und können in allen Desktop-Anwendungen verwendet werden. Assets können einfach in Mac Finder oder Windows Explorer angezeigt, in Desktop-Anwendungen geöffnet und lokal geändert werden - die Änderungen werden beim Hochladen auf [!DNL Experience Manager] zurückgespeichert und eine neue Version wird im Repository erstellt.
 
 Dank dieser Integration können unterschiedliche Rollen in der Organisation die Assets in  Assets zentral verwalten und in Creative Cloud und anderen Applikationen darauf zugreifen. Gleichzeitig können diverse Standards einschließlich Branding-Vorgaben leichter eingehalten werden.
 
-To use [!DNL Experience Manager] desktop app,
+So verwenden Sie die Desktop-App [!DNL Experience Manager]
 
-* Ensure that your [!DNL Experience Manager] server version is supported by [!DNL Experience Manager] desktop app. Weitere Informationen finden Sie in der [Kompatibilitätsmatrix](release-notes-of-v1.md#compatibilitymatrix).
+* Stellen Sie sicher, dass Ihre [!DNL Experience Manager]-Serverversion von der [!DNL Experience Manager]-Desktop-App unterstützt wird. Weitere Informationen finden Sie in der [Kompatibilitätsmatrix](release-notes-of-v1.md#compatibilitymatrix).
 
 * Laden Sie das Programm herunter und installieren Sie es.
 
@@ -33,25 +33,25 @@ To use [!DNL Experience Manager] desktop app,
 
 ## Systemanforderungen, Voraussetzungen und Download-Links {#system-requirements-prerequisites-and-download-links}
 
-For detailed information, see the [[!DNL Experience Manager] desktop app release notes](release-notes-of-v1.md).
+Ausführliche Informationen finden Sie unter [[!DNL Experience Manager] Versionshinweise zur Desktop-App](release-notes-of-v1.md).
 
-## Installieren und Verbinden der App mit dem [!DNL Experience Manager] Server {#install-and-connect-aem-desktop-app-to-aem-server}
+## Installieren und Verbinden der App mit dem [!DNL Experience Manager]-Server {#install-and-connect-aem-desktop-app-to-aem-server}
 
-Weitere Informationen finden Sie unter [Installieren und [!DNL Experience Manager] desktop app to [!DNL Experience Manager] Connectserver](use-app-v1.md#installandconnect).
+Weitere Informationen finden Sie unter [Installieren und Verbinden [!DNL Experience Manager] desktop app to [!DNL Experience Manager] Server](use-app-v1.md#installandconnect).
 
 >[!NOTE]
 >
->Only one instance of the [!DNL Experience Manager] desktop app can be installed and be active at a time.
+>Es kann jeweils nur eine Instanz der Desktop-App [!DNL Experience Manager] installiert und aktiv sein.
 
 ## Dateiverarbeitung {#file-handling}
 
 Beim Ändern einer Datei unter einem vom Desktop-Programm bereitgestellten Netzwerkfreigabe-Speicherort werden die Dateien in zwei Phasen in diesem Verzeichnis gespeichert. In der ersten Phase wird eine Datei lokal gespeichert. Ein Benutzer kann die Datei speichern und deren Bearbeitung fortsetzen, ohne auf den Abschluss der Übertragung warten zu müssen.
 
-In the second phase, desktop app uploads the updated file to [!DNL Experience Manager] server after a predefined delay (for example, 30s). Dieser Vorgang erfolgt im Hintergrund. Verwenden Sie die Option „View Asset Status“ (Asset-Status anzeigen), um den Status des Upload-Vorgangs anzuzeigen.
+In der zweiten Phase lädt die Desktop-App die aktualisierte Datei nach einer vordefinierten Verzögerung (z. B. 30 s) auf den [!DNL Experience Manager]-Server hoch. Dieser Vorgang erfolgt im Hintergrund. Verwenden Sie die Option „View Asset Status“ (Asset-Status anzeigen), um den Status des Upload-Vorgangs anzuzeigen.
 
 1. Hochladen eines Assets in  Assets.
 
-1. Click the [!DNL Experience Manager] desktop app icon from the toolbar.
+1. Klicken Sie in der Symbolleiste auf das Symbol für die Desktop-App.[!DNL Experience Manager]
 
 1. Wählen Sie im Menü die Option „View Asset Status“ (Asset-Status anzeigen) aus.
 
@@ -61,15 +61,15 @@ In the second phase, desktop app uploads the updated file to [!DNL Experience Ma
 >
 >[!DNL Experience Manager] Mit der Desktop-App können Assets mit einer Größe von bis zu 40 GB verarbeitet werden.
 
-## Connect to an [!DNL Experience Manager] instance behind a dispatcher {#connect-to-an-aem-instance-behind-a-dispatcher}
+## Verbindung zu einer [!DNL Experience Manager]-Instanz hinter einem Dispatcher {#connect-to-an-aem-instance-behind-a-dispatcher}
 
-The copy and move methods in the Assets API require the following additional headers to be passed to [!DNL Experience Manager]:
+Die Kopieren- und Verschieben-Methoden in der Assets-API erfordern, dass die folgenden zusätzlichen Kopfzeilen an [!DNL Experience Manager] übergeben werden:
 
 * X-Ziel
 * X-Tiefe
 * X-Überschreiben
 
-[!DNL Experience Manager] Der Desktop stellt eine Verbindung mit einer URL her, die den Standardanschluss enthält. [!DNL Experience Manager] Daher sollte die Einstellung `virtualhosts` in der Dispatcher-Konfiguration die standardmäßige Port-Nummer enthalten. Weitere Informationen zur Konfiguration von `virtualhosts` finden Sie unter [Identifizieren von virtuellen Hosts](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=de#identifying-virtual-hosts-virtualhosts).
+[!DNL Experience Manager] Desktop stellt eine Verbindung  [!DNL Experience Manager] mit einer URL her, die den Standardanschluss enthält. Daher sollte die Einstellung `virtualhosts` in der Dispatcher-Konfiguration die standardmäßige Port-Nummer enthalten. Weitere Informationen zur Konfiguration von `virtualhosts` finden Sie unter [Identifizieren von virtuellen Hosts](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=de#identifying-virtual-hosts-virtualhosts).
 
 Weitere Informationen zum Konfigurieren des Dispatchers, sodass diese zusätzlichen Header übermittelt werden können, finden Sie unter [Festlegen der HTTP-Header](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=de#specifying-the-http-headers-to-pass-through-clientheaders).
 
@@ -77,7 +77,7 @@ Weitere Informationen zum Konfigurieren des Dispatchers, sodass diese zusätzlic
 
 [!DNL Experience Manager] Die Desktop-App verwendet den vordefinierten Proxy des Systems, um über HTTPS eine Verbindung mit dem Internet herzustellen. Das Programm kann die Verbindung nur mit einem Netzwerk-Proxy herstellen, für den keine gesonderte Authentifizierung erforderlich ist.
 
-If you configure or modify proxy server settings for Windows (Internet Options > LAN Settings), restart the [!DNL Experience Manager] desktop app for the changes to take effect.
+Wenn Sie die Proxy-Servereinstellungen für Windows konfigurieren oder ändern (Internetoptionen > LAN-Einstellungen), starten Sie die [!DNL Experience Manager] Desktop-App neu, damit die Änderungen wirksam werden.
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ Welche Komponente überlagert wird, hängt von der Art der Personalisierung ab. 
 
 ## Verwalten des Caches {#manage-cache}
 
-On Windows, the cache is at `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, where is an encoded version of the [!DNL Experience Manager] host configured in the desktop app. Beispiel: `http://localhost:4502` wird als `http%3A%2F%2Flocalhost%3A4502%2F` angezeigt.
+Unter Windows befindet sich der Cache unter `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, wobei es sich um eine kodierte Version des [!DNL Experience Manager]-Hosts handelt, der in der Desktop-App konfiguriert wurde. Beispiel: `http://localhost:4502` wird als `http%3A%2F%2Flocalhost%3A4502%2F` angezeigt.
 
 Unter Mac OS X befindet sich unter `~/Library/Group Containers/group.com.adobe.aem.desktop/cache` ein ähnliches Verzeichnis.
 
@@ -107,17 +107,17 @@ Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke z
 
 >[!NOTE]
 >
->Wenn Sie den Cache löschen, werden nicht gespeicherte Änderungen beibehalten. Any assets not checked into [!DNL Experience Manager] server are retained and not deleted.
+>Wenn Sie den Cache löschen, werden nicht gespeicherte Änderungen beibehalten. Alle Assets, die nicht in den [!DNL Experience Manager]-Server eingecheckt sind, werden beibehalten und nicht gelöscht.
 
-### Ändern des Cache-Verzeichnisses unter Windows {#change-location-of-cache-on-windows}
+### Ändern des Cache-Verzeichnisses unter Windows  {#change-location-of-cache-on-windows}
 
-The default location of the cache for the [!DNL Experience Manager] desktop app is as follows:
+Der Standardspeicherort für den Cache für die [!DNL Experience Manager]-Desktop-App lautet wie folgt:
 
 * Unter Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\EncodedAEMEndpoint`
 
 * Unter Mac OS: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`
 
-`EncodedAEMEndpoint` ist die konfigurierte [!DNL Experience Manager] Endpunkt-URL der App. The value is an encoded version of the targeting URL of the [!DNL Experience Manager] server. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502`. Der Windows-Pfad zum Cache-Verzeichnis in diesem Beispiel lautet `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
+`EncodedAEMEndpoint` ist die konfigurierte  [!DNL Experience Manager] Endpunkt-URL der App. Der Wert ist eine kodierte Version der Targeting-URL des Servers [!DNL Experience Manager]. Wenn das Ziel des Programms beispielsweise `http://localhost:4502` ist, lautet der Verzeichnisname `http%3A%2F%2Flocalhost%3A4502`. Der Windows-Pfad zum Cache-Verzeichnis in diesem Beispiel lautet `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
 
 Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen, bearbeiten Sie die Konfigurationsdatei des Programms.
 
@@ -134,7 +134,7 @@ Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen,
    >Das Programm erstellt automatisch ein Unterverzeichnis mit der Bezeichnung *&lt;Encoded AEM Endpoint>*. Dieses Verhalten kann nicht konfiguriert werden.
 
 >[!MORELIKETHIS]
-* [Einführung [!DNL Experience Manager] in die Desktop-App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=de).
-* [Verwenden Sie die [!DNL Experience Manager] Desktop-App](use-app-v1.md).
+* [Einführung  [!DNL Experience Manager] in die Desktop-App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=de).
+* [Verwenden Sie die  [!DNL Experience Manager] Desktop-App](use-app-v1.md).
 * [ [!DNL Experience Manager] Fehlerbehebung bei der Desktop-App](troubleshoot-app-v1.md).
 
