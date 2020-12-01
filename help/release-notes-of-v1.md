@@ -8,9 +8,9 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3920'
 ht-degree: 100%
 
@@ -401,7 +401,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 
 **CA-signierte SSL-Zertifikate verwenden:** Beachten Sie, dass das AEM-Desktop-Programm beim Herstellen einer sicheren HTTPS-Verbindung zu AEM keine selbstsignierten SSL-Zertifikate unterstützt. Für derartige Verbindungen ist ein CA-signiertes Zertifikat auf dem Server erforderlich (CQ-87941).
 
-## Bekannte Probleme {#known-issues}
+## Bekannte Probleme  {#known-issues}
 
 * Allgemein:
    * Es werden Server-URLs benötigt, um ohne Pfad auf den Server zu verweisen (z. B. `http://server`, `https://server`, `http://server:port` oder `https://server:port`). Außer „/content/dam“ werden keine anderen Kontextpfade und Unterordner unterstützt (CQ-89343, CQ-87272).
