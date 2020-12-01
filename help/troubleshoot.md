@@ -213,9 +213,9 @@ Wenn das [!DNL Experience Manager]-Desktop-Programm keine Verbindung zu Ihrer SS
 
 Manchmal leitet der SAML-Prozess nicht zum ursprünglich angeforderten Pfad zurück oder die endgültige Umleitung erfolgt zu einem Host, der sich von dem unterscheidet, was im [!DNL Adobe Experience Manager]-Desktop-Programm konfiguriert wurde. So stellen Sie sicher, dass dies nicht der Fall ist:
 
-1. Öffnen Sie einen Webbrowser. Zugriff auf `https://[aem_server]:[port]/content/dam.json` URL.
+1. Öffnen Sie einen Webbrowser. Zugriff auf die URL `https://[aem_server]:[port]/content/dam.json`.
 
-1. Log in to the [!DNL Adobe Experience Manager] deployment.
+1. Melden Sie sich bei der [!DNL Adobe Experience Manager]-Bereitstellung an.
 
 1. Wenn die Anmeldung abgeschlossen ist, sehen Sie sich die aktuelle Adresse des Browsers in der Adressleiste an. Sie sollte genau mit der ursprünglich von Ihnen eingegeben URL übereinstimmen.
 
