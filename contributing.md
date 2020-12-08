@@ -1,9 +1,9 @@
 ---
 source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '529'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 # Beitragen zur Dokumentation der Adobe Experience Manager-Desktop App
@@ -14,12 +14,11 @@ In dieser Datei wird beschrieben, wie Sie Beiträge beisteuern können und welch
 
 ## Adobe Open Source-Verhaltenskodex
 
-Dieses Projekt folgt dem [Adobe Open Source-Verhaltenskodex](code-of-conduct.md). By contributing to [!DNL Adobe Experience Manager] documentation, you agree to adhere to this code of conduct. Bitte melden Sie inakzeptables Verhalten an
-[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Dieses Projekt folgt dem [Adobe Open Source-Verhaltenskodex](code-of-conduct.md). Mit Ihrer Teilnahme an der [!DNL Adobe Experience Manager]-Dokumentation erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten. Bitte melden Sie inakzeptables Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Richtlinien für Beiträge
 
-While we welcome any contributions to improve [!DNL Experience Manager] documentation, we do ask that contributions adhere to certain guidelines and standards where possible. Please review the [Guidelines for Contributing to [!DNL Experience Manager] Documentation](guidelines.md) for more information.
+Wir freuen uns zwar über jeden Beitrag, der die [!DNL Experience Manager]-Dokumentation verbessert, bitten jedoch darum, dass die Beiträge möglichst bestimmten Richtlinien und Standards entsprechen. Weitere Informationen finden Sie in den [Richtlinien zur Teilnahme an der  [!DNL Experience Manager] -Dokumentation](guidelines.md).
 
 ## So können Sie einen Beitrag leisten
 
@@ -38,11 +37,11 @@ Wählen Sie die Methode aus, die für Sie zum Bearbeiten der Dokumentation in Gi
 
 Haben Sie einen Vorschlag, eine Beobachtung zu den aktuellen Dokumenten oder eine Frage dazu, wie etwas beschrieben wird? Dann erstellen Sie bitte ein Problem. Probleme eignen sich auch, wenn Sie etwas beizutragen haben, jedoch lieber nicht selbst die Dokumente bearbeiten oder eine Pull-Anforderung erstellen möchten.
 
-Issues allow you to easily describe your idea for improvement to the docs and an [!DNL Experience Manager] Docs Team member can review it. Zum Erstellen eines Problems klicken Sie einfach auf einer beliebigen Seite oben im rechten Navigationsbereich auf den Link **Ein Problem protokollieren**.
+Mithilfe von Problemen können Sie Ihre Verbesserungsidee für Dokumente einfach beschreiben, damit ein Mitglied des [!DNL Experience Manager]-Dokumentations-Teams sie überprüfen kann. Zum Erstellen eines Problems klicken Sie einfach auf einer beliebigen Seite oben im rechten Navigationsbereich auf den Link **Ein Problem protokollieren**.
 
 ### Erstellen einer Pull-Anforderung {#create-a-pull-request}
 
-Wenn Sie ein Problem sehen und genau wissen, wie Sie es beheben können, sollten Sie eine Pull-Anforderung erstellen. Pull requests allow you to make your own edits to the documentation, which are then reviewed for inclusion by an [!DNL Experience Manager] Docs Team member. Klicken Sie einfach auf einer beliebigen Seite oben im rechten Navigationsbereich auf den Link **Diese Seite bearbeiten**, um Ihre vorgeschlagenen Änderungen vorzunehmen und die Pull-Anforderung zu erstellen.
+Wenn Sie ein Problem sehen und genau wissen, wie Sie es beheben können, sollten Sie eine Pull-Anforderung erstellen. Mithilfe von Pull-Anforderungen können Sie Ihre eigenen Änderungen an der Dokumentation vornehmen, die dann von einem Mitglied des [!DNL Experience Manager]-Dokumentations-Teams zur Übernahme geprüft werden. Klicken Sie einfach auf einer beliebigen Seite oben im rechten Navigationsbereich auf den Link **Diese Seite bearbeiten**, um Ihre vorgeschlagenen Änderungen vorzunehmen und die Pull-Anforderung zu erstellen.
 
 Für Pull-Anforderungen muss eine [Lizenzvereinbarung für Mitwirkende (CLA) unterzeichnet werden.](https://opensource.adobe.com/cla.html)  Damit kann Adobe Ihre Beiträge als Teil des Projekts weitervertreiben. Sie müssen nur einmal eine Adobe-CLA übermitteln. Wenn Sie also bereits eine übermittelt haben, können Sie sofort loslegen!
 
@@ -50,7 +49,7 @@ Für Pull-Anforderungen muss eine [Lizenzvereinbarung für Mitwirkende (CLA) unt
 
 Im folgenden Video erhalten Sie einen schnellen Überblick darüber, wie Probleme erstellt und Anforderungen abgerufen werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/27069)
+>[!VIDEO](https://video.tv.adobe.com/v/27069?captions=ger)
 
 ### Beiträge von Adobe-Mitarbeitern
 
