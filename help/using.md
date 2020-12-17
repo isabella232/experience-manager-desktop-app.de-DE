@@ -3,10 +3,10 @@ title: Verwenden des Adobe Experience Manager-Desktop-Programms
 description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm installieren und verwenden, um direkt von Ihrem Windows- oder Mac-Desktop aus mit Adobe Experience Manager DAM-Assets zu arbeiten. Machen Sie sich mit Best Practices und Informationen zur Fehlerbehebung vertraut.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: 41625c59df00b82ceda8a566b35341bc51c2a30f
 workflow-type: tm+mt
-source-wordcount: '4022'
-ht-degree: 100%
+source-wordcount: '4028'
+ht-degree: 97%
 
 ---
 
@@ -173,7 +173,7 @@ Deaktivieren Sie ggf. das Auschecken. Das aktualisierte Asset wird aus dem lokal
 
 ## Hochladen und Hinzufügen neuer Assets zu Experience Manager {#upload-and-add-new-assets-to-aem}
 
-Benutzer können dem DAM-Repository neue Assets hinzufügen. Vielleicht sind Sie z. B. ein Agenturfotograf oder -auftragnehmer, der eine große Anzahl von Fotos aus einem Foto-Shooting dem Experience Manager-Repository hinzufügen möchte. Um Experience Manager neue Inhalte hinzuzufügen, klicken Sie auf das Symbol ![In Cloud hochladen](assets/do-not-localize/upload_to_cloud_da2.png) in der oberen Leiste des Programms. Navigieren Sie zu den Asset-Dateien im lokalen Dateisystem und klicken Sie auf **[!UICONTROL Select]**. Das Programm startet das Hochladen des Assets und zeigt am unteren Rand eine Fortschrittsleiste an, wenn das Hochladen des Assets länger dauert. Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen oder ungültigen Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in  [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=de#creating-folders).
+Benutzer können dem DAM-Repository neue Assets hinzufügen. Sie können z. B. ein Agenturfotograf oder -auftragnehmer sein, der eine große Anzahl von Fotos von einem Fotoshot zum [!DNL Experience Manager]-Repository hinzufügen möchte. Um [!DNL Experience Manager] neuen Inhalt hinzuzufügen, wählen Sie in der oberen Leiste der App die Option ![In Cloud hochladen](assets/do-not-localize/upload_to_cloud_da2.png). Navigieren Sie zu den Asset-Dateien im lokalen Dateisystem und klicken Sie auf **[!UICONTROL Select]**. Alternativ können Sie die Dateien oder Ordner auf die Benutzeroberfläche der Anwendung ziehen. Die App-Beginn laden das Asset hoch. Wenn der Upload länger dauert, zeigt die App unten eine Fortschrittsleiste an. Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen oder ungültigen Zeichen. Eine Liste der zulässigen Zeichen finden Sie unter [Erstellen von Ordnern in [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=de#creating-folders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
