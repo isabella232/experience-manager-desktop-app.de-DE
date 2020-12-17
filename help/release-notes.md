@@ -10,10 +10,10 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: 41625c59df00b82ceda8a566b35341bc51c2a30f
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 100%
+source-wordcount: '1432'
+ht-degree: 95%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 | Produkte | Adobe Experience Manager-Desktop-Programm |
 |--- |--- |
-| Programm-Version (Revision) | 2.0 (2.0.3.2) |
-| Unterstützte Experience Manager-Versionen | Experience Manager as a Cloud Service; Experience Manager 6.5; Experience Manager 6.4; Experience Manager 6.3 (mit Kompatibilitätspaket) |
+| Programm-Version (Revision) | 2.1 (2.1.0.0) |
+| Unterstützte [!DNL Adobe Experience Manager]-Versionen | [!DNL Experience Manager] als  [!DNL Cloud Service];  [!DNL Experience Manager] 6.5;  [!DNL Experience Manager] 6.4;  [!DNL Experience Manager] 6.3 (mit Kompatibilitätspaket) |
 | Typ | Nebenversion |
 | Veröffentlichungsdatum | 27. August 2020 (Mac und Win) |
-| Download-URLs | [macOS (64-Bit)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg); [Windows (64-Bit)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe); [Windows (32-Bit)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
+| Download-URLs | [macOS (64-Bit)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg); [Windows (64-Bit)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe); [Windows (32-Bit)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
 
 ## Systemanforderungen und Voraussetzungen {#system-requirements-and-prerequisites-v2}
 
@@ -42,18 +42,18 @@ Das Adobe Experience Manager-Desktop-Programm ist mit den folgenden Betriebssy
 
 Das Programm funktioniert mit den folgenden Experience Manager-Versionen, unabhängig davon, ob sie as a Cloud Service, auf Adobe Managed Services (AMS) oder on-Premise bereitgestellt werden:
 
-* [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=de).
+* [[!DNL Experience Manager] als [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=de) a.
 
-* [Experience Manager 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=de) oder höher.
+* [[!DNL Experience Manager] 6.5.0 ](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=de) oder neuer.
 
-* [Experience Manager 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=de) oder höher.
+* [[!DNL Experience Manager] 6.4.4 ](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=de) oder neuer.
 
-* Experience Manager 6.4.0 bis 6.4.3 mit [Kompatibilitätspaket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support).
+* [!DNL Experience Manager] 6.4.0 - 6.4.3 mit  [Kompatibilitätspaket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support).
 
 >[!NOTE]
 >
->Die Unterstützung des Desktop-Programms für Experience Manager 6.3 ist veraltet. Adobe empfiehlt ein Upgrade auf eine neuere und unterstützte Adobe Experience Manager-Version.
->Experience Manager 6.3.3.1 oder höher funktioniert mit dem Desktop-Programm, nachdem das [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installiert wurde. Für Experience Manager 6.3 ist kein solches Paket verfügbar, da keine [Service Packs geplant](https://helpx.adobe.com/de/experience-manager/maintenance-releases-roadmap.html) sind.
+>Die Unterstützung von Desktop-Apps für [!DNL Experience Manager] 6.3 ist veraltet. Adobe empfiehlt die Aktualisierung auf eine neuere und unterstützte [!DNL Adobe Experience Manager] Version.
+>[!DNL Experience Manager]  6.3.3.1 oder höher funktioniert mit dem Desktop-Programm, nachdem das [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installiert wurde. Für Experience Manager 6.3 ist kein solches Paket verfügbar, da keine [Service Packs geplant](https://helpx.adobe.com/de/experience-manager/maintenance-releases-roadmap.html) sind.
 
 Für die Version des Programms, die Sie auf Ihrem lokalen Computer installieren möchten, sind eine bestimmte Server-Version von Adobe Experience Manager oder zusätzliche Server-seitige Komponenten (Service Packs, Hotfixes oder Feature Packs) erforderlich. Wenden Sie sich an Ihren Adobe Experience Manager-Administrator, um Hilfe zu erhalten.
 
@@ -80,6 +80,10 @@ Die Funktion wird in den Adobe Creative Cloud-Versionen 2018 und 2019 der oben g
 ## Neue Funktionen und Erweiterungen {#whats-new-added}
 
 Weitere Informationen finden Sie unter [Neue Funktionen in v2.0](introduction.md#whats-new-v2).
+
+**Aktualisierungen in der Programmversion 2.1.0.0**
+
+* Um Assets hochzuladen, können Benutzer die Dateien oder Ordner jetzt direkt aus dem Windows Explorer oder dem Mac Finder auf die Benutzeroberfläche der Anwendung ziehen. Dies funktioniert zusätzlich zu der Upload-Option, die zuvor in der Anwendung verfügbar war.
 
 **Aktualisierungen in der Programmversion 2.0.3**
 
