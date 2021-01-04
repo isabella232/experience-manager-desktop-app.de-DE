@@ -1,27 +1,20 @@
 ---
 title: Versionshinweise für das AEM-Desktop-Programm, Version 1.x
 description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das AEM-Desktop-Programm, Version 1.x.
-uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '3920'
-ht-degree: 100%
+source-wordcount: '3906'
+ht-degree: 98%
 
 ---
 
 
-# Versionshinweise für das AEM-Desktop-Programm, Version 1.x {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager] Versionshinweise zur Desktop-App Version 1.x  {#aem-desktop-app-release-notes}
 
 Für das AEM-Desktop-Programm v1.x sind die folgenden Download-Links und AEM-Kompatibilitätsinformationen verfügbar:
 
-| Produkte | Adobe Experience Manager (AEM)-Desktop-Programm |
+| Produkte | [!DNL Adobe Experience Manager] Desktop-App |
 |--- |--- |
 | Version | 1.10 (1.10.0.6 unter Mac und 1.10.0.3 unter Windows) |
 | Typ | Nebenversion |
@@ -75,7 +68,7 @@ Detaillierte Anweisungen finden Sie unter [Installieren und Konfigurieren des AE
 
 ## Verbesserungen in den vorherigen Versionen {#enhancements-in-the-previous-versions}
 
-Diese Version erweitert und ersetzt die Vorgängerversionen des Experience Manager-Desktop-Programms, die die folgenden wesentlichen Verbesserungen boten:
+Diese Version erweitert und ersetzt die früheren Versionen der Desktop-App [!DNL Experience Manager], die die folgenden wichtigen Verbesserungen bietet:
 
 * **Version 1.9/1.9.1**: fortsetzbare Uploads, verbessertes Statusfenster, Programmsymbole, die den Status des Programms/der Verbindung angeben, Vorab-Abruf verknüpfter Assets für InDesign-Dateien.
 
@@ -93,7 +86,7 @@ Diese Version erweitert und ersetzt die Vorgängerversionen des Experience Manag
 
 ### Seit Einführung des AEM-Desktop-Programms 1.9 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
-Beim Adobe Experience Manager (AEM)-Desktop-Programm 1.9.1 handelte es sich um eine Patch-Version, mit der einige wichtige Kundenprobleme im Hinblick auf das Auschecken von Assets und Kopieren von Dateien aus einer Netzwerkfreigabe in ein lokales Verzeichnis behoben wurden.
+[!DNL Adobe Experience Manager] Die Desktop-App 1.9.1 war eine Patch-Version, mit der einige wichtige Kundenprobleme im Zusammenhang mit dem Auschecken von Assets und dem Kopieren von Dateien aus dem Netzwerk in einen lokalen Ordner behoben wurden.
 
 * Assets, die von einem Benutzer ausgecheckt werden, sollten nicht für Bearbeitungen durch andere Benutzer verfügbar sein (CQ-4246009).
 
@@ -135,7 +128,7 @@ Das Fenster zum Asset-Status bietet folgende Informationen zu Assets.
 
 * In der Fußzeile werden die Gesamtzahl der heruntergeladenen Dateien und die durchschnittliche Übertragungsrate angezeigt.
 
-* Bei Verwendung der Web-Benutzeroberfläche von Experience Manager Assets, um mehrere Dateien zu öffnen, werden diese gruppiert. Beispiel: meinasset.jpeg und 4 weitere Dateien.
+* Wenn ein Benutzer mehrere Dateien über die [!DNL Experience Manager Assets]-Weboberfläche öffnen oder bearbeiten möchte, werden diese gruppiert. Beispiel: meinasset.jpeg und 4 weitere Dateien.
 
 * Beim Herunterladen von InDesign-Dokumenten mit verknüpften Assets, die in AEM Assets gespeichert sind, lädt das Desktop-Programm zunächst alle verknüpften Assets herunter, bevor das [!UICONTROL Adobe InDesign]-Dokument geöffnet und der Download verknüpfter Assets angezeigt wird. Beispiel: 5 von 24.
 
