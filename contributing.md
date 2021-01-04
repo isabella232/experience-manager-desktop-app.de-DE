@@ -1,9 +1,9 @@
 ---
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 18cebce065f9b55259bf96d14cb50cf5bc6c8ec6
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '509'
-ht-degree: 74%
+source-wordcount: '516'
+ht-degree: 73%
 
 ---
 # Beitrag zur Dokumentation der Desktop-App[!DNL Adobe Experience Manager]
@@ -53,7 +53,7 @@ Im folgenden Video erhalten Sie einen schnellen Überblick darüber, wie Problem
 
 ### Beiträge von Adobe-Mitarbeitern
 
-Wenn Sie ein Mitarbeiter der Adobe sind und einen Beitrag leisten, bitten wir Sie, das `AdobeDocs`-Org im Firmengit zu verwenden. Sie können einen Beitrag zu diesem öffentlichen Repository auf GitHub.com leisten, Beiträge sind jedoch einfacher im Corporate Repo zu verarbeiten. Stellen Sie sicher, dass alle proprietären oder nicht veröffentlichten Informationen nur im Corporate Repo diskutiert werden.
+Wenn Sie ein Mitarbeiter der Adobe sind und einen Beitrag leisten, bitten wir Sie, das `AdobeDocs`-Org im Firmengit zu verwenden. Sie können einen Beitrag zu diesem öffentlichen Repository auf GitHub.com leisten, Beiträge sind jedoch einfacher im Corporate Repo zu verarbeiten. Stellen Sie sicher, dass alle proprietären oder nicht veröffentlichten Informationen nur im Corporate Repo diskutiert werden. Mitarbeiter der Adobe müssen den CLA nicht unterzeichnen.
 
 ## Informationen zur GitHub-Authoring-Plattform und zum Markdown-Menü der Adobe
 
