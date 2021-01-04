@@ -1,17 +1,25 @@
 ---
-source-git-commit: 637d132ad0379fd3866dbd7fad8018c5751d271a
-workflow-type: ht
-translation-type: ht
-source-wordcount: '75'
-ht-degree: 100%
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '321'
+ht-degree: 23%
 
 ---
-# Dokumentation der Adobe Experience Manager-Desktop App
+# Über [!DNL Adobe Experience Manager] Desktop-App
 
-Dies ist das Repository für die Dokumentation der Adobe Experience Manager-Desktop App.
+Die [!DNL Adobe Experience Manager]-Desktop-App verbindet das [!DNL Experience Manager]-DAM-Repository mit Ihrem Desktop, um einen schnelleren Zugriff auf Ressourcen und optimierte Workflows zu ermöglichen. Diese Verringerung des Aufwands verbessert die Effizienz von Benutzern, die mit digitalen Assets in ihrer Workflows arbeiten. Mithilfe des -Desktop-Programms können Sie über Ihren lokalen problemlos auf die Assets in [!DNL Experience Manager Assets] zugreifen und sie in beliebigen Desktop-Applikationen verwenden. Sie können die Assets in Desktop-Applikationen Ihrer Wahl öffnen und bearbeiten. Die lokalen Änderungen können im DAM-Repository verfügbar gemacht werden. [!DNL Experience Manager] Alle neuen Assets, die aus einer beliebigen Quelle zum Repository hinzugefügt werden, können auch auf Ihrem Desktop verfügbar gemacht werden.
 
-Ihre Beiträge zur Dokumentation sind willkommen. Sehen Sie sich die folgenden Ressourcen an:
+Eine solche Integration ermöglicht es verschiedenen Rollen in der Organisation, die Assets zentral in [!DNL Experience Manager Assets] zu verwalten. Marketing-Experten und Geschäftsbenutzer können die Einhaltung der verschiedenen Standards sicherstellen, einschließlich Branding und Lizenzierung. Kreative Benutzer können auch auf Assets auf dem Desktop in den [!DNL Creative Cloud] und anderen nativen Anwendungen zugreifen.
 
-* [contributing.md](contributing.md) Ein Überblick darüber, wie Sie zur Dokumentation beitragen.
-* [guidelines.md](guidelines.md) Ein Überblick darüber, was in Beiträgen erwartet wird und wie Sie Ihre Beiträge zur Dokumentation zusammenstellen können.
-* [code-of-conduct.md](code-of-conduct.md) Ein Überblick über die Verhaltensstandards, die wir erwarten, wenn Sie zu diesem Dokumentationsprojekt beitragen.
+## Zur Dokumentation beitragen
+
+Für dieses Projekt gilt der [Adobe Open Source-Verhaltenskodex](code-of-conduct.md) bzw. der [.NET Foundation-Verhaltenskodex](https://dotnetfoundation.org/code-of-conduct). Weitere Informationen finden Sie im Artikel zum Thema [Beitragen](contributing.md).
+
+**Geringfügige Änderungen**: Klicken Sie auf Bearbeiten am rechten Rand eines Artikels, um kleinere Korrekturen oder Klarstellungen vorzunehmen und einzureichen. Alternativ können Sie ein Problem in diesem Repository erstellen, das die Änderungen beschreibt. Für solche geringfügigen Beiträge gelten die Nutzungsbedingungen der Adobe.
+
+**Wichtigste Änderungen**: Klicken Sie in einem Artikel auf &quot;Bearbeiten&quot;, fügen Sie einen Beitrag ein und erstellen Sie eine Pull-Anforderung oder erstellen Sie ein Problem. So oder so interagiert ein doc-Team mit Ihnen, um weitere Informationen zu erhalten. Sie müssen die Adobe-CLA nur einmal unterzeichnen, bevor Sie beliebig oft zu Adoben-Dokumenten beitragen können. Siehe Artikel [Wie Sie einen Beitrag leisten](contributing.md).
+
+**Für Adoben**: Wenn Sie ein Mitarbeiter der Adobe sind, verwenden Sie Corporate Git, um einen Beitrag zu leisten. Siehe [beiträge.md](contributing.md). Um wichtige Updates bereitzustellen, öffnen Sie eine Ausgabe und ein Mitarbeiter des Doc-Teams wird sich mit Ihnen in Verbindung setzen.
+
+Die Verhaltensnormen, die wir beim Beitrag erwarten, finden Sie unter [Verhaltenskodex](code-of-conduct.md).
