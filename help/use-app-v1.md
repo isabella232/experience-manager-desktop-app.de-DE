@@ -1,9 +1,8 @@
 ---
 title: Verwenden des  [!DNL Experience Manager] -Desktop-Programms, Version 1.x.
 description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm, Version 1.x verwenden und Ihre Arbeit mit Assets auf dem Desktop optimieren können.
-contentOwner: AG
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
 source-wordcount: '2379'
 ht-degree: 100%
