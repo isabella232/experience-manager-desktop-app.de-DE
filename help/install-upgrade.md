@@ -1,35 +1,28 @@
 ---
-title: Installieren und Konfigurieren des Adobe Experience Manager-Desktop-Programms
-description: Installieren und konfigurieren Sie das Adobe Experience Manager-Desktop-Programm für die Verwendung mit Adobe Experience Manager Assets-Servern und laden Sie die Assets in Ihr lokales Dateisystem herunter.
-uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f6365302-1690-4719-9b8c-035719422740
-index: y
-internal: n
-snippet: y
+title: Installieren und Konfigurieren der  [!DNL Adobe Experience Manager] Desktop-App
+description: 'Installieren und konfigurieren Sie die Server und laden Sie die Elemente auf Ihr lokales Dateisystem herunter. [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] '
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 100%
+source-wordcount: '1162'
+ht-degree: 84%
 
 ---
 
 
-# Installieren des Adobe Experience Manager-Desktop-Programms {#install-app-v2}
+# [!DNL Adobe Experience Manager] Desktop-App {#install-app-v2} installieren
 
-Mithilfe des Adobe Experience Manager-Desktop-Programms können Sie über Ihren lokalen Desktop problemlos auf die Assets in Experience Manager zugreifen und diese in beliebigen nativen Desktop-Programmen verwenden. Assets können als Vorschau angezeigt, in nativen Desktop-Programmen geöffnet, in Mac Finder oder Windows Explorer zur Platzierung in anderen Dokumenten angezeigt und lokal geändert werden. Die Änderungen werden beim Upload dann wieder unter einer neuen, im Repository erstellten Version in Experience Manager gespeichert.
+Mit der Desktop-App [!DNL Adobe Experience Manager] sind die Elemente innerhalb von [!DNL Experience Manager] einfach auf Ihrem lokalen Desktop verfügbar und können in allen nativen Desktop-Anwendungen verwendet werden. Assets können in der Vorschau angezeigt, in nativen Desktop-Anwendungen geöffnet, in Mac Finder oder Windows Explorer zur Platzierung in anderen Dokumenten angezeigt und lokal geändert werden. Die Änderungen werden beim Hochladen auf [!DNL Experience Manager] zurückgespeichert und eine neue Version wird im Repository erstellt.
 
 Eine solche Integration bietet verschiedenen Rollen in der Organisation folgende Möglichkeiten:
 
-* Assets zentral in Experience Manager Assets verwalten.
+* Verwalten Sie die Assets zentral in [!DNL Experience Manager Assets].
 
 * Auf die Assets in allen nativen Desktop-Programmen zugreifen, einschließlich Programmen von Drittanbietern und in Adobe Creative Cloud. Dabei können die Benutzerverschiedene Standards – auch für Branding – problemlos einhalten.
 
-Stellen Sie zur Verwendung des Experience Manager-Desktop-Programms sicher,
+Wenn Sie das [!DNL Experience Manager]-Desktop-Programm verwenden möchten,
 
-* dass Ihre Version von Experience Manager vom Experience Manager-Desktop-Programm unterstützt wird. Siehe [Systemanforderungen](release-notes.md#system-requirements-and-prerequisites-v2) unten.
+* Stellen Sie sicher, dass Ihre [!DNL Experience Manager]-Version von der [!DNL Experience Manager] Desktop-App unterstützt wird. Siehe [Systemanforderungen](release-notes.md#system-requirements-and-prerequisites-v2) unten.
 
 * Laden Sie das Programm herunter und installieren Sie es. Siehe [Installieren des Desktop-Programms](#install-v2) unten.
 
@@ -37,7 +30,7 @@ Stellen Sie zur Verwendung des Experience Manager-Desktop-Programms sicher,
 
 ## Systemanforderungen, Voraussetzungen und Download-Links {#tech-specs-v2}
 
-Detaillierte Informationen finden Sie unter [Versionshinweise zum Adobe Experience Manager-Desktop-Programm](release-notes.md).
+Detaillierte Informationen finden Sie in den Versionshinweisen zum [[!DNL Experience Manager] -Desktop-Programm](release-notes.md).
 
 ## Upgrade von einer früheren Version {#upgrade-from-previous-version}
 
@@ -49,7 +42,7 @@ Wenn Sie bereits Version 1.x des Desktop-Programms benutzen, sollten Sie die Unt
 
 Gehen Sie wie folgt vor, um von einer früheren Version des Programms zu aktualisieren:
 
-1. Synchronisieren Sie vor dem Upgrade alle Assets und laden Sie Ihre Änderungen in Experience Manager hoch. Dadurch soll vermieden werden, dass Änderungen beim Deinstallieren des Programms verloren gehen.
+1. Synchronisieren Sie vor dem Upgrade alle Assets und laden Sie Ihre Änderungen auf [!DNL Experience Manager] hoch. Dadurch soll vermieden werden, dass Änderungen beim Deinstallieren des Programms verloren gehen.
 
 1. Deinstallieren Sie die vorherige Version des Programms. Wählen Sie bei der Deinstallation die Option zum Löschen des Cache.
 
@@ -59,15 +52,15 @@ Gehen Sie wie folgt vor, um von einer früheren Version des Programms zu aktuali
 
 ## Installieren {#install-v2}
 
-Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren Sie ein eventuell vorhandenes Adobe Experience Manager-Desktop-Programm v1.x, bevor Sie die neueste Version des Programms installieren. Weitere Informationen finden Sie oben.
+Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren Sie alle vorhandenen Adoben [!DNL Experience Manager] der Desktop-App v1.x, bevor Sie die neueste App installieren. Weitere Informationen finden Sie oben.
 
 1. Laden Sie das neueste Installationsprogramm von der Seite mit den [Versionshinweisen](release-notes.md) herunter.
 
-1. Halten Sie die URL und die Anmeldeinformationen Ihrer Experience Manager-Bereitstellung bereit.
+1. Halten Sie die URL und die Anmeldeinformationen Ihrer [!DNL Experience Manager]-Bereitstellung bereit.
 
 1. Wenn Sie ein Upgrade von einer anderen Version des Programms durchführen, finden Sie weitere Informationen unter [Aktualisieren des Desktop-Programms](#upgrade-from-previous-version).
 
-1. Überspringen Sie diesen Schritt, wenn Sie Experience Manager as a Cloud Service, Experience Manager 6.4.4 oder höher bzw. Experience Manager 6.5.0 oder höher verwenden. Stellen Sie sicher, dass Ihr Experience Manager-Setup die in den [Versionshinweisen](release-notes.md) erwähnten Kompatibilitätsanforderungen erfüllt. Laden Sie bei Bedarf das entsprechende [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) herunter und installieren Sie es mit Experience Manager Package Manager als Experience Manager-Administrator. Weitere Informationen zur Installation eines Pakets finden Sie unter [Arbeiten mit Paketen](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de).
+1. Überspringen Sie diesen Schritt, wenn Sie [!DNL Experience Manager] als [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 oder höher oder [!DNL Experience Manager] 6.5.0 oder höher verwenden. Stellen Sie sicher, dass Ihr [!DNL Experience Manager] Setup die Kompatibilitätsanforderungen erfüllt, die in den [Versionshinweisen](release-notes.md) erwähnt werden. Laden Sie bei Bedarf das entsprechende [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) herunter und installieren Sie es mit dem [!DNL Experience Manager] Package Manager als [!DNL Experience Manager]-Administrator. Weitere Informationen zur Installation eines Pakets finden Sie unter [Arbeiten mit Paketen](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de).
 
 1. Führen Sie die Binärdatei des Installationsprogramms aus und befolgen Sie die Anweisungen auf dem Bildschirm, um die Installation durchzuführen.
 
@@ -93,7 +86,7 @@ Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren
 
    *Abbildung: Das Programm zeigt nach der Anmeldung den DAM-Inhalt an*
 
-1. (Experience Manager 6.5.1 oder höher) Wenn Sie das Desktop-Programm mit Experience Manager 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Siehe [Azure-Connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=de#azure-data-store) oder [S3-Connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=de#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 oder höher) Wenn Sie das Desktop-Programm mit 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. [!DNL Experience Manager] Siehe [Azure-Connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=de#azure-data-store) oder [S3-Connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=de#amazon-s-data-store).
 
    Wenn Sie Adobe Managed Services (AMS)-Kunde sind, wenden Sie sich an den Adobe-Kundendienst.
 
