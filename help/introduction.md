@@ -1,30 +1,26 @@
 ---
-title: Einführung zum Adobe Experience Manager-Desktop-Programm
-description: Erfahren Sie, wie Sie mit dem Adobe Experience Manager-Desktop-Programm die Asset-Management-Workflows für kreative Benutzer optimieren können, wenn diese Adobe Experience Manager Assets direkt von ihrem Desktop aus verwenden.
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-snippet: y
+title: Einführung in das  [!DNL Adobe Experience Manager] -Desktop-Programm
+description: Erfahren Sie, wie Sie  [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] direkt von ihrem Desktop aus verwenden können.
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 70%
 
 ---
 
 
-# Übersicht über das Adobe Experience Manager-Desktop-Programm {#overview-v2}
+# [!DNL Adobe Experience Manager] Übersicht über die Desktop-App  {#overview-v2}
 
-Adobe bietet lösungsübergreifende Workflows an, sodass Branchennutzer und Kreativschaffende noch produktiver arbeiten können. Das Adobe Experience Manager-Desktop-Programm verbindet Repositorys und Desktop-Applikationen, einschließlich Lösungen von Adobe und Drittanbietern, um einen schnelleren Zugriff auf Ressourcen und rationalisierte Workflows bereitzustellen. Diese Zeitersparnis und Reduzierung des Aufwands verbessern die Effizienz der Benutzer, die in ihren Desktop-Workflows mit Assets aus Adobe Experience Manager arbeiten.
+Adobe bietet lösungsübergreifende Workflows an, sodass Branchennutzer und Kreativschaffende noch produktiver arbeiten können. Die [!DNL Adobe Experience Manager]-Desktop-App verbindet Repositorys und Desktop-Anwendungen, einschließlich Adobe und Drittanbieter, um einen schnelleren Zugriff auf Ressourcen und optimierte Workflows zu ermöglichen. Durch diese Zeitersparnis und geringeren Aufwand wird die Effizienz von Benutzern verbessert, die mit Assets von [!DNL Adobe Experience Manager] in ihrer Desktop-Workflows arbeiten.
 
-Mithilfe des Programms können Sie über Ihren lokalen Desktop problemlos auf die Assets in Adobe Experience Manager Assets zugreifen und sie in beliebigen Desktop-Applikationen verwenden. Sie können die Assets in Desktop-Applikationen Ihrer Wahl öffnen und bearbeiten. Die lokalen Änderungen werden nur dann in Adobe Experience Manager als neue Version des Assets verfügbar gemacht, wenn Sie die Änderungen hochladen. Dies ermöglicht die effiziente Bearbeitung von Assets auf dem Desktop. Das Programm unterstützt das Hochladen von Assets und verschachtelten Ordnern in Experience Manager, wodurch neue Inhalte zum Repository hinzugefügt werden können.
+Mithilfe des -Desktop-Programms können Sie über Ihren lokalen problemlos auf die Assets in [!DNL Experience Manager Assets] zugreifen und sie in beliebigen Desktop-Applikationen verwenden. Sie können die Assets in Desktop-Applikationen Ihrer Wahl öffnen und bearbeiten. Die lokalen Bearbeitungen werden in [!DNL Experience Manager] als neue Version des Assets nur dann verfügbar gemacht, wenn Sie die Änderungen hochladen, was eine effiziente Bearbeitung der Assets auf dem Desktop ermöglicht. Die App unterstützt das Hochladen von Assets und verschachtelten Ordnern zu [!DNL Experience Manager] und vereinfacht das Hinzufügen neuer Inhalte zum Repository.
 
-Eine solche Integration ermöglicht es verschiedenen Rollen in der Organisation, die Assets zentral in Experience Manager Assets zu verwalten. Marketing-Experten und Geschäftsbenutzer können die Einhaltung der verschiedenen Standards sicherstellen, einschließlich Branding und Lizenzierung. Kreative Nutzer, die auch über ein dediziertes [Adobe Asset Link](https://www.adobe.com/marketing/experience-manager-assets/adobe-asset-link.html)-Tool für die Arbeit mit Assets in Adobe Photoshop, Illustrator und InDesign verfügen, können auf dem Desktop auch auf Assets in Creative Cloud und anderen nativen Applikationen zugreifen.
+Eine solche Integration ermöglicht es verschiedenen Rollen in der Organisation, die Assets zentral in [!DNL Experience Manager Assets] zu verwalten. Marketing-Experten und Geschäftsbenutzer können die Einhaltung der verschiedenen Standards sicherstellen, einschließlich Branding und Lizenzierung. Kreative Nutzer, die auch über ein dediziertes [Adobe Asset Link](https://www.adobe.com/marketing/experience-manager-assets/adobe-asset-link.html)-Tool für die Arbeit mit Assets in Adobe Photoshop, Illustrator und InDesign verfügen, können auf dem Desktop auch auf Assets in Creative Cloud und anderen nativen Applikationen zugreifen.
 
 >[!NOTE]
 >
->Das Adobe Experience Manager-Desktop-Programm wurde mit Adobe Experience Manager 6.1 eingeführt und zuvor als begleitende Adobe Experience Manager Assets-App bezeichnet. Hilfe zur Programm-Version 1.x finden Sie im Inhaltsverzeichnis in der linken Seitenleiste. Adobe empfiehlt ein Upgrade auf die neueste Version 2.
+>[!DNL Adobe Experience Manager] Die Desktop-App wurde in Version  [!DNL Adobe Experience Manager] 6.1 eingeführt und hieß früher &quot; [!DNL Adobe Experience Manager Assets] Companion App&quot;. Hilfe zur Programm-Version 1.x finden Sie im Inhaltsverzeichnis in der linken Seitenleiste. Adobe empfiehlt ein Upgrade auf die neueste Version 2.
 
 Die Dokumentation zum Desktop-Programm enthält Informationen zu den folgenden Rollen und Anwendungsfällen.
 
@@ -34,12 +30,12 @@ Die Dokumentation zum Desktop-Programm enthält Informationen zu den folgenden R
 | Möchten Sie die Voraussetzungen und technischen Spezifikationen kennenlernen? Benötigen Sie Links zum Herunterladen? | [Versionshinweise](release-notes.md) |
 | Sie kennen das Desktop-Programm bereits? Sie wollen eine Aktualisierung durchführen und einen reibungslosen Übergang sicherstellen? | [Upgrade von früherer Version](install-upgrade.md#upgrade-from-previous-version) |
 | Starten Sie voll durch. Möchten Sie die Standardeinstellungen anpassen? | [Installieren und Konfigurieren des Programms](install-upgrade.md) |
-| Erfahren Sie, wie Sie das Programm zum Durchsuchen, Erkennen, Bearbeiten, Hochladen, Auflösen von Konflikten, Durchführen von Massenvorgängen usw. verwenden können. | [Verwenden des Experience Manager-Desktop-Programms](using.md) |
-| Ist ein Problem aufgetreten? Benötigen Sie Hilfe bei der Fehlerbehebung? | [Fehlerbehebung für das Experience Manager-Desktop-Programm](troubleshoot.md) |
+| Erfahren Sie, wie Sie das Programm zum Durchsuchen, Erkennen, Bearbeiten, Hochladen, Auflösen von Konflikten, Durchführen von Massenvorgängen usw. verwenden können. | [Verwenden des  [!DNL Experience Manager] -Desktop-Programms](using.md) |
+| Ist ein Problem aufgetreten? Benötigen Sie Hilfe bei der Fehlerbehebung? | [Fehlerbehebung bei  [!DNL Experience Manager] der Desktop-App](troubleshoot.md) |
 
 ## Neue Funktionen im Programm {#whats-new-v2}
 
-Version 2.0 des Programms wurde von Grund auf neu entwickelt, um im Vergleich zu früheren Versionen viele Verbesserungen zu bieten. Das neue Programm ist benutzerfreundlicher und bietet ein dediziertes Desktop-Erlebnis mit einer neuen Programm-Oberfläche. Benutzer können Assets suchen und durchsuchen, öffnen, ändern und Änderungen sowie neue Assets hochladen, ohne die Experience Manager-Oberfläche verwenden zu müssen. Diese Version unterstützt auch das Öffnen von Dateien über die Experience Manager-Oberfläche.
+Version 2.0 des Programms wurde von Grund auf neu entwickelt, um im Vergleich zu früheren Versionen viele Verbesserungen zu bieten. Das neue Programm ist benutzerfreundlicher und bietet ein dediziertes Desktop-Erlebnis mit einer neuen Programm-Oberfläche. Benutzer können Assets durch Suchen oder Durchsuchen ermitteln, Änderungen öffnen, bearbeiten und hochladen sowie neue Assets hochladen, ohne dass der Benutzer die [!DNL Experience Manager]-Schnittstelle verwenden muss. Diese Version unterstützt auch das Öffnen von Dateien über die [!DNL Experience Manager]-Schnittstelle.
 
 Das neue Programm verbessert die Benutzerfreundlichkeit erheblich und unterstützt gleichzeitig dieselben Anwendungsfälle wie bisher. Im Folgenden werden die wichtigsten Verbesserungen beschrieben.
 
@@ -53,6 +49,6 @@ Das neue Programm verbessert die Benutzerfreundlichkeit erheblich und unterstüt
 
 Die wichtigsten Anwendungsfälle und Verbesserungen des neuen Programms und ihre Bedeutung für die Customer Journey werden in der folgenden Abbildung gezeigt.
 
-![Neue Funktionen im Experience Manager-Desktop-Programm](assets/aem_desktop_app_usecases_v2.png)
+![Neue Funktionen in der  [!DNL Experience Manager] Desktop-App](assets/aem_desktop_app_usecases_v2.png)
 
 Das Desktop-Programm ermöglicht es Benutzern, alle oben genannten Anwendungsfälle direkt im Programm auszuführen. Bei Bedarf können Sie die Asset-Suche auch in der Web-Oberfläche durchführen und die Assets dann im Programm öffnen und bearbeiten.
