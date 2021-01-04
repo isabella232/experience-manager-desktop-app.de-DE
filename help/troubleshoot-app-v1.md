@@ -1,27 +1,20 @@
 ---
-title: Fehlerbehebung für das AEM-Desktop-Programm, Version 1.x
-description: Informationen zur Fehlerbehebung für das AEM-Desktop-Programm der Version 1.x, um die vereinzelten Probleme zu lösen, die bei der Installation, bei Upgrades, bei der Konfiguration usw. auftreten können.
-uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
-index: y
-internal: n
-snippet: y
+title: 'Fehlerbehebung für die Desktop-App Version 1.x [!DNL Adobe Experience Manager] '
+description: 'Beheben Sie Fehler in der Version 1.x der Desktop-App, um gelegentliche Probleme bei der Installation, Aktualisierung und Konfiguration zu beheben. [!DNL Adobe Experience Manager] '
 translation-type: tm+mt
-source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '3379'
-ht-degree: 100%
+source-wordcount: '3366'
+ht-degree: 97%
 
 ---
 
 
-# Fehlerbehebung für das AEM-Desktop-Programm, v1.x {#troubleshoot-aem-desktop-app}
+# Fehlerbehebung für [!DNL Adobe Experience Manager] Desktop-App v1.x {#troubleshoot-aem-desktop-app}
 
 Führen Sie eine Fehlerbehebung für das AEM-Desktop-Programm durch, um die vereinzelten Probleme zu lösen, die bei der Installation, bei Upgrades, bei der Konfiguration usw. auftreten können.
 
-Das Adobe Experience Manager (AEM)-Desktop-Programm beinhaltet Dienstprogramme, die Sie beim Zuordnen des AEM Assets-Repositorys als Netzwerkfreigabe auf dem Desktop unterstützen (SMB-Freigabe unter macOS). Bei der Netzwerkfreigabe handelt es sich um eine Betriebssystemtechnologie, mit deren Hilfe Remote-Quellen so behandelt werden können, als würden sie zum lokalen Dateisystem eines Computers gehören. Im Falle des Desktop-Programms ist die Digital-Asset-Management-Repository-Struktur einer AEM-Remote-Instanz die als Ziel gewählte Remote-Dateiquelle. In der folgenden Abbildung wird die Topologie des Desktop-Programms beschrieben:
+[!DNL Adobe Experience Manager] Die Desktop-App enthält Hilfsprogramme, die Ihnen bei der Zuordnung des AEM Assets-Repositorys als Netzwerkfreigabe auf dem Desktop helfen (SMB-Freigabe unter Mac OS). Bei der Netzwerkfreigabe handelt es sich um eine Betriebssystemtechnologie, mit deren Hilfe Remote-Quellen so behandelt werden können, als würden sie zum lokalen Dateisystem eines Computers gehören. Im Falle des Desktop-Programms ist die Digital-Asset-Management-Repository-Struktur einer AEM-Remote-Instanz die als Ziel gewählte Remote-Dateiquelle. In der folgenden Abbildung wird die Topologie des Desktop-Programms beschrieben:
 
 ![Abbildung des Desktop-Programms](assets/aem-desktopapp-architecture.png)
 
@@ -70,7 +63,7 @@ Das AEM-Desktop-Programm ist für intensive Manipulationen des Dateisystems nich
 
 Aufgrund der Beschränkungen des Betriebssystems gilt für Windows eine Dateigrößenbeschränkung von 4.294.967.295 Byte (ca. 4,29 GB). Der Grund dafür ist eine Registrierungseinstellung, die definiert, wie groß eine Datei auf einer Netzwerkfreigabe sein darf. Der Wert der Registrierungseinstellung ist ein DWORD-Ausdruck mit einer maximalen Größe, die der referenzierten Zahl entspricht.
 
-Das Experience Manager-Desktop-Programm weist keinen konfigurierbaren Timeout-Wert auf, um die Verbindung zwischen Experience Manager-Server und Programm nach einem bestimmten Zeitintervall zu trennen. Wenn beim Hochladen großer Assets nach einiger Zeit ein Verbindungs-Timeout eintritt, versucht das Programm, das Asset einige Male hochzuladen, indem es den Timeout-Wert für den Upload erhöht. Es gibt keine empfohlene Vorgehensweise, um die Standardeinstellungen für den Timeout zu ändern.
+[!DNL Experience Manager] Die Desktop-App verfügt nicht über einen konfigurierbaren Timeout-Wert, mit dem die Verbindung zwischen  [!DNL Experience Manager] Server- und Desktop-App nach einem bestimmten Zeitintervall getrennt wird. Wenn beim Hochladen großer Assets nach einiger Zeit ein Verbindungs-Timeout eintritt, versucht das Programm, das Asset einige Male hochzuladen, indem es den Timeout-Wert für den Upload erhöht. Es gibt keine empfohlene Vorgehensweise, um die Standardeinstellungen für den Timeout zu ändern.
 
 ## Caching und Kommunikation mit AEM {#caching-and-communication-with-aem}
 
