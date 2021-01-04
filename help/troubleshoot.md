@@ -1,25 +1,18 @@
 ---
-title: Best Practices und Fehlerbehebung für das Adobe Experience Manager-Desktop-Programm
+title: 'Bewährte Verfahren und Fehlerbehebung für die Desktop-App [!DNL Adobe Experience Manager] '
 description: Befolgen Sie die Best Practices und führen Sie eine Fehlerbehebung durch, um gelegentliche Probleme im Zusammenhang mit Installation, Aktualisierung, Konfiguration usw. zu beheben.
-uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 100%
+source-wordcount: '2120'
+ht-degree: 87%
 
 ---
 
 
-# Fehlerbehebung für das Adobe Experience Manager-Desktop-Programm {#troubleshoot-v2}
+# Fehlerbehebung bei der [!DNL Adobe Experience Manager] Desktop-App {#troubleshoot-v2}
 
-Das Adobe Experience Manager-Desktop-Programm stellt eine Verbindung zum Digital-Asset-Management-Repository (DAM) einer Remote-Bereitstellung von Experience Manager her. Das Programm ruft Repository-Informationen und Suchergebnisse auf Ihrem Computer ab, lädt Dateien und Ordner herunter und lädt sie hoch und bietet Funktionen zum Verwalten von Konflikten mit der Benutzeroberfläche von Assets.
+[!DNL Adobe Experience Manager] Die Desktop-App stellt eine Verbindung zum DAM-Repository (Digital Asset Management) einer  [!DNL Experience Manager] Bereitstellung her. Das Programm ruft Repository-Informationen und Suchergebnisse auf Ihrem Computer ab, lädt Dateien und Ordner herunter und lädt sie hoch und bietet Funktionen zum Verwalten von Konflikten mit der Benutzeroberfläche von Assets.
 
 Lesen Sie weiter, um Fehler im Programm zu beheben, lernen Sie die Best Practices kennen und erfahren Sie mehr über Einschränkungen.
 
@@ -27,23 +20,23 @@ Lesen Sie weiter, um Fehler im Programm zu beheben, lernen Sie die Best Practice
 
 Befolgen Sie die folgenden Best Practices, um einige häufige Probleme und die Fehlerbehebung zu vermeiden.
 
-* **So funktioniert das Desktop-Programm**: Bevor Sie mit der Verwendung des Programms beginnen, sollten Sie sich kurz mit ihrer Funktionsweise vertraut machen. Erfahren Sie mehr über Verknüpfung zwischen der Web-Oberfläche von Experience Manager und dem Desktop-Programm, Repository-Zuordnung, Asset-Zwischenspeicherung, lokales Speichern und Hochladen im Hintergrund. Machen Sie sich mit der [Funktionsweise](release-notes.md#how-app-works) vertraut:
+* **So funktioniert das Desktop-Programm**: Bevor Sie mit der Verwendung des Programms beginnen, sollten Sie sich kurz mit ihrer Funktionsweise vertraut machen. Erfahren Sie mehr über die Verknüpfung zwischen [!DNL Experience Manager] Weboberfläche und Desktop, Repository-Zuordnung, Asset-Zwischenspeicherung, Lokales Speichern und Hochladen im Hintergrund. Machen Sie sich mit der [Funktionsweise](release-notes.md#how-app-works) vertraut:
 
-* **Vermeiden Sie nicht unterstützte Zeichen in Ordnernamen**: Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen und ungültige Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=de#creating-folders). In einigen Adobe Experience Manager-Anwendungsfällen können durch nicht unterstützte Zeichen im Ordnernamen Probleme auftreten.
+* **Vermeiden Sie nicht unterstützte Zeichen in Ordnernamen**: Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen und ungültige Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=de#creating-folders). Einige [!DNL Experience Manager]-Anwendungsfälle können durch nicht unterstützte Zeichen im Ordnernamen beeinträchtigt werden.
 
 * **Best Practices zur Vermeidung von Konflikten**: Um mögliche Konflikte bei der Zusammenarbeit mit mehreren Assets zu vermeiden, lesen Sie [Vermeiden von Bearbeitungskonflikten](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **Verwenden Sie den Ordner-Upload für große, hierarchische Ordner**: Verwenden Sie anstelle der Assets-Web-Oberfläche oder anderer Methoden das Experience Manager-Desktop-Programm, um große Ordner hochzuladen. Das Programm lädt die Assets mit Protokollierung und Überwachung im Hintergrund hoch. Siehe [Massen-Upload von Assets](using.md#bulk-upload-assets).
+* **Verwenden Sie den Ordner-Upload für große, hierarchische Ordner**: Verwenden Sie anstelle der Assets-Weboberfläche oder anderer Methoden die  [!DNL Experience Manager] Desktop-App, um große Ordner hochzuladen. Das Programm lädt die Assets mit Protokollierung und Überwachung im Hintergrund hoch. Siehe [Massen-Upload von Assets](using.md#bulk-upload-assets).
 
-* **Verwenden Sie die neueste Version**: Verwenden Sie die neueste Programmversion und prüfen Sie immer, ob die Kompatibilität gewährleistet ist, bevor Sie eine neue Programmversion installieren oder bevor Sie auf eine neuere Adobe Experience Manager-Version aktualisieren. Siehe [Versionshinweise](release-notes.md).
+* **Verwenden Sie die neueste Version**: Verwenden Sie die neueste App-Version und prüfen Sie immer, ob die Kompatibilität gewährleistet ist, bevor Sie eine neue App-Version installieren oder bevor Sie auf eine neuere  [!DNL Experience Manager] Version aktualisieren. Siehe [Versionshinweise](release-notes.md).
 
-* **Verwenden Sie denselben Laufwerksbuchstaben**: Verwenden Sie in der gesamten Organisation denselben Laufwerksbuchstaben für Adobe Experience Manager DAM. Damit von anderen Benutzern platzierte Assets angezeigt werden können, müssen die Pfade identisch sein. Mit demselben Laufwerksbuchstaben wird ein konstanter Pfad zu DAM-Assets sichergestellt. Die Assets bleiben platziert und werden auch dann nicht entfernt, wenn verschiedene Laufwerksbuchstaben von verschiedenen Benutzern verwendet werden.
+* **Verwenden Sie denselben Laufwerksbuchstaben**[!DNL Experience Manager]: Verwenden Sie in der gesamten Organisation denselben Laufwerksbuchstaben für  DAM. Damit von anderen Benutzern platzierte Assets angezeigt werden können, müssen die Pfade identisch sein. Mit demselben Laufwerksbuchstaben wird ein konstanter Pfad zu DAM-Assets sichergestellt. Die Assets bleiben platziert und werden auch dann nicht entfernt, wenn verschiedene Laufwerksbuchstaben von verschiedenen Benutzern verwendet werden.
 
-* **Beachten Sie das Netzwerk**: Die Netzwerkleistung ist von entscheidender Bedeutung für die Leistung des Experience Manager-Desktop-Programms. Wenn die Reaktion auf Dateiübertragungen oder Massenvorgänge verlangsamt ist, deaktivieren Sie die Funktionen oder Applikationen, die zu viel Netzwerkverkehr führen können.
+* **Beachten Sie das Netzwerk**: Die Netzwerkleistung ist von entscheidender Bedeutung für die Leistung der  [!DNL Experience Manager] Desktop-App. Wenn die Reaktion auf Dateiübertragungen oder Massenvorgänge verlangsamt ist, deaktivieren Sie die Funktionen oder Applikationen, die zu viel Netzwerkverkehr führen können.
 
 * **Vom Desktop-Programm nicht unterstützte Anwendungsfälle**: Verwenden Sie das Programm nicht für die Asset-Migration (diese muss gründlich geplant werden und erfordert andere Tools), anspruchsvolle DAM-Operationen (z. B. Verschieben großer Ordner, Uploads großer Dateien, Suchen von Dateien anhand erweiterter Metadaten-Suchen) oder als Synchronisierungs-Client (Design- und Nutzungsmuster unterscheiden sich von In-Sync-Clients wie Microsoft OneDrive oder Adobe Creative Cloud-Desktop-Synchronisierung).
 
-* **Timeout**: Das Desktop-Programm weist derzeit keinen konfigurierbaren Timeout-Wert auf, um die Verbindung zwischen dem Experience Manager-Server und dem Programm nach einem bestimmten Zeitintervall zu trennen. Wenn beim Hochladen großer Assets nach einiger Zeit ein Verbindungs-Timeout eintritt, versucht das Programm, das Asset einige Male hochzuladen, indem es den Timeout-Wert für den Upload erhöht. Es gibt keine empfohlene Vorgehensweise, um die Standardeinstellungen für den Timeout zu ändern.
+* **Timeout**: Derzeit verfügt die Desktop-App nicht über einen konfigurierbaren Timeout-Wert, der die Verbindung zwischen  [!DNL Experience Manager] Server- und Desktop-App nach einem bestimmten Zeitintervall trennt. Wenn beim Hochladen großer Assets nach einiger Zeit ein Verbindungs-Timeout eintritt, versucht das Programm, das Asset einige Male hochzuladen, indem es den Timeout-Wert für den Upload erhöht. Es gibt keine empfohlene Vorgehensweise, um die Standardeinstellungen für den Timeout zu ändern.
 
 ## Fehlerbehebung {#troubleshooting-prep}
 
@@ -119,7 +112,7 @@ So aktivieren Sie den Debug-Modus unter Windows:
 
 Führen Sie die folgenden Schritte durch:
 
-1. Starten Sie das Programm und verbinden Sie eine Experience Manager-Instanz.
+1. Beginn der Anwendung und Verbinden Sie eine [!DNL Experience Manager]-Instanz.
 
 1. Öffnen Sie die Voreinstellungen des Programms, indem Sie auf die Auslassungspunkte in der oberen rechten Ecke klicken und die Option [!UICONTROL Preferences] auswählen.
 
@@ -163,9 +156,9 @@ Wenn Sie die Assets, die Sie oder andere Kreativprofis in den Support-Dateien ge
 
 * Dateigröße. Das Herunterladen und Anzeigen großer Assets dauert länger.
 
-* Konsistenz der Laufwerksbuchstaben. Wenn Sie oder ein anderer Mitarbeiter die Assets platziert haben, während das Experience Manager-DAM einem anderen Laufwerksbuchstaben zugeordnet war, werden die platzierten Assets nicht angezeigt.
+* Konsistenz der Laufwerksbuchstaben. Wenn Sie oder ein anderer Mitarbeiter die Assets platziert haben, während Sie den DAM [!DNL Experience Manager] einem anderen Laufwerksbuchstaben zuordnen, werden die platzierten Assets nicht angezeigt.
 
-* Berechtigungen. Wenden Sie sich an Ihren Experience Manager-Administrator, um zu prüfen, ob Sie berechtigt sind, die platzierten Assets abzurufen.
+* Berechtigungen. Wenden Sie sich an Ihren [!DNL Experience Manager]-Administrator, um zu prüfen, ob Sie berechtigt sind, die platzierten Assets abzurufen.
 
 ### Änderungen an Dateien in der Benutzeroberfläche des Desktop-Programms werden in [!DNL Adobe Experience Manager] nicht sofort übernommen {#changes-on-da-not-visible-on-aem}
 
@@ -173,7 +166,7 @@ Das [!DNL Adobe Experience Manager]-Desktop-Programm überlässt es dem Benutzer
 
 ### Probleme beim Aktualisieren unter macOS {#issues-when-upgrading-on-macos}
 
-Gelegentlich können bei einem Upgrade des Experience Manager-Desktop-Programms unter macOS Probleme auftreten. Die Ursache liegt darin, dass der alte Systemordner des Experience Manager-Desktop-Programms verhindert, dass neue Versionen des Experience Manager-Desktop-Programms korrekt geladen werden. Zur Behebung dieses Problems können die folgenden Ordner und Dateien manuell entfernt werden.
+Gelegentlich können Probleme auftreten, wenn die [!DNL Experience Manager] Desktop-App unter macOS aktualisiert wird. Dies wird durch den alten Systemordner für die [!DNL Experience Manager] Desktop-App verursacht, sodass neue Versionen der [!DNL Experience Manager] Desktop-App nicht korrekt geladen werden. Zur Behebung dieses Problems können die folgenden Ordner und Dateien manuell entfernt werden.
 
 Ziehen Sie das `Adobe Experience Manager Desktop`-Programm vor dem Ausführen der folgenden Schritte aus dem Ordner „macOS-Applikationen“ in den Papierkorb. Öffnen Sie dann Terminal, führen Sie den folgenden Befehl aus und geben Sie Ihr Kennwort ein, wenn Sie dazu aufgefordert werden.
 
@@ -188,7 +181,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ### Dateien können nicht hochgeladen werden {#upload-fails}
 
-Wenn Sie das Desktop-Programm mit Experience Manager 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Dadurch wird das Problem mit dem Hochladen von Dateien im Zusammenhang mit [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) behoben. Siehe [Installationsanweisungen](install-upgrade.md#install-v2).
+Wenn Sie eine Desktop-App mit der Version [!DNL Experience Manager] 6.5.1 oder höher verwenden, aktualisieren Sie S3 oder Azurblauer Connector auf Version 1.10.4 oder höher. Dadurch wird das Problem mit dem Hochladen von Dateien im Zusammenhang mit [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) behoben. Siehe [Installationsanweisungen](install-upgrade.md#install-v2).
 
 ### Verbindungsprobleme mit dem [!DNL Experience Manager]-Desktop-Programm {#connection-issues}
 
@@ -256,9 +249,9 @@ Wenn Sie sich die URL-Sequenz ansehen, die geladen wird, können Sie die Fehlerb
 
 #### Problem bei der SSL-Konfiguration {#ssl-config-v2}
 
-Die Bibliotheken, die das Experience Manager-Desktop-Programm zur HTTP-Kommunikation nutzt, setzen auf strikte SSL-Durchsetzung. Mitunter kann zwar über einen Browser eine Verbindung erfolgreich hergestellt werden, aber nicht über das Experience Manager-Desktop-Programm. Installieren Sie für eine ordnungsgemäße SSL-Konfiguration das fehlende Zwischenzertifikat in Apache. Siehe [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575) (nur auf Englisch verfügbar).
+Die Bibliotheken, die die [!DNL Experience Manager]-Desktop-App für die HTTP-Kommunikation verwendet, verwenden eine strikte SSL-Durchsetzung. Manchmal kann eine Verbindung mit einem Browser erfolgreich sein, aber bei der Verwendung der [!DNL Experience Manager]-Desktop-App ist ein Fehler aufgetreten. Installieren Sie für eine ordnungsgemäße SSL-Konfiguration das fehlende Zwischenzertifikat in Apache. Siehe [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575) (nur auf Englisch verfügbar).
 
-Die Bibliotheken, die das Experience Manager-Desktop-Programm zur HTTP-Kommunikation nutzt, setzen auf strikte SSL-Durchsetzung. Es kann also Fälle geben, in denen SSL-Verbindungen, die über einen Browser erfolgreich sind, mit dem [!DNL Adobe Experience Manager]-Desktop-Programm fehlschlagen. Dies ist gut, da es die korrekte Konfiguration von SSL fördert und die Sicherheit erhöht, kann aber frustrierend sein, wenn das Programm keine Verbindung herstellen kann.
+Die Bibliotheken, die von der [!DNL Experience Manager]-Desktop-App für die HTTP-Kommunikation verwendet werden, verwenden eine strikte SSL-Durchsetzung. Es kann also Fälle geben, in denen SSL-Verbindungen, die über einen Browser erfolgreich sind, mit dem [!DNL Adobe Experience Manager]-Desktop-Programm fehlschlagen. Dies ist gut, da es die korrekte Konfiguration von SSL fördert und die Sicherheit erhöht, kann aber frustrierend sein, wenn das Programm keine Verbindung herstellen kann.
 
 Der empfohlene Ansatz in diesem Fall besteht darin, ein Tool zu verwenden, um das SSL-Zertifikat eines Servers zu analysieren und Probleme zu identifizieren, damit diese korrigiert werden können. Es gibt Websites, die das Zertifikat eines Servers bei der Übermittlung seiner URL überprüfen.
 
