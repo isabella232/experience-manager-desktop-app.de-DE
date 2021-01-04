@@ -1,11 +1,11 @@
 ---
-title: Best Practices für das AEM-Desktop-Programm, Version 1.x
-description: Wichtige Funktionen und empfohlene Verwendung des Adobe Experience Manager-Desktop-Programms, Version 1.x.
+title: '[!DNL Adobe Experience Manager] Best Practices für die Desktop-App Version 1.x'
+description: Wichtige Funktionen und empfohlene Verwendung von  [!DNL Adobe Experience Manager] Desktop-App Version 1.x.
 translation-type: tm+mt
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 100%
+source-wordcount: '1686'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## Überblick {#overview}
 
-Das Adobe Experience Manager (AEM)-Desktop-Programm verknüpft Ihre Digital-Asset-Management-Lösung (DAM) mit dem Desktop, damit Sie in der AEM-Web-Benutzeroberfläche verfügbare Dateien direkt auf dem Desktop öffnen können. Wenn Sie ein Asset vom Desktop aus speichern, wird es in den entsprechenden Speicherort in AEM hochgeladen.
+[!DNL Adobe Experience Manager] Die Desktop-App verknüpft Ihre DAM-Lösung (Digital Asset Management) mit Ihrem Desktop, damit Sie die in der AEM Web-Benutzeroberfläche verfügbaren Dateien direkt auf dem Desktop öffnen können. Wenn Sie ein Asset vom Desktop aus speichern, wird es in den entsprechenden Speicherort in AEM hochgeladen.
 
 Das AEM-Desktop-Programm verhindert auf diese Weise, dass die falschen lokalen Kopien oder die falschen Assets in AEM aktualisiert werden. Der benutzerfreundliche Workflow des Desktop-Programms wird mithilfe der Netzwerkfreigabetechnologie aktiviert, die von Desktop-Betriebssystemen bereitgestellt wird.
 
@@ -32,7 +32,7 @@ Das AEM-Desktop-Programm stellt Netzwerkfreigaben über WebDAV (Windows) oder SM
 
 *Abbildung: Architektur des Desktop-Programms*
 
-Das zusätzliche Caching bei Schreibvorgängen führt, wenn eine Datei gespeichert wird, dazu, dass die Datei zunächst lokal gespeichert wird (sodass der Benutzer nicht auf die Netzwerkübertragung warten muss). Anschließend wird nach einer vordefinierten Verzögerung (30 Sekunden) die Datei zunächst im Hintergrund in AEM hochgeladen, woraufhin dann das Asset hochgeladen wird. Das AEM-Desktop-Programm verfügt über eine Benutzeroberfläche zum Überwachen des Status von Datei-Uploads im Hintergrund.
+Das zusätzliche Caching bei Schreibvorgängen führt, wenn eine Datei gespeichert wird, dazu, dass die Datei zunächst lokal gespeichert wird (sodass der Benutzer nicht auf die Netzwerkübertragung warten muss). Dann nach einer vordefinierten Verzögerung (30 Sekunden) die Datei zunächst im Hintergrund in AEM hochgeladen, woraufhin dann das Asset hochgeladen wird. Das AEM-Desktop-Programm verfügt über eine Benutzeroberfläche zum Überwachen des Status von Datei-Uploads im Hintergrund.
 
 ## Verwendungsempfehlung für das AEM-Desktop-Programm {#recommended-use-of-aem-desktop-app}
 
