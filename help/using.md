@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
 source-wordcount: '3906'
-ht-degree: 79%
+ht-degree: 81%
 
 ---
 
@@ -128,7 +128,7 @@ Um den lokalen Download-Ordner eines Assets zu öffnen, klicken Sie auf das Symb
 
 ## Verwenden oder Platzieren von Assets in nativen Dokumenten {#place-assets-in-native-documents}
 
-In einigen Fällen, z. B. beim Platzieren eines Assets in einem nativen Dokument, greifen Sie in Windows Explorer oder Mac Finder auf eine Datei zu. Um zum Speicherort der lokal heruntergeladenen Datei im Dateisystem zu gelangen, verwenden Sie die Option ![Anzeigen](assets/do-not-localize/reveal_action2_da2.png)**[!UICONTROL Reveal File]**.
+In einigen Fällen, z. B. beim Platzieren eines Assets in einem nativen Dokument, greifen Sie in Windows Explorer oder Mac Finder auf eine Datei zu. Um zum Speicherort der lokal heruntergeladenen Datei im Dateisystem zu gelangen, verwenden Sie die Option ![Anzeigen](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]**.
 
 ![Aktion „Datei anzeigen“ für ein Asset](assets/revealfile_action_da2.png "Aktion „Datei anzeigen“ für ein Asset")
 
@@ -173,7 +173,7 @@ Deaktivieren Sie ggf. das Auschecken. Das aktualisierte Asset wird aus dem lokal
 
 ## Hochladen und Hinzufügen neuer Assets zu [!DNL Experience Manager] {#upload-and-add-new-assets-to-aem}
 
-Benutzer können dem DAM-Repository neue Assets hinzufügen. Sie können z. B. ein Agenturfotograf oder -auftragnehmer sein, der eine große Anzahl von Fotos von einem Fotoshot zum [!DNL Experience Manager]-Repository hinzufügen möchte. Um [!DNL Experience Manager] neuen Inhalt hinzuzufügen, wählen Sie in der oberen Leiste der App die Option ![In Cloud hochladen](assets/do-not-localize/upload_to_cloud_da2.png). Navigieren Sie zu den Asset-Dateien im lokalen Dateisystem und klicken Sie auf **[!UICONTROL Select]**. Alternativ können Sie die Dateien oder Ordner auf die Benutzeroberfläche der Anwendung ziehen. Die App-Beginn laden das Asset hoch. Wenn der Upload länger dauert, zeigt die App unten eine Fortschrittsleiste an. Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen oder ungültigen Zeichen. Eine Liste der zulässigen Zeichen finden Sie unter [Erstellen von Ordnern in [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=de#creating-folders).
+Benutzer können dem DAM-Repository neue Assets hinzufügen. Vielleicht sind Sie z. B. ein Agenturfotograf oder -auftragnehmer, der eine große Anzahl von Fotos aus einem Foto-Shooting zum [!DNL Experience Manager]-Repository hinzufügen möchte. Um [!DNL Experience Manager] neue Inhalte hinzuzufügen, wählen Sie ![die Option „In Cloud hochladen“](assets/do-not-localize/upload_to_cloud_da2.png) in der oberen Leiste des Programms aus. Navigieren Sie zu den Asset-Dateien im lokalen Dateisystem und klicken Sie auf **[!UICONTROL Select]**. Alternativ können Sie die Dateien oder Ordner auf die Benutzeroberfläche des Programms ziehen. Das Programm beginnt mit dem Hochladen des Assets. Wenn der Upload länger dauert, zeigt das Programm unten eine Fortschrittsleiste an. Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen oder ungültigen Zeichen. Eine Liste der zulässigen Zeichen finden Sie unter [Erstellen von Ordnern in  [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=de#creating-folders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
