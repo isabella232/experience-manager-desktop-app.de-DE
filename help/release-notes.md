@@ -1,19 +1,19 @@
 ---
-title: '[!DNL Adobe Experience Manager] Versionshinweise zur Desktop-App'
-description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Download-Links für die [!DNL Adobe Experience Manager] Desktop-App.
+title: '[!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm'
+description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das  [!DNL Adobe Experience Manager] -Desktop-Programm.
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1346'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Adobe Experience Manager] Versionshinweise zur Desktop-App  {#release-notes-v2}
+# [!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm {#release-notes-v2}
 
-| Produkte | [!DNL Adobe Experience Manager] Desktop-App |
+| Produkte | [!DNL Adobe Experience Manager]-Desktop-Programm |
 |--- |--- |
 | Programm-Version (Revision) | 2.1 (2.1.0.0) |
 | Unterstützte [!DNL Adobe Experience Manager]-Versionen | [!DNL Experience Manager] as a [!DNL Cloud Service]; [!DNL Experience Manager] 6.5; [!DNL Experience Manager] 6.4; [!DNL Experience Manager] 6.3 (mit Kompatibilitätspaket) |
@@ -25,7 +25,7 @@ ht-degree: 72%
 
 Das [!DNL Adobe Experience Manager]-Desktop-Programm ist mit den folgenden Betriebssystemen kompatibel:
 
-* Mac OS X 10.14 oder höher mit aktuellen Fehlerbehebungen.
+* macOS X 10.14 oder höher mit aktuellen Fehlerbehebungen.
 
 * Windows 10 mit den aktuellsten Service Packs und Fehlerbehebungen.
 
@@ -33,7 +33,7 @@ Das [!DNL Adobe Experience Manager]-Desktop-Programm ist mit den folgenden Betri
 >
 >Windows 7 wird vom Anbieter nicht mehr unterstützt (https://support.microsoft.com/de-de/help/4057281/windows-7-support-ended-on-january-14-2020).
 
-Die App funktioniert mit den folgenden [!DNL Experience Manager]-Versionen, unabhängig davon, ob sie als [!DNL Cloud Service], auf Adobe Managed Services (AMS) oder vor Ort bereitgestellt werden:
+Das Programm funktioniert mit den folgenden [!DNL Experience Manager]-Versionen, unabhängig davon, ob sie als [!DNL Cloud Service], über Adobe Managed Services (AMS) oder On-Premise bereitgestellt werden:
 
 * [[!DNL Experience Manager] as a [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=de).
 
@@ -46,29 +46,29 @@ Die App funktioniert mit den folgenden [!DNL Experience Manager]-Versionen, unab
 >[!NOTE]
 >
 >Die Unterstützung des Desktop-Programms für [!DNL Experience Manager] 6.3 wurde eingestellt. Adobe empfiehlt ein Upgrade auf eine neuere und unterstützte [!DNL Adobe Experience Manager]-Version.
->[!DNL Experience Manager] 6.3.3.1 oder höher funktioniert mit dem Desktop-Programm, nachdem das [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installiert wurde. Für [!DNL Experience Manager] 6.3 ist kein solches Paket verfügbar, da keine [Service Packs geplant sind](https://helpx.adobe.com/de/experience-manager/maintenance-releases-roadmap.html).
+>[!DNL Experience Manager] 6.3.3.1 oder höher funktioniert mit dem Desktop-Programm, nachdem das [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installiert wurde. Für [!DNL Experience Manager] 6.3 ist kein solches Paket verfügbar, da keine [Service Packs geplant sind](https://helpx.adobe.com/de/experience-manager/maintenance-releases-roadmap.html).
 
-Die Version der App, die Sie auf Ihrem lokalen Computer installieren möchten, erfordert eine bestimmte [!DNL Adobe Experience Manager]-Serverversion/zusätzliche serverseitige Komponenten (Service Packs, Hotfixes oder Feature Packs). Wenden Sie sich zwecks Hilfe an Ihren [!DNL Experience Manager]-Administrator.
+Für die Version des Programms, die Sie auf Ihrem lokalen Computer installieren möchten, sind eine bestimmte [!DNL Adobe Experience Manager]-Server-Version oder zusätzliche Server-seitige Komponenten (Service Packs, Hotfixes oder Feature Packs) erforderlich. Wenden Sie sich an Ihren [!DNL Experience Manager]-Administrator, wenn Sie Hilfe benötigen.
 
 ### Unterstützung verschiedener Asset- und Dateitypen {#support-for-file-types}
 
-Die Anwendung unterstützt in [!DNL Experience Manager] gespeicherte Elemente, die binäre Dateien für die grundlegenden Vorgänge darstellen. Das Öffnen von Dateien in der nativen Desktop-Applikation hängt von der Betriebssystemverknüpfung bestimmter Dateitypen wie PNG oder JPG mit bestimmten Applikationen wie Mac Preview oder Adobe Photoshop ab.
+Das Programm unterstützt in [!DNL Experience Manager] gespeicherte Assets, die Binärdateien für die grundlegenden Vorgänge darstellen. Das Öffnen von Dateien im nativen Desktop-Programm hängt von der Betriebssystemverknüpfung bestimmter Dateitypen wie PNG oder JPG mit bestimmten Programmen wie Mac Preview oder Adobe Photoshop ab.
 
-Einige Dateitypen unterstützen das Platzieren von verknüpften Assets in der Binärdatei. Die Anwendung lädt die verknüpften Assets vorab herunter, wenn das Asset im [!DNL Experience Manager]-Repository vorhanden ist, wenn diese Binärdateien mit der Desktop-App geöffnet werden. Derzeit werden folgende Dateitypen unterstützt:
+Einige Dateitypen unterstützen das Platzieren von verknüpften Assets in der Binärdatei. Das Programm lädt die verknüpften Assets vorab herunter, falls das Asset im [!DNL Experience Manager]-Repository vorhanden ist, wenn diese Binärdateien mit dem Desktop-Programm geöffnet werden. Derzeit werden folgende Dateitypen unterstützt:
 
 * [!DNL Adobe InDesign]-Dateien (INDD-Format)
 * [!DNL Adobe Illustrator]-Dateien (AI-Format)
 * [!DNL Adobe Photoshop]-Dateien (PS-Format)
 
-Die Funktion wird mit den Versionen [!DNL Adobe Creative Cloud] 2018 und [!DNL Adobe Creative Cloud] 2019 der oben genannten Anwendung unterstützt. Die App verwendet einen heuristischen, am besten übereinstimmenden Ansatz, um die lokalen Desktop-Pfade verknüpfter Assets URLs auf dem [!DNL Experience Manager]-Server zuzuordnen. Dieser Ansatz beruht auf den folgenden Annahmen:
+Diese Funktion wird in den Versionen [!DNL Adobe Creative Cloud] 2018 und [!DNL Adobe Creative Cloud] 2019 des oben genannten Programms unterstützt. Das Programm verwendet einen heuristischen Best-Match-Ansatz, um die lokalen Desktop-Pfade verknüpfter Assets URLs auf dem [!DNL Experience Manager]-Server zuzuordnen. Dieser Ansatz beruht auf den folgenden Annahmen:
 
-* Pfade zu platzierten Dateien in der nativen Applikation verwenden einen globalen Desktop-Pfad (platziert von der lokalen Netzwerkfreigabe mit der Option [!UICONTROL Reveal]).
+* Pfade zu platzierten Dateien im nativen Programm verwenden einen globalen Desktop-Pfad (platziert von der lokalen Netzwerkfreigabe mit der Option [!UICONTROL Reveal]).
 
-* Pfade werden von der nativen Applikation im XMP-Datensatz der Datei gespeichert.
+* Pfade werden vom nativen Programm im XMP-Datensatz der Datei gespeichert.
 
 * [!DNL Experience Manager] hat den XMP-Datensatz mit den Pfaden zum Metadaten-Datensatz des Assets extrahiert.
 
-* Die Pfade können mit Assets in [!DNL Experience Manager] übereinstimmen, d. h. die platzierten Dateien befinden sich auch unter einem übereinstimmenden Pfad in [!DNL Experience Manager].
+* Die Pfade können mit Assets in [!DNL Experience Manager] übereinstimmen, das heißt, die platzierten Dateien befinden sich auch in [!DNL Experience Manager] unter einem übereinstimmenden Pfad.
 
 ## Neue Funktionen und Erweiterungen {#whats-new-added}
 
@@ -104,27 +104,27 @@ Die folgenden Fehlerbehebungen und Aktualisierungen sind verfügbar:
 
 * Option zum Konfigurieren des Verzeichnisses `%Temp%` entsprechend dem Pfad `%APPDATA%`. <!-- CQ-4282665 -->
 
-* Erlauben Sie Benutzern, sich über die Okta SAML-Authentifizierung bei [!DNL Experience Manager] Autor anzumelden. <!-- CQ-4278134 -->
+* Benutzer können sich über die Okta-SAML-Authentifizierung bei der [!DNL Experience Manager]-Autoreninstanz anmelden. <!-- CQ-4278134 -->
 
 ## Installationsanweisungen {#installation-instructions-v2}
 
-Informationen zum Installieren und Konfigurieren der App finden Sie unter [Installieren [!DNL Experience Manager] Desktop-App](install-upgrade.md).
+Informationen zum Installieren und Konfigurieren des Programms finden Sie unter [Installieren des  [!DNL Experience Manager] -Desktop-Programms](install-upgrade.md).
 
-Wenn Sie ein Upgrade von einer vorherigen [!DNL Experience Manager]-Desktop-App durchführen, müssen Sie die folgenden Best Practices für die Umstellung befolgen, die unter [Upgrade von einer früheren Version](install-upgrade.md#upgrade-from-previous-version) aufgeführt sind.
+Wenn Sie von einer vorherigen Version des [!DNL Experience Manager]-Desktop-Programms aktualisieren, müssen Sie die folgenden Best Practices für die Umstellung befolgen, die unter [Upgrade von früherer Version](install-upgrade.md#upgrade-from-previous-version) aufgeführt werden.
 
 ## Wichtige Hinweise zur Funktionsweise des Programms {#how-app-works}
 
 Es ist wichtig, die folgenden Informationen zum Programm und dessen Funktionsweise zu verstehen.
 
-* Die Anwendung bietet vollständige Kontrolle über Vorgänge, bei denen Asset-Binärdateien vollständig von und nach [!DNL Experience Manager] übertragen werden müssen (Öffnen, Bearbeiten, Hochladen von Änderungen und Hochladen von Assets).
+* Das Programm bietet vollständige Kontrolle über Vorgänge, bei denen Asset-Binärdateien vollständig von und nach [!DNL Experience Manager] übertragen werden müssen (Öffnen, Bearbeiten, Hochladen von Assets und Hochladen von Änderungen).
 
    * Wenn Sie mit dem Asset auf dem Desktop arbeiten möchten, müssen Sie es explizit auf Ihrem Desktop öffnen, bearbeiten oder herunterladen, entweder einzeln, in einem Ordner oder über eine Mehrfachauswahl.
 
-   * Wenn Sie lokale Änderungen an Assets abrufen möchten, die auf [!DNL Experience Manager] hochgeladen wurden, müssen Sie [!UICONTROL Upload Changes] entweder einzeln oder über eine Mehrfachauswahl auswählen.
+   * Wenn Sie möchten, dass lokale Änderungen an Assets nach [!DNL Experience Manager] hochgeladen werden, müssen Sie [!UICONTROL Upload Changes] entweder einzeln oder über eine Mehrfachauswahl auswählen.
 
-   * Die Anwendung ist kein &quot;Synchronisierungs-Client&quot;, der Assets über den Desktop und [!DNL Experience Manager] synchronisiert.
+   * Das Programm ist kein Synchronisierungs-Client, der Assets auf dem Desktop und in [!DNL Experience Manager] synchronisiert.
 
-   * Die Anwendung stellt keine Netzwerkfreigabe bereit, die das [!DNL Experience Manager]-Repository als virtuelle Ordnerstruktur zuordnet.
+   * Das Programm stellt keine Netzwerkfreigabe bereit, die das [!DNL Experience Manager]-Repository als eine virtuelle Ordnerstruktur zuordnet.
 
 * Die Liste der vom Programm angezeigten Assets basiert auf dem Status des Assets-Repositorys. Dateien, die lokal heruntergeladen und dann in den lokalen Dateien oder im Cache-Ordner umbenannt wurden, werden vom Programm nicht angezeigt oder verwaltet.
 
@@ -132,11 +132,11 @@ Es ist wichtig, die folgenden Informationen zum Programm und dessen Funktionswei
 
 * Die lokale Netzwerkfreigabe, bei Verwendung der Aktion [!UICONTROL Reveal File]. Sie zeigt nur Dateien (und Ordner) an, die lokal verfügbar sind. [!UICONTROL Reveal File] und [!UICONTROL Reveal Folder] lädt Assets vorab herunter, damit die richtigen Assets in der lokalen Netzwerkfreigabe angezeigt werden.
 
-* Die lokale Netzwerkfreigabe SMB (Mac)/WebDAV (Win) wird verwendet, wenn eine Adobe Creative Cloud-Applikation die Asset-Dateien liest, die verknüpft sind/in einer nativen Datei der Creative Cloud-Applikation platziert wurden.
+* Die lokale Netzwerkfreigabe SMB (Mac)/WebDAV (Win) wird verwendet, wenn ein Adobe Creative Cloud-Programm die Asset-Dateien liest, die verknüpft sind/in einer nativen Datei des Creative Cloud-Programms platziert wurden.
 
 Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum lokalen Dateisystem und umgekehrt, der durch Benutzeraktionen initiiert wird.
 
-![Fluss von Assets vom  [!DNL Experience Manager] Server zu nativen Desktop-Apps über die Desktop-App](assets/da20_flow_diagram.png)
+![Fluss von Assets vom [!DNL Experience Manager]-Server zu nativen Desktop-Programmen über das Desktop-Programm](assets/da20_flow_diagram.png)
 
 ## Bekannte Probleme {#known-issues-v2}
 
@@ -150,13 +150,13 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 
 * Nach dem Anwenden und Entfernen des Filters, um alle lokal bearbeiteten Assets zu finden, wechselt das Programm nicht zu den Suchergebnissen oder der Ordneransicht, mit denen die Benutzer begonnen haben. Das Programm zeigt den Stammordner des DAM-Repositorys an.
 
-* Wenn Sie eine Verbindung zu einer URL herstellen, für die kein [!DNL Experience Manager]-Server ausgeführt wird, reagiert der Bildschirm &quot;Verbindung&quot;manchmal nicht mehr. Beenden Sie das Programm und starten Sie es erneut.
+* Wenn Sie eine Verbindung zu einer URL herstellen, bei der kein [!DNL Experience Manager]-Server ausgeführt wird, reagiert der Bildschirm „Verbindung“ manchmal nicht mehr. Beenden Sie das Programm und starten Sie es erneut.
 
 **CRUD-Probleme (Erstellen, Lesen, Aktualisieren und Löschen):**
 
 * Das Programm versucht, Dateien auch mit ungültigen Zeichen hochzuladen, was möglicherweise zu einem Server-seitigen Upload-Fehler führt. <!-- CQ-4273652 -->
 
-* Beim Hochladen von Änderungen zu einem Asset mit Kommentaren werden die Kommentare mit dem Asset in [!DNL Experience Manager] gespeichert, jedoch nicht als Versionskommentare sichtbar. Dieses Problem wurde in [!DNL Experience Manager] 6.4.5 und [!DNL Experience Manager] 6.5.1 behoben. Adobe empfiehlt die Installation der neuesten Service Packs. <!-- CQ-4268990 -->
+* Beim Hochladen von Änderungen an einem Asset mit Kommentaren werden die Kommentare mit dem Asset in [!DNL Experience Manager] gespeichert, sind jedoch nicht als Versionskommentare sichtbar. Dieses Problem wurde in [!DNL Experience Manager] 6.4.5. und [!DNL Experience Manager] 6.5.1. behoben. Adobe empfiehlt dringend, die neuesten Service Packs zu installieren. <!-- CQ-4268990 -->
 
 * Asset-Übertragungen können vom Benutzer nicht abgebrochen werden. Wenn Sie eine unbeabsichtigte große Übertragung ausgelöst haben, beenden Sie das Programm und starten Sie es erneut. <!-- CQ-4278940 -->
 
@@ -168,7 +168,7 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de)
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=de)
->* [Verwenden der  [!DNL Experience Manager] Desktop-App](using.md)
+>* [Verwenden des  [!DNL Experience Manager] -Desktop-Programms](using.md)
 >* [Installieren und Aktualisieren des Desktop-Programms](install-upgrade.md)
 >* [Best Practices und Tipps zur Fehlerbehebung](troubleshoot.md)
 
