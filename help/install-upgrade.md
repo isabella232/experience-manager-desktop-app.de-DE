@@ -1,28 +1,28 @@
 ---
-title: Installieren und Konfigurieren der  [!DNL Adobe Experience Manager] Desktop-App
-description: 'Installieren und konfigurieren Sie die Server und laden Sie die Elemente auf Ihr lokales Dateisystem herunter. [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] '
-translation-type: tm+mt
+title: Installieren und Konfigurieren des  [!DNL Adobe Experience Manager] -Desktop-Programms
+description: Installieren und konfigurieren Sie die  [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] -Server und laden Sie die Elemente auf Ihr lokales Dateisystem herunter.
+translation-type: ht
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1162'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Adobe Experience Manager] Desktop-App {#install-app-v2} installieren
+# Installieren des [!DNL Adobe Experience Manager]-Desktop-Programms {#install-app-v2}
 
-Mit der Desktop-App [!DNL Adobe Experience Manager] sind die Elemente innerhalb von [!DNL Experience Manager] einfach auf Ihrem lokalen Desktop verfügbar und können in allen nativen Desktop-Anwendungen verwendet werden. Assets können in der Vorschau angezeigt, in nativen Desktop-Anwendungen geöffnet, in Mac Finder oder Windows Explorer zur Platzierung in anderen Dokumenten angezeigt und lokal geändert werden. Die Änderungen werden beim Hochladen auf [!DNL Experience Manager] zurückgespeichert und eine neue Version wird im Repository erstellt.
+Mithilfe des [!DNL Adobe Experience Manager]-Desktop-Programms können Sie über Ihren lokalen Desktop problemlos auf die Assets in [!DNL Experience Manager] zugreifen und sie in beliebigen nativen Desktop-Programmen verwenden. Assets können als Vorschau angezeigt, in nativen Desktop-Programmen geöffnet, in Mac Finder oder Windows Explorer zur Platzierung in anderen Dokumenten angezeigt und lokal geändert werden. Die Änderungen werden beim Upload dann wieder unter einer neuen, im Repository erstellten Version in [!DNL Experience Manager] gespeichert.
 
 Eine solche Integration bietet verschiedenen Rollen in der Organisation folgende Möglichkeiten:
 
-* Verwalten Sie die Assets zentral in [!DNL Experience Manager Assets].
+* Assets zentral in [!DNL Experience Manager Assets] verwalten.
 
 * Auf die Assets in allen nativen Desktop-Programmen zugreifen, einschließlich Programmen von Drittanbietern und in Adobe Creative Cloud. Dabei können die Benutzerverschiedene Standards – auch für Branding – problemlos einhalten.
 
 Wenn Sie das [!DNL Experience Manager]-Desktop-Programm verwenden möchten,
 
-* Stellen Sie sicher, dass Ihre [!DNL Experience Manager]-Version von der [!DNL Experience Manager] Desktop-App unterstützt wird. Siehe [Systemanforderungen](release-notes.md#system-requirements-and-prerequisites-v2) unten.
+* stellen Sie sicher, dass Ihre [!DNL Experience Manager]-Version vom [!DNL Experience Manager]-Desktop-Programm unterstützt wird. Siehe [Systemanforderungen](release-notes.md#system-requirements-and-prerequisites-v2) unten.
 
 * Laden Sie das Programm herunter und installieren Sie es. Siehe [Installieren des Desktop-Programms](#install-v2) unten.
 
@@ -42,7 +42,7 @@ Wenn Sie bereits Version 1.x des Desktop-Programms benutzen, sollten Sie die Unt
 
 Gehen Sie wie folgt vor, um von einer früheren Version des Programms zu aktualisieren:
 
-1. Synchronisieren Sie vor dem Upgrade alle Assets und laden Sie Ihre Änderungen auf [!DNL Experience Manager] hoch. Dadurch soll vermieden werden, dass Änderungen beim Deinstallieren des Programms verloren gehen.
+1. Synchronisieren Sie vor dem Upgrade alle Assets und laden Sie Ihre Änderungen in [!DNL Experience Manager] hoch. Dadurch soll vermieden werden, dass Änderungen beim Deinstallieren des Programms verloren gehen.
 
 1. Deinstallieren Sie die vorherige Version des Programms. Wählen Sie bei der Deinstallation die Option zum Löschen des Cache.
 
@@ -52,15 +52,15 @@ Gehen Sie wie folgt vor, um von einer früheren Version des Programms zu aktuali
 
 ## Installieren {#install-v2}
 
-Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren Sie alle vorhandenen Adoben [!DNL Experience Manager] der Desktop-App v1.x, bevor Sie die neueste App installieren. Weitere Informationen finden Sie oben.
+Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren Sie ein eventuell vorhandenes Adobe [!DNL Experience Manager]-Desktop-Programm v1.x, bevor Sie die neueste Version des Programms installieren. Weitere Informationen finden Sie oben.
 
 1. Laden Sie das neueste Installationsprogramm von der Seite mit den [Versionshinweisen](release-notes.md) herunter.
 
-1. Halten Sie die URL und die Anmeldeinformationen Ihrer [!DNL Experience Manager]-Bereitstellung bereit.
+1. Halten Sie die URL und die Anmeldeinformationen Ihrer [!DNL Experience Manager]-Implementierung bereit.
 
 1. Wenn Sie ein Upgrade von einer anderen Version des Programms durchführen, finden Sie weitere Informationen unter [Aktualisieren des Desktop-Programms](#upgrade-from-previous-version).
 
-1. Überspringen Sie diesen Schritt, wenn Sie [!DNL Experience Manager] als [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 oder höher oder [!DNL Experience Manager] 6.5.0 oder höher verwenden. Stellen Sie sicher, dass Ihr [!DNL Experience Manager] Setup die Kompatibilitätsanforderungen erfüllt, die in den [Versionshinweisen](release-notes.md) erwähnt werden. Laden Sie bei Bedarf das entsprechende [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) herunter und installieren Sie es mit dem [!DNL Experience Manager] Package Manager als [!DNL Experience Manager]-Administrator. Weitere Informationen zur Installation eines Pakets finden Sie unter [Arbeiten mit Paketen](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de).
+1. Überspringen Sie diesen Schritt, wenn Sie [!DNL Experience Manager] als [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 oder neuer, oder [!DNL Experience Manager] 6.5.0 oder neuer verwenden. Stellen Sie sicher, dass Ihr [!DNL Experience Manager]-Setup die in den [Versionshinweisen](release-notes.md) erwähnten Kompatibilitätsanforderungen erfüllt. Falls notwendig, laden Sie das passende [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) herunter und installieren Sie es unter Verwendung von [!DNL Experience Manager] Package Manager als [!DNL Experience Manager]-Administrator. Weitere Informationen zur Installation eines Pakets finden Sie unter [Arbeiten mit Paketen](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de).
 
 1. Führen Sie die Binärdatei des Installationsprogramms aus und befolgen Sie die Anweisungen auf dem Bildschirm, um die Installation durchzuführen.
 
@@ -86,13 +86,13 @@ Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren
 
    *Abbildung: Das Programm zeigt nach der Anmeldung den DAM-Inhalt an*
 
-1. ([!DNL Experience Manager] 6.5.1 oder höher) Wenn Sie das Desktop-Programm mit 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. [!DNL Experience Manager] Siehe [Azure-Connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=de#azure-data-store) oder [S3-Connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=de#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 oder höher) Wenn Sie das Desktop-Programm mit [!DNL Experience Manager] 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Siehe [Azure-Connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=de#azure-data-store) oder [S3-Connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=de#amazon-s-data-store).
 
    Wenn Sie Adobe Managed Services (AMS)-Kunde sind, wenden Sie sich an den Adobe-Kundendienst.
 
 ## Festlegen von Voreinstellungen {#set-preferences}
 
-Um die Voreinstellungen zu ändern, klicken Sie auf das Symbol ![Weitere Optionen](assets/do-not-localize/more_options_da2.png) und auf das Symbol **[!UICONTROL Preference]**![ Voreinstellungen](assets/do-not-localize/preferences_icon_da2.png). Passen Sie die Werte im Fenster **[!UICONTROL Preferences]** wie folgt an:
+Um die Voreinstellungen zu ändern, klicken Sie auf das Symbol ![Weitere Optionen](assets/do-not-localize/more_options_da2.png) und auf das Symbol **[!UICONTROL Preference]** ![Voreinstellungen](assets/do-not-localize/preferences_icon_da2.png). Passen Sie die Werte im Fenster **[!UICONTROL Preferences]** wie folgt an:
 
 * [!UICONTROL Launch application on login].
 
@@ -106,7 +106,7 @@ Um die Voreinstellungen zu ändern, klicken Sie auf das Symbol ![Weitere Optione
 
 * **[!UICONTROL Current cache size]**: Speichergröße der lokal heruntergeladenen Assets. Die Informationen werden erst angezeigt, nachdem Assets mit dem Programm heruntergeladen wurden.
 
-* **[!UICONTROL Automatically download linked assets]**: Die Assets, die in den unterstützten nativen Creative Cloud-Applikationen platziert wurden, werden automatisch abgerufen, wenn Sie die Originaldatei herunterladen.
+* **[!UICONTROL Automatically download linked assets]**: Die Assets, die in den unterstützten nativen Creative Cloud-Programmen platziert wurden, werden automatisch abgerufen, wenn Sie die Originaldatei herunterladen.
 
 * **[!UICONTROL Maximum number of downloads]**: Beim erstmaligen Herunterladen von Assets (über die Option „Anzeigen“, „Öffnen“, „Bearbeiten“, „Herunterladen“ usw.) werden die Assets nur heruntergeladen, wenn der Stapel weniger als diese Zahl enthält. Der Standardwert ist 50. Ändern Sie sie nicht, wenn Sie sich nicht sicher sind. Eine Erhöhung des Werts kann zu längeren Wartezeiten führen und eine Verringerung des Werts verhindert womöglich, dass Sie die erforderlichen Assets oder Ordner in einem Schritt herunterladen können.
 
@@ -124,7 +124,7 @@ Gehen Sie wie folgt vor, um das Programm unter Windows zu deinstallieren:
 
 1. Laden Sie alle Änderungen in [!DNL Experience Manager] hoch, um den Verlust von Änderungen zu vermeiden. Siehe [Bearbeiten von Assets und Hochladen aktualisierter Assets in [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Melden Sie sich ab und beenden ([!UICONTROL Exit]) Sie das Programm.
 
-1. Entfernen Sie das Programm so, wie Sie auch jede andere Applikation entfernen würden. Deinstallieren Sie sie unter Windows über „Programme hinzufügen und entfernen“.
+1. Entfernen Sie das Programm so, wie Sie auch jedes andere Programm entfernen würden. Deinstallieren Sie sie unter Windows über „Programme hinzufügen und entfernen“.
 
 1. Um den Cache und die Protokolle zu entfernen, aktivieren Sie das entsprechende Kontrollkästchen.
 
