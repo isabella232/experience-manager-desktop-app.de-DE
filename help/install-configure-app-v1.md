@@ -1,9 +1,9 @@
 ---
 title: Installieren und Konfigurieren des  [!DNL Experience Manager] -Desktop-Programms, Version 1.x
 description: Installieren und konfigurieren Sie  [!DNL Experience Manager] desktop app version 1.x to work with [!DNL Assets] -Server und ordnen Sie die Assets für die Bereitstellung als Laufwerk auf Ihrem Desktop zu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke z
 >
 >Wenn Sie den Cache löschen, werden nicht gespeicherte Änderungen beibehalten. Alle Elemente, die nicht auf dem [!DNL Experience Manager]-Server eingecheckt wurden, werden beibehalten und nicht gelöscht.
 
-### Ändern des Cache-Verzeichnisses unter Windows  {#change-location-of-cache-on-windows}
+### Ändern des Cache-Verzeichnisses unter Windows {#change-location-of-cache-on-windows}
 
 Der Standardspeicherort des Caches für das [!DNL Experience Manager]-Desktop-Programm lautet:
 
