@@ -1,20 +1,20 @@
 ---
 title: Versionshinweise für das AEM-Desktop-Programm, Version 1.x
 description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das AEM-Desktop-Programm, Version 1.x.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3906'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Adobe Experience Manager] Versionshinweise zur Desktop-App Version 1.x  {#aem-desktop-app-release-notes}
+# Versionshinweise für das [!DNL Adobe Experience Manager]-Desktop-Programm Version 1.x {#aem-desktop-app-release-notes}
 
 Für das AEM-Desktop-Programm v1.x sind die folgenden Download-Links und AEM-Kompatibilitätsinformationen verfügbar:
 
-| Produkte | [!DNL Adobe Experience Manager] Desktop-App |
+| Produkte | [!DNL Adobe Experience Manager]-Desktop-Programm |
 |--- |--- |
 | Version | 1.10 (1.10.0.6 unter Mac und 1.10.0.3 unter Windows) |
 | Typ | Nebenversion |
@@ -58,7 +58,7 @@ Das AEM-Desktop-Programm 1.10 konzentriert sich auf die Verbesserung des Benutz
 
 **Programmsymbol zur Anzeige von Massen-Uploads**: Das Programmsymbol zeigt anhand der Überlagerung „Transfer“ (Übertragung) an, dass ein Massen-Upload durchgeführt wird, indem die Überlagerung angezeigt wird.
 
-**Benachrichtigungen bezüglich Aktualisierungskonflikten**: Wenn das Programm beim Aktualisieren eines Assets einen Konflikt feststellt, wird eine Benachrichtigung angezeigt, damit der Benutzer den Fall untersuchen kann, ohne das Statusfenster im Blick behalten zu müssen. Wenn die Anwendung startet, sucht sie nach potenziellen Konflikten, damit der Benutzer sie beheben kann.
+**Benachrichtigungen bezüglich Aktualisierungskonflikten**: Wenn das Programm beim Aktualisieren eines Assets einen Konflikt feststellt, wird eine Benachrichtigung angezeigt, damit der Benutzer den Fall untersuchen kann, ohne das Statusfenster im Blick behalten zu müssen. Wenn das Programm startet, sucht es nach potenziellen Konflikten, damit der Benutzer sie beheben kann.
 
 **Besserer Umgang mit Verbindungsabbrüchen**: Massen-Uploads werden angehalten, wenn die Verbindung unterbrochen wird. Benutzer können sie zu einem späteren Zeitpunkt fortsetzen. Für fehlgeschlagene Uploads einzelner Dateien steht Benutzern die Schaltfläche „Retry“ (Wiederholen) zur Verfügung.
 
@@ -68,9 +68,9 @@ Detaillierte Anweisungen finden Sie unter [Installieren und Konfigurieren des AE
 
 ## Verbesserungen in den vorherigen Versionen {#enhancements-in-the-previous-versions}
 
-Diese Version erweitert und ersetzt die früheren Versionen der Desktop-App [!DNL Experience Manager], die die folgenden wichtigen Verbesserungen bietet:
+Diese Version erweitert und ersetzt die Vorgängerversionen des [!DNL Experience Manager]-Desktop-Programms, die die folgenden wesentlichen Verbesserungen boten:
 
-* **Version 1.9/1.9.1**: fortsetzbare Uploads, verbessertes Statusfenster, Programmsymbole, die den Status des Programms/der Verbindung angeben, Vorab-Abruf verknüpfter Assets für InDesign-Dateien.
+* **Version 1.9/1.9.1**: fortsetzbare Uploads, verbessertes Statusfenster, Programmsymbole, die den Status des Programms/der Verbindung angeben, Vorababruf verknüpfter Assets für InDesign-Dateien.
 
 * **Version 1.8**: bessere Steuerung der Cache-Größe für den Benutzer, verbesserte Anmeldung für SAML/SSO unter Windows, Unterstützung des .pac-Netzwerk-Proxys auf Mac-Computern und Behebung der von Kunden gemeldeten Probleme.
 
@@ -82,11 +82,11 @@ Diese Version erweitert und ersetzt die früheren Versionen der Desktop-App [!DN
 
 * **Version 1.4**: Möglichkeit, hierarchische Ordner im Hintergrund mit der Fortschrittsüberwachung hochzuladen.
 
-* **Version 1.3**: verbesserte Leistung und Stabilität beim Zugriff auf Dateien und Speichern von Änderungen in AEM, insbesondere aus Creative Cloud-Desktop-Applikationen wie InDesign, Illustrator oder Photoshop. Diese Version sollte Benutzern ein Desktop-artiges Erlebnis bei der Arbeit mit Dateien bieten und gleichzeitig Übertragungsvorgänge für Netzwerkdaten im Hintergrund durchführen.
+* **Version 1.3**: verbesserte Leistung und Stabilität beim Zugriff auf Dateien und Speichern von Änderungen in AEM, insbesondere aus Creative Cloud-Desktop-Progammen wie InDesign, Illustrator oder Photoshop. Diese Version sollte Benutzern ein Desktop-artiges Erlebnis bei der Arbeit mit Dateien bieten und gleichzeitig Übertragungsvorgänge für Netzwerkdaten im Hintergrund durchführen.
 
 ### Seit Einführung des AEM-Desktop-Programms 1.9 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
-[!DNL Adobe Experience Manager] Die Desktop-App 1.9.1 war eine Patch-Version, mit der einige wichtige Kundenprobleme im Zusammenhang mit dem Auschecken von Assets und dem Kopieren von Dateien aus dem Netzwerk in einen lokalen Ordner behoben wurden.
+Beim [!DNL Adobe Experience Manager]-Desktop-Programm 1.9.1 handelte es sich um eine Patch-Version, mit der einige wichtige Kundenprobleme im Hinblick auf das Auschecken von Assets und Kopieren von Dateien aus einer Netzwerkfreigabe in ein lokales Verzeichnis behoben wurden.
 
 * Assets, die von einem Benutzer ausgecheckt werden, sollten nicht für Bearbeitungen durch andere Benutzer verfügbar sein (CQ-4246009).
 
@@ -128,7 +128,7 @@ Das Fenster zum Asset-Status bietet folgende Informationen zu Assets.
 
 * In der Fußzeile werden die Gesamtzahl der heruntergeladenen Dateien und die durchschnittliche Übertragungsrate angezeigt.
 
-* Wenn ein Benutzer mehrere Dateien über die [!DNL Experience Manager Assets]-Weboberfläche öffnen oder bearbeiten möchte, werden diese gruppiert. Beispiel: meinasset.jpeg und 4 weitere Dateien.
+* Will ein Anwender mehrere Dateien aus der Web-Oberfläche von [!DNL Experience Manager Assets] öffnen oder bearbeiten, so werden diese gruppiert. Beispiel: meinasset.jpeg und 4 weitere Dateien.
 
 * Beim Herunterladen von InDesign-Dokumenten mit verknüpften Assets, die in AEM Assets gespeichert sind, lädt das Desktop-Programm zunächst alle verknüpften Assets herunter, bevor das [!UICONTROL Adobe InDesign]-Dokument geöffnet und der Download verknüpfter Assets angezeigt wird. Beispiel: 5 von 24.
 
@@ -277,11 +277,11 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 
    * Beim erstmaligen Platzieren einer Datei in InDesign wird eine Warnung bezüglich der Aktualisierung angezeigt (CQ-4207454).
 
-Hinweis zu Link-Warnungen: Creative Cloud-Applikationen (z. B. InDesign) erstellen einen „Schnappschuss“ der letzten Änderung des Elements zum Zeitpunkt seiner Platzierung. Ändert sich dieses Datum zu einem späteren Zeitpunkt, meldet die Adobe Creative Cloud-Applikation, dass die Links veraltet sind. Dies wird auf unterschiedliche Weise gemeldet:
+Hinweis zu Link-Warnungen: Creative Cloud-Programme (z. B. InDesign) erstellen einen „Schnappschuss“ der letzten Änderung des Elements zum Zeitpunkt seiner Platzierung. Ändert sich dieses Datum zu einem späteren Zeitpunkt, meldet das Adobe Creative Cloud-Programm, dass die Links veraltet sind. Dies wird auf unterschiedliche Weise gemeldet:
 
-* Wenn die Adobe Creative Cloud-Applikation gestartet wird, erscheint ein Dialogfeld, um den Benutzer darüber zu informieren, dass die verknüpften Assets veraltet sind, und den Benutzer aufzufordern, Maßnahmen zu ergreifen.
+* Wenn das Adobe Creative Cloud-Programm gestartet wird, erscheint ein Dialogfeld, um den Benutzer darüber zu informieren, dass die verknüpften Assets veraltet sind, und den Benutzer aufzufordern, Maßnahmen zu ergreifen.
 
-* Wenn die Adobe Creative Cloud-Applikation bereits ausgeführt wird, erscheint ein gelbes Warnsymbol am verknüpften Asset.
+* Wenn das Adobe Creative Cloud-Programm bereits ausgeführt wird, erscheint ein gelbes Warnsymbol am verknüpften Asset.
 
 Dies gilt gleichermaßen für Assets auf lokalen Festplatten und Assets in einem von AEM Desktop bereitgestellten Verzeichnis, mit folgenden Ausnahmen:
 
@@ -337,11 +337,11 @@ Diese beiden Fälle treten erwartungsgemäß ein. Sie sind auf die „Delayed Sy
 * Höhere Effizienz. Netzwerkvorgänge werden schneller abgeschlossen und die Wartezeiten für Benutzer werden verkürzt.
 * Verbesserte Finder-Integration, die für mehr Stabilität sorgt und den Zugriff auf Funktionen wie Miniaturansichten ermöglicht.
 * Verbesserungen hinsichtlich der Zwischenspeicherung und Leistung.
-* Bessere Unterstützung für das direkte Speichern aus Desktop-Applikationen (PS, ID, AI usw.).
+* Bessere Unterstützung für das direkte Speichern aus Desktop-Programmen (PS, ID, AI usw.).
 * Verbesserte Integration mit Mac OS (Protokoll für lokale Netzwerklaufwerke geändert, statt WebDAV zuverlässigeres SMB1).
 * Das Desktop-Programm stellt eine Verbindung zum AEM-Server mithilfe des AEM-nativen HTTP RESTful-Protokolls her.
 * Die Dateien werden zunächst lokal gespeichert und nach einer festgelegten Zeit (30 Sek.) im Hintergrund wieder in AEM hochgeladen. Dadurch wird das Speichern von Dateien beschleunigt.
-* Besseres Handling von Desktop-Applikationen, die Zwischenvorgänge zum Speichern von Dateien verwenden (partielles Speichern und temporäre Dateien). Dadurch können in der AEM Assets-Timeline korrekte Versions- und Asset-Upload-Informationen angezeigt werden.
+* Besseres Handling von Desktop-Programmen, die Zwischenvorgänge zum Speichern von Dateien verwenden (partielles Speichern und temporäre Dateien). Dadurch können in der AEM Assets-Timeline korrekte Versions- und Asset-Upload-Informationen angezeigt werden.
 * Dialogfeld zur Nachverfolgung des Status von im Hintergrund ausgeführten Upload-Aufgaben.
 
 ## Liste der Änderungen {#list-of-changes}
@@ -366,7 +366,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 
 >[!NOTE]
 >
->Unter Mac OS X: Die Änderung des Protokolls für lokale Netzwerklaufwerke von WebDAV in SMB1 führt zu einem anderen lokalen Pfad für dasselbe Asset im Repository. Dies kann sich auf Verknüpfungen zu Dateien auswirken, die in Adobe Creative Cloud-Applikationen über den Befehl „Platzieren“ platziert werden. Weitere Informationen finden Sie unter [Verwenden des AEM-Desktop-Programms](use-app-v1.md).
+>Unter Mac OS X: Die Änderung des Protokolls für lokale Netzwerklaufwerke von WebDAV in SMB1 führt zu einem anderen lokalen Pfad für dasselbe Asset im Repository. Dies kann sich auf Verknüpfungen zu Dateien auswirken, die in Adobe Creative Cloud-Programmen über den Befehl „Platzieren“ platziert werden. Weitere Informationen finden Sie unter [Verwenden des AEM-Desktop-Programms](use-app-v1.md).
 
 ### Dateiverarbeitung (seit 1.3) {#file-handling-since}
 
@@ -394,18 +394,18 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 
 **CA-signierte SSL-Zertifikate verwenden:** Beachten Sie, dass das AEM-Desktop-Programm beim Herstellen einer sicheren HTTPS-Verbindung zu AEM keine selbstsignierten SSL-Zertifikate unterstützt. Für derartige Verbindungen ist ein CA-signiertes Zertifikat auf dem Server erforderlich (CQ-87941).
 
-## Bekannte Probleme  {#known-issues}
+## Bekannte Probleme {#known-issues}
 
 * Allgemein:
    * Es werden Server-URLs benötigt, um ohne Pfad auf den Server zu verweisen (z. B. `http://server`, `https://server`, `http://server:port` oder `https://server:port`). Außer „/content/dam“ werden keine anderen Kontextpfade und Unterordner unterstützt (CQ-89343, CQ-87272).
 * Dateinamen/Lokalisierung:
    * Datei- und Ordnernamen mit reservierten Zeichen werden nicht ordnungsgemäß verarbeitet. Stellen Sie sicher, dass Sie Datei- und Ordnernamen verwenden, die den Anforderungen entsprechen (CQ-93361, CQ-93308, CQ-89276, CQ-4217183).
-   * Einige Applikationen wie Adobe Illustrator erstellen möglicherweise Dateien mit Namen, die in AEM nicht unterstützt werden. Ein Beispiel ist das Hinzufügen von `Converted` nach dem Konvertieren, wodurch das Hochladen verhindert wird (CQ-4216985).
+   * Einige Programme wie Adobe Illustrator erstellen möglicherweise Dateien mit Namen, die in AEM nicht unterstützt werden. Ein Beispiel ist das Hinzufügen von `Converted` nach dem Konvertieren, wodurch das Hochladen verhindert wird (CQ-4216985).
    * Assets mit internationalen Namen erscheinen und verschwinden möglicherweise alle paar Sekunden.
 * Funktionen für das Ein- und Auschecken:
-   * Ein von einem Benutzer ausgechecktes Asset kann nicht von einem anderen Benutzer geöffnet werden, weder über die Aktion „Öffnen“ in der Touch-optimierten Benutzeroberfläche noch direkt auf dem Desktop. Einige Applikationen melden möglicherweise, dass das Asset gesperrt oder beschädigt ist bzw. nicht reagiert, wenn versucht wird, das Asset zu öffnen (CQ-4199234).
+   * Ein von einem Benutzer ausgechecktes Asset kann nicht von einem anderen Benutzer geöffnet werden, weder über die Aktion „Öffnen“ in der Touch-optimierten Benutzeroberfläche noch direkt auf dem Desktop. Einige Programme melden möglicherweise, dass das Asset gesperrt oder beschädigt ist bzw. nicht reagiert, wenn versucht wird, das Asset zu öffnen (CQ-4199234).
    * Das gleichzeitige Ändern von Dateien durch mehrere Benutzer kann dazu führen, dass einige Änderungen verloren gehen. Als Abhilfe können Sie die Funktion zum Einchecken/Auschecken verwenden, um zu verhindern, dass mehrere Benutzer Änderungen an derselben Datei vornehmen (CQ-97035).
-   * Bestimmte Applikationen unterstützen die Schreibschutzkennzeichnung nicht ordnungsgemäß. Dies ermöglicht es Benutzern, eine Datei zu speichern, die von einem anderen Benutzer ausgecheckt wurde. Die geänderte Datei wird erst dann übertragen, wenn der andere Benutzer die Datei wieder eincheckt. Die Änderungen der beiden Benutzer werden in AEM in zwei verschiedenen Versionen des Assets gespeichert (CQ-89551, CQ-87572, CQ-89615).
+   * Bestimmte Programme unterstützen die Schreibschutzkennzeichnung nicht ordnungsgemäß. Dies ermöglicht es Benutzern, eine Datei zu speichern, die von einem anderen Benutzer ausgecheckt wurde. Die geänderte Datei wird erst dann übertragen, wenn der andere Benutzer die Datei wieder eincheckt. Die Änderungen der beiden Benutzer werden in AEM in zwei verschiedenen Versionen des Assets gespeichert (CQ-89551, CQ-87572, CQ-89615).
    * Der Ausgecheckt- und der Schreibschutzstatus werden unabhängig voneinander im Finder gemeldet. Dies führt zur Anzeige von zwei Schlosssymbolen, wenn ein Benutzer ein Asset auscheckt (CQ-89507).
 * Finder-Integration:
    * Beim Ziehen großer Dateien per Drag-and-Drop kann es in Finder während der Übertragung großer Dateien im Hintergrund zu einer Zeitüberschreitung kommen. Das Ergebnis ist ein `Error - 36`. Als Problemumgehung können Sie das Asset erneut per Drag-and-Drop ziehen oder öffnen (CQ-4219628).
@@ -415,7 +415,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
    * Fehler beim Umbenennen von Assets, die keine Erweiterung aufweisen (CQ-4218971).
 * Funktion zum Kopieren/EinfügenDie Option zum Einfügen wird angezeigt, obwohl kein Asset in die Zwischenablage kopiert wurde.
 * Windows:
-   * Dateien mit alternativen Datenströmen (ADS) werden nur in NTFS-Dateisystemen vollständig unterstützt. Das Kopieren derartiger Dateien auf die vom Desktop-Programm bereitgestellte WebDAV-Freigabe führt zur Anzeige einer Warnung, die den Benutzer darauf hinweist, dass die Datei Eigenschaften aufweist, die nicht an den neuen Speicherort kopiert werden können. Das ist normalerweise unproblematisch, da die Eigenschaften nur für eine bestimmte Applikation auf dem Desktop des Benutzers relevant sind und nichts mit dem eigentlichen Dateiinhalt zu tun haben (CQ-103770). (Win)
+   * Dateien mit alternativen Datenströmen (ADS) werden nur in NTFS-Dateisystemen vollständig unterstützt. Das Kopieren derartiger Dateien auf die vom Desktop-Programm bereitgestellte WebDAV-Freigabe führt zur Anzeige einer Warnung, die den Benutzer darauf hinweist, dass die Datei Eigenschaften aufweist, die nicht an den neuen Speicherort kopiert werden können. Das ist normalerweise unproblematisch, da die Eigenschaften nur für ein bestimmtes Programm auf dem Desktop des Benutzers relevant sind und nichts mit dem eigentlichen Dateiinhalt zu tun haben (CQ-103770). (Win)
    * Unter Windows muss das Desktop-Programm von dem Benutzer installiert werden, der sie verwenden wird (CQ-4216389). (Win)
    * Das Programm kann abstürzen, wenn Benutzer unter bestimmten Umständen (nach Fortsetzen des Massen-Uploads nach einem Verbindungsabbruch) auf die Schaltfläche „Wiederholen“ für einen fehlgeschlagenen Upload klicken (CQ-4251884). (Win)
 
