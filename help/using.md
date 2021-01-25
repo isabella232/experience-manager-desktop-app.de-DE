@@ -1,64 +1,64 @@
 ---
 title: Verwenden des  [!DNL Adobe Experience Manager] -Desktop-Programms
-description: 'Verwenden Sie die DAM-Elemente direkt von Ihrem Win- oder Mac-Desktop aus und verwenden Sie sie in anderen Anwendungen. [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] '
+description: Verwenden Sie [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] die DAM-Assets direkt von Ihrem Win- oder Mac-Desktop aus und auch in anderen Programmen.
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3906'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
 # Verwenden des [!DNL Adobe Experience Manager]-Desktop-Programms {#use-aem-desktop-app-v2}
 
-Verwenden Sie die [!DNL Adobe Experience Manager]-Desktop-App, um einfach auf die digitalen Assets zuzugreifen, die im [!DNL Adobe Experience Manager]-DAM-Repository auf Ihrem lokalen Desktop gespeichert sind, und diese Assets in allen Desktop-Anwendungen zu verwenden. Sie können die Assets in Desktop-Anwendungen öffnen und die Assets lokal bearbeiten. Laden Sie die Änderungen mit Versionskontrolle zurück auf [!DNL Experience Manager], um die Updates für andere Benutzer freizugeben. Sie können auch neue Dateien und Ordnerhierarchien in [!DNL Experience Manager] hochladen, Ordner erstellen und Assets oder Ordner aus [!DNL Experience Manager] DAM löschen.
+Verwenden Sie das [!DNL Adobe Experience Manager]-Desktop-Programm, um Zugang zu den digitalen Assets zu erhalten, die im [!DNL Adobe Experience Manager]-DAM-Repository auf Ihrem lokalen Desktop gespeichert sind. Dann können Sie diese Assets in allen denkbaren Desktop-Programmen verwenden. Sie können die Assets in Desktop-Prorammen öffnen und lokal bearbeiten und dann die Änderungen mit Versionskontrolle wieder in [!DNL Experience Manager] hochladen, um die Updates mit anderen Anwendern zu teilen. Sie können auch neue Dateien und Ordnerhierarchien in [!DNL Experience Manager] hochladen, Ordner erstellen und Assets oder Dateien aus dem [!DNL Experience Manager]-DAM löschen.
 
-Die Integration ermöglicht es verschiedenen Rollen in der Organisation, die Assets zentral in [!DNL Experience Manager Assets] zu verwalten und auf die Assets auf dem lokalen Desktop in den nativen Anwendungen unter Windows oder Mac OS zuzugreifen.
+Die Integration ermöglicht es verschiedenen Rollen in der Organisation, die Assets zentral in [!DNL Experience Manager Assets] zu verwalten und auf die Assets auf dem lokalen Desktop in den nativen Programmen unter Windows oder Mac OS zuzugreifen.
 
-Wenn Sie die Anwendung nach dem Abmelden oder zum ersten Mal öffnen, geben Sie die URL Ihres [!DNL Experience Manager]-Servers im Format `https://[aem-server-url]:[port]/` an. Wählen Sie dann die Option [!UICONTROL Connect] aus. Geben Sie Ihre Anmeldeinformationen ein, um das Programm mit dem Server zu verbinden.
+Wenn Sie das Programm nach dem Abmelden oder zum ersten Mal öffnen, müssen Sie die URL des [!DNL Experience Manager]-Servers im Format `https://[aem-server-url]:[port]/` angeben. Wählen Sie dann die Option [!UICONTROL Connect] aus. Geben Sie Ihre Anmeldeinformationen ein, um das Programm mit dem Server zu verbinden.
 
-Die wichtigsten Aufgaben, die Sie mit der [!DNL Experience Manager]-Desktop-App ausführen, sind:
+Die Hauptaufgaben, die Sie mit dem [!DNL Experience Manager]-Desktop-Programm erledigen können, sind:
 
-![Workflows und Aufgaben, die Sie mit der  [!DNL Experience Manager] Desktop-](assets/aem_desktop_app_usecases_v2.png "App ausführen könnenWorkflows und Aufgaben, die Sie  [!DNL Adobe Experience Manager] mit der Desktop-")
-App ausführen könnenLaden Sie diese druckfertige PDF-Datei  [](assets/aem_desktop_app_usecases_print.pdf) herunter.
+![Workflows und Aufgaben, die Sie mit dem [!DNL Experience Manager]-Desktop-Programm](assets/aem_desktop_app_usecases_v2.png " erledigen können, Workflows und Aufgaben, die Sie mit dem  [!DNL Adobe Experience Manager] -Desktop-Programm Erledigen können")
+Laden Sie sich [diese](assets/aem_desktop_app_usecases_print.pdf) druckfertige PDF-Datei herunter.
 
 ## Funktionsweise des Desktop-Programms {#how-app-works2}
 
 Bevor Sie mit der Nutzung des Programms beginnen, sollten Sie wissen, [wie das Programm funktioniert](release-notes.md#how-app-works). Machen Sie sich auch mit den folgenden Begriffen vertraut:
 
-* **[!UICONTROL Desktop Actions]**: Über die Assets-Benutzeroberfläche in einem Browser können Sie zu den Asset-Speicherorten navigieren oder Assets auschecken und öffnen, um sie in Ihrer nativen Desktop-Applikation zu bearbeiten. Diese Aktionen sind über die Web-Oberfläche verfügbar und verwenden die Funktionalität des Desktop-Programms. Erfahren Sie, [wie Sie Desktop-Aktionen aktivieren](using.md#desktopactions-v2).
+* **[!UICONTROL Desktop Actions]**: Über die Assets-Benutzeroberfläche in einem Browser können Sie zu den Asset-Speicherorten navigieren oder Assets auschecken und öffnen, um sie in Ihrem nativen Desktop-Programm zu bearbeiten. Diese Aktionen sind über die Web-Oberfläche verfügbar und verwenden die Funktionalität des Desktop-Programms. Erfahren Sie, [wie Sie Desktop-Aktionen aktivieren](using.md#desktopactions-v2).
 
-* Der Dateistatus ist **[!UICONTROL Cloud Only]**: Solche Assets werden nicht auf den lokalen Computer heruntergeladen und stehen nur auf dem Server [!DNL Experience Manager] zur Verfügung.
+* Dateistatus **[!UICONTROL Cloud Only]**: Solche Assets werden nicht auf den lokalen Computer heruntergeladen und stehen nur auf dem [!DNL Experience Manager]-Server zur Verfügung.
 
 * Dateistatus **[!UICONTROL Available locally]**: Die Assets werden wie bisher heruntergeladen und stehen auf dem lokalen Computer zur Verfügung. Die Assets werden nicht geändert.
 
-* Der Dateistatus ist **[!UICONTROL Edited locally]**: Diese Assets werden lokal geändert und die Änderungen bleiben auf dem hochgeladenen Server für [!DNL Experience Manager] erhalten. Nach dem Hochladen ändert sich der Status in [!UICONTROL Available locally]. Siehe [Bearbeiten von Assets](using.md#edit-assets-upload-updated-assets).
+* Dateistatus **[!UICONTROL Edited locally]**: Diese Assets werden lokal geändert und die Änderungen bleiben beim Hochladen auf den [!DNL Experience Manager]-Server erhalten. Nach dem Hochladen ändert sich der Status in [!UICONTROL Available locally]. Siehe [Bearbeiten von Assets](using.md#edit-assets-upload-updated-assets).
 
 * Dateistatus **[!UICONTROL Editing conflict]**: Wenn Sie und andere Benutzer ein Asset gleichzeitig ändern, zeigt das Programm an, dass ein Bearbeitungskonflikt aufgetreten ist. Das Programm bietet außerdem Optionen zum Beibehalten oder Verwerfen Ihrer Änderungen. Erfahren Sie, [wie Sie Bearbeitungskonflikte vermeiden](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* Der Dateistatus ist **[!UICONTROL Modified remotely]**: Die App gibt an, ob ein heruntergeladenes Asset auf dem [!DNL Experience Manager]-Server geändert wird. Das Programm bietet auch die Möglichkeit, die neueste Version herunterzuladen und Ihre lokale Kopie zu aktualisieren. Erfahren Sie, [wie Sie Bearbeitungskonflikte vermeiden](using.md#adv-workflow-collaborate-avoid-conflicts).
+* Dateistatus **[!UICONTROL Modified remotely]**: das Programm zeigt an, ob ein Asset, das Sie heruntergeladen haben, auf dem [!DNL Experience Manager]-Server geändert wurde. Das Programm bietet auch die Möglichkeit, die neueste Version herunterzuladen und Ihre lokale Kopie zu aktualisieren. Erfahren Sie, [wie Sie Bearbeitungskonflikte vermeiden](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **[!UICONTROL Check-out]**: Wenn Sie eine Datei bearbeiten oder eine Datei bearbeiten möchten, können Sie den Status „Auschecken“ aktivieren. Es wird ein Sperrsymbol für das Asset in der App und die [!DNL Experience Manager]-Weboberfläche hinzugefügt. Das Sperrsymbol zeigt anderen Benutzern an, dass sie dasselbe Asset nicht gleichzeitig bearbeiten sollen, da dies zu einem Bearbeitungskonflikt führt.
+* **[!UICONTROL Check-out]**: Wenn Sie eine Datei bearbeiten oder eine Datei bearbeiten möchten, können Sie den Status „Auschecken“ aktivieren. Dadurch wird dem Asset im Programm und in der Web-Oberfläche von [!DNL Experience Manager] ein Sperrsymbol hinzugefügt. Das Sperrsymbol zeigt anderen Benutzern an, dass sie dasselbe Asset nicht gleichzeitig bearbeiten sollen, da dies zu einem Bearbeitungskonflikt führt.
 
 * **[!UICONTROL Check-in]**: Markieren Sie das Asset als sicher, damit andere Benutzer es bearbeiten können, ohne dass ein Bearbeitungskonflikt entsteht. Wenn Sie Ihre Änderungen hochladen, wird das Sperrsymbol automatisch entfernt. Durch das Deaktivieren des Status „Einchecken“ wird auch das Sperrsymbol entfernt. Es wird jedoch empfohlen, nicht manuell einzuchecken, ohne die Änderungen hochzuladen. Wenn Sie Ihre Änderungen verwerfen, können Sie den Status „Einchecken“ manuell deaktivieren.
 
-* Aktion **[!UICONTROL Open]**: Öffnen Sie einfach das Asset zur Vorschau in der nativen Applikation. Es wird nicht empfohlen, das Asset mit dieser Aktion zu bearbeiten, da das Asset nicht ausgecheckt wird und andere Benutzer Änderungen vornehmen können, die zu Bearbeitungskonflikten führen.
+* Aktion **[!UICONTROL Open]**: Öffnen Sie einfach das Asset zur Vorschau im nativen Programm. Es wird nicht empfohlen, das Asset mit dieser Aktion zu bearbeiten, da das Asset nicht ausgecheckt wird und andere Benutzer Änderungen vornehmen können, die zu Bearbeitungskonflikten führen.
 
-* Aktion **[!UICONTROL Edit]**: Verwenden Sie die Aktion, um das Bild zu ändern. Durch Klicken auf die Aktion [!UICONTROL Edit] wird das Asset automatisch ausgecheckt und ein Sperrsymbol für das Asset hinzugefügt. Wenn Sie nach dem Klicken auf „Edit“ (Bearbeiten) das Asset nicht bearbeiten möchten, klicken Sie auf [!UICONTROL Toggle check-in]. Verwenden Sie zum Löschen, Umbenennen oder Verschieben von Assets in der DAM-Ordnerhierarchie die Weboberflächenaktionen [!DNL Experience Manager] und nicht die Bearbeitungsaktion.[!DNL Experience Manager]
+* Aktion **[!UICONTROL Edit]**: Verwenden Sie die Aktion, um das Bild zu ändern. Durch Klicken auf die Aktion [!UICONTROL Edit] wird das Asset automatisch ausgecheckt und ein Sperrsymbol für das Asset hinzugefügt. Wenn Sie nach dem Klicken auf „Edit“ (Bearbeiten) das Asset nicht bearbeiten möchten, klicken Sie auf [!UICONTROL Toggle check-in]. Um in der [!DNL Experience Manager]-DAM-Ordnerhierarchie Assets zu löschen, umzubenennen oder zu verschieben, verwenden Sie die Aktionen auf der Web-Oberfläche von [!DNL Experience Manager] und nicht die Funktion „Bearbeiten“.
 
 * Aktion **[!UICONTROL Download]**: Laden Sie das Asset auf Ihren lokalen Computer herunter. Sie können die Assets jetzt herunterladen und später bearbeiten. Arbeiten Sie offline und laden Sie die Änderungen später hoch. Assets werden in einen Cache-Ordner auf Ihrem Dateisystem heruntergeladen.
 
-* Aktion **[!UICONTROL Reveal File]** oder **[!UICONTROL Reveal Folder]**: Während die Assets in einen lokalen Cache-Ordner heruntergeladen werden, imitiert das Programm ein lokales Netzwerklaufwerk und stellt für jedes Asset einen lokalen Pfad bereit. Um diesen Pfad zu ermitteln, verwenden Sie die entsprechende Einblendeoption im Programm. Zum Platzieren von Assets in der Creative Cloud-Applikation ist die Aktion „Reveal“ (Anzeigen) erforderlich. Siehe [Platzieren von Assets](using.md#place-assets-in-native-documents).
+* Aktion **[!UICONTROL Reveal File]** oder **[!UICONTROL Reveal Folder]**: Während die Assets in einen lokalen Cache-Ordner heruntergeladen werden, imitiert das Programm ein lokales Netzwerklaufwerk und stellt für jedes Asset einen lokalen Pfad bereit. Um diesen Pfad zu ermitteln, verwenden Sie die entsprechende Einblendeoption im Programm. Zum Platzieren von Assets im Creative Cloud-Programm ist die Aktion „Reveal“ (Anzeigen) erforderlich. Siehe [Platzieren von Assets](using.md#place-assets-in-native-documents).
 
-* **[!UICONTROL Open In Web]** Aktion: Um das Asset in der  [!DNL Experience Manager] Weboberfläche Ansicht, öffnen Sie es im Web. Sie können mehr Workflows über die [!DNL Experience Manager]-Schnittstelle starten, z. B. Metadaten aktualisieren oder die Asset-Erkennung.
+* Aktion **[!UICONTROL Open In Web]**: Um das Asset auf der Web-Oberfläche von [!DNL Experience Manager] anzuzeigen, öffnen Sie es im Web. Sie können weitere Workflows über die [!DNL Experience Manager]-Oberfläche starten, z. B. das Aktualisieren von Metadaten oder die Asset-Erkennung.
 
-* Aktion **[!UICONTROL Delete]**[!DNL Experience Manager]: Löschen Sie das Asset aus dem  DAM-Repository. Durch die Aktion wird die Originalkopie des Assets auf dem Experience Manager-Server gelöscht. Wenn Sie nur Änderungen am lokalen Asset verwerfen möchten, lesen Sie [Verwerfen von Änderungen](using.md#edit-assets-upload-updated-assets).
+* Aktion **[!UICONTROL Delete]**: Löschen Sie das Asset aus dem [!DNL Experience Manager]-DAM-Repository. Durch die Aktion wird die Originalkopie des Assets auf dem Experience Manager-Server gelöscht. Wenn Sie nur Änderungen am lokalen Asset verwerfen möchten, lesen Sie [Verwerfen von Änderungen](using.md#edit-assets-upload-updated-assets).
 
-* **[!UICONTROL Upload Changes]**: Die Desktop-App lädt das aktualisierte Asset nur hoch, wenn Sie es explizit auf den  [!DNL Experience Manager] Server hochladen. Wenn Sie Ihre Änderungen speichern, werden diese nur auf Ihrem lokalen Computer gespeichert. Beim Hochladen wird das Asset automatisch eingecheckt und das Sperrsymbol entfernt. Siehe [Bearbeiten von Assets](using.md#edit-assets-upload-updated-assets).
+* **[!UICONTROL Upload Changes]**: Das Desktop-Programm lädt das aktualisierte Asset nur hoch, wenn Sie es explizit auf den [!DNL Experience Manager]-Server hochladen. Wenn Sie Ihre Änderungen speichern, werden diese nur auf Ihrem lokalen Computer gespeichert. Beim Hochladen wird das Asset automatisch eingecheckt und das Sperrsymbol entfernt. Siehe [Bearbeiten von Assets](using.md#edit-assets-upload-updated-assets).
 
-## Aktivieren von Desktop-Aktionen in der [!DNL Experience Manager]-Web-Benutzeroberfläche {#desktopactions-v2}
+## Aktivieren von Desktop-Aktionen in der Web-Oberfläche von [!DNL Experience Manager] {#desktopactions-v2}
 
 Über die Assets-Benutzeroberfläche in einem Browser können Sie zu den Asset-Speicherorten navigieren oder Assets auschecken und öffnen, um sie in Ihrem Desktop-Programm zu bearbeiten. Diese Optionen werden als [!UICONTROL Desktop Actions] bezeichnet und sind standardmäßig nicht aktiviert. Gehen Sie zur Aktivierung wie folgt vor.
 
@@ -72,7 +72,7 @@ Bevor Sie mit der Nutzung des Programms beginnen, sollten Sie wissen, [wie das P
 
 ## Durchsuchen, Suchen und Anzeigen einer Vorschau von Assets {#browse-search-preview-assets}
 
-Sie können die im [!DNL Experience Manager]-Repository verfügbaren Assets innerhalb der Desktop-Anwendung durchsuchen, suchen und in Vorschau setzen. Versuchen Sie Folgendes im Programm:
+Sie können die im [!DNL Experience Manager]-Repository verfügbaren Assets vom Desktop-Programm aus durchsuchen, suchen und in der Vorschau anzeigen. Versuchen Sie Folgendes im Programm:
 
 1. Navigieren Sie zu einem Ordner und sehen Sie einige grundlegende Informationen zu den im Ordner verfügbaren Assets sowie kleine Miniaturen aller Assets.
 
@@ -82,8 +82,8 @@ Sie können die im [!DNL Experience Manager]-Repository verfügbaren Assets inne
 
    ![Anzeigen einer größeren Vorschau eines Assets und weiterer Aktionen](assets/large_preview_actions_da2.png "Anzeigen einer größeren Vorschau eines Assets und weiterer Aktionen")
 
-1. Klicken Sie auf **[!UICONTROL Open]** oder **[!UICONTROL Edit]**, um die Datei lokal herunterzuladen und sie in der nativen Applikation anzuzeigen oder zu bearbeiten.
-1. Suchen Sie mithilfe von Suchbegriffen nach einem zugehörigen Asset im [!DNL Experience Manager]-Repository. Verwenden Sie `?` und `*` als Platzhalter. Diese Platzhalter ersetzen ein einzelnes oder mehrere Zeichen. Filtern und sortieren Sie die Ergebnisse nach Bedarf.
+1. Klicken Sie auf **[!UICONTROL Open]** oder **[!UICONTROL Edit]**, um die Datei lokal herunterzuladen und sie im nativen Programm anzuzeigen oder zu bearbeiten.
+1. Suchen Sie mithilfe von Keywords nach einem zugehörigen Asset im [!DNL Experience Manager]-Repository. Verwenden Sie `?` und `*` als Platzhalter. Diese Platzhalter ersetzen ein einzelnes oder mehrere Zeichen. Filtern und sortieren Sie die Ergebnisse nach Bedarf.
 
    ![Beispielsuche mit einem Sternchen-Platzhalter](assets/search_wildcard_da2.png "Beispielsuche mit einem Sternchen-Platzhalter")
 
@@ -95,7 +95,7 @@ Sie können die im [!DNL Experience Manager]-Repository verfügbaren Assets inne
 
 ## Herunterladen von Assets {#download-assets}
 
-Sie können die Assets auf Ihr lokales Dateisystem herunterladen. Die App ruft die Assets vom [!DNL Experience Manager]-Server ab und speichert dieselbe Kopie auf Ihrem lokalen Dateisystem.
+Sie können die Assets auf Ihr lokales Dateisystem herunterladen. Das Programm ruft die Assets vom [!DNL Experience Manager]-Server ab und speichert dieselbe Kopie auf Ihrem lokalen Dateisystem.
 
 Klicken Sie für Optionen auf das Symbol ![Schaltfläche „Mehr Optionen“](assets/do-not-localize/more2_da2.png) und dann zum Herunterladen auf das Symbol ![Herunterladen](assets/do-not-localize/download_cloud_da2.png).
 
@@ -109,13 +109,13 @@ Das Herunterladen mehrerer Assets kann zu einer schlechten Leistung führen, wen
 
 ![Programm bestätigt Herunterladen relativ vieler Assets](assets/download_confirmation_da2.png "Programm bestätigt Herunterladen relativ vieler Assets")
 
-Wenn Ordner ausgewählt und heruntergeladen werden, lädt die Anwendung nur Assets herunter, die direkt in den Ordnern unter [!DNL Experience Manager] gespeichert sind. Assets werden nicht automatisch aus Unterordnern heruntergeladen.
+Wenn Ordner ausgewählt und heruntergeladen werden, lädt das Programm nur Assets herunter, die direkt in den Ordnern in [!DNL Experience Manager] gespeichert sind. Assets werden nicht automatisch aus Unterordnern heruntergeladen.
 
 ## Öffnen von Assets auf Ihrem Desktop {#openondesktop-v2}
 
-Sie können die Remote-Assets zur Ansicht in der nativen Applikation öffnen. Die Assets werden in einen lokalen Ordner heruntergeladen und in der mit dem Dateiformat verknüpften nativen Applikation geöffnet. Sie können die native Applikation ändern, um bestimmte Dateitypen (Erweiterungen) auf Ihrem Mac- oder Windows-Computer zu öffnen.
+Sie können die Remote-Assets zur Ansicht im nativen Programm öffnen. Die Assets werden in einen lokalen Ordner heruntergeladen und im mit dem Dateiformat verknüpften nativen Programm geöffnet. Sie können das native Programm ändern, um bestimmte Dateitypen (Erweiterungen) auf Ihrem Mac- oder Windows-Computer zu öffnen.
 
-Klicken Sie im Asset-Menü auf **[!UICONTROL Open]**. Das Asset wird lokal heruntergeladen und in der nativen Applikation geöffnet. Überprüfen Sie den Download-Status und die Übertragungsgeschwindigkeit großer Assets in der Statusleiste.
+Klicken Sie im Asset-Menü auf **[!UICONTROL Open]**. Das Asset wird lokal heruntergeladen und im nativen Programm geöffnet. Überprüfen Sie den Download-Status und die Übertragungsgeschwindigkeit großer Assets in der Statusleiste.
 
 <!-- ![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
 -->
@@ -132,17 +132,17 @@ In einigen Fällen, z. B. beim Platzieren eines Assets in einem nativen Dokument
 
 ![Aktion „Datei anzeigen“ für ein Asset](assets/revealfile_action_da2.png "Aktion „Datei anzeigen“ für ein Asset")
 
-Klicken Sie auf **[!UICONTROL Reveal File]** oder in einem Ordner auf **[!UICONTROL Reveal Folder]**, um Windows Explorer oder Mac Finder mit der auf Ihrem lokalen Computer vorab ausgewählten Datei- oder Ordnerauswahl zu öffnen. Die Option ist nützlich, um beispielsweise die [!DNL Experience Manager]-Dateien in den nativen Anwendungen zu platzieren, die das Platzieren oder Verknüpfen lokaler Dateien unterstützen. Informationen zum Platzieren von Dateien in Adobe InDesign finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/de/indesign/using/placing-graphics.html).
+Klicken Sie auf **[!UICONTROL Reveal File]** oder in einem Ordner auf **[!UICONTROL Reveal Folder]**, um Windows Explorer oder Mac Finder mit der auf Ihrem lokalen Computer vorab ausgewählten Datei- oder Ordnerauswahl zu öffnen. Die Option ist nützlich, um z. B. die [!DNL Experience Manager]-Dateien in den nativen Programmen zu platzieren, die das Platzieren oder Verknüpfen lokaler Dateien unterstützen. Informationen zum Platzieren von Dateien in Adobe InDesign finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/de/indesign/using/placing-graphics.html).
 
-Die Aktion **[!UICONTROL Reveal File]** öffnet eine lokale Netzwerkfreigabe, die nur die lokal verfügbaren Assets anzeigt, d. h. Assets, die mit dem Programm veröffentlicht, heruntergeladen oder geöffnet/bearbeitet wurden. Die lokale Netzwerkfreigabe lädt keine Änderungen zu [!DNL Experience Manager] hoch. Verwenden Sie zum Hochladen der Änderungen explizit die Aktionen **[!UICONTROL Upload Changes]** oder **[!UICONTROL Upload]** im Programm.
+Die Aktion **[!UICONTROL Reveal File]** öffnet eine lokale Netzwerkfreigabe, die nur die lokal verfügbaren Assets anzeigt, d. h. Assets, die mit dem Programm veröffentlicht, heruntergeladen oder geöffnet/bearbeitet wurden. Die lokale Netzwerkfreigabe lädt keine Änderungen in [!DNL Experience Manager] hoch. Verwenden Sie zum Hochladen der Änderungen explizit die Aktionen **[!UICONTROL Upload Changes]** oder **[!UICONTROL Upload]** im Programm.
 
 >[!NOTE]
 >
->Zur Abwärtskompatibilität mit der [!DNL Experience Manager] Desktop-App v1.x werden die angezeigten Dateien von einer lokalen Netzwerkfreigabe bereitgestellt, wobei nur lokal verfügbare Dateien verfügbar sind. Die Desktop-Pfade der angezeigten Dateien sind mit den Pfaden identisch, die von der Programm-Version v1.x erstellt wurden.
+>Zur Abwärtskompatibilität mit dem [!DNL Experience Manager]-Desktop-Programm v1.x werden die angezeigten Dateien von einer lokalen Netzwerkfreigabe bereitgestellt, wobei nur lokal verfügbare Dateien angezeigt werden. Die Desktop-Pfade der angezeigten Dateien sind mit den Pfaden identisch, die von der Programm-Version v1.x erstellt wurden.
 
 >[!CAUTION]
 >
->Verwenden Sie nicht die Option **[!UICONTROL Reveal File]**, um Assets in nativen Applikationen zu bearbeiten. Verwenden Sie stattdessen die Aktionen **[!UICONTROL Edit]**. Weitere Informationen finden Sie unter [Erweiterter Workflow: Zusammenarbeit an denselben Dateien und Vermeidung von Bearbeitungskonflikten](#adv-workflow-collaborate-avoid-conflicts).
+>Verwenden Sie nicht die Option **[!UICONTROL Reveal File]**, um Assets in nativen Programmen zu bearbeiten. Verwenden Sie stattdessen die Aktionen **[!UICONTROL Edit]**. Weitere Informationen finden Sie unter [Erweiterter Workflow: Zusammenarbeit an denselben Dateien und Vermeidung von Bearbeitungskonflikten](#adv-workflow-collaborate-avoid-conflicts).
 
 ## Bearbeiten von Assets und Hochladen aktualisierter Assets in [!DNL Experience Manager] {#edit-assets-upload-updated-assets}
 
@@ -155,7 +155,7 @@ Verwenden Sie **[!UICONTROL Toggle Check-out]** zum Sperren des Assets, um Konfl
 * Sie haben begonnen, ein Asset zu bearbeiten, ohne es vorher auszuchecken (indem Sie es einfach öffnen).
 * Sie möchten demnächst mit der Bearbeitung eines Assets beginnen und möchten nicht, dass andere Benutzer es bearbeiten.
 
-Nachdem Sie die Bearbeitungen vorgenommen haben, zeigt das Programm den Status **[!UICONTROL Edited Locally]** für geänderte Assets an. Alle Änderungen, die in den Assets gespeichert wurden, sind nur lokal verfügbar, bis Sie die Änderungen auf [!DNL Experience Manager] hochladen. Um einzelne Assets oder einige Assets einzeln hochzuladen, klicken Sie in den Optionen für ein Asset auf **[!UICONTROL Upload Changes]**. Es wird eine Version des Assets in [!DNL Experience Manager] erstellt. Über die Web-Oberfläche von [!DNL Assets] können Sie den Asset-Verlauf in der [Zeitleiste](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=de) anzeigen.
+Nachdem Sie die Bearbeitungen vorgenommen haben, zeigt das Programm den Status **[!UICONTROL Edited Locally]** für geänderte Assets an. Alle in den Assets gespeicherten Änderungen sind nur lokal verfügbar, bis Sie die Änderungen in [!DNL Experience Manager] hochladen. Um einzelne Assets oder einige Assets einzeln hochzuladen, klicken Sie in den Optionen für ein Asset auf **[!UICONTROL Upload Changes]**. Dadurch wird eine Version des Assets in [!DNL Experience Manager] erstellt. Über die Web-Oberfläche von [!DNL Assets] können Sie den Asset-Verlauf in der [Zeitleiste](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=de) anzeigen.
 
 ![Option zum Hochladen von Änderungen im Programm](assets/upload_changes_single1_da2.png "Option zum Hochladen von Änderungen im Programm")
 
@@ -165,7 +165,7 @@ Best Practices zur gemeinsamen Bearbeitung finden Sie unter [Erweiterter Workflo
 
 In den folgenden Fällen möchten Sie Ihre Änderungen und Bearbeitungen am lokalen Asset vielleicht verwerfen. Klicken Sie auf **[!UICONTROL Discard Changes]**.
 
-* Wenn Sie Ihre lokalen Änderungen nicht in [!DNL Experience Manager] speichern möchten.
+* Wenn Sie Ihre lokalen Änderungen nicht in [!DNL Experience Manager] speichern wollen.
 * Sie nehmen Änderungen am ursprünglichen Asset vor, nachdem Sie einige Änderungen gespeichert haben.
 * Sie beenden die Bearbeitung des Assets, da es nicht mehr benötigt wird.
 
@@ -192,7 +192,7 @@ Sie können die gleichzeitigen Uploads (Beschleunigung) mit der Einstellung **[!
 
 >[!NOTE]
 >
->Wenn die Dateien nicht hochgeladen werden können und Sie eine Verbindung zu [!DNL Experience Manager] 6.5.1 oder höher herstellen, finden Sie weitere Informationen zur Fehlerbehebung [unter ](troubleshoot.md#upload-fails).
+>Wenn die Dateien nicht hochgeladen werden und Sie eine Verbindung zu einer Implementierung von [!DNL Experience Manager] 6.5.1 oder höher herstellen, finden Sie hier [Informationen zur Fehlerbehebung](troubleshoot.md#upload-fails).
 
 ## Arbeiten mit mehreren Assets {#work-with-multiple-assets}
 
@@ -220,7 +220,7 @@ Das Programm bietet eine Ansicht mit der Bezeichnung **[!UICONTROL Edited locall
 
 ### Massen-Upload von Assets {#bulk-upload-assets}
 
-Benutzer oder Organisationen wie Fotografen oder Kreativagenturen können in Szenarien zahlreiche lokale Assets erstellen, z. B. Fotoaufnahmen, Retuschieren oder Auswahl aus einem größeren Satz, der außerhalb von [!DNL Experience Manager] erstellt wird. Sie können diese großen lokalen Ordner direkt vom Desktop-Programm in [!DNL Assets] hochladen. Die Ordnerhierarchien bleiben erhalten und alle verschachtelten Unterordner und eingeschlossenen Assets werden hochgeladen. Die hochgeladenen Assets stehen auch anderen Benutzern auf demselben Server sofort zur Verfügung. Das Hochladen von Assets erfolgt im Hintergrund und ist daher nicht an eine Webbrowser-Sitzung gebunden.
+Benutzer oder Organisationen, wie Fotografen oder Kreativagenturen, können in Szenarien zahlreiche lokale Assets erstellen, z. B. Foto-Shootings, Retuschen oder eine Auswahl aus einem größeren Set, das außerhalb von [!DNL Experience Manager] erstellt wurde. Sie können diese großen lokalen Ordner direkt vom Desktop-Programm in [!DNL Assets] hochladen. Die Ordnerhierarchien bleiben erhalten und alle verschachtelten Unterordner und eingeschlossenen Assets werden hochgeladen. Die hochgeladenen Assets stehen auch anderen Benutzern auf demselben Server sofort zur Verfügung. Das Hochladen von Assets erfolgt im Hintergrund und ist daher nicht an eine Webbrowser-Sitzung gebunden.
 
 ![Massen-Upload mehrerer lokaler Ordner von Ihrem Desktop in [!DNL Experience Manager]](assets/upload_local_folders_da2.png "Massen-Upload mehrerer lokaler Ordner von Ihrem Desktop in Experience Manager")
 
@@ -228,15 +228,15 @@ Wenn die erwarteten Änderungen nach dem Upload nicht im Programm übernommen we
 
 >[!NOTE]
 >
->Verwenden Sie keine Upload-Funktion, um Assets über zwei [!DNL Experience Manager]-Bereitstellungen zu migrieren. Siehe stattdessen auch [Migrationshandbuch](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html?lang=de).
+>Verwenden Sie nicht die Upload-Funktion, um Assets über zwei [!DNL Experience Manager]-Implementierungen zu migrieren. Siehe stattdessen auch [Migrationshandbuch](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html?lang=de).
 
 ### Liste der übertragenen Assets {#list-of-transferred-assets}
 
-Informationen zum Anzeigen der Liste der in einer bestimmten Sitzung übertragenen Assets finden Sie unter [Hochladen von Assets in [!DNL Experience Manager]](#upload-and-add-new-assets-to-aem).
+Informationen zum Anzeigen der Liste der in einer bestimmten Sitzung übertragenen Assets finden Sie unter [Hochladen von Assets in  [!DNL Experience Manager]](#upload-and-add-new-assets-to-aem).
 
 ## Erweiterter Workflow: von der [!DNL Assets]-Web-Oberfläche starten {#adv-workflow-start-from-aem-ui}
 
-Starten Sie bei Bedarf Ihren Workflow über die Assets-Web-Oberfläche. Die Desktop-App wird mit dem [!DNL Experience Manager] integriert, um die Übernahme bei Bedarf mithilfe von Desktop-Aktionen durchzuführen.
+Starten Sie bei Bedarf Ihren Workflow über die Assets-Web-Oberfläche. Das Desktop-Programm ist in [!DNL Experience Manager] integriert, damit es bei Bedarf für Desktop-Aktionen genutzt werden kann.
 
 Ein besonderes Beispiel für den Start des Workflows über die Web-Oberfläche ist die Asset-Suche. Die OmniSearch-Leiste in der Assets-Benutzeroberfläche bietet ein umfassendes und erweitertes Sucherlebnis. Möglicherweise möchten Sie zuerst ein gewünschtes Asset im Web suchen und dann den Workflow mit [!UICONTROL Desktop Actions] im Programm starten. Einige Beispielfälle umfassen das Filtern von Suchergebnissen mithilfe von Facetten, das Auffinden eines bestimmten von Adobe Stock lizenzierten Assets oder eine von Ihrem Unternehmen implementierte Anpassung, die eine bessere Erkennung über die Web-Oberfläche ermöglicht.
 
@@ -248,17 +248,17 @@ Die Funktionalität des Desktop-Programms wird verwendet, wenn Sie die folgenden
 
 Beispielsweise sind die Aktionen auf der Web-Oberfläche, die für ein Asset verfügbar sind, das im Programm ausgecheckt wurde, [!UICONTROL Open], [!UICONTROL Reveal] und [!UICONTROL Check-in].
 
-![Desktop-Aktionen in der  [!DNL Experience Manager] Web-](assets/assets_web_actions_da2.png "OberflächeDesktop-Aktionen in der Experience Manager-Weboberfläche")
+![Desktop-Aktionen auf der Web-Oberfläche von [!DNL Experience Manager] ](assets/assets_web_actions_da2.png "Desktop-Aktionen auf der Web-Oberfläche von Experience Manager")
 
 >[!NOTE]
 >
->Der Browser fordert Sie möglicherweise auf, den Start von [!DNL Adobe Experience Manager] Desktop zuzulassen. Um eine unterbrechungsfreie Übertragung vom Browser in das Programm zu erhalten, aktivieren Sie das entsprechende Kontrollkästchen, damit das Programm immer übernehmen kann.
+>Der Browser fordert Sie möglicherweise auf, den Start des [!DNL Adobe Experience Manager]-Desktop-Programms zuzulassen. Um eine unterbrechungsfreie Übertragung vom Browser in das Programm zu erhalten, aktivieren Sie das entsprechende Kontrollkästchen, damit das Programm immer übernehmen kann.
 
 Folgende Informationen oder Workflows können Sie nicht über die Web-Oberfläche finden. Verwenden Sie das Desktop-Programm, da die Web-Oberfläche lokale Änderungen nicht verfolgt und nicht über folgende Informationen verfügt:
 
 * Dateien lokal bearbeitet.
 * Dateien, die einen Bearbeitungskonflikt haben und wie diese gelöst werden können.
-* Laden Sie lokale Änderungen zu [!DNL Experience Manager] hoch.
+* Laden Sie die lokalen Änderungen in [!DNL Experience Manager] hoch.
 * Verschiedene Status der lokal verfügbaren Dateien.
 
 Sie können im Gegenteil das Asset in der Web-Oberfläche vom Desktop-Programm aus mit der Aktion **[!UICONTROL Open In Web]** öffnen.
@@ -268,14 +268,14 @@ Sie können im Gegenteil das Asset in der Web-Oberfläche vom Desktop-Programm a
 In kollaborativen Umgebungen arbeiten mehrere Benutzer möglicherweise mit demselben Satz von Assets, was zu Versionskonflikten führen kann. Um Konflikte zu vermeiden, befolgen Sie die folgenden Best Practices:
 
 * Bearbeiten Sie keine Assets, indem Sie auf [!UICONTROL Open] klicken. Bearbeiten Sie die lokal heruntergeladenen Assets nicht, indem Sie sie aus Ihrem Dateisystemordner öffnen. Andere Benutzer wissen nicht, dass das Asset gerade bearbeitet wird.
-* Um ein Asset zu bearbeiten, klicken Sie immer auf [!UICONTROL Edit]. Dadurch wird das Asset in der nativen Applikation geöffnet und dem Asset ein Sperrsymbol hinzugefügt, sodass die anderen Benutzer wissen, dass das Asset bearbeitet wird.
+* Um ein Asset zu bearbeiten, klicken Sie immer auf [!UICONTROL Edit]. Dadurch wird das Asset im nativen Programm geöffnet und dem Asset ein Sperrsymbol hinzugefügt, sodass die anderen Benutzer wissen, dass das Asset bearbeitet wird.
 * Klicken Sie auf [!UICONTROL Toggle Check-in], wenn Sie versehentlich mit der Bearbeitung beginnen, ohne auf [!UICONTROL Edit] geklickt zu haben. Dadurch wird dem Asset ein Sperrsymbol hinzugefügt. Wenn Sie ein Asset später bearbeiten möchten, andere es bis dahin aber nicht bearbeiten sollen, klicken Sie auf [!UICONTROL Toggle Check-in], um es zu sperren.
 * Bevor Sie ein Asset bearbeiten, stellen Sie sicher, dass es nicht von anderen Benutzern bearbeitet wird. Suchen Sie nach dem Sperrsymbol für das Asset.
 * Laden Sie nach Abschluss der Änderungen alle Änderungen hoch und checken Sie das Asset ein.
 
 ![Status von Bearbeitungskonflikten](assets/edits_conflicts_status_da2.png "Status von Bearbeitungskonflikten")
 
-Wenn ein lokal heruntergeladenes Asset auf dem [!DNL Experience Manager]-Server aktualisiert wird, zeigt die App den Status **[!UICONTROL Modified remotely]** an. Sie können entweder Ihre lokale Kopie entfernen oder Ihre lokale Kopie aktualisieren, indem Sie auf [!UICONTROL Remove] bzw. [!UICONTROL Update] klicken. Über Links im Dialogfeld können Sie beide Versionen des Assets anzeigen.
+Wenn ein lokal heruntergeladenes Asset auf dem [!DNL Experience Manager]-Server aktualisiert wird, zeigt das Programm den Status **[!UICONTROL Modified remotely]** an. Sie können entweder Ihre lokale Kopie entfernen oder Ihre lokale Kopie aktualisieren, indem Sie auf [!UICONTROL Remove] bzw. [!UICONTROL Update] klicken. Über Links im Dialogfeld können Sie beide Versionen des Assets anzeigen.
 
 ![Optionen zum Beheben des Konflikts, wenn das Asset remote bearbeitet wird](assets/modified_remotely_dialog_da2.png "Optionen zum Beheben des Konflikts, wenn das Asset remote bearbeitet wird")
 
@@ -285,9 +285,9 @@ Wenn ein lokal bearbeitetes Asset auch ohne Ihr Wissen auf dem Server aktualisie
 
 ## Erweiterter Workflow: Platzieren und Verknüpfen von Assets in einer InDesign-Datei {#adv-workflow-place-assets-indesign}
 
-Wenn Sie mit der Desktop-App [!DNL Experience Manager] Dateien mit verknüpften Assets öffnen, werden die Assets vorab heruntergeladen und in den nativen Anwendungen platziert. Damit dieser Workflow funktioniert, muss Ihre native Anwendung das Platzieren von Links zu lokalen Assets unterstützen und [!DNL Experience Manager] muss das Auflösen dieser Links in den Binärdateien zu serverseitigen Verweisen unterstützen.
+Wenn Sie mit dem [!DNL Experience Manager]-Desktop-Programm Dateien mit verknüpften Assets öffnen, werden die Assets vorab heruntergeladen und in den nativen Programmen abgelegt. Damit dieser Workflow funktioniert, muss Ihr natives Programm das Platzieren von Links zu lokalen Assets unterstützen und [!DNL Experience Manager] muss die Auflösung dieser Links in den Binärdateien zu Server-seitigen Verweisen unterstützen.
 
-[!DNL Experience Manager] Die Desktop-App unterstützt diesen Workflow mit einigen ausgewählten Adobe Creative Cloud-Desktop-Anwendungen und Dateiformaten - Adobe InDesign, Adobe Illustrator und Adobe Photoshop. Mit dem Workflow können Sie effizient mit den unterstützten Creative Cloud-Dateien arbeiten. Wenn Benutzer A also einige Assets in eine InDesign-Datei platziert und sie in [!DNL Experience Manager] überprüft, sieht Benutzer B die Assets in der InDesign-Datei, auch wenn die Assets nicht Teil der Datei sind. Die Assets werden lokal auf den Computer von Benutzer B heruntergeladen.
+Das [!DNL Experience Manager]-Desktop-Programm unterstützt diesen Workflow mit einigen ausgewählten Adobe Creative Cloud-Desktop-Programmen und -Dateiformaten - Adobe InDesign, Adobe Illustrator und Adobe Photoshop. Mit dem Workflow können Sie effizient mit den unterstützten Creative Cloud-Dateien arbeiten. Wenn Benutzer A also einige Assets in einer InDesign-Datei platziert und sie in [!DNL Experience Manager] eincheckt, werden die Assets in der InDesign-Datei von Benutzer B angezeigt, auch wenn die Assets nicht Teil der Datei sind. Die Assets werden lokal auf den Computer von Benutzer B heruntergeladen.
 
 >[!NOTE]
 >
@@ -297,23 +297,23 @@ Informationen zu den Einschränkungen dieses Workflows finden Sie in den [System
 
 Gehen Sie wie folgt vor, um diesen Workflow mit einem Bild-Asset und InDesign auszuprobieren:
 
-1. Halten Sie eine INDD-Datei mit platzierten Assets in [!DNL Experience Manager] praktisch bereit. Informationen zum Erstellen einer solchen INDD-Datei finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+1. Halten Sie eine INDD-Datei mit platzierten Assets in [!DNL Experience Manager] bereit. Informationen zum Erstellen einer solchen INDD-Datei finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/de/indesign/using/placing-graphics.html).
 1. Vom Desktop-Programm aus bearbeiten (**[!UICONTROL Edit]**) Sie die INDD-Datei mit den platzierten Assets in [!DNL Experience Manager].
 1. Das Programm lädt sowohl die InDesign-Datei als auch die verknüpften Assets herunter. Wenn InDesign das Dokument öffnet, werden die Verknüpfungen aufgelöst, Assets werden heruntergeladen und die Assets werden im InDesign-Dokument angezeigt.
 1. Wenn Sie eine neue Grafik in die InDesign-Datei einfügen möchten, verwenden Sie die Aktion **[!UICONTROL Reveal File]** für das Asset. Die Aktion lädt das Asset lokal herunter und öffnet den Speicherort für die lokale Netzwerkfreigabe in Windows Explorer oder Mac Finder.
 1. Platzieren Sie das angezeigte Asset im InDesign-Dokument. Dadurch wird eine Verknüpfung im Dokument erstellt.
-1. Nachdem Sie die Änderungen im InDesign-Dokument vorgenommen haben, speichern Sie es und laden Sie es mit der Desktop-App auf [!DNL Experience Manager] hoch.
+1. Nachdem Sie die Änderungen im InDesign-Dokument abgeschlossen haben, speichern Sie es und laden Sie es mit dem Desktop-Programm in [!DNL Experience Manager] hoch.
 
 ## Erweiterter Workflow: Assets lokal herunterladen {#adv-workflow-download-assets-locally}
 
-Die App lädt die Assets von dem Server [!DNL Experience Manager] lokal in Ihrem Dateisystem in vielen Szenarien herunter. Die Downloads verbrauchen Bandbreite und Speicherplatz. Wenn Sie die Szenarien kennen, können Sie die Wartezeit optimieren, bis die Downloads abgeschlossen sind.
+Das Programm lädt die Assets vom [!DNL Experience Manager]-Server in vielen Szenarien lokal auf Ihr Dateisystem herunter. Die Downloads verbrauchen Bandbreite und Speicherplatz. Wenn Sie die Szenarien kennen, können Sie die Wartezeit optimieren, bis die Downloads abgeschlossen sind.
 
 Sie laden die Assets auf Abruf aus dem Programm herunter. Siehe [Herunterladen von Assets](#download-assets).
 
-Wenn Sie mit der Aktion [!UICONTROL Open] ein Asset in einer nativen Desktop-Applikation öffnen, wird das Asset lokal heruntergeladen, wenn es nicht bereits lokal verfügbar ist. Siehe [Öffnen von Assets](#openondesktop-v2).
+Wenn Sie mit der Aktion [!UICONTROL Open] ein Asset in einem nativen Desktop-Programm öffnen, wird das Asset lokal heruntergeladen, wenn es nicht bereits lokal verfügbar ist. Siehe [Öffnen von Assets](#openondesktop-v2).
 
 Wenn Sie den Speicherort eines Assets oder Ordners im Programm anzeigen, wird das Asset oder der Ordner zunächst lokal heruntergeladen und dann auf Ihrem Computer in der lokalen Netzwerkfreigabe geöffnet. Siehe [Öffnen von Assets](#openondesktop-v2).
 
-Wenn Sie die Aktion [!UICONTROL Edit] zum Bearbeiten eines Assets in einer nativen Desktop-Applikation verwenden, wird das Asset lokal heruntergeladen, wenn es nicht bereits lokal verfügbar ist. Siehe [Bearbeiten von Assets und Hochladen aktualisierter Assets in [!DNL Experience Manager]](#edit-assets-upload-updated-assets).
+Wenn Sie die Aktion [!UICONTROL Edit] zum Bearbeiten eines Assets in einem nativen Desktop-Programm verwenden, wird das Asset lokal heruntergeladen, wenn es nicht bereits lokal verfügbar ist. Siehe [Bearbeiten von Assets und Hochladen aktualisierter Assets in  [!DNL Experience Manager]](#edit-assets-upload-updated-assets).
 
-Wenn die App installiert ist und darf, werden die Aktionen ausgeführt, wenn Sie [!UICONTROL Desktop Actions] von der [!DNL Experience Manager]-Weboberfläche verwenden. Das Programm lädt das Asset zuerst herunter und schließt dann die Aktion ab.
+Wenn das Programm installiert ist und über entsprechende Berechtigungen verfügt, führt es die Aktionen aus, wenn Sie [!UICONTROL Desktop Actions] in der Web-Oberfläche von [!DNL Experience Manager] verwenden. Das Programm lädt das Asset zuerst herunter und schließt dann die Aktion ab.
