@@ -1,11 +1,11 @@
 ---
 title: Versionshinweise für das AEM-Desktop-Programm, Version 1.x
 description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das AEM-Desktop-Programm, Version 1.x.
-translation-type: ht
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-source-wordcount: '3906'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 95e252504a4fbb3b60a2c6bc9b57a8a0d8ecb51c
+workflow-type: tm+mt
+source-wordcount: '3904'
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ Das AEM-Desktop-Programm 1.10 konzentriert sich auf die Verbesserung des Benutz
 
 **Benachrichtigungen bezüglich Aktualisierungskonflikten**: Wenn das Programm beim Aktualisieren eines Assets einen Konflikt feststellt, wird eine Benachrichtigung angezeigt, damit der Benutzer den Fall untersuchen kann, ohne das Statusfenster im Blick behalten zu müssen. Wenn das Programm startet, sucht es nach potenziellen Konflikten, damit der Benutzer sie beheben kann.
 
-**Besserer Umgang mit Verbindungsabbrüchen**: Massen-Uploads werden angehalten, wenn die Verbindung unterbrochen wird. Benutzer können sie zu einem späteren Zeitpunkt fortsetzen. Für fehlgeschlagene Uploads einzelner Dateien steht Benutzern die Schaltfläche „Retry“ (Wiederholen) zur Verfügung.
+**Besserer Umgang mit Verbindungsabbrüchen**. Massen-Uploads werden angehalten, wenn die Verbindung unterbrochen wird. Benutzer können sie zu einem späteren Zeitpunkt fortsetzen. Eine [!UICONTROL Retry]-Option ist verfügbar, um einen fehlgeschlagenen Upload einer einzelnen Datei erneut auszuführen.
 
 ## Installationsanweisungen {#installation-instructions}
 
@@ -394,7 +394,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 
 **CA-signierte SSL-Zertifikate verwenden:** Beachten Sie, dass das AEM-Desktop-Programm beim Herstellen einer sicheren HTTPS-Verbindung zu AEM keine selbstsignierten SSL-Zertifikate unterstützt. Für derartige Verbindungen ist ein CA-signiertes Zertifikat auf dem Server erforderlich (CQ-87941).
 
-## Bekannte Probleme {#known-issues}
+## Bekannte Probleme  {#known-issues}
 
 * Allgemein:
    * Es werden Server-URLs benötigt, um ohne Pfad auf den Server zu verweisen (z. B. `http://server`, `https://server`, `http://server:port` oder `https://server:port`). Außer „/content/dam“ werden keine anderen Kontextpfade und Unterordner unterstützt (CQ-89343, CQ-87272).
@@ -417,7 +417,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 * Windows:
    * Dateien mit alternativen Datenströmen (ADS) werden nur in NTFS-Dateisystemen vollständig unterstützt. Das Kopieren derartiger Dateien auf die vom Desktop-Programm bereitgestellte WebDAV-Freigabe führt zur Anzeige einer Warnung, die den Benutzer darauf hinweist, dass die Datei Eigenschaften aufweist, die nicht an den neuen Speicherort kopiert werden können. Das ist normalerweise unproblematisch, da die Eigenschaften nur für ein bestimmtes Programm auf dem Desktop des Benutzers relevant sind und nichts mit dem eigentlichen Dateiinhalt zu tun haben (CQ-103770). (Win)
    * Unter Windows muss das Desktop-Programm von dem Benutzer installiert werden, der sie verwenden wird (CQ-4216389). (Win)
-   * Das Programm kann abstürzen, wenn Benutzer unter bestimmten Umständen (nach Fortsetzen des Massen-Uploads nach einem Verbindungsabbruch) auf die Schaltfläche „Wiederholen“ für einen fehlgeschlagenen Upload klicken (CQ-4251884). (Win)
+   * Die App kann abstürzen, wenn bei einem fehlgeschlagenen Upload unter bestimmten Umständen die Option [!UICONTROL Retry] ausgewählt wird, nachdem der Batch-Upload nach der Trennung der Verbindung fortgesetzt wurde (CQ-4251884) (Win)
 
 ## Hilfreiche Ressourcen {#helpful-resources}
 
