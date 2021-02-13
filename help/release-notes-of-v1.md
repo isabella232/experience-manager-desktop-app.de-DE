@@ -1,16 +1,16 @@
 ---
-title: Versionshinweise für das AEM-Desktop-Programm, Version 1.x
-description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das AEM-Desktop-Programm, Version 1.x.
+title: Versionshinweise zur Desktop-App Version 1.10
+description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das AEM-Desktop-Programm, Version 1.10.
 translation-type: tm+mt
-source-git-commit: 95e252504a4fbb3b60a2c6bc9b57a8a0d8ecb51c
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
 workflow-type: tm+mt
-source-wordcount: '3904'
-ht-degree: 99%
+source-wordcount: '3901'
+ht-degree: 98%
 
 ---
 
 
-# Versionshinweise für das [!DNL Adobe Experience Manager]-Desktop-Programm Version 1.x {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager] Versionshinweise zur Desktop-App v1.10  {#aem-desktop-app-release-notes}
 
 Für das AEM-Desktop-Programm v1.x sind die folgenden Download-Links und AEM-Kompatibilitätsinformationen verfügbar:
 
@@ -44,7 +44,7 @@ Für die Version des AEM-Desktop-Programms, die Sie auf Ihrem lokalen Computer i
 
 Lesen Sie die Informationen in der [detaillierten Kompatibilitätsmatrix](#compatibilitymatrix) am Ende dieses Dokuments, um die Voraussetzungen für Ihr Setup zu prüfen.
 
-## Neue Funktionen im AEM-Desktop-Programm 1.10 {#what-s-new-in-aem-desktop-app}
+## Neue Funktionen in der Desktop-App v1.10 {#what-s-new-in-aem-desktop-app}
 
 Das AEM-Desktop-Programm 1.10 konzentriert sich auf die Verbesserung des Benutzererlebnisses rund um den Upload großer Dateien, Informationen über Hintergrundvorgänge sowie ein optimiertes Erlebnis beim Öffnen von Assets mit verlinkten Dateien (wie InDesign).
 
