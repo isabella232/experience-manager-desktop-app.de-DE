@@ -1,16 +1,16 @@
 ---
-title: Verwenden des  [!DNL Experience Manager] -Desktop-Programms, Version 1.x.
-description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm, Version 1.x verwenden und Ihre Arbeit mit Assets auf dem Desktop optimieren können.
-translation-type: ht
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-source-wordcount: '2379'
-ht-degree: 100%
+title: Verwenden Sie [!DNL Experience Manager] Desktop-App Version 1.10.
+description: Erfahren Sie, wie Sie die Adobe Experience Manager Desktop-App Version 1.10 verwenden und Ihre Arbeit mit Assets auf dem Desktop optimieren.
+translation-type: tm+mt
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
+workflow-type: tm+mt
+source-wordcount: '2377'
+ht-degree: 98%
 
 ---
 
 
-# Verwenden des [!DNL Experience Manager]-Desktop-Programms, v1.x {#use-aem-desktop-app-v1x}
+# Verwenden Sie [!DNL Experience Manager] Desktop-App v1.10 {#use-aem-desktop-app-v1x}
 
 Mithilfe des Programms haben Sie über Ihren lokalen Desktop problemlosen Zugriff auf die Assets in [!DNL Experience Manager] und die Assets können in beliebigen Desktop-Applikationen verwendet werden. Assets können in Mac Finder oder Windows Explorer leicht angezeigt, in Desktop-Applikationen geöffnet und lokal geändert werden. Die Änderungen werden dann wieder unter einer neuen, im Repository erstellten Version in [!DNL Experience Manager] gespeichert.
 
@@ -27,7 +27,7 @@ Informationen zu den empfohlenen und nicht empfohlenen Vorgehensweisen finden Si
 
 >[!NOTE]
 >
->Das [!DNL Experience Manager]-Desktop-Programm wurde in [!DNL Experience Manager]-Version 6.1 unter dem Namen [!DNL Experience Manager Assets Companion App] eingeführt.
+>Die Desktop-App wurde in der Version [!DNL Experience Manager] 6.1 eingeführt und mit [!DNL Experience Manager Assets Companion App] bezeichnet.
 
 ## Touchpoints des [!DNL Experience Manager]-Desktop-Programms im kreativen Workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
@@ -146,7 +146,7 @@ Nachdem Sie Ihrem lokalen Laufwerk das [!DNL Assets]-Repository zugeordnet haben
 
 Um das gewünschte Asset in Ihrem lokalen Dateisystem zu finden, klicken Sie auf die Schnellaktion **Anzeigen** ![Symbol „Anzeigen“](assets/do-not-localize/aemassets_reveal_icon.png). Alternativ können Sie die Option **Anzeigen** über das Menü **Desktop-Aktionen** in der Symbolleiste auswählen.
 
-## Grundlegendes zu den Asset-Status {#understand-the-asset-statuses}
+## Grundlegendes zu den Asset-Status  {#understand-the-asset-statuses}
 
 | ![Windows-Standardapplikationssymbol](assets/do-not-localize/win_default.png) | Das Programm ist mit dem Server verbunden und alle Assets sind synchronisiert. |
 --- |--- |
@@ -220,7 +220,7 @@ Mithilfe des Programms können Sie Dateien auschecken, damit andere Benutzer kei
 
 1. Wenn Sie das Asset einchecken möchten, sodass es für andere Benutzer verfügbar ist, klicken/tippen Sie im Dialogfeld **Asset Info** (Asset-Informationen) auf das Symbol „Einchecken“.
 
-### Einchecken eines Assets mit Finder oder Explorer und der Web-Benutzeroberfläche {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Einchecken eines Assets mit Finder oder Explorer und der Web-Benutzeroberfläche  {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Wenn Sie mit dem Bearbeiten der Assets fertig sind, speichern Sie sie in Ihrem Desktop-Programm. Wählen Sie im Kontextmenü die Option **Weitere Asset-Informationen** aus und klicken/tippen Sie auf „Einchecken“.
 
