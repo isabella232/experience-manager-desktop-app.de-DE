@@ -1,11 +1,11 @@
 ---
-title: Einführung in das  [!DNL Adobe Experience Manager] -Desktop-Programm
+title: Einführung in das  [!DNL Experience Manager] -Desktop-Programm
 description: Erfahren Sie, wie Sie  [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets]  direkt von ihrem Desktop aus verwenden können.
-translation-type: ht
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 93%
 
 ---
 
@@ -20,20 +20,20 @@ Eine solche Integration ermöglicht es verschiedenen Rollen in der Organisation,
 
 >[!NOTE]
 >
->Das [!DNL Adobe Experience Manager]-Desktop-Programm wurde in der [!DNL Adobe Experience Manager]-Version 6.1 eingeführt und hatte vorher den Namen [!DNL Adobe Experience Manager Assets] Companion App. Hilfe zur Programm-Version 1.x finden Sie im Inhaltsverzeichnis in der linken Seitenleiste. Adobe empfiehlt ein Upgrade auf die neueste Version 2.
+>Die App wurde in der Version [!DNL Adobe Experience Manager] 6.1 eingeführt und wurde zuvor als [!DNL Adobe Experience Manager Assets] Companion App bezeichnet. Hilfe zu Version 1.x der App finden Sie im Inhaltsverzeichnis in der linken Seitenleiste. Adobe empfiehlt ein Upgrade auf die neueste Version.
 
 Die Dokumentation zum Desktop-Programm enthält Informationen zu den folgenden Rollen und Anwendungsfällen.
 
 | Erforderliche Informationen | Hilfeinhalt |
 |--- |--- |
-| Möchten Sie einen schnellen Überblick über neue Funktionen und Verbesserungen in der neuesten Version erhalten? | [Neue Funktionen im Programm](#whats-new-v2) |
+| Möchten Sie einen schnellen Überblick über neue Funktionen und Verbesserungen in der neuesten Version erhalten? | [Neue Funktionen in der App](#whats-new-v2) |
 | Möchten Sie die Voraussetzungen und technischen Spezifikationen kennenlernen? Benötigen Sie Links zum Herunterladen? | [Versionshinweise](release-notes.md) |
 | Sie kennen das Desktop-Programm bereits? Sie wollen eine Aktualisierung durchführen und einen reibungslosen Übergang sicherstellen? | [Upgrade von früherer Version](install-upgrade.md#upgrade-from-previous-version) |
 | Starten Sie voll durch. Möchten Sie die Standardeinstellungen anpassen? | [Installieren und Konfigurieren des Programms](install-upgrade.md) |
 | Erfahren Sie, wie Sie das Programm zum Durchsuchen, Erkennen, Bearbeiten, Hochladen, Auflösen von Konflikten, Durchführen von Massenvorgängen usw. verwenden können. | [Verwenden des [!DNL Experience Manager] -Desktop-Programms](using.md) |
 | Ist ein Problem aufgetreten? Benötigen Sie Hilfe bei der Fehlerbehebung? | [Fehlerbehebung beim  [!DNL Experience Manager] -Desktop-Programm](troubleshoot.md) |
 
-## Neue Funktionen im Programm {#whats-new-v2}
+## Neue Funktionen in der App {#whats-new-v2}
 
 Version 2.0 des Programms wurde von Grund auf neu entwickelt, um im Vergleich zu früheren Versionen viele Verbesserungen zu bieten. Das neue Programm ist benutzerfreundlicher und bietet ein dediziertes Desktop-Erlebnis mit einer neuen Programm-Oberfläche. Benutzer können Assets suchen und durchsuchen, öffnen, ändern und Änderungen sowie neue Assets hochladen, ohne die [!DNL Experience Manager]-Oberfläche verwenden zu müssen. Diese Version unterstützt auch das Öffnen von Dateien über die [!DNL Experience Manager]-Oberfläche.
 
