@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -128,12 +128,12 @@ Die Best Practices für die AEM Assets-Netzwerkkonfiguration finden Sie im Dokum
 
 >[!NOTE]
 >
->Um die Vorschauen der Symbole zu deaktivieren, wählen Sie im Finder [!UICONTROL View] die Option [!UICONTROL View Options] und deaktivieren Sie dann die Option [!UICONTROL Show icon preview]. Dies funktioniert nur für den aktuellen Ordner. Um ihn als Standard festzulegen, klicken Sie im selben Dialogfeld auf die Option [!UICONTROL Use as default].
+>Um die Symbolvorschau zu deaktivieren, gehen Sie im Finder zu [!UICONTROL View], wählen Sie die Option [!UICONTROL View Options] und deaktivieren Sie dann [!UICONTROL Show icon preview]. Diese Einstellung bezieht sich nur auf den aktuellen Ordner. Um sie standardmäßig festzulegen, klicken Sie im selben Fenster auf die Option [!UICONTROL Use as default].
 
 ### Optimieren der Serverleistung  {#optimizing-server-performance}
 
 Informationen zur Leistungsoptimierung des AEM Assets-Servers finden Sie im [Handbuch zur Optimierung der AEM Assets-Leistung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=de). Einige wichtige Aspekte im Zusammenhang mit der Server-Leistung des AEM-Desktop-Programms beziehen sich auf das Optimieren der Workflow-Konfiguration für Asset-Uploads:
 
-* **Leistungsstärkere Asset-Uploads**. Konfigurieren Sie das [AEM-Workflow-Modell „AEM-Asset-Update“ als Übergangs-Workflow](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html).
+* **Leistungsstärkere Asset-Uploads**. Konfigurieren Sie das [AEM-Workflow-Modell „AEM Asset-Update“ als Übergangs-Workflow](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html).
 
 * **Server-Prozessoren für Uploads beschränken**. Stellen Sie sicher, dass der Parameter für parallele Workflow-Aufträge korrekt eingestellt ist, damit bei Uploads nicht die gesamte CPU ausgereizt wird.
