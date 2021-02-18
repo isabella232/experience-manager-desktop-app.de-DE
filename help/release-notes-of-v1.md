@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
 workflow-type: tm+mt
 source-wordcount: '3901'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ Das AEM-Desktop-Programm 1.10 konzentriert sich auf die Verbesserung des Benutz
 
 **Benachrichtigungen bezüglich Aktualisierungskonflikten**: Wenn das Programm beim Aktualisieren eines Assets einen Konflikt feststellt, wird eine Benachrichtigung angezeigt, damit der Benutzer den Fall untersuchen kann, ohne das Statusfenster im Blick behalten zu müssen. Wenn das Programm startet, sucht es nach potenziellen Konflikten, damit der Benutzer sie beheben kann.
 
-**Besserer Umgang mit Verbindungsabbrüchen**. Massen-Uploads werden angehalten, wenn die Verbindung unterbrochen wird. Benutzer können sie zu einem späteren Zeitpunkt fortsetzen. Eine [!UICONTROL Retry]-Option ist verfügbar, um einen fehlgeschlagenen Upload einer einzelnen Datei erneut auszuführen.
+**Besserer Umgang mit Verbindungsabbrüchen**. Massen-Uploads werden angehalten, wenn die Verbindung unterbrochen wird. Benutzer können sie zu einem späteren Zeitpunkt fortsetzen. Für fehlgeschlagene Uploads einzelner Dateien steht Benutzern die Schaltfläche [!UICONTROL Retry] zur Verfügung.
 
 ## Installationsanweisungen {#installation-instructions}
 
@@ -74,7 +74,7 @@ Diese Version erweitert und ersetzt die Vorgängerversionen des [!DNL Experience
 
 * **Version 1.8**: bessere Steuerung der Cache-Größe für den Benutzer, verbesserte Anmeldung für SAML/SSO unter Windows, Unterstützung des .pac-Netzwerk-Proxys auf Mac-Computern und Behebung der von Kunden gemeldeten Probleme.
 
-* **Version 1.7.**: Verbesserungen der Stabilität und Caching-Logik, bessere Unterstützung für Netzwerk-Proxys und Möglichkeit, interne Dateien nach der Deinstallation zu bereinigen
+* **Version 1.7**: Verbesserungen der Stabilität und Caching-Logik, bessere Unterstützung für Netzwerk-Proxys und Möglichkeit, interne Dateien nach der Deinstallation zu bereinigen
 
 * **Version 1.6**: Verbesserungen am Anmeldeprozess für verschiedene AEM-Sicherheitskonfigurationen sowie an der Stabilität und Leistung des Programms.
 
@@ -267,7 +267,7 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 
 * Fehlerbehebungen:
 
-   * Problem aufgrund von Fehler 43 behoben, das in einigen Fällen beim Umbenennen von Assets aufgetreten ist (CQ-4207900)..
+   * Problem aufgrund von Fehler 43 behoben, das in einigen Fällen beim Umbenennen von Assets aufgetreten ist (CQ-4207900).
 
    * Beim Zurücksetzen auf eine ältere Version aus der Timeline aktualisiert AEM das Asset nicht in Finder (CQ-4205194).
 
@@ -338,7 +338,7 @@ Diese beiden Fälle treten erwartungsgemäß ein. Sie sind auf die „Delayed Sy
 * Verbesserte Finder-Integration, die für mehr Stabilität sorgt und den Zugriff auf Funktionen wie Miniaturansichten ermöglicht.
 * Verbesserungen hinsichtlich der Zwischenspeicherung und Leistung.
 * Bessere Unterstützung für das direkte Speichern aus Desktop-Programmen (PS, ID, AI usw.).
-* Verbesserte Integration mit Mac OS (Protokoll für lokale Netzwerklaufwerke geändert, statt WebDAV zuverlässigeres SMB1).
+* Verbesserte Integration mit macOS (Protokoll für lokale Netzwerklaufwerke geändert, statt WebDAV zuverlässigeres SMB1).
 * Das Desktop-Programm stellt eine Verbindung zum AEM-Server mithilfe des AEM-nativen HTTP RESTful-Protokolls her.
 * Die Dateien werden zunächst lokal gespeichert und nach einer festgelegten Zeit (30 Sek.) im Hintergrund wieder in AEM hochgeladen. Dadurch wird das Speichern von Dateien beschleunigt.
 * Besseres Handling von Desktop-Programmen, die Zwischenvorgänge zum Speichern von Dateien verwenden (partielles Speichern und temporäre Dateien). Dadurch können in der AEM Assets-Timeline korrekte Versions- und Asset-Upload-Informationen angezeigt werden.
@@ -417,7 +417,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 * Windows:
    * Dateien mit alternativen Datenströmen (ADS) werden nur in NTFS-Dateisystemen vollständig unterstützt. Das Kopieren derartiger Dateien auf die vom Desktop-Programm bereitgestellte WebDAV-Freigabe führt zur Anzeige einer Warnung, die den Benutzer darauf hinweist, dass die Datei Eigenschaften aufweist, die nicht an den neuen Speicherort kopiert werden können. Das ist normalerweise unproblematisch, da die Eigenschaften nur für ein bestimmtes Programm auf dem Desktop des Benutzers relevant sind und nichts mit dem eigentlichen Dateiinhalt zu tun haben (CQ-103770). (Win)
    * Unter Windows muss das Desktop-Programm von dem Benutzer installiert werden, der sie verwenden wird (CQ-4216389). (Win)
-   * Die App kann abstürzen, wenn bei einem fehlgeschlagenen Upload unter bestimmten Umständen die Option [!UICONTROL Retry] ausgewählt wird, nachdem der Batch-Upload nach der Trennung der Verbindung fortgesetzt wurde (CQ-4251884) (Win)
+   * Das Programm kann abstürzen, wenn Benutzer unter bestimmten Umständen (nach Fortsetzen des Massen-Uploads nach einem Verbindungsabbruch) auf die Schaltfläche [!UICONTROL Retry] für einen fehlgeschlagenen Upload klicken (CQ-4251884). (Win)
 
 ## Hilfreiche Ressourcen {#helpful-resources}
 
