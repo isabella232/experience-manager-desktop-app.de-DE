@@ -1,18 +1,18 @@
 ---
-title: Installieren und Konfigurieren der Desktop-App Version 1.10
-description: Installieren und konfigurieren Sie  [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets] -Server und ordnen Sie die Assets für die Bereitstellung als Laufwerk auf Ihrem Desktop zu.
-translation-type: tm+mt
+title: Installieren und Konfigurieren des Desktop-Programms, v1.10
+description: Installieren und konfigurieren Sie [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets] -Server und ordnen Sie die Assets für die Bereitstellung als Laufwerk auf Ihrem Desktop zu.
+translation-type: ht
 source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '901'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Installieren und Konfigurieren des [!DNL Experience Manager]-Desktop-Programms, v1.10 {#install-and-configure-aem-desktop-app}
 
-Mithilfe des [!DNL Experience Manager]-Desktop-Programms können Sie über Ihren lokalen Desktop problemlos auf die Assets in [!DNL Experience Manager] zugreifen und sie in beliebigen Desktop-Applikationen verwenden. Assets können in Mac Finder oder Windows Explorer leicht angezeigt, in Desktop-Applikationen geöffnet und lokal geändert werden. Die Änderungen werden beim Upload dann wieder unter einer neuen, im Repository erstellten Version in [!DNL Experience Manager] gespeichert.
+Mithilfe des [!DNL Experience Manager]-Desktop-Programms können Sie über Ihren lokalen Desktop problemlos auf die Assets in [!DNL Experience Manager] zugreifen und sie in beliebigen Desktop-Programmen verwenden. Assets können in Mac Finder oder Windows Explorer leicht angezeigt, in Desktop-Programmen geöffnet und lokal geändert werden. Die Änderungen werden beim Upload dann wieder unter einer neuen, im Repository erstellten Version in [!DNL Experience Manager] gespeichert.
 
 Dank dieser Integration können unterschiedliche Rollen in der Organisation die Assets in Assets zentral verwalten und in Creative Cloud und anderen Programmen darauf zugreifen. Gleichzeitig können diverse Standards einschließlich Branding-Vorgaben leichter eingehalten werden.
 
@@ -30,7 +30,7 @@ Detaillierte Informationen finden Sie in den Versionshinweisen zum [[!DNL Experi
 
 ## Installieren und Verbinden des Programms mit dem [!DNL Experience Manager]-Server {#install-and-connect-aem-desktop-app-to-aem-server}
 
-Weitere Informationen finden Sie unter [Installieren und Verbinden des  [!DNL Experience Manager] desktop app to [!DNL Experience Manager] -Servers](use-app-v1.md#installandconnect).
+Weitere Informationen finden Sie unter [Installieren und Verbinden des [!DNL Experience Manager] desktop app to [!DNL Experience Manager] -Servers](use-app-v1.md#installandconnect).
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ Wenn Sie Proxyserver-Einstellungen für Windows konfigurieren oder ändern (Inte
 >
 >Proxy-Konfiguration wird nur angewendet, wenn Sie das Desktop-Programm starten. Schließen Sie das Programm und starten Sie es erneut, damit Änderungen wirksam werden.
 
-Wenn für den Proxy eine Authentifizierung erforderlich ist, kann die IT-Abteilung die URL von Experience Manager Assets in den Proxyserver-Einstellungen zulassen, um den Applikationsdatenverkehr durchzulassen.
+Wenn für den Proxy eine Authentifizierung erforderlich ist, kann die IT-Abteilung die URL von Experience Manager Assets in den Proxyserver-Einstellungen zulassen, um den Programmdatenverkehr durchzulassen.
 
 ## Anpassen des Dialogfelds „Asset Info“ {#customize-the-asset-info-dialog}
 
@@ -102,7 +102,7 @@ Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke z
 >
 >Wenn Sie den Cache löschen, werden nicht gespeicherte Änderungen beibehalten. Alle Elemente, die nicht auf dem [!DNL Experience Manager]-Server eingecheckt wurden, werden beibehalten und nicht gelöscht.
 
-### Ändern des Cache-Verzeichnisses unter Windows  {#change-location-of-cache-on-windows}
+### Ändern des Cache-Verzeichnisses unter Windows {#change-location-of-cache-on-windows}
 
 Der Standardspeicherort des Caches für das [!DNL Experience Manager]-Desktop-Programm lautet:
 
@@ -127,7 +127,7 @@ Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen,
    >Das Programm erstellt automatisch ein Unterverzeichnis mit der Bezeichnung *&lt;Encoded AEM Endpoint>*. Dieses Verhalten kann nicht konfiguriert werden.
 
 >[!MORELIKETHIS]
-* [Einführung in das  [!DNL Experience Manager] -Desktop-Programm](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=de).
-* [Verwenden des  [!DNL Experience Manager] -Desktop-Programms](use-app-v1.md).
-* [Fehlerbehebung für das  [!DNL Experience Manager] -Desktop-Programm](troubleshoot-app-v1.md).
+* [Einführung in das [!DNL Experience Manager] -Desktop-Programm](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=de).
+* [Verwenden des [!DNL Experience Manager] -Desktop-Programms](use-app-v1.md).
+* [Fehlerbehebung für das [!DNL Experience Manager] -Desktop-Programm](troubleshoot-app-v1.md).
 
