@@ -1,16 +1,16 @@
 ---
-title: Versionshinweise zur Desktop-App Version 1.10
+title: Versionshinweise für das Desktop-Programm, v1.10
 description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das AEM-Desktop-Programm, Version 1.10.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3901'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Adobe Experience Manager] Versionshinweise zur Desktop-App v1.10  {#aem-desktop-app-release-notes}
+# Versionshinweise für das [!DNL Adobe Experience Manager]-Desktop-Programm, Version 1.10. {#aem-desktop-app-release-notes}
 
 Für das AEM-Desktop-Programm v1.x sind die folgenden Download-Links und AEM-Kompatibilitätsinformationen verfügbar:
 
@@ -44,7 +44,7 @@ Für die Version des AEM-Desktop-Programms, die Sie auf Ihrem lokalen Computer i
 
 Lesen Sie die Informationen in der [detaillierten Kompatibilitätsmatrix](#compatibilitymatrix) am Ende dieses Dokuments, um die Voraussetzungen für Ihr Setup zu prüfen.
 
-## Neue Funktionen in der Desktop-App v1.10 {#what-s-new-in-aem-desktop-app}
+## Neue Funktionen im Desktop-Programm, v1.10 {#what-s-new-in-aem-desktop-app}
 
 Das AEM-Desktop-Programm 1.10 konzentriert sich auf die Verbesserung des Benutzererlebnisses rund um den Upload großer Dateien, Informationen über Hintergrundvorgänge sowie ein optimiertes Erlebnis beim Öffnen von Assets mit verlinkten Dateien (wie InDesign).
 
@@ -348,7 +348,7 @@ Diese beiden Fälle treten erwartungsgemäß ein. Sie sind auf die „Delayed Sy
 
 ### Bereitstellungspunkt für Mac {#mount-point-on-mac}
 
-Mit Einführung von MacOS 10.12 (Sierra) hat Apple die Berechtigungen für den Ordner „/Volumes“ stärker eingeschränkt, der für die Bereitstellung von Netzwerklaufwerken und Geräten verwendet wird. Für das Erstellen eines neuen Bereitstellungspunkts waren Administratorrechte erforderlich. Dieses Problem wurde mit Einführung von MacOS 10.12.5 behoben.
+Mit Einführung von macOS 10.12 (Sierra) hat Apple die Berechtigungen für den Ordner „/Volumes“ stärker eingeschränkt, der für die Bereitstellung von Netzwerklaufwerken und Geräten verwendet wird. Für das Erstellen eines neuen Bereitstellungspunkts waren Administratorrechte erforderlich. Dieses Problem wurde mit Einführung von MacOS 10.12.5 behoben.
 
 Da das AEM-Desktop-Programm für Benutzer ohne Administratorrechte auf lokalen Computern ausgeführt werden sollte, wurde der Bereitstellungspunkt für AEM Assets-Repositorys in Version 1.4 und 1.5 in einen DAM-Unterordner im lokalen Ordner des Benutzers unter macOS geändert (CQ-104183).
 
@@ -394,7 +394,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 
 **CA-signierte SSL-Zertifikate verwenden:** Beachten Sie, dass das AEM-Desktop-Programm beim Herstellen einer sicheren HTTPS-Verbindung zu AEM keine selbstsignierten SSL-Zertifikate unterstützt. Für derartige Verbindungen ist ein CA-signiertes Zertifikat auf dem Server erforderlich (CQ-87941).
 
-## Bekannte Probleme  {#known-issues}
+## Bekannte Probleme {#known-issues}
 
 * Allgemein:
    * Es werden Server-URLs benötigt, um ohne Pfad auf den Server zu verweisen (z. B. `http://server`, `https://server`, `http://server:port` oder `https://server:port`). Außer „/content/dam“ werden keine anderen Kontextpfade und Unterordner unterstützt (CQ-89343, CQ-87272).
