@@ -1,11 +1,11 @@
 ---
 title: Versionshinweise für das Desktop-Programm, v1.10
 description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das AEM-Desktop-Programm, Version 1.10.
-translation-type: ht
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
-workflow-type: ht
-source-wordcount: '3901'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
+workflow-type: tm+mt
+source-wordcount: '3897'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Das [!DNL Adobe Experience Manager]-Desktop-Programm ist mit den folgenden Betri
 
 >[!NOTE]
 >
->Windows 7 wird vom Anbieter nicht mehr unterstützt (https://support.microsoft.com/de-de/help/4057281/windows-7-support-ended-on-january-14-2020).
+>Windows 7 wird nicht mehr unterstützt. Siehe [den Artikel zum EOL von Windows 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 Adobe empfiehlt dringend, die neueste Version des AEM-Desktop-Programms zu verwenden, um die neuesten Funktionen mit den neuesten Fehlerkorrekturen und der bestmöglichen Leistung zu nutzen.
 
@@ -217,7 +217,7 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 
 ### Seit Einführung von AEM-Desktop-Programm 1.6 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
-* Dokumentation: Neue Dokumentation [Best Practices für das Programm, v1.x](https://helpx.adobe.com/de/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html).
+* Dokumentation: Neue Dokumentation [Best Practices für das Programm, v1.x](/help/best-practices-for-v1.md).
 
 * Verbesserter Anmeldeprozess für AEM:
 
@@ -394,7 +394,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 
 **CA-signierte SSL-Zertifikate verwenden:** Beachten Sie, dass das AEM-Desktop-Programm beim Herstellen einer sicheren HTTPS-Verbindung zu AEM keine selbstsignierten SSL-Zertifikate unterstützt. Für derartige Verbindungen ist ein CA-signiertes Zertifikat auf dem Server erforderlich (CQ-87941).
 
-## Bekannte Probleme {#known-issues}
+## Bekannte Probleme  {#known-issues}
 
 * Allgemein:
    * Es werden Server-URLs benötigt, um ohne Pfad auf den Server zu verweisen (z. B. `http://server`, `https://server`, `http://server:port` oder `https://server:port`). Außer „/content/dam“ werden keine anderen Kontextpfade und Unterordner unterstützt (CQ-89343, CQ-87272).
@@ -421,7 +421,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 
 ## Hilfreiche Ressourcen {#helpful-resources}
 
-* [Dokumentation zu AEM](https://helpx.adobe.com/de/support/experience-manager/6-4.html)
+* [Dokumentation zu AEM](https://experienceleague.adobe.com/docs/)
 * [Verwenden des AEM-Desktop-Programms, v1.x](use-app-v1.md)
 * [Best Practices für das AEM-Desktop-Programm, v1.x](best-practices-for-v1.md)
 
