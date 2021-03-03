@@ -2,11 +2,11 @@
 title: '[!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm'
 description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das [!DNL Adobe Experience Manager] -Desktop-Programm.
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: b5292d9386432bd7c6ba5d7117dbc9fd9f014941
-workflow-type: ht
-source-wordcount: '1418'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
+workflow-type: tm+mt
+source-wordcount: '1424'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Das [!DNL Adobe Experience Manager]-Desktop-Programm ist mit den folgenden Betri
 
 >[!NOTE]
 >
->Windows 7 wird vom Anbieter nicht mehr unterstützt (https://support.microsoft.com/de-de/help/4057281/windows-7-support-ended-on-january-14-2020).
+>Windows 7 wird nicht mehr unterstützt. Siehe [den Artikel zum EOL von Windows 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 Das Programm funktioniert mit den folgenden [!DNL Experience Manager]-Versionen, unabhängig davon, ob sie als [!DNL Cloud Service], über Adobe Managed Services (AMS) oder On-Premise bereitgestellt werden:
 
@@ -47,7 +47,7 @@ Das Programm funktioniert mit den folgenden [!DNL Experience Manager]-Versionen,
 >[!NOTE]
 >
 >Die Unterstützung des Desktop-Programms für [!DNL Experience Manager] 6.3 wurde eingestellt. Adobe empfiehlt ein Upgrade auf eine neuere und unterstützte [!DNL Adobe Experience Manager]-Version.
->[!DNL Experience Manager] 6.3.3.1 oder höher funktioniert mit dem Desktop-Programm, nachdem das [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installiert wurde. Für [!DNL Experience Manager] 6.3 ist kein solches Paket verfügbar, da keine [Service Packs geplant sind](https://helpx.adobe.com/de/experience-manager/maintenance-releases-roadmap.html).
+>[!DNL Experience Manager] 6.3.3.1 oder höher funktioniert mit dem Desktop-Programm, nachdem das [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installiert wurde. Für [!DNL Experience Manager] 6.3 ist kein solches Paket verfügbar, da keine [Service Packs geplant sind](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap.html).
 
 Für die Version des Programms, die Sie auf Ihrem lokalen Computer installieren möchten, sind eine bestimmte [!DNL Adobe Experience Manager]-Server-Version oder zusätzliche Server-seitige Komponenten (Service Packs, Hotfixes oder Feature Packs) erforderlich. Wenden Sie sich an Ihren [!DNL Experience Manager]-Administrator, wenn Sie Hilfe benötigen.
 
