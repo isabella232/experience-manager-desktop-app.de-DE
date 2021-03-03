@@ -1,9 +1,9 @@
 ---
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-translation-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '719'
+ht-degree: 92%
 
 ---
 # Richtlinien für die Teilnahme an der [!DNL Adobe Experience Manager]-Dokumentation
@@ -38,7 +38,7 @@ Ausnahmen gelten für die Versionshinweise, in denen bekannte Probleme mit mögl
 
 Alle Ideen, die Sie möglicherweise zur Verbesserung der [!DNL Experience Manager]-Dokumentation haben, sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anforderungen sind jedoch nur für *Beiträge* vorgesehen. Sie sind nicht zur Beantwortung Ihrer Fragen über die Verwendung von [!DNL Experience Manager], die Implementierung Ihres [!DNL Experience Manager]-Projekts oder zur Lösung technischer Probleme gedacht.
 
-Fragen zur Verwendung von [!DNL Experience Manager] oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten entsprechend dem herkömmlichen Support-Vorgang über das [Enterprise-Support-Portal für Experience Cloud](https://helpx.adobe.com/de/contact/enterprise-support.ec.html) gemeldet oder in der [Experience Manager-Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) diskutiert werden.
+Fragen zur Verwendung von [!DNL Experience Manager] oder technischen Fehlern, die Sie haben, sollten über den normalen Supportprozess über das [[!DNL Experience Cloud] Supportportal](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support) gemeldet oder in der [Experience Manager-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community) besprochen werden.
 
 ***[!DNL Experience Manager]-Dokumentationsbeiträge sind kein Ersatz für die Adobe-Kundenunterstützung*** und Beiträge, die um Antwort auf Support-Fragen bitten, werden abgelehnt.
 
@@ -46,7 +46,7 @@ Fragen zur Verwendung von [!DNL Experience Manager] oder zu technischen Fehlern,
 
 Wenn Sie ein Problem erstellen, um Verbesserungen an der Dokumentation vorzuschlagen, müssen Sie Links zu den betroffenen Seiten einbeziehen. Wenn Sie ein Problem mithilfe des Links **Diese Seite bearbeiten** auf einer Dokumentationsseite erstellen, wird das Problem automatisch mit einem Link zur Seite erstellt.
 
-Dies gilt nicht für Pull-Anforderungen, da Pull-Anforderungen standardmäßig auf die betroffene(n) Seite(n) verweisen.
+Dies gilt nicht für Pull-Anfragen, da Pull-Anfragen von Natur aus auf die betroffenen Seiten verweisen.
 
 ## Dokumentationsrichtlinien
 
