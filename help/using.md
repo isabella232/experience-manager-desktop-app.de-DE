@@ -2,11 +2,11 @@
 title: Verwenden des  [!DNL Experience Manager] -Desktop-Programms
 description: Verwenden Sie [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] die DAM-Assets direkt von Ihrem Win- oder Mac-Desktop aus und auch in anderen Programmen.
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: caf6faf17157a0e9e3bffd40b4bdd0802a71dad7
+workflow-type: tm+mt
 source-wordcount: '3906'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -293,11 +293,11 @@ Das [!DNL Experience Manager]-Desktop-Programm unterstützt diesen Workflow mit 
 >
 >Das Desktop-Programm kann jedem Laufwerk unter Windows zugeordnet werden. Für reibungslose Nutzung sollten Sie eine Änderung des Standard-Laufwerksbuchstabens jedoch vermeiden. Wenn Benutzer derselben Organisation unterschiedliche Laufwerksbuchstaben verwenden, können sie die von anderen platzierten Assets nicht sehen. Die platzierten Assets werden nicht abgerufen, wenn sich der Pfad ändert. Die platzierten Assets bleiben weiterhin in der Binärdatei (z. B. INDD) und werden nicht entfernt.
 
-Informationen zu den Einschränkungen dieses Workflows finden Sie in den [Systemanforderungen und unterstützten Versionen](release-notes.md#system-requirements-and-prerequisites-v2).
+Informationen zu den Einschränkungen dieses Workflows finden Sie unter [Systemanforderungen und unterstützte Versionen](release-notes.md).
 
 Gehen Sie wie folgt vor, um diesen Workflow mit einem Bild-Asset und InDesign auszuprobieren:
 
-1. Halten Sie eine INDD-Datei mit platzierten Assets in [!DNL Experience Manager] bereit. Informationen zum Erstellen einer solchen INDD-Datei finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/de/indesign/using/placing-graphics.html).
+1. Halten Sie eine INDD-Datei mit platzierten Assets in [!DNL Experience Manager] bereit. Informationen zum Erstellen einer solchen INDD-Datei finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 1. Vom Desktop-Programm aus bearbeiten (**[!UICONTROL Edit]**) Sie die INDD-Datei mit den platzierten Assets in [!DNL Experience Manager].
 1. Das Programm lädt sowohl die InDesign-Datei als auch die verknüpften Assets herunter. Wenn InDesign das Dokument öffnet, werden die Verknüpfungen aufgelöst, Assets werden heruntergeladen und die Assets werden im InDesign-Dokument angezeigt.
 1. Wenn Sie eine neue Grafik in die InDesign-Datei einfügen möchten, verwenden Sie die Aktion **[!UICONTROL Reveal File]** für das Asset. Die Aktion lädt das Asset lokal herunter und öffnet den Speicherort für die lokale Netzwerkfreigabe in Windows Explorer oder Mac Finder.
