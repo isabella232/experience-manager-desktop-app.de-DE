@@ -1,11 +1,11 @@
 ---
 title: Installieren und Konfigurieren des Desktop-Programms
 description: Installieren und konfigurieren Sie die [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] -Server und laden Sie die Elemente auf Ihr lokales Dateisystem herunter.
-translation-type: ht
-source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
-workflow-type: ht
-source-wordcount: '1162'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: caf6faf17157a0e9e3bffd40b4bdd0802a71dad7
+workflow-type: tm+mt
+source-wordcount: '1300'
+ht-degree: 86%
 
 ---
 
@@ -22,7 +22,7 @@ Eine solche Integration bietet verschiedenen Rollen in der Organisation folgende
 
 Wenn Sie das [!DNL Experience Manager]-Desktop-Programm verwenden möchten,
 
-* stellen Sie sicher, dass Ihre [!DNL Experience Manager]-Version vom [!DNL Experience Manager]-Desktop-Programm unterstützt wird. Siehe [Systemanforderungen](release-notes.md#system-requirements-and-prerequisites-v2) unten.
+* stellen Sie sicher, dass Ihre [!DNL Experience Manager]-Version vom [!DNL Experience Manager]-Desktop-Programm unterstützt wird. Siehe die [Systemanforderungen](release-notes.md).
 
 * Laden Sie das Programm herunter und installieren Sie es. Siehe [Installieren des Desktop-Programms](#install-v2) unten.
 
@@ -108,11 +108,15 @@ Um die Voreinstellungen zu ändern, klicken Sie auf das Symbol ![Weitere Optione
 
 * **[!UICONTROL Automatically download linked assets]**: Die Assets, die in den unterstützten nativen Creative Cloud-Programmen platziert wurden, werden automatisch abgerufen, wenn Sie die Originaldatei herunterladen.
 
-* **[!UICONTROL Maximum number of downloads]**: Beim erstmaligen Herunterladen von Assets (über die Option „Anzeigen“, „Öffnen“, „Bearbeiten“, „Herunterladen“ usw.) werden die Assets nur heruntergeladen, wenn der Stapel weniger als diese Zahl enthält. Der Standardwert ist 50. Ändern Sie sie nicht, wenn Sie sich nicht sicher sind. Eine Erhöhung des Werts kann zu längeren Wartezeiten führen und eine Verringerung des Werts verhindert womöglich, dass Sie die erforderlichen Assets oder Ordner in einem Schritt herunterladen können.
+* **[!UICONTROL Maximum number of downloads]**:  ![caution ](assets/do-not-localize/caution-icon.png) iconÄndern Sie mit Vorsicht. Beim erstmaligen Herunterladen von Assets (über die Option „Anzeigen“, „Öffnen“, „Bearbeiten“, „Herunterladen“ usw.) werden die Assets nur heruntergeladen, wenn der Stapel weniger als diese Zahl enthält. Der Standardwert ist 50. Ändern Sie sie nicht, wenn Sie sich nicht sicher sind. Eine Erhöhung des Werts kann zu längeren Wartezeiten führen und eine Verringerung des Werts verhindert womöglich, dass Sie die erforderlichen Assets oder Ordner in einem Schritt herunterladen können.
 
-* **[!UICONTROL Upload Acceleration]**: Beim Hochladen von Assets kann das Programm gleichzeitige Uploads verwenden, um die Upload-Geschwindigkeit zu steigern. Sie können die Zahl der gleichzeitigen Uploads erhöhen, indem Sie den Schieberegler nach rechts verschieben. Wenn sich der Schieberegler ganz links befindet, finden keine gleichzeitigen Uploads statt (Upload mit nur einem Thread), die mittlere Position entspricht 10 parallelen Threads, die Position ganz rechts entspricht 20 parallelen Threads. Mehr gleichzeitige Uploads lasten den lokalen Prozessor stärker aus.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**:  ![caution ](assets/do-not-localize/caution-icon.png) iconÄndern Sie mit Vorsicht. Mit dieser Einstellung kann die App das App-Verhalten der Version 1.10 beim Hochladen von Ordnern emulieren. In Version 1.10 berücksichtigen die Knotennamen, die im Repository erstellt werden, Leerzeichen und das Gehäuse der Ordnernamen, die vom Benutzer bereitgestellt werden. In Version 2.1 der App werden die zusätzlichen Leerzeichen in den Ordnernamen jedoch in Bindestriche umgewandelt. Wenn Sie beispielsweise `New Folder` oder `new   folder` hochladen, wird der gleiche Knoten im Repository erstellt, wenn die Option nicht ausgewählt ist und das Standardverhalten in Version 2.1 beibehalten wird. Wenn diese Option aktiviert ist, werden im Repository für die beiden oben genannten Ordner verschiedene Knoten erstellt, die mit dem Verhalten der App der Version 1.10 übereinstimmen.
 
-Um die nicht verfügbaren Voreinstellungen zu aktualisieren, melden Sie sich beim [!DNL Experience Manager]-Server ab. Nachdem Sie die Voreinstellungen aktualisiert haben, klicken Sie auf ![Voreinstellungen speichern](assets/do-not-localize/save_preferences_da2.png), um die Änderungen zu speichern.
+   Das Standardverhalten von v2.1 bleibt unverändert, d. h., Sie können mehrere Leerzeichen in Ordnernamen durch Bindestriche im Namen des Repository-Knotens ersetzen und in Kleinbuchstaben konvertieren.
+
+* **[!UICONTROL Upload Acceleration]**:  ![caution ](assets/do-not-localize/caution-icon.png) iconÄndern Sie mit Vorsicht. Beim Hochladen von Assets kann das Programm gleichzeitige Uploads verwenden, um die Upload-Geschwindigkeit zu steigern. Sie können die Zahl der gleichzeitigen Uploads erhöhen, indem Sie den Schieberegler nach rechts verschieben. Wenn sich der Schieberegler ganz links befindet, finden keine gleichzeitigen Uploads statt (Upload mit nur einem Thread), die mittlere Position entspricht 10 parallelen Threads, die Position ganz rechts entspricht 20 parallelen Threads. Eine höhere Parallelitätsgrenze ist ressourcenintensiver.
+
+Um die nicht verfügbaren Voreinstellungen zu aktualisieren, melden Sie sich beim [!DNL Experience Manager]-Server ab und aktualisieren Sie dann. Klicken Sie nach dem Aktualisieren der Voreinstellungen auf ![Voreinstellungen speichern](assets/do-not-localize/save_preferences_da2.png).
 
 ![Voreinstellungen und Einstellungen für das Desktop-Programm](assets/preferences_da2.png)
 
