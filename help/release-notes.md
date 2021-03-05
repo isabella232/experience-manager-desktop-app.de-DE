@@ -3,7 +3,7 @@ title: '[!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm'
 description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das [!DNL Adobe Experience Manager] -Desktop-Programm.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 784ffb2468d856589fbf29b10b965b3c3d919a2f
+source-git-commit: 06ce2dc1c47bc1ba71b4fd1d053131d9dbdb08ba
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 76%
@@ -15,7 +15,7 @@ ht-degree: 76%
 
 Die Versionshinweise für die neueste Desktop-App der Version 2.1 (2.1.1.0) finden Sie unten. Das Veröffentlichungsdatum ist der 5. März 2021. Es handelt sich um eine kleinere Version mit einer Verbesserung.
 
-Die unterstützten Versionen sind:[!DNL Experience Manager]
+Die **unterstützten [!DNL Experience Manager] Versionen** sind:
 
 * [!DNL Experience Manager] as a [!DNL Cloud Service]. Siehe [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=de).
 * [!DNL Experience Manager] 6.5.0 oder höher auf Adobe Managed Services (AMS) oder On-Premise. Siehe [Service Pack-Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=de).
@@ -24,12 +24,12 @@ Die unterstützten Versionen sind:[!DNL Experience Manager]
 * [!DNL Experience Manager] 6.3 (mit Kompatibilitätspaket)
 * [!DNL Experience Manager] 6.3.3.1 oder neuer mit installierter  [Kompatibilität ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) verfügbar. Die Desktop-App wird für [!DNL Experience Manager] 6.3.3.0 oder frühere Versionen nicht unterstützt.
 
-[!DNL Adobe Experience Manager] Die Desktop-App ist für die folgenden Betriebssysteme verfügbar:
+[!DNL Adobe Experience Manager] Die Desktop-App ist für die folgenden  **Betriebssysteme** verfügbar:
 
 * macOS X 10.14 oder neuer, mit den neuesten Fehlerbehebungen.
 * Windows 10 mit den aktuellsten Service Packs und Fehlerbehebungen.
 
-Die Download-URLs für das unterstützte Betriebssystem lauten:
+Die **Download-URLs** für unterstützte Betriebssysteme sind:
 
 | Betriebssystem | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
