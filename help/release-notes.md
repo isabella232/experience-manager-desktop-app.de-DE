@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 06ce2dc1c47bc1ba71b4fd1d053131d9dbdb08ba
 workflow-type: tm+mt
 source-wordcount: '1468'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -39,7 +39,7 @@ Die **Download-URLs** für unterstützte Betriebssysteme sind:
 
 >[!NOTE]
 >
->Windows 7 wird nicht mehr unterstützt. Siehe [den Artikel zum EOL von Windows 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+>Windows 7 wird nicht mehr unterstützt. Nähere Informationen finden Sie im [Artikel über das Ende der Unterstützung von Windows 7](https://support.microsoft.com/de-de/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 <!-- The version of the app you plan to install on your local machine requires a specific [!DNL Adobe Experience Manager] server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your [!DNL Experience Manager] administrator for help.
 -->
