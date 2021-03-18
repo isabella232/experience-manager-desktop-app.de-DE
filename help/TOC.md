@@ -5,16 +5,14 @@ audience: end-user
 user-guide-title: Handbuch für das Experience Manager-Desktop-Programm
 breadcrumb-title: Handbuch für das Desktop-Programm
 user-guide-description: Erfahren Sie, wie Sie mit dem Experience Manager-Desktop-Programm Repositorys und Desktop-Programmen verbinden und so schneller auf Ressourcen zugreifen und Workflows optimieren können.
-solution-title: AEM Assets
-solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=de
-getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=de
-tutorials-title: AEM-Tutorials
-tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html?lang=de
-translation-type: ht
-source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
-workflow-type: ht
-source-wordcount: '83'
-ht-degree: 100%
+feature-set: Experience Manager Assets
+feature: Experience Manager Desktop App
+role: Geschäftspraktiker, Administrator
+translation-type: tm+mt
+source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
