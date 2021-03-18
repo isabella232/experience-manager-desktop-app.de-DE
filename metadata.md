@@ -1,20 +1,15 @@
 ---
 cloud: experience-cloud
-solution-title: Lernen und Support
-solution-hub-url: https://experienceleague.adobe.com/docs/
-solution-icon: assets/experience-cloud-logo-24.png
-getting-started-title: Erste Schritte
-getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
-tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
+solution: Experience Manager, Experience Manager Assets
+type: Dokumentation
 mini-toc-levels: 1
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-desktop-app.de-DE
 index: y
 translation-type: tm+mt
-source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
+source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 66%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +25,7 @@ Die metadata.md-Datei enthält Metadaten auf Repo-Ebene, die über die TOC.md-Da
 | solution-icon | Zeigt das Lösungssymbol neben Lösungstitel an. Noch nicht implementiert. |
 | getting-started-url | Link zur Seite &quot;Erste Schritte&quot;. |
 | tutorials-url | Link zu den Videolehrgängen. |
-| mini-toc-levels | Legt die Anzahl der Überschriftenebenen fest, die in der rechten Leiste angezeigt werden. Der Standardwert ist 2. |
+| mini-toc-levels | Legt die Anzahl der Überschriftenebenen fest, die in der rechten Leiste angezeigt werden. Der Standardwert ist 2.  |
 | git-repo | Gibt den Speicherort des Hauptberichts für die interne Verwendung an. |
 
 In der Datei TOC.md
