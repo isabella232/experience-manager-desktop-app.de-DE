@@ -7,30 +7,30 @@ translation-type: tm+mt
 source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 77%
+ht-degree: 99%
 
 ---
 
 
 # [!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm {#release-notes-v2}
 
-Die Versionshinweise für die neueste Desktop-App der Version 2.1 (2.1.1.0) finden Sie unten. Das Veröffentlichungsdatum ist der 5. März 2021. Es handelt sich um eine kleinere Version mit einer Verbesserung.
+Die Versionshinweise für die neueste Desktop-Programm-Version 2.1 (2.1.1.0) finden Sie unten. Das Veröffentlichungsdatum ist der 5. März 2021. Es handelt sich um eine kleinere Version mit einer Verbesserung.
 
-Die **unterstützten [!DNL Experience Manager] Versionen** sind:
+Die **unterstützten [!DNL Experience Manager]-Versionen** sind:
 
 * [!DNL Experience Manager] as a [!DNL Cloud Service]. Siehe [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=de).
-* [!DNL Experience Manager] 6.5.0 oder höher auf Adobe Managed Services (AMS) oder On-Premise. Siehe [Service Pack-Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=de).
-* [!DNL Experience Manager] 6.4.4 oder höher auf Adobe Managed Services (AMS) oder On-Premise. Siehe [Service Pack-Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=de).
-* [!DNL Experience Manager] 6.4.0 - 6.4.3 mit  [installierter Kompatibilität ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) für Adobe Managed Services (AMS) oder On-Premise.
+* [!DNL Experience Manager] 6.5.0 oder höher, für Adobe Managed Services (AMS) oder On-Premise. Weitere Informationen finden Sie in den [Versionshinweisen zum Service Pack](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=de).
+* [!DNL Experience Manager] 6.4.4 oder höher, für Adobe Managed Services (AMS) oder On-Premise. Weitere Informationen finden Sie in den [Versionshinweisen zum Service Pack](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=de).
+* [!DNL Experience Manager] 6.4.0–6.4.3 mit installiertem [Kompatibilitätspaket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support), für Adobe Managed Services (AMS) oder On-Premise.
 * [!DNL Experience Manager] 6.3 (mit Kompatibilitätspaket)
-* [!DNL Experience Manager] 6.3.3.1 oder neuer mit installierter  [Kompatibilität ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) verfügbar. Die Desktop-App wird für [!DNL Experience Manager] 6.3.3.0 oder frühere Versionen nicht unterstützt.
+* [!DNL Experience Manager] 6.3.3.1 oder höher mit installiertem [Kompatibilitätspaket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Das Desktop-Programm wird für [!DNL Experience Manager] 6.3.3.0 oder frühere Versionen nicht unterstützt.
 
-[!DNL Adobe Experience Manager] Die Desktop-App ist für die folgenden  **Betriebssysteme** verfügbar:
+Das [!DNL Adobe Experience Manager]-Desktop-Programm ist für die folgenden **Betriebssysteme** verfügbar:
 
-* macOS X 10.14 oder neuer, mit den neuesten Fehlerbehebungen.
-* Windows 10 mit den aktuellsten Service Packs und Fehlerbehebungen.
+* macOS X 10.14 oder höher mit aktuellen Fehlerbehebungen.
+* Windows 10 mit den aktuellen Service Packs und Fehlerbehebungen.
 
-Die **Download-URLs** für unterstützte Betriebssysteme sind:
+Die **Download-URLs** für die unterstützten Betriebssysteme sind:
 
 | Betriebssystem | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
@@ -67,29 +67,29 @@ Diese Funktion wird in den Versionen [!DNL Adobe Creative Cloud] 2018 und [!DNL 
 
 ## Neue Funktionen, Verbesserungen und Fehlerbehebungen {#what-is-new}
 
-Weitere Informationen finden Sie unter [Neue Funktionen in v2.0](introduction.md#whats-new-v2).
+Weitere Informationen finden Sie unter [Neue Funktionen in Version 2.0](introduction.md#whats-new-v2).
 
-**In App Version 2.1.1.0 aktualisieren**
+**Aktualisierung in der Programmversion 2.1.1.0**
 
-* Mit einer erweiterten Einstellung kann die App das App-Verhalten der Version 1.10 beim Hochladen von Ordnern emulieren. In Version 1.10 berücksichtigen die Knotennamen, die im Repository erstellt werden, Leerzeichen und das Gehäuse der Ordnernamen, die vom Benutzer bereitgestellt werden. Das Standardverhalten von v2.1 bleibt unverändert, d. h., Sie können mehrere Leerzeichen in Ordnernamen durch einen Bindestrich im Namen des Repository-Knotens ersetzen und in Kleinbuchstaben konvertieren. Siehe [die App-Voreinstellungen](/help/install-upgrade.md#set-preferences).
+* Mit einer erweiterten Einstellung kann das Programm das Programmverhalten der Version 1.10 beim Hochladen von Ordnern emulieren. In Version 1.10 berücksichtigen die im Repository erstellten Knotennamen die Leerzeichen und die Groß-/Kleinschreibung der vom Benutzer angegebenen Ordnernamen. Das Standardverhalten von Version 2.1 bleibt weiterhin erhalten, d. h. mehrere Leerzeichen in Ordnernamen werden durch einen Bindestrich im Repository-Knotennamen ersetzt und die Knotennamen werden in Kleinbuchstaben umgewandelt. Weitere Informationen finden Sie in den [Programmvoreinstellungen](/help/install-upgrade.md#set-preferences).
 
-**In App Version 2.1.0.0 aktualisieren**
+**Aktualisierung in der Programmversion 2.1.0.0**
 
 * Um Assets hochzuladen, können Benutzer die Dateien oder Ordner jetzt direkt aus dem Windows Explorer oder Mac Finder auf die Benutzeroberfläche des Programms ziehen. Dies funktioniert zusätzlich zu der im Programm bereits verfügbaren Upload-Option. <!-- CQ-4309527 -->
 
-**In App Version 2.0.3 aktualisieren**
+**Aktualisierung in der Programmversion 2.0.3**
 
 Folgender Fehler wurde in der aktuellen Version behoben:
 
-* Es wurde ein Problem bei der Anmeldung von App-Benutzern unter Windows behoben, die versuchen, auf das DAM-Repository unter [!DNL Adobe Experience Manager] 6.5.5.0 zuzugreifen.
+* Das Anmeldeproblem für Programmbenutzer unter Windows, die versuchen, auf das DAM-Repository unter [!DNL Adobe Experience Manager] 6.5.5.0 zuzugreifen, wurde behoben.
 
 **Aktualisierungen in der Programmversion 2.0.2**
 
 Die folgenden Fehlerbehebungen und Aktualisierungen sind verfügbar:
 
-* Die Einstellung für die Upload-Beschleunigung wurde jetzt verfügbar gemacht, um die Upload-Leistung zu steigern. Wenn diese Einstellung aktiviert ist, wird die App schneller hochgeladen, indem mehr lokale CPU-Threads verwendet werden und sie ressourcenintensiver ist.
+* Die Einstellung für die Upload-Beschleunigung ist jetzt verfügbar, um die Upload-Leistung zu steigern. Wenn diese Einstellung aktiviert ist, verwendet das Programm mehr lokale CPU-Threads und ist ressourcenintensiver, um schnellere Uploads durchzuführen.
 
-* Asset-Uploads, wenn Dateinamen oder Pfade mit bestimmten GB18030-Zeichen behoben sind. <!-- CQ-4283494 -->
+* Das Hochladen von Assets funktioniert jetzt, wenn Dateinamen oder Pfade bestimmte GB18030-Zeichen enthalten. <!-- CQ-4283494 -->
 
 * Die Option „Nach Relevanz sortieren“ ist verfügbar, nachdem in den Suchergebnissen zu einem anderen Sortiertyp gewechselt wurde. <!-- CQ-4286874 -->
 
@@ -133,7 +133,7 @@ Es ist wichtig, die folgenden Informationen zum Programm und dessen Funktionswei
 
 * Die lokale Netzwerkfreigabe SMB (Mac)/WebDAV (Win) wird verwendet, wenn ein Adobe Creative Cloud-Programm die Asset-Dateien liest, die verknüpft sind/in einer nativen Datei des Creative Cloud-Programms platziert wurden.
 
-Das folgende Diagramm zeigt den Fluss der Assets und Dateien von der Cloud zum lokalen Dateisystem und umgekehrt, wie durch Benutzeraktionen initiiert.
+Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum lokalen Dateisystem und umgekehrt, der durch Benutzeraktionen initiiert wird.
 
 ![Fluss von Assets vom [!DNL Experience Manager]-Server zu nativen Desktop-Programmen über das Desktop-Programm](assets/da20_flow_diagram.png)
 
@@ -141,7 +141,7 @@ Das folgende Diagramm zeigt den Fluss der Assets und Dateien von der Cloud zum l
 
 **Probleme mit der Benutzeroberfläche:**
 
-* Manchmal ist die Oberfläche des Desktop-Programms plötzlich leer. Klicken Sie mit der rechten Maustaste und klicken Sie auf [!UICONTROL Refresh], um die Anwendung erneut zu laden. Nach einer solchen Aktualisierung beginnen Sie im Stammverzeichnis des DAM-Repositorys. Aktualisierungen oder Status Ihrer Assets werden beibehalten. <!-- CQ-4270267 -->
+* Manchmal ist die Oberfläche des Desktop-Programms plötzlich leer. Klicken Sie mit der rechten Maustaste und klicken Sie auf [!UICONTROL Refresh], um das Programm erneut zu laden. Nach einer solchen Aktualisierung beginnen Sie im Stammverzeichnis des DAM-Repositorys. Aktualisierungen oder Status Ihrer Assets werden beibehalten. <!-- CQ-4270267 -->
 
 * Schwierigkeiten beim Navigieren in Ordnern/Suchergebnissen ohne Trackpad oder Mauszeiger. Die Bildlaufleiste wird bei Mausgeräten ohne Mausrad möglicherweise nicht angezeigt. <!-- CQ-4269947 -->
 
