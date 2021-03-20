@@ -3,10 +3,10 @@ title: Installieren und Konfigurieren des Desktop-Programms
 description: Installieren und konfigurieren Sie die [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] -Server und laden Sie die Elemente auf Ihr lokales Dateisystem herunter.
 feature: Experience Manager Desktop-App, Versionsinformationen
 translation-type: tm+mt
-source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
+source-git-commit: f9d982d3039d04abf53e10b78e0e7a89e673ca04
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 99%
+source-wordcount: '1405'
+ht-degree: 97%
 
 ---
 
@@ -122,6 +122,14 @@ Um die nicht verfügbaren Voreinstellungen zu aktualisieren, melden Sie sich bei
 ![Voreinstellungen und Einstellungen für das Desktop-Programm](assets/preferences_da2.png)
 
 *Abbildung: Voreinstellungen für das Desktop-Programm.*
+
+### Proxy-Unterstützung {#proxy-support}
+
+Das [!DNL Experience Manager]-Desktop-Programm verwendet den vordefinierten Proxy des Systems, um über HTTPS eine Internet-Verbindung herzustellen. Das Programm kann die Verbindung nur mit einem Netzwerk-Proxy herstellen, für den keine gesonderte Authentifizierung erforderlich ist.
+
+Wenn Sie Proxyserver-Einstellungen für Windows konfigurieren oder ändern (Internetoptionen > LAN-Einstellungen), starten Sie das [!DNL Experience Manager]-Desktop-Programm neu, damit die Änderungen wirksam werden. Die Proxy-Konfiguration wird angewendet, wenn Sie die Desktop-App Beginn haben. Schließen Sie das Programm und starten Sie es erneut, damit Änderungen wirksam werden.
+
+Wenn Ihr Proxy eine Authentifizierung erfordert, kann das IT-Team die [!DNL Experience Manager Assets]-URL in den Proxy-Servereinstellungen zulassen, damit der Anwendungs-Traffic durchlaufen werden kann.
 
 ## Deinstallieren des Programms {#uninstall-the-app}
 
