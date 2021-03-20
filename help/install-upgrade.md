@@ -3,10 +3,10 @@ title: Installieren und Konfigurieren des Desktop-Programms
 description: Installieren und konfigurieren Sie die [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] -Server und laden Sie die Elemente auf Ihr lokales Dateisystem herunter.
 feature: Experience Manager Desktop-App, Versionsinformationen
 translation-type: tm+mt
-source-git-commit: 3804d684a3a7e78eda7692969f312ef023965ffd
+source-git-commit: 7204e3afb6d3a0908c076cf042072e3157572797
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -111,7 +111,7 @@ Um die Voreinstellungen zu ändern, klicken Sie auf das Symbol ![Weitere Optione
 
 * **[!UICONTROL Maximum number of downloads]**: ![Vorsichtssymbol](assets/do-not-localize/caution-icon.png) Mit Vorsicht ändern. Beim erstmaligen Herunterladen von Assets (über die Option „Anzeigen“, „Öffnen“, „Bearbeiten“, „Herunterladen“ usw.) werden die Assets nur heruntergeladen, wenn der Stapel weniger als diese Anzahl enthält. Der Standardwert ist 50. Ändern Sie sie nicht, wenn Sie sich nicht sicher sind. Eine Erhöhung des Werts kann zu längeren Wartezeiten führen und eine Verringerung des Werts verhindert womöglich, dass Sie die erforderlichen Assets oder Ordner in einem Schritt herunterladen können.
 
-* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![Vorsichtssymbol](assets/do-not-localize/caution-icon.png) Mit Vorsicht ändern. Mit dieser Einstellung kann das Programm das Programmverhalten der Version 1.10 beim Hochladen von Ordnern emulieren. In Version 1.10 berücksichtigen die im Repository erstellten Knotennamen die Leerzeichen und die Groß-/Kleinschreibung der vom Benutzer angegebenen Ordnernamen. In Version 2.1 des Programms werden die zusätzlichen Leerzeichen in den Ordnernamen jedoch in Bindestriche umgewandelt. Wenn Sie beispielsweise `New Folder` oder `new   folder` hochladen, wird derselbe Knoten im Repository erstellt, wenn die Option nicht ausgewählt ist und das Standardverhalten in Version 2.1 beibehalten wird. Wenn diese Option aktiviert ist, werden im Repository für die beiden oben genannten Ordner unterschiedliche Knoten erstellt, was dem Verhalten der Version 1.10 des Programms entspricht.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![Vorsichtssymbol](assets/do-not-localize/caution-icon.png) Mit Vorsicht ändern. Mit dieser Einstellung kann das Programm das Programmverhalten der Version 1.10 beim Hochladen von Ordnern emulieren. In Version 1.10 berücksichtigen die im Repository erstellten Knotennamen Leerzeichen und die Groß- und Kleinschreibung der Ordnernamen, die vom Benutzer bereitgestellt werden. In Version 2.1 des Programms werden die zusätzlichen Leerzeichen in den Ordnernamen jedoch in Bindestriche umgewandelt. Wenn Sie beispielsweise `New Folder` oder `new   folder` hochladen, wird derselbe Knoten im Repository erstellt, wenn die Option nicht ausgewählt ist und das Standardverhalten in Version 2.1 beibehalten wird. Wenn diese Option aktiviert ist, werden im Repository für die beiden oben genannten Ordner unterschiedliche Knoten erstellt, was dem Verhalten der Version 1.10 des Programms entspricht.
 
    Das Standardverhalten von Version 2.1 bleibt weiterhin erhalten, d. h. mehrere Leerzeichen in Ordnernamen werden durch einen Bindestrich im Repository-Knotennamen ersetzt und die Knotennamen werden in Kleinbuchstaben umgewandelt.
 
