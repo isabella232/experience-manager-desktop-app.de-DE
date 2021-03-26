@@ -1,11 +1,11 @@
 ---
 title: Best Practices und Fehlerbehebung für das  [!DNL Adobe Experience Manager] -Desktop-Programm
 description: Befolgen Sie die Best Practices und führen Sie eine Fehlerbehebung durch, um gelegentliche Probleme im Zusammenhang mit Installation, Aktualisierung, Konfiguration usw. zu beheben.
-translation-type: ht
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-source-wordcount: '2120'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9d90bdcab79604e03d1ad3f30ed2aca2eb03e1c5
+workflow-type: tm+mt
+source-wordcount: '2110'
+ht-degree: 98%
 
 ---
 
@@ -202,7 +202,7 @@ Anweisungen zur Ansicht dieser Anfragen finden Sie im [Abschnitt zu SAML](#da-co
 
 #### SAML-Anmeldeauthentifizierung funktioniert nicht {#da-connection-issue-with-saml-aem}
 
-Wenn das [!DNL Experience Manager]-Desktop-Programm keine Verbindung zu Ihrer SSO-fähigen (SAML) [!DNL Adobe Experience Manager]-Instanz herstellt, lesen Sie diesen Abschnitt, um eine Fehlerbehebung durchzuführen. SSO-Prozesse sind vielfältig, manchmal komplex und das Design des Programms versucht, diese Arten von Verbindungen zu unterstützen. Einige Setups erfordern jedoch eine zusätzliche Fehlerbehebung.
+[!DNL Experience Manager] Die Desktop-App stellt möglicherweise keine Verbindung zu Ihrer SSO-aktivierten (SAML)  [!DNL Adobe Experience Manager] Bereitstellung her. Der Entwurf der Anwendung versucht, die Variationen und Komplexität von SSO-Verbindungen und -Prozessen zu berücksichtigen. Ein Setup kann jedoch zusätzliche Fehlerbehebung erfordern.
 
 Manchmal leitet der SAML-Prozess nicht zum ursprünglich angeforderten Pfad zurück oder die endgültige Umleitung erfolgt zu einem Host, der sich von dem unterscheidet, was im [!DNL Adobe Experience Manager]-Desktop-Programm konfiguriert wurde. So stellen Sie sicher, dass dies nicht der Fall ist:
 
