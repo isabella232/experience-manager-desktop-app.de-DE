@@ -4,7 +4,7 @@ description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität 
 mini-toc-levels: 1
 feature: Experience Manager Desktop-App, Versionsinformationen
 translation-type: tm+mt
-source-git-commit: e15dffa9b32dcbdbe5121b23847e9efe50b514b3
+source-git-commit: e8a299c7357faf2c19c11a56f2868f6679c15ac1
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 96%
@@ -14,7 +14,7 @@ ht-degree: 96%
 
 # [!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm {#release-notes-v2}
 
-Die Versionshinweise für die neueste Desktop-Programm-Version 2.1 (2.1.1.0) finden Sie unten. Das Veröffentlichungsdatum ist der 5. März 2021. Es handelt sich um eine kleinere Version mit einer Verbesserung.
+Die Versionshinweise für die neueste Desktop-Programm-Version 2.1 (2.1.2.0) finden Sie unten. Das Veröffentlichungsdatum ist der 26. März 2021. Es handelt sich um eine kleinere Version mit einer Verbesserung.
 
 Die **unterstützten [!DNL Experience Manager]-Versionen** sind:
 
