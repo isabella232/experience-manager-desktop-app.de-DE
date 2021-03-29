@@ -2,7 +2,7 @@
 title: '[!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm'
 description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das [!DNL Adobe Experience Manager] -Desktop-Programm.
 mini-toc-levels: 1
-feature: Experience Manager Desktop-App, Versionsinformationen
+feature: Versionshinweise zum Experience Manager-Desktop-Programm
 translation-type: tm+mt
 source-git-commit: e8a299c7357faf2c19c11a56f2868f6679c15ac1
 workflow-type: tm+mt
