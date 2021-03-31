@@ -4,9 +4,9 @@ description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität 
 mini-toc-levels: 1
 feature: Versionshinweise zum Experience Manager-Desktop-Programm
 translation-type: tm+mt
-source-git-commit: e8a299c7357faf2c19c11a56f2868f6679c15ac1
+source-git-commit: 861f2e8994ae7eb9b35c78036479fe47dc793cf3
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1512'
 ht-degree: 96%
 
 ---
@@ -71,7 +71,7 @@ Weitere Informationen finden Sie unter [Neue Funktionen in Version 2.0](introduc
 
 **Aktualisierung in der Programmversion 2.1.2.0**
 
-* Eine neue Option zu [!UICONTROL Clear Cookies] wird dem Hauptmenü der Anwendung hinzugefügt. Es hilft bei möglichen Anmeldeproblemen, z.B. beim Wechseln der Verbindung von einem Server zu einem anderen.
+* Eine neue Option zu [!UICONTROL Clear Cookies] wird dem Hauptmenü der Anwendung hinzugefügt. Es hilft bei möglichen Anmeldeproblemen, z.B. beim Wechseln der Verbindung von einem Server zu einem anderen. Siehe [Löschen von Cookies vor dem Verbinden](/help/troubleshoot.md#cannot-login-cookies-issue).
 
 **Aktualisierung in der Programmversion 2.1.1.0**
 
