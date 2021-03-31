@@ -2,10 +2,10 @@
 title: Best Practices und Fehlerbehebung für das  [!DNL Adobe Experience Manager] -Desktop-Programm
 description: Befolgen Sie die Best Practices und führen Sie eine Fehlerbehebung durch, um gelegentliche Probleme im Zusammenhang mit Installation, Aktualisierung, Konfiguration usw. zu beheben.
 translation-type: tm+mt
-source-git-commit: 9d90bdcab79604e03d1ad3f30ed2aca2eb03e1c5
+source-git-commit: a766855c0670e9f291b8020ee6ab7addc50689a4
 workflow-type: tm+mt
-source-wordcount: '2110'
-ht-degree: 98%
+source-wordcount: '2175'
+ht-degree: 95%
 
 ---
 
@@ -108,6 +108,16 @@ So aktivieren Sie den Debug-Modus unter Windows:
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
+### Ermitteln der [!DNL Adobe Experience Manager]-Desktop-Programm-Version {#know-app-version-v2}
+
+So zeigen Sie die Versionsnummer an:
+
+1. Starten Sie das Programm.
+
+1. Klicken Sie auf die Auslassungszeichen in der oberen rechten Ecke, halten Sie den Mauszeiger über [!UICONTROL Help] und klicken Sie auf [!UICONTROL About].
+
+   Daraufhin wird die Versionsnummer auf dem Bildschirm angezeigt.
+
 ### Löschen des Cache {#clear-cache-v2}
 
 Führen Sie die folgenden Schritte durch:
@@ -138,17 +148,7 @@ Wenn Sie den Cache löschen möchten, löschen Sie das Verzeichnis „Codierter 
 
 Beim Löschen des Caches des [!DNL Adobe Experience Manager]-Desktop-Programms handelt es sich um eine vorläufige Aufgabe zur Fehlerbehebung, durch die verschiedene Probleme gelöst werden können. Löschen Sie den Cache in den Programm-Voreinstellungen. Siehe [Festlegen von Voreinstellungen](install-upgrade.md#set-preferences). Der Standardspeicherort des Cache-Ordners ist:
 
-### Ermitteln der [!DNL Adobe Experience Manager]-Desktop-Programm-Version {#know-app-version-v2}
-
-So zeigen Sie die Versionsnummer an:
-
-1. Starten Sie das Programm.
-
-1. Klicken Sie auf die Auslassungszeichen in der oberen rechten Ecke, halten Sie den Mauszeiger über [!UICONTROL Help] und klicken Sie auf [!UICONTROL About].
-
-   Daraufhin wird die Versionsnummer auf dem Bildschirm angezeigt.
-
-### Platzierte Assets werden nicht angezeigt {#placed-assets-missing}
+## Platzierte Assets werden nicht angezeigt {#placed-assets-missing}
 
 Wenn Sie die Assets, die Sie oder andere Kreativprofis in den Support-Dateien gespeichert haben (z. B. INDD-Dateien), nicht sehen können, überprüfen Sie Folgendes:
 
@@ -179,11 +179,11 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-### Dateien können nicht hochgeladen werden {#upload-fails}
+## Dateien können nicht hochgeladen werden {#upload-fails}
 
 Wenn Sie das Desktop-Programm mit [!DNL Experience Manager] 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Dadurch wird das Problem mit dem Hochladen von Dateien im Zusammenhang mit [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) behoben. Siehe [Installationsanweisungen](install-upgrade.md#install-v2).
 
-### Verbindungsprobleme mit dem [!DNL Experience Manager]-Desktop-Programm {#connection-issues}
+## Verbindungsprobleme mit dem [!DNL Experience Manager]-Desktop-Programm {#connection-issues}
 
 Wenn allgemeine Verbindungsprobleme auftreten, finden Sie hier einige Möglichkeiten, weitere Informationen zum [!DNL Experience Manager]-Desktop-Programm zu erhalten.
 
@@ -200,7 +200,7 @@ Das [!DNL Experience Manager]-Desktop-Programm protokolliert alle gesendeten Anf
 Die meisten Anfragen des Programms finden Sie im Anfrageprotokoll. Wenn es dort keine hilfreichen Informationen gibt, können Sie sich die vom eingebetteten Browser des Programms gesendeten Anfragen ansehen.
 Anweisungen zur Ansicht dieser Anfragen finden Sie im [Abschnitt zu SAML](#da-connection-issue-with-saml-aem).
 
-#### SAML-Anmeldeauthentifizierung funktioniert nicht {#da-connection-issue-with-saml-aem}
+### SAML-Anmeldeauthentifizierung funktioniert nicht {#da-connection-issue-with-saml-aem}
 
 [!DNL Experience Manager] Die Desktop-App stellt möglicherweise keine Verbindung zu Ihrer SSO-aktivierten (SAML)  [!DNL Adobe Experience Manager] Bereitstellung her. Der Entwurf der Anwendung versucht, die Variationen und Komplexität von SSO-Verbindungen und -Prozessen zu berücksichtigen. Ein Setup kann jedoch zusätzliche Fehlerbehebung erfordern.
 
@@ -247,7 +247,7 @@ Zur weiteren Fehlerbehebung können die exakten URLs, die der Browser zu laden v
 
 Wenn Sie sich die URL-Sequenz ansehen, die geladen wird, können Sie die Fehlerbehebung am SAML-Ende durchführen, um festzustellen, was falsch ist.
 
-#### Problem bei der SSL-Konfiguration {#ssl-config-v2}
+### Problem bei der SSL-Konfiguration {#ssl-config-v2}
 
 Die Bibliotheken, die das [!DNL Experience Manager]-Desktop-Programm zur HTTP-Kommunikation nutzt, führen eine strikte SSL-Durchsetzung durch. Mitunter kann zwar über einen Browser eine Verbindung erfolgreich hergestellt werden, aber nicht über das [!DNL Experience Manager]-Desktop-Programm. Installieren Sie für eine ordnungsgemäße SSL-Konfiguration das fehlende Zwischenzertifikat in Apache. Siehe [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575) (nur auf Englisch verfügbar).
 
@@ -284,7 +284,13 @@ Als vorübergehende Maßnahme ist es möglich, die strikte SSL-Durchsetzung im [
 
 1. Speichern Sie die Datei und starten Sie das [!DNL Adobe Experience Manager]-Desktop-Programm neu.
 
-### Das Programm reagiert nicht {#unresponsive}
+### Probleme bei der Anmeldung beim Wechsel zu einem anderen Server {#cannot-login-cookies-issue}
+
+Wenn Sie nach der Verwendung eines [!DNL Experience Manager]-Servers versuchen, die Verbindung zu einem anderen Server zu ändern, treten möglicherweise Anmeldeprobleme auf. Der Grund hierfür sind alte Cookies, die die neue Authentifizierung beeinträchtigen. Eine Option im Hauptmenü zu [!UICONTROL Clear Cookies] hilft. Melden Sie sich bei der aktuellen Sitzung in der App ab und wählen Sie [!UICONTROL Clear Cookies], bevor Sie mit der Verbindung fortfahren.
+
+![Löschen von Cookies beim Serverwechsel](assets/main_menu_logout_da2.png)
+
+## Das Programm reagiert nicht {#unresponsive}
 
 In seltenen Fällen reagiert das Programm möglicherweise nicht mehr, zeigt nur einen weißen Bildschirm an oder zeigt einen Fehler am unteren Rand der Benutzeroberfläche an, ohne dass Optionen auf der Benutzeroberfläche vorhanden sind. Versuchen Sie Folgendes in genannter Reihenfolge:
 
