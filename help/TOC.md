@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
 audience: end-user
 user-guide-title: Handbuch für das Experience Manager-Desktop-Programm
@@ -8,9 +8,9 @@ user-guide-description: Erfahren Sie, wie Sie mit dem Experience Manager-Desktop
 feature-set: Experience Manager Assets
 feature: Experience Manager-Desktop-Programm
 role: Geschäftspraktiker, Administrator
-translation-type: ht
-source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: fd29c31e8a353ce6f827f58c58c5ecc36f3c71af
+workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 100%
 
