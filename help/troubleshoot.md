@@ -1,14 +1,14 @@
 ---
 title: Best Practices und Fehlerbehebung für das  [!DNL Adobe Experience Manager] -Desktop-Programm
 description: Befolgen Sie die Best Practices und führen Sie eine Fehlerbehebung durch, um gelegentliche Probleme im Zusammenhang mit Installation, Aktualisierung, Konfiguration usw. zu beheben.
+exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 translation-type: tm+mt
-source-git-commit: a766855c0670e9f291b8020ee6ab7addc50689a4
+source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 95%
+source-wordcount: '2261'
+ht-degree: 91%
 
 ---
-
 
 # Fehlerbehebung für das [!DNL Adobe Experience Manager]-Desktop-Programm {#troubleshoot-v2}
 
@@ -298,6 +298,13 @@ In seltenen Fällen reagiert das Programm möglicherweise nicht mehr, zeigt nur 
 * Beenden Sie das Programm und starten Sie es erneut.
 
 Bei beiden Methoden startet das Programm im Stammordner des DAM.
+
+## Ausgelaufene Assets {#hide-expired-assets} ausblenden
+
+Beim Durchsuchen von Assets in der [!DNL Experience Manager]-Benutzeroberfläche werden die abgelaufenen Assets nicht angezeigt. Um beim Durchsuchen von Assets aus der Desktop-App und Asset Link zu verhindern, dass abgelaufene Assets angezeigt, durchsucht und abgerufen werden, können Administratoren die folgende Konfiguration durchführen. Die Konfiguration funktioniert für alle Benutzer, unabhängig von den Administratorberechtigungen.
+
+* [Konfiguration in Experience Manager 6.5, um abgelaufene Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#hide-expired-assets-via-acp-api) auszublenden.
+* [Konfiguration in Experience Manager als Cloud Service zum Ausblenden abgelaufener Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api).
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
