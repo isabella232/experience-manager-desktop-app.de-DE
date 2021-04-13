@@ -5,13 +5,13 @@ audience: end-user
 user-guide-title: Handbuch für das Experience Manager-Desktop-Programm
 breadcrumb-title: Handbuch für das Desktop-Programm
 user-guide-description: Erfahren Sie, wie Sie mit dem Experience Manager-Desktop-Programm Repositorys und Desktop-Programmen verbinden und so schneller auf Ressourcen zugreifen und Workflows optimieren können.
-feature-set: Experience Manager Assets
-feature: Experience Manager-Desktop-Programm
-role: Geschäftspraktiker, Administrator
+feature-set: Experience Manager Assets,Experience Manager
+feature: Desktop App
+role: Business Practitioner, Administrator
 translation-type: tm+mt
-source-git-commit: fd29c31e8a353ce6f827f58c58c5ecc36f3c71af
+source-git-commit: 4616934e8923693106401da008e2510310d0742a
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '65'
 ht-degree: 100%
 
 ---
