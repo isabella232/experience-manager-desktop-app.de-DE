@@ -2,15 +2,15 @@
 title: Verwenden des  [!DNL Experience Manager] -Desktop-Programms
 description: Verwenden Sie [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] die DAM-Assets direkt von Ihrem Win- oder Mac-Desktop aus und auch in anderen Programmen.
 mini-toc-levels: 1
-feature: Experience Manager-Desktop-programm, Asset-Management
+feature: Desktop-App, Asset-Management
+exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 translation-type: tm+mt
-source-git-commit: d345a0f0ac6826cf623f6e8bbbcc132481ea557c
+source-git-commit: 4616934e8923693106401da008e2510310d0742a
 workflow-type: tm+mt
-source-wordcount: '3907'
+source-wordcount: '3905'
 ht-degree: 99%
 
 ---
-
 
 # Verwenden des [!DNL Adobe Experience Manager]-Desktop-Programms {#use-aem-desktop-app-v2}
 
