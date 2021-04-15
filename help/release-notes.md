@@ -5,10 +5,10 @@ mini-toc-levels: 1
 feature: Desktop-App, Versionsinformationen
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 translation-type: tm+mt
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+source-git-commit: ac533db59b2a5c64243b762f4b77b3148c4f1867
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 96%
+source-wordcount: '1523'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ Die **unterstützten [!DNL Experience Manager]-Versionen** sind:
 
 Das [!DNL Adobe Experience Manager]-Desktop-Programm ist für die folgenden **Betriebssysteme** verfügbar:
 
-* macOS X 10.14 oder höher mit aktuellen Fehlerbehebungen.
+* macOS X 10.14 oder höher mit aktuellen Fehlerbehebungen. [Mac-Computer mit Apple ](https://support.apple.com/de-de/HT211814) siliconare werden noch nicht unterstützt.
 * Windows 10 mit den aktuellen Service Packs und Fehlerbehebungen.
 
 Die **Download-URLs** für die unterstützten Betriebssysteme sind:
