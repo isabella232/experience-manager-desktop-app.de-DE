@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
 workflow-type: tm+mt
 source-wordcount: '2261'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ Lesen Sie weiter, um Fehler im Programm zu beheben, lernen Sie die Best Practice
 
 Befolgen Sie die folgenden Best Practices, um einige häufige Probleme und die Fehlerbehebung zu vermeiden.
 
-* **So funktioniert das Desktop-Programm**: Bevor Sie mit der Verwendung des Programms beginnen, sollten Sie sich kurz mit ihrer Funktionsweise vertraut machen. Erfahren Sie mehr über die Verknüpfung zwischen der Web-Oberfläche von [!DNL Experience Manager] und Desktop, Repository-Zuordnung, Asset-Zwischenspeicherung, lokales Speichern und Hochladen im Hintergrund. Machen Sie sich mit der [Funktionsweise](release-notes.md#how-app-works) vertraut:
+* **So funktioniert das Desktop-Programm**: Bevor Sie mit der Verwendung des Programms beginnen, sollten Sie sich kurz mit ihrer Funktionsweise vertraut machen. Erfahren Sie mehr über die Verknüpfung zwischen der Web-Oberfläche von [!DNL Experience Manager] und Desktop, Repository-Zuordnung, Asset-Zwischenspeicherung, lokales Speichern und Hochladen im Hintergrund. Machen Sie sich mit der [Funktionsweise](release-notes.md#how-app-works) vertraut.
 
 * **Vermeiden Sie nicht unterstützte Zeichen in Ordnernamen**: Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen und ungültige Zeichen. Eine Liste der Zeichen finden Sie unter [Erstellen von Ordnern in  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=de#creating-folders). Einige [!DNL Experience Manager]-Anwendungsfälle können durch nicht unterstützte Zeichen im Ordnernamen Probleme verursachen.
 
@@ -202,7 +202,7 @@ Anweisungen zur Ansicht dieser Anfragen finden Sie im [Abschnitt zu SAML](#da-co
 
 ### SAML-Anmeldeauthentifizierung funktioniert nicht {#da-connection-issue-with-saml-aem}
 
-[!DNL Experience Manager] Die Desktop-App stellt möglicherweise keine Verbindung zu Ihrer SSO-aktivierten (SAML)  [!DNL Adobe Experience Manager] Bereitstellung her. Der Entwurf der Anwendung versucht, die Variationen und Komplexität von SSO-Verbindungen und -Prozessen zu berücksichtigen. Ein Setup kann jedoch zusätzliche Fehlerbehebung erfordern.
+Das [!DNL Experience Manager]-Desktop-Programm stellt möglicherweise keine Verbindung zu Ihrer SSO-fähigen (SAML) [!DNL Adobe Experience Manager]-Bereitstellung her. Das Programm-Design versucht, die Variationen und Komplexitäten von SSO-Verbindungen und -Prozessen zu berücksichtigen. Eine Konfiguration kann jedoch eine zusätzliche Fehlerbehebung erfordern.
 
 Manchmal leitet der SAML-Prozess nicht zum ursprünglich angeforderten Pfad zurück oder die endgültige Umleitung erfolgt zu einem Host, der sich von dem unterscheidet, was im [!DNL Adobe Experience Manager]-Desktop-Programm konfiguriert wurde. So stellen Sie sicher, dass dies nicht der Fall ist:
 
