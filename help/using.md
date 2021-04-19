@@ -61,17 +61,17 @@ Bevor Sie mit der Nutzung des Programms beginnen, sollten Sie wissen, [wie das P
 
 ## Aktivieren von Desktop-Aktionen in der Web-Oberfläche von [!DNL Experience Manager] {#desktopactions-v2}
 
-Über die [!DNL Assets]-Benutzeroberfläche in einem Browser können Sie zu den Asset-Speicherorten navigieren oder das Asset auschecken und öffnen, um es in Ihrem Desktop-Programm zu bearbeiten. Diese Optionen werden als [!UICONTROL Desktop Actions] bezeichnet und sind standardmäßig nicht aktiviert. Gehen Sie zur Aktivierung wie folgt vor.
+Über die [!DNL Assets]-Benutzeroberfläche in einem Browser können Sie zu den Asset-Speicherorten navigieren oder das Asset auschecken und öffnen, um es im Desktop-Programm zu bearbeiten. Diese Optionen werden als [!UICONTROL Desktop Actions] bezeichnet und sind standardmäßig nicht aktiviert. Gehen Sie zur Aktivierung wie folgt vor.
 
-1. Klicken Sie in der Konsole [!DNL Assets] auf das Symbol **[!UICONTROL User]** in der Symbolleiste.
+1. Klicken Sie in der [!DNL Assets]-Konsole in der Symbolleiste auf das Symbol **[!UICONTROL User]**.
 1. Klicken Sie auf **[!UICONTROL My Preferences]**, um das Dialogfeld **[!UICONTROL Preferences]** anzuzeigen.
 
 1. Wählen Sie im Dialogfeld „Benutzereinstellungen“ die Option **[!UICONTROL Show Desktop Actions For Assets]**. Klicken Sie auf **[!UICONTROL Accept]**.
 
 
-   ![Wählen Sie Desktop-Aktionen für Assets anzeigen, um Desktop-Aktionen zu aktivieren](assets/enable_desktop_actions.png)
+   ![Aktivieren der Option „Desktop-Aktionen für Assets anzeigen“, um Desktop-Aktionen zu ermöglichen](assets/enable_desktop_actions.png)
 
-   *Abbildung: Wählen Sie diese Option  [!UICONTROL Show Desktop Actions For Assets] aus, um Desktop-Aktionen zu aktivieren.*
+   *Abbildung: Aktivieren der Option [!UICONTROL Show Desktop Actions For Assets], um Desktop-Aktionen zu aktivieren.*
 
 ## Durchsuchen, Suchen und Anzeigen einer Vorschau von Assets {#browse-search-preview-assets}
 
