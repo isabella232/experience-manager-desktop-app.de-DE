@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ac533db59b2a5c64243b762f4b77b3148c4f1867
 workflow-type: tm+mt
 source-wordcount: '1523'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -71,11 +71,11 @@ Weitere Informationen finden Sie unter [Neue Funktionen in Version 2.0](introduc
 
 **Aktualisierung in der Programmversion 2.1.2.0**
 
-* Eine neue Option zu [!UICONTROL Clear Cookies] wird dem Hauptmenü der Anwendung hinzugefügt. Es hilft bei möglichen Anmeldeproblemen, z.B. beim Wechseln der Verbindung von einem Server zu einem anderen. Siehe [Löschen von Cookies vor dem Verbinden](/help/troubleshoot.md#cannot-login-cookies-issue).
+* Dem Hauptmenü des Programms wurde eine neue Option [!UICONTROL Clear Cookies] hinzugefügt. Sie hilft bei möglichen Anmeldeproblemen, z. B. beim Wechsel der Verbindung von einem Server zu einem anderen. Siehe [Löschen von Cookies vor dem Verbinden](/help/troubleshoot.md#cannot-login-cookies-issue).
 
 **Aktualisierung in der Programmversion 2.1.1.0**
 
-* Mit einer erweiterten Einstellung kann das Programm das Programmverhalten der Version 1.10 beim Hochladen von Ordnern emulieren. In Version 1.10 berücksichtigen die im Repository erstellten Knotennamen Leerzeichen und die Groß- und Kleinschreibung der Ordnernamen, die vom Benutzer bereitgestellt werden. Das Standardverhalten von Version 2.1 bleibt weiterhin erhalten, d. h. mehrere Leerzeichen in Ordnernamen werden durch einen Bindestrich im Repository-Knotennamen ersetzt und die Knotennamen werden in Kleinbuchstaben umgewandelt. Weitere Informationen finden Sie in den [Programmvoreinstellungen](/help/install-upgrade.md#set-preferences).
+* Mit einer erweiterten Einstellung kann das Programm das Programmverhalten der Version 1.10 beim Hochladen von Ordnern emulieren. In Version 1.10 berücksichtigen die im Repository erstellten Knotennamen die Leerzeichen und die Groß-/Kleinschreibung der vom Benutzer angegebenen Ordnernamen. Das Standardverhalten von Version 2.1 bleibt weiterhin erhalten, d. h. mehrere Leerzeichen in Ordnernamen werden durch einen Bindestrich im Repository-Knotennamen ersetzt und die Knotennamen werden in Kleinbuchstaben umgewandelt. Weitere Informationen finden Sie in den [Programmvoreinstellungen](/help/install-upgrade.md#set-preferences).
 
 **Aktualisierung in der Programmversion 2.1.0.0**
 
