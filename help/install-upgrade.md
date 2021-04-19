@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
 workflow-type: tm+mt
 source-wordcount: '1403'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Eine solche Integration bietet verschiedenen Rollen in der Organisation folgende
 
 Wenn Sie das [!DNL Experience Manager]-Desktop-Programm verwenden möchten,
 
-* stellen Sie sicher, dass Ihre [!DNL Experience Manager]-Version vom [!DNL Experience Manager]-Desktop-Programm unterstützt wird. Weitere Informationen finden Sie in den [Systemanforderungen](release-notes.md).
+* Stellen Sie sicher, dass Ihre [!DNL Experience Manager]-Version vom [!DNL Experience Manager]-Desktop-Programm unterstützt wird. Weitere Informationen finden Sie in den [Systemanforderungen](release-notes.md).
 
 * Laden Sie das Programm herunter und installieren Sie es. Siehe [Installieren des Desktop-Programms](#install-v2) unten.
 
@@ -39,7 +39,7 @@ Wenn Sie bereits Version 1.x des Desktop-Programms benutzen, sollten Sie die Unt
 
 >[!NOTE]
 >
->Zwei Versionen der Desktop-App können auf einem Computer nicht nebeneinander bestehen. Deinstallieren Sie vor der Installation einer Version die andere Version.
+>Auf einem Computer können nicht zwei Versionen des Desktop-Programms gleichzeitig installiert sein. Deinstallieren Sie vor der Installation einer Version die andere Version.
 
 Gehen Sie wie folgt vor, um von einer früheren Version des Programms zu aktualisieren:
 
@@ -111,7 +111,7 @@ Um die Voreinstellungen zu ändern, klicken Sie auf das Symbol ![Weitere Optione
 
 * **[!UICONTROL Maximum number of downloads]**: ![Vorsichtssymbol](assets/do-not-localize/caution-icon.png) Mit Vorsicht ändern. Beim erstmaligen Herunterladen von Assets (über die Option „Anzeigen“, „Öffnen“, „Bearbeiten“, „Herunterladen“ usw.) werden die Assets nur heruntergeladen, wenn der Stapel weniger als diese Anzahl enthält. Der Standardwert ist 50. Ändern Sie sie nicht, wenn Sie sich nicht sicher sind. Eine Erhöhung des Werts kann zu längeren Wartezeiten führen und eine Verringerung des Werts verhindert womöglich, dass Sie die erforderlichen Assets oder Ordner in einem Schritt herunterladen können.
 
-* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![Vorsichtssymbol](assets/do-not-localize/caution-icon.png) Mit Vorsicht ändern. Mit dieser Einstellung kann das Programm das Programmverhalten der Version 1.10 beim Hochladen von Ordnern emulieren. In Version 1.10 berücksichtigen die im Repository erstellten Knotennamen Leerzeichen und die Groß- und Kleinschreibung der Ordnernamen, die vom Benutzer bereitgestellt werden. In Version 2.1 des Programms werden die zusätzlichen Leerzeichen in den Ordnernamen jedoch in Bindestriche umgewandelt. Wenn Sie beispielsweise `New Folder` oder `new   folder` hochladen, wird derselbe Knoten im Repository erstellt, wenn die Option nicht ausgewählt ist und das Standardverhalten in Version 2.1 beibehalten wird. Wenn diese Option aktiviert ist, werden im Repository für die beiden oben genannten Ordner unterschiedliche Knoten erstellt, was dem Verhalten der Version 1.10 des Programms entspricht.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![Vorsichtssymbol](assets/do-not-localize/caution-icon.png) Mit Vorsicht ändern. Mit dieser Einstellung kann das Programm das Programmverhalten der Version 1.10 beim Hochladen von Ordnern emulieren. In Version 1.10 berücksichtigen die im Repository erstellten Knotennamen die Leerzeichen und die Groß-/Kleinschreibung der vom Benutzer angegebenen Ordnernamen. In Version 2.1 des Programms werden die zusätzlichen Leerzeichen in den Ordnernamen jedoch in Bindestriche umgewandelt. Wenn Sie beispielsweise `New Folder` oder `new   folder` hochladen, wird derselbe Knoten im Repository erstellt, wenn die Option nicht ausgewählt ist und das Standardverhalten in Version 2.1 beibehalten wird. Wenn diese Option aktiviert ist, werden im Repository für die beiden oben genannten Ordner unterschiedliche Knoten erstellt, was dem Verhalten der Version 1.10 des Programms entspricht.
 
    Das Standardverhalten von Version 2.1 bleibt weiterhin erhalten, d. h. mehrere Leerzeichen in Ordnernamen werden durch einen Bindestrich im Repository-Knotennamen ersetzt und die Knotennamen werden in Kleinbuchstaben umgewandelt.
 
@@ -127,9 +127,9 @@ Um die nicht verfügbaren Voreinstellungen zu aktualisieren, melden Sie sich bei
 
 Das [!DNL Experience Manager]-Desktop-Programm verwendet den vordefinierten Proxy des Systems, um über HTTPS eine Internet-Verbindung herzustellen. Das Programm kann die Verbindung nur mit einem Netzwerk-Proxy herstellen, für den keine gesonderte Authentifizierung erforderlich ist.
 
-Wenn Sie Proxyserver-Einstellungen für Windows konfigurieren oder ändern (Internetoptionen > LAN-Einstellungen), starten Sie das [!DNL Experience Manager]-Desktop-Programm neu, damit die Änderungen wirksam werden. Die Proxy-Konfiguration wird angewendet, wenn Sie die Desktop-App Beginn haben. Schließen Sie das Programm und starten Sie es erneut, damit Änderungen wirksam werden.
+Wenn Sie Proxy-Server-Einstellungen für Windows konfigurieren oder ändern (Internetoptionen > LAN-Einstellungen), starten Sie das [!DNL Experience Manager]-Desktop-Programm neu, damit die Änderungen wirksam werden. Die Proxy-Konfiguration wird angewendet, wenn Sie das Desktop-Programm starten. Schließen Sie das Programm und starten Sie es erneut, damit Änderungen wirksam werden.
 
-Wenn Ihr Proxy eine Authentifizierung erfordert, kann das IT-Team die [!DNL Experience Manager Assets]-URL in den Proxy-Servereinstellungen zulassen, damit der Anwendungs-Traffic durchlaufen werden kann.
+Wenn für den Proxy eine Authentifizierung erforderlich ist, kann die IT-Abteilung die URL von [!DNL Experience Manager Assets] in den Proxy-Server-Einstellungen zulassen, um den Programm-Traffic durchzulassen.
 
 ## Deinstallieren des Programms {#uninstall-the-app}
 
