@@ -1,7 +1,7 @@
 ---
 title: Installieren und Konfigurieren des Desktop-Programms
 description: Installieren und konfigurieren Sie die [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] -Server und laden Sie die Elemente auf Ihr lokales Dateisystem herunter.
-feature: Desktop-App, Versionsinformationen
+feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 translation-type: tm+mt
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
