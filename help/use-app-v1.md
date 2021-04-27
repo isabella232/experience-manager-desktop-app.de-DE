@@ -1,13 +1,13 @@
 ---
 title: Verwenden des [!DNL Experience Manager] -Desktop-Programms, Version 1.10.
 description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm, Version 1.10, verwenden und Ihre Arbeit mit Assets auf dem Desktop optimieren können.
-feature: Desktop App,Asset Management
+feature: Desktop-Programm, Asset-Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2377'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -150,7 +150,7 @@ Nachdem Sie Ihrem lokalen Laufwerk das [!DNL Assets]-Repository zugeordnet haben
 
 Um das gewünschte Asset in Ihrem lokalen Dateisystem zu finden, klicken Sie auf die Schnellaktion **Anzeigen** ![Symbol „Anzeigen“](assets/do-not-localize/aemassets_reveal_icon.png). Alternativ können Sie die Option **Anzeigen** über das Menü **Desktop-Aktionen** in der Symbolleiste auswählen.
 
-## Grundlegendes zu den Asset-Status  {#understand-the-asset-statuses}
+## Grundlegendes zu den Asset-Status {#understand-the-asset-statuses}
 
 | ![Windows-Standardprogrammsymbol](assets/do-not-localize/win_default.png) | Das Programm ist mit dem Server verbunden und alle Assets sind synchronisiert. |
 --- |--- |
@@ -212,7 +212,7 @@ Mithilfe des Programms können Sie Dateien auschecken, damit andere Benutzer kei
 1. Wählen Sie im Kontextmenü die Option „Explore Assets“ (Assets durchsuchen), um Explorer zu öffnen.
 1. Navigieren Sie in Explorer zum Speicherort des Assets, das Sie auschecken möchten.
 1. Klicken Sie mit der rechten Maustaste auf das Asset und wählen Sie aus dem Kontextmenü die Option „Open on Web“ (Im Web öffnen) aus.
-1. Klicken/tippen Sie im Dialogfeld „Asset Info“ (Asset-Informationen) auf das Symbol „Checkout“ (Auschecken). Das Symbol „Auschecken“ wird zum Symbol „Einchecken“
+1. Klicken/tippen Sie im Dialogfeld „Asset Info“ (Asset-Informationen) auf das Symbol „Checkout“ (Auschecken). Das Symbol „Auschecken“ wird zum Symbol „Einchecken“.
 
    ![Symbol „Auschecken“](assets/checkout_icon_toggles.png)
 
@@ -224,7 +224,7 @@ Mithilfe des Programms können Sie Dateien auschecken, damit andere Benutzer kei
 
 1. Wenn Sie das Asset einchecken möchten, sodass es für andere Benutzer verfügbar ist, klicken/tippen Sie im Dialogfeld **Asset Info** (Asset-Informationen) auf das Symbol „Einchecken“.
 
-### Einchecken eines Assets mit Finder oder Explorer und der Web-Benutzeroberfläche  {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Einchecken eines Assets mit Finder oder Explorer und der Web-Benutzeroberfläche {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Wenn Sie mit dem Bearbeiten der Assets fertig sind, speichern Sie sie in Ihrem Desktop-Programm. Wählen Sie im Kontextmenü die Option **Weitere Asset-Informationen** aus und klicken/tippen Sie auf „Einchecken“.
 
