@@ -2,11 +2,11 @@
 title: Best Practices und Fehlerbehebung für das  [!DNL Adobe Experience Manager] -Desktop-Programm
 description: Befolgen Sie die Best Practices und führen Sie eine Fehlerbehebung durch, um gelegentliche Probleme im Zusammenhang mit Installation, Aktualisierung, Konfiguration usw. zu beheben.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2261'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -286,9 +286,9 @@ Als vorübergehende Maßnahme ist es möglich, die strikte SSL-Durchsetzung im [
 
 ### Probleme bei der Anmeldung beim Wechsel zu einem anderen Server {#cannot-login-cookies-issue}
 
-Wenn Sie nach der Verwendung eines [!DNL Experience Manager]-Servers versuchen, die Verbindung zu einem anderen Server zu ändern, treten möglicherweise Anmeldeprobleme auf. Der Grund hierfür sind alte Cookies, die die neue Authentifizierung beeinträchtigen. Eine Option im Hauptmenü zu [!UICONTROL Clear Cookies] hilft. Melden Sie sich bei der aktuellen Sitzung in der App ab und wählen Sie [!UICONTROL Clear Cookies], bevor Sie mit der Verbindung fortfahren.
+Wenn Sie nach der Verwendung eines [!DNL Experience Manager]-Servers versuchen, die Verbindung zu einem anderen Server zu ändern, treten möglicherweise Anmeldeprobleme auf. Der Grund hierfür sind alte Cookies, die die neue Authentifizierung beeinträchtigen. Die Option [!UICONTROL Clear Cookies] im Hauptmenü hilft hierbei. Melden Sie sich bei der aktuellen Programmsitzung ab und wählen Sie [!UICONTROL Clear Cookies], bevor Sie mit der Herstellung der Verbindung fortfahren.
 
-![Löschen von Cookies beim Serverwechsel](assets/main_menu_logout_da2.png)
+![Löschen von Cookies beim Server-Wechsel](assets/main_menu_logout_da2.png)
 
 ## Das Programm reagiert nicht {#unresponsive}
 
@@ -299,12 +299,12 @@ In seltenen Fällen reagiert das Programm möglicherweise nicht mehr, zeigt nur 
 
 Bei beiden Methoden startet das Programm im Stammordner des DAM.
 
-## Ausgelaufene Assets {#hide-expired-assets} ausblenden
+## Ausblenden abgelaufener Assets {#hide-expired-assets}
 
-Beim Durchsuchen von Assets in der [!DNL Experience Manager]-Benutzeroberfläche werden die abgelaufenen Assets nicht angezeigt. Um beim Durchsuchen von Assets aus der Desktop-App und Asset Link zu verhindern, dass abgelaufene Assets angezeigt, durchsucht und abgerufen werden, können Administratoren die folgende Konfiguration durchführen. Die Konfiguration funktioniert für alle Benutzer, unabhängig von den Administratorberechtigungen.
+Beim Durchsuchen von Assets in der [!DNL Experience Manager]-Benutzeroberfläche werden die abgelaufenen Assets nicht angezeigt. Um die Anzeige, das Durchsuchen und den Abruf abgelaufener Assets beim Durchsuchen von Assets im Desktop-Programm und über Asset Link zu verhindern, können Administratoren die folgende Konfiguration durchführen. Die Konfiguration funktioniert für alle Benutzer, unabhängig von den Administratorberechtigungen.
 
-* [Konfiguration in Experience Manager 6.5, um abgelaufene Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#hide-expired-assets-via-acp-api) auszublenden.
-* [Konfiguration in Experience Manager als Cloud Service zum Ausblenden abgelaufener Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api).
+* [Konfiguration in Experience Manager 6.5 zum Ausblenden abgelaufener Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=de#hide-expired-assets-via-acp-api).
+* [Konfiguration in Experience Manager as a Cloud Service zum Ausblenden abgelaufener Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=de#hide-expired-assets-via-acp-api).
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
