@@ -23,3 +23,4 @@ Für dieses Projekt gilt der [Adobe Open Source-Verhaltenskodex](code-of-conduct
 **Für Mitarbeiter von Adobe**: Wenn Sie ein Mitarbeiter von Adobe sind, verwenden Sie Corporate Git, um einen Beitrag zu leisten. Siehe [contributing.md](contributing.md). Um wichtige Updates bereitzustellen, erstellen Sie ein Problem. Ein Mitarbeiter des Dokumentations-Teams wird sich mit Ihnen in Verbindung setzen.
 
 Die Verhaltensnormen, die wir beim Beitrag erwarten, finden Sie unter [Verhaltenskodex](code-of-conduct.md).
+
