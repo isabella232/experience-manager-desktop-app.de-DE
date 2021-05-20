@@ -1,14 +1,13 @@
 ---
 title: Versionshinweise für das Desktop-Programm, v1.10
 description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das AEM-Desktop-Programm, Version 1.10.
-translation-type: ht
-source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
-workflow-type: ht
+exl-id: 886864e0-016a-4a17-b3ba-4b18a514214a
+source-git-commit: 78f18e68178f711d925d7e308822c657087d009a
+workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 100%
 
 ---
-
 
 # Versionshinweise für das [!DNL Adobe Experience Manager]-Desktop-Programm, Version 1.10. {#aem-desktop-app-release-notes}
 
@@ -394,7 +393,7 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 
 **CA-signierte SSL-Zertifikate verwenden:** Beachten Sie, dass das AEM-Desktop-Programm beim Herstellen einer sicheren HTTPS-Verbindung zu AEM keine selbstsignierten SSL-Zertifikate unterstützt. Für derartige Verbindungen ist ein CA-signiertes Zertifikat auf dem Server erforderlich (CQ-87941).
 
-## Bekannte Probleme {#known-issues}
+## Bekannte Probleme  {#known-issues}
 
 * Allgemein:
    * Es werden Server-URLs benötigt, um ohne Pfad auf den Server zu verweisen (z. B. `http://server`, `https://server`, `http://server:port` oder `https://server:port`). Außer „/content/dam“ werden keine anderen Kontextpfade und Unterordner unterstützt (CQ-89343, CQ-87272).
