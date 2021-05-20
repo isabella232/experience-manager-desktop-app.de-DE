@@ -4,9 +4,8 @@ description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität 
 mini-toc-levels: 1
 feature: Desktop-Programm, Versionsinformationen
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-translation-type: ht
 source-git-commit: ac533db59b2a5c64243b762f4b77b3148c4f1867
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1523'
 ht-degree: 100%
 
@@ -172,6 +171,6 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de)
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=de)
 >* [Verwenden des [!DNL Experience Manager] -Desktop-Programms](using.md)
->* [Installieren und Aktualisieren des Desktop-Programms](install-upgrade.md)
->* [Best Practices und Tipps zur Fehlerbehebung](troubleshoot.md)
+* [Installieren und Aktualisieren des Desktop-Programms](install-upgrade.md)
+* [Best Practices und Tipps zur Fehlerbehebung](troubleshoot.md)
 
