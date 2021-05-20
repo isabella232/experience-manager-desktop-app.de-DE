@@ -1,14 +1,13 @@
 ---
 title: Best Practices für das Desktop-Programm, v1.10.
 description: Wichtige Funktionen und empfohlene Verwendung der [!DNL Adobe Experience Manager] -Desktop-Programm Version 1.10.
-translation-type: ht
-source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
-workflow-type: ht
+exl-id: 5de06b33-c05c-47eb-b884-408b6f9afc94
+source-git-commit: 78f18e68178f711d925d7e308822c657087d009a
+workflow-type: tm+mt
 source-wordcount: '1674'
 ht-degree: 100%
 
 ---
-
 
 # Best Practices für das AEM-Desktop-Programm, v1.10 {#aem-desktop-app-best-practices}
 
@@ -114,11 +113,11 @@ Gehen Sie wie folgt vor, wenn ein in AEM gespeichertes Asset aktualisiert werden
 
    * Wenn Sie die Bearbeitung abgeschlossen haben, verschieben, kopieren oder speichern Sie die von AEM zugeordnete Datei, um sie als neue Version hochzuladen.
 
-## Netzwerkleistung {#network-performance}
+## Netzwerkleistung  {#network-performance}
 
 Für ein positives Benutzererlebnis mit dem AEM-Desktop-Programm kommt es in erster Linie auf eine gute, stabile Netzwerkverbindung zwischen Benutzer-Desktops und dem AEM-Server an. Außerdem muss der Server für eine gute Leistung abgestimmt sein, insbesondere in Bezug auf das Hochladen und Aktualisieren von Assets. Diese Empfehlungen gelten für Netzwerk-/IT-Teams von Unternehmen.
 
-### Überlegungen zum Netzwerk {#network-considerations}
+### Überlegungen zum Netzwerk  {#network-considerations}
 
 Die Best Practices für die AEM Assets-Netzwerkkonfiguration finden Sie im Dokument [Überlegungen zum AEM Assets-Netzwerk](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-migration-guide.html?lang=de). Folgende Aspekte sind u. a. beim Optimieren des AEM-Desktop-Programm-Erlebnisses für Benutzer nützlich:
 
@@ -130,10 +129,10 @@ Die Best Practices für die AEM Assets-Netzwerkkonfiguration finden Sie im Dokum
 >
 >Um die Symbolvorschau zu deaktivieren, gehen Sie im Finder zu [!UICONTROL View], wählen Sie die Option [!UICONTROL View Options] und deaktivieren Sie dann [!UICONTROL Show icon preview]. Diese Einstellung bezieht sich nur auf den aktuellen Ordner. Um sie standardmäßig festzulegen, klicken Sie im selben Fenster auf die Option [!UICONTROL Use as default].
 
-### Optimieren der Serverleistung {#optimizing-server-performance}
+### Optimieren der Serverleistung  {#optimizing-server-performance}
 
 Informationen zur Leistungsoptimierung des AEM Assets-Servers finden Sie im [Handbuch zur Optimierung der AEM Assets-Leistung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=de). Einige wichtige Aspekte im Zusammenhang mit der Server-Leistung des AEM-Desktop-Programms beziehen sich auf das Optimieren der Workflow-Konfiguration für Asset-Uploads:
 
-* **Leistungsstärkere Asset-Uploads**. Konfigurieren Sie das [AEM-Workflow-Modell „AEM Asset-Update“ als Übergangs-Workflow](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=de).
+* **Leistungsstärkere Asset-Uploads**. Konfigurieren Sie das [AEM-Workflow-Modell „AEM Asset-Update“ als Übergangs-Workflow](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html).
 
 * **Server-Prozessoren für Uploads beschränken**. Stellen Sie sicher, dass der Parameter für parallele Workflow-Aufträge korrekt eingestellt ist, damit bei Uploads nicht die gesamte CPU ausgereizt wird.
