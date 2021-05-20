@@ -3,9 +3,8 @@ title: Verwenden des [!DNL Experience Manager] -Desktop-Programms, Version 1.10.
 description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm, Version 1.10, verwenden und Ihre Arbeit mit Assets auf dem Desktop optimieren können.
 feature: Desktop-Programm, Asset-Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-translation-type: ht
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2377'
 ht-degree: 100%
 
@@ -94,7 +93,7 @@ Das Programm unterstützt die Proxy-Konfiguration unter Mac und Windows. Die Kon
 
    ![Anmeldedaten für den [!DNL Experience Manager]-Server auf dem Anmeldebildschirm des [!DNL Experience Manager]-Desktop-Programms angeben](assets/login_screen_v1.png)
 
-### Aktivieren von Desktop-Aktionen in der [!DNL Experience Manager]-Web-Benutzeroberfläche {#desktopactions}
+### Aktivieren von Desktop-Aktionen in der Web-Oberfläche von [!DNL Experience Manager]  {#desktopactions}
 
 Über die Assets-Benutzeroberfläche können Sie zu den Asset-Speicherorten navigieren oder Assets auschecken und öffnen, um sie in Ihrem Desktop-Programm zu bearbeiten. Diese Optionen werden als Desktop-Aktionen bezeichnet und sind standardmäßig nicht aktiviert. Führen Sie die folgenden Schritte aus, um sie zu aktivieren.
 
@@ -224,7 +223,7 @@ Mithilfe des Programms können Sie Dateien auschecken, damit andere Benutzer kei
 
 1. Wenn Sie das Asset einchecken möchten, sodass es für andere Benutzer verfügbar ist, klicken/tippen Sie im Dialogfeld **Asset Info** (Asset-Informationen) auf das Symbol „Einchecken“.
 
-### Einchecken eines Assets mit Finder oder Explorer und der Web-Benutzeroberfläche {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Einchecken eines Assets mit Finder oder Explorer und der Web-Benutzeroberfläche  {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Wenn Sie mit dem Bearbeiten der Assets fertig sind, speichern Sie sie in Ihrem Desktop-Programm. Wählen Sie im Kontextmenü die Option **Weitere Asset-Informationen** aus und klicken/tippen Sie auf „Einchecken“.
 
