@@ -4,10 +4,10 @@ description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität 
 mini-toc-levels: 1
 feature: Desktop-Programm, Versionsinformationen
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: ac533db59b2a5c64243b762f4b77b3148c4f1867
+source-git-commit: bc938588d0d54a6f3b8b85e0d4097104f9df46c9
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 100%
+source-wordcount: '1525'
+ht-degree: 99%
 
 ---
 
@@ -78,7 +78,7 @@ Weitere Informationen finden Sie unter [Neue Funktionen in Version 2.0](introduc
 
 **Aktualisierung in der Programmversion 2.1.0.0**
 
-* Um Assets hochzuladen, können Benutzer die Dateien oder Ordner jetzt direkt aus dem Windows Explorer oder Mac Finder auf die Benutzeroberfläche des Programms ziehen. Dies funktioniert zusätzlich zu der im Programm bereits verfügbaren Upload-Option. <!-- CQ-4309527 -->
+* Um Assets hochzuladen, können Benutzer die Dateien oder Ordner jetzt direkt aus dem Windows Explorer oder Mac Finder auf die Benutzeroberfläche des Programms ziehen. Dies funktioniert zusätzlich zur Upload-Option, die in der Anwendung verfügbar ist. Siehe [Hochladen von Assets](/help/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
 **Aktualisierung in der Programmversion 2.0.3**
 
