@@ -4,10 +4,10 @@ description: Verwenden Sie [!DNL Adobe Experience Manager] desktop app, to work 
 mini-toc-levels: 1
 feature: Desktop-Programm, Asset-Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: bc938588d0d54a6f3b8b85e0d4097104f9df46c9
+source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
 workflow-type: tm+mt
-source-wordcount: '3923'
-ht-degree: 98%
+source-wordcount: '3999'
+ht-degree: 96%
 
 ---
 
@@ -175,9 +175,19 @@ Deaktivieren Sie ggf. das Auschecken. Das aktualisierte Asset wird aus dem lokal
 
 ## Hochladen und Hinzufügen neuer Assets zu [!DNL Experience Manager] {#upload-and-add-new-assets-to-aem}
 
-Benutzer können dem DAM-Repository neue Assets hinzufügen. Vielleicht sind Sie z. B. ein Agenturfotograf oder -auftragnehmer, der eine große Anzahl von Fotos aus einem Foto-Shooting zum [!DNL Experience Manager]-Repository hinzufügen möchte. Um [!DNL Experience Manager] neue Inhalte hinzuzufügen, wählen Sie ![die Option „In Cloud hochladen“](assets/do-not-localize/upload_to_cloud_da2.png) in der oberen Leiste des Programms aus. Navigieren Sie zu den Asset-Dateien im lokalen Dateisystem und klicken Sie auf **[!UICONTROL Select]**. Alternativ können Sie zum Hochladen von Assets die Dateien oder Ordner auf die Benutzeroberfläche des Programms ziehen. Wenn Sie unter Windows Assets auf einen Ordner innerhalb des Programms ziehen, werden die Assets in den Ordner hochgeladen.
+Benutzer können dem DAM-Repository neue Assets hinzufügen. Vielleicht sind Sie z. B. ein Agenturfotograf oder -auftragnehmer, der eine große Anzahl von Fotos aus einem Foto-Shooting zum [!DNL Experience Manager]-Repository hinzufügen möchte. Um [!DNL Experience Manager] neue Inhalte hinzuzufügen, wählen Sie ![die Option „In Cloud hochladen“](assets/do-not-localize/upload_to_cloud_da2.png) in der oberen Leiste des Programms aus. Navigieren Sie zu den Asset-Dateien im lokalen Dateisystem und klicken Sie auf **[!UICONTROL Select]**. Alternativ können Sie zum Hochladen von Assets die Dateien oder Ordner auf die Benutzeroberfläche des Programms ziehen. Wenn Sie unter Windows Assets auf einen Ordner innerhalb des Programms ziehen, werden die Assets in den Ordner hochgeladen. Wenn das Hochladen länger dauert, zeigt das Programm eine Fortschrittsleiste an.
 
-Wenn das Hochladen länger dauert, zeigt das Programm am unteren Rand eine Fortschrittsleiste an. Verwenden Sie beim Erstellen oder Hochladen von Ordnern keine Leerzeichen oder ungültigen Zeichen. Eine Liste der zulässigen Zeichen finden Sie unter [Erstellen von Ordnern in  [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=de#creating-folders).
+Verwenden Sie beim Benennen der Dateien und Ordner nicht die folgenden Zeichen (durch Leerzeichen getrennte Liste):
+
+* in Dateinamen `\\`.
+
+   Die Zeichen `# % { } ? & . / : [ | ] *` werden in Knotennamen, die in [!DNL Adobe Experience Manager] erstellt werden, durch einen Bindestrich ersetzt. jedoch bleiben Leerzeichen und Groß-/Kleinschreibung erhalten.
+
+* in Ordnernamen `\\ \t &`.
+
+   Leerzeichen und die Zeichen `% ; # , + ? ^ { } " . / : [ ] | *` in Ordnernamen werden in den in [!DNL Adobe Experience Manager] erstellten Knotennamen durch Bindestriche in Ordnerpfaden ersetzt. Außerdem werden die Großbuchstaben in Ordnerpfaden in Kleinbuchstaben umgewandelt.
+
+Wenn [!UICONTROL Use legacy conventions when creating nodes for assets and folders] jedoch in [!UICONTROL Preferences] aktiviert ist, emuliert das Programm das App-Verhalten v1.10 beim Hochladen von Ordnern. In Version 1.10 berücksichtigen die im Repository erstellten Knotennamen die Leerzeichen und die Groß-/Kleinschreibung der vom Benutzer angegebenen Ordnernamen. Weitere Informationen finden Sie unter [App-Voreinstellungen](/help/install-upgrade.md#set-preferences).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
