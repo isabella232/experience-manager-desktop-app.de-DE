@@ -7,7 +7,7 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
 workflow-type: tm+mt
 source-wordcount: '1649'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -88,7 +88,7 @@ Folgender Fehler wurde in der aktuellen Version behoben:
 
 **Aktualisierung in der Programmversion 2.1.0.0**
 
-* Um Assets hochzuladen, können Benutzer die Dateien oder Ordner jetzt direkt aus dem Windows Explorer oder Mac Finder auf die Benutzeroberfläche des Programms ziehen. Dies funktioniert zusätzlich zur Upload-Option, die in der Anwendung verfügbar ist. Siehe [Hochladen von Assets](/help/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
+* Um Assets hochzuladen, können Benutzer die Dateien oder Ordner jetzt direkt aus dem Windows Explorer oder Mac Finder in die Benutzeroberfläche des Programms ziehen. Dies funktioniert zusätzlich zu der im Programm bereits verfügbaren Upload-Option. Siehe [Upload von Assets](/help/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
 **Aktualisierung in der Programmversion 2.0.3**
 
@@ -178,7 +178,7 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de)
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=de)
->* [Verwenden des [!DNL Experience Manager] -Desktop-Programms](using.md)
+>* [Verwenden des  [!DNL Experience Manager] -Desktop-Programms](using.md)
 * [Installieren und Aktualisieren des Desktop-Programms](install-upgrade.md)
 * [Best Practices und Tipps zur Fehlerbehebung](troubleshoot.md)
 
