@@ -4,7 +4,7 @@ description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität 
 mini-toc-levels: 1
 feature: Desktop-Programm, Versionsinformationen
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
+source-git-commit: d642a33c8e8c2f771a6f996a76167b7f6e42c1ce
 workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 91%
@@ -70,10 +70,6 @@ Weitere Informationen finden Sie unter [Neue Funktionen in Version 2.0](introduc
 
 **Aktualisierungen in der Programmversion 2.1.3.1**
 
-* Es wird eine Option hinzugefügt, mit der die App Ordner und Dateien so hochladen kann, dass ihre in [!DNL Adobe Experience Manager] erstellten Knotennamen mit den lokalen Datei- und Ordnernamen übereinstimmen.
-
-   Dieses Verhalten ähnelt dem Standardverhalten in Version 1 des Desktop-Programms. Wenn die Option in der aktuellen Version nicht aktiviert ist, werden Leerzeichen und die Zeichen `% ; # , + ? ^ { } "` in Ordnernamen durch Bindestriche in Ordnerpfaden ersetzt. Außerdem werden die Großbuchstaben in Ordnerpfaden in Kleinbuchstaben umgewandelt. In Dateinamen werden die Zeichen `# % { } ? &` jedoch durch Bindestriche ersetzt. jedoch bleiben Leerzeichen und Groß-/Kleinschreibung erhalten. Weitere Informationen finden Sie unter [App-Voreinstellungen](/help/install-upgrade.md#set-preferences) und [Hochladen und Hinzufügen neuer Assets](/help/using.md#upload-and-add-new-assets-to-aem).
-
 Folgender Fehler wurde in der aktuellen Version behoben:
 
 * Die Geschwindigkeit beim Hochladen und Herunterladen von Assets wurde verbessert, auch bei großen Assets. Es wurde ein Problem behoben, bei dem Asset-Uploads mit [!DNL desktop app] beim Hochladen großer Dateien zunehmend fehlschlugen.
@@ -81,6 +77,10 @@ Folgender Fehler wurde in der aktuellen Version behoben:
 **Aktualisierung in der Programmversion 2.1.2.0**
 
 * Dem Hauptmenü des Programms wurde eine neue Option [!UICONTROL Clear Cookies] hinzugefügt. Sie hilft bei möglichen Anmeldeproblemen, z. B. beim Wechsel der Verbindung von einem Server zu einem anderen. Siehe [Löschen von Cookies vor dem Verbinden](/help/troubleshoot.md#cannot-login-cookies-issue).
+
+* Es wird eine Option hinzugefügt, mit der die App Ordner und Dateien so hochladen kann, dass ihre in [!DNL Adobe Experience Manager] erstellten Knotennamen mit den lokalen Datei- und Ordnernamen übereinstimmen.
+
+   Dieses Verhalten ähnelt dem Standardverhalten in Version 1 des Desktop-Programms. Wenn die Option in der aktuellen Version nicht aktiviert ist, werden Leerzeichen und die Zeichen `% ; # , + ? ^ { } "` in Ordnernamen durch Bindestriche in Ordnerpfaden ersetzt. Außerdem werden die Großbuchstaben in Ordnerpfaden in Kleinbuchstaben umgewandelt. In Dateinamen werden die Zeichen `# % { } ? &` jedoch durch Bindestriche ersetzt. jedoch bleiben Leerzeichen und Groß-/Kleinschreibung erhalten. Weitere Informationen finden Sie unter [App-Voreinstellungen](/help/install-upgrade.md#set-preferences) und [Hochladen und Hinzufügen neuer Assets](/help/using.md#upload-and-add-new-assets-to-aem).
 
 **Aktualisierung in der Programmversion 2.1.1.0**
 
