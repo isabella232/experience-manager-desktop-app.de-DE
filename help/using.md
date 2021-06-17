@@ -4,10 +4,10 @@ description: Verwenden Sie [!DNL Adobe Experience Manager] desktop app, to work 
 mini-toc-levels: 1
 feature: Desktop-Programm, Asset-Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
+source-git-commit: 7c413be995ef087fab75114d65e87f6936c8e021
 workflow-type: tm+mt
-source-wordcount: '3999'
-ht-degree: 97%
+source-wordcount: '4054'
+ht-degree: 95%
 
 ---
 
@@ -177,18 +177,6 @@ Deaktivieren Sie ggf. das Auschecken. Das aktualisierte Asset wird aus dem lokal
 
 Benutzer können dem DAM-Repository neue Assets hinzufügen. Vielleicht sind Sie z. B. ein Agenturfotograf oder -auftragnehmer, der eine große Anzahl von Fotos aus einem Foto-Shooting zum [!DNL Experience Manager]-Repository hinzufügen möchte. Um [!DNL Experience Manager] neue Inhalte hinzuzufügen, wählen Sie ![die Option „In Cloud hochladen“](assets/do-not-localize/upload_to_cloud_da2.png) in der oberen Leiste des Programms aus. Navigieren Sie zu den Asset-Dateien im lokalen Dateisystem und klicken Sie auf **[!UICONTROL Select]**. Alternativ können Sie Assets hochladen, indem Sie die Dateien oder Ordner in die Benutzeroberfläche des Programms ziehen. Wenn Sie unter Windows Assets auf einen Ordner innerhalb des Programms ziehen, werden die Assets in den Ordner hochgeladen. Wenn das Hochladen länger dauert, zeigt das Programm eine Fortschrittsleiste an.
 
-Verwenden Sie beim Benennen der Dateien und Ordner nicht die folgenden Zeichen (durch Leerzeichen getrennte Liste):
-
-* in Dateinamen `\\`.
-
-   Die Zeichen `# % { } ? & . / : [ | ] *` werden in Knotennamen, die in [!DNL Adobe Experience Manager] erstellt werden, durch einen Bindestrich ersetzt. jedoch bleiben Leerzeichen und Groß-/Kleinschreibung erhalten.
-
-* in Ordnernamen `\\ \t &`.
-
-   Leerzeichen und die Zeichen `% ; # , + ? ^ { } " . / : [ ] | *` in Ordnernamen werden in den in [!DNL Adobe Experience Manager] erstellten Knotennamen durch Bindestriche in Ordnerpfaden ersetzt. Außerdem werden die Großbuchstaben in Ordnerpfaden in Kleinbuchstaben umgewandelt.
-
-Wenn [!UICONTROL Use legacy conventions when creating nodes for assets and folders] jedoch in [!UICONTROL Preferences] aktiviert ist, emuliert das Programm das App-Verhalten v1.10 beim Hochladen von Ordnern. In Version 1.10 berücksichtigen die im Repository erstellten Knotennamen die Leerzeichen und die Groß-/Kleinschreibung der vom Benutzer angegebenen Ordnernamen. Weitere Informationen finden Sie unter [App-Voreinstellungen](/help/install-upgrade.md#set-preferences).
-
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
@@ -204,9 +192,76 @@ Sie können die gleichzeitigen Uploads (Beschleunigung) mit der Einstellung **[!
 >
 >Die Übertragungsliste ist nicht dauerhaft und steht nicht mehr zur Verfügung, wenn Sie das Programm verlassen und erneut öffnen.
 
+### Verwalten von Sonderzeichen in Asset-Namen {#special-characters-in-filename}
+
+In der veralteten App blieben die im Repository erstellten Knotennamen die Leerzeichen und die Groß-/Kleinschreibung der vom Benutzer angegebenen Ordnernamen erhalten. Damit die aktuelle Anwendung die Knotennamensregeln der v1.10-App emulieren kann, aktivieren Sie [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in [!UICONTROL Preferences]. Siehe [App-Voreinstellungen](/help/install-upgrade.md#set-preferences). Diese veraltete Voreinstellung ist standardmäßig deaktiviert.
+
 >[!NOTE]
 >
->Wenn die Dateien nicht hochgeladen werden und Sie eine Verbindung zu einer Implementierung von [!DNL Experience Manager] 6.5.1 oder höher herstellen, finden Sie hier [Informationen zur Fehlerbehebung](troubleshoot.md#upload-fails).
+>Das Programm ändert nur die Knotennamen im Repository anhand der folgenden Benennungskonventionen. Die Anwendung behält die `Title` des Assets unverändert bei.
+
+<!-- TBD: Do NOT use this table.
+
+| Where do characters occur | Characters | Legacy preference | Renaming convention | Example |
+|---|---|---|---|---|
+| In file name extension | `.` | Enabled or disabled | Retained as is | NA |
+| File or folder name | `. / : [ ] | *` | Enabled or disabled | Replaced with a `-` (hyphen) | `myimage.jpg` remains as is and `my.image.jpg` changes to `my-image.jpg`. |
+| Folder name | `% ; # , + ? ^ { } "` | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | `% # ? { } &` | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | Whitespaces | Enabled or disabled | Retained as is | NA |
+| Folder name | Whitespaces | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | Uppercase characters | Disabled | Retained as is | tbd |
+| Folder name | Uppercase characters | Disabled | Replaced with a `-` (hyphen) | tbd |
+-->
+
+| Zeichen ‡ | Alte Voreinstellung in der App | Bei Auftreten in Dateinamen | Bei Auftreten in Ordnernamen | Beispiel |
+|---|---|---|---|---|
+| `. / : [ ] | *` | Aktiviert oder Deaktiviert | Ersetzt durch `-` (Bindestrich). Ein `.` (Punkt) in der Dateinamenerweiterung wird unverändert beibehalten. | Ersetzt durch `-` (Bindestrich). | `myimage.jpg` bleibt unverändert und  `my.image.jpg` ändert sich in  `my-image.jpg`. |
+| `% ; # , + ? ^ { } "` und Whitespaces | ![Deaktivieren Sie ](assets/do-not-localize/deselect-icon.png) iconDisabled | Whitespaces werden beibehalten | Ersetzt durch `-` (Bindestrich). | `My Folder.` Änderungen an  `my-folder-`. |
+| `# % { } ? & .` | ![Deaktivieren Sie ](assets/do-not-localize/deselect-icon.png) iconDisabled | Ersetzt durch `-` (Bindestrich). | nicht vorhanden. | `#My New File.` Änderungen an  `-My New File-`. |
+| Großbuchstaben | ![Deaktivieren Sie ](assets/do-not-localize/deselect-icon.png) iconDisabled | Das Casing wird unverändert beibehalten. | In Kleinbuchstaben geändert. | `My New Folder` Änderungen an  `my-new-folder`. |
+| Großbuchstaben | ![Auswahl aktiviert ](assets/do-not-localize/selection-checked-icon.png) iconEnabled | Das Casing wird unverändert beibehalten. | Das Casing wird unverändert beibehalten. | nicht vorhanden. |
+
+‡ Die Liste der Zeichen ist eine durch Leerzeichen getrennte Liste.
+
+<!-- TBD: Check if the following is to be included in the footnote.
+
+Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names of folders. 
+-->
+
+
+<!-- TBD: Securing the below presentation of the same content in a comment.
+
+**File names**
+
+| Characters | Replaced by |
+|---|---|
+| &#35; &#37; &#123; &#63; &#125; &#38; &#46; &#47; &#58; &#91; &#124; &#93; &#42; | hyphen (-) |
+| whitespaces | whitespaces are retained |
+| capital case | casing is retained |
+
+>[!CAUTION]
+>
+>Avoid using &#92;&#92; in file names.
+
+**Folder names**
+
+| Characters | Replaced by |
+|---|---|
+| Characters | Replaced by |
+| &#37; &#59; &#35; &#44; &#43; &#63; &#94; &#123; &#123; &#34; &#46; &#47; &#59; &#91; &#93; &#124; &#42; | hyphen (-) |
+| whitespaces | hyphen (-) |
+| capital case | lower case |
+
+>[!CAUTION]
+>
+>Avoid using &#92;&#92; &#92;&#116; &#38; in folder names.
+
+>[!NOTE]
+>
+>If you enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in app [!UICONTROL Preferences], then the app emulates v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. For more information, see [app Preferences](/help/install-upgrade.md#set-preferences).
+
+-->
 
 ## Arbeiten mit mehreren Assets {#work-with-multiple-assets}
 
