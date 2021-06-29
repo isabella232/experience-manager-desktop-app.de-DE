@@ -4,9 +4,9 @@ description: Verwenden Sie [!DNL Adobe Experience Manager] desktop app, to work 
 mini-toc-levels: 1
 feature: Desktop-Programm, Asset-Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 7c413be995ef087fab75114d65e87f6936c8e021
+source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4053'
 ht-degree: 95%
 
 ---
@@ -58,14 +58,14 @@ Bevor Sie mit der Nutzung des Programms beginnen, sollten Sie wissen, [wie das P
 
 * **[!UICONTROL Upload Changes]**: Das Desktop-Programm lädt das aktualisierte Asset nur hoch, wenn Sie es explizit auf den [!DNL Experience Manager]-Server hochladen. Wenn Sie Ihre Änderungen speichern, werden diese nur auf Ihrem lokalen Computer gespeichert. Beim Hochladen wird das Asset automatisch eingecheckt und das Sperrsymbol entfernt. Siehe [Bearbeiten von Assets](using.md#edit-assets-upload-updated-assets).
 
-## Aktivieren von Desktop-Aktionen in der Web-Oberfläche von [!DNL Experience Manager] {#desktopactions-v2}
+## Aktivieren von Desktop-Aktionen in der Web-Oberfläche von [!DNL Experience Manager]  {#desktopactions-v2}
 
 Über die [!DNL Assets]-Benutzeroberfläche in einem Browser können Sie zu den Asset-Speicherorten navigieren oder das Asset auschecken und öffnen, um es im Desktop-Programm zu bearbeiten. Diese Optionen werden als [!UICONTROL Desktop Actions] bezeichnet und sind standardmäßig nicht aktiviert. Gehen Sie zur Aktivierung wie folgt vor.
 
 1. Klicken Sie in der [!DNL Assets]-Konsole in der Symbolleiste auf das Symbol **[!UICONTROL User]**.
 1. Klicken Sie auf **[!UICONTROL My Preferences]**, um das Dialogfeld **[!UICONTROL Preferences]** anzuzeigen.
 
-1. Wählen Sie im Dialogfeld „Benutzereinstellungen“ die Option **[!UICONTROL Show Desktop Actions For Assets]**. Klicken Sie auf **[!UICONTROL Accept]**.
+1. Wählen Sie im Dialogfeld [!UICONTROL User Preferences] **[!UICONTROL Show Desktop Actions For Assets]** und klicken Sie dann auf **[!UICONTROL Accept]**.
 
 
    ![Aktivieren der Option „Desktop-Aktionen für Assets anzeigen“, um Desktop-Aktionen zu ermöglichen](assets/enable_desktop_actions.png)
