@@ -3,10 +3,10 @@ title: Verwenden des [!DNL Experience Manager] -Desktop-Programms, Version 1.10.
 description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm, Version 1.10, verwenden und Ihre Arbeit mit Assets auf dem Desktop optimieren können.
 feature: Desktop-Programm, Asset-Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
 workflow-type: tm+mt
-source-wordcount: '2377'
-ht-degree: 100%
+source-wordcount: '2371'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ Informationen zu den empfohlenen und nicht empfohlenen Vorgehensweisen finden Si
 >
 >Das Desktop-Programm wurde in [!DNL Experience Manager]-Version 6.1 unter dem Namen [!DNL Experience Manager Assets Companion App] eingeführt.
 
-## Touchpoints des [!DNL Experience Manager]-Desktop-Programms im kreativen Workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
+## Touchpoints des [!DNL Experience Manager]-Desktop-Programms im kreativen Workflow  {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
 Das [!DNL Experience Manager]-Desktop-Programm fügt sich zusammen mit [!DNL Assets] in Ihren kreativen Workflow ein und bietet die folgenden Touchpoints.
 
@@ -102,11 +102,11 @@ Das Programm unterstützt die Proxy-Konfiguration unter Mac und Windows. Die Kon
 
    ![[!DNL Experience Manager]-Oberfläche mit Benutzereinstellungen](assets/aem_ui_user_preferences.png)
 
-1. Wählen Sie im Dialogfeld „Benutzereinstellungen“ die Option **[!UICONTROL Show Desktop Actions For Assets]**. Klicken Sie auf **[!UICONTROL Accept]**.
+1. Wählen Sie im Dialogfeld [!UICONTROL User Preferences] **[!UICONTROL Show Desktop Actions For Assets]** und klicken Sie dann auf **[!UICONTROL Accept]**.
 
    ![Aktivieren Sie [!UICONTROL Show Desktop Actions For Assets], um Desktop-Aktionen zu aktivieren.](assets/enable_desktop_actions.png)
 
-   *Abbildung: Aktivieren von „Desktop-Aktionen für Assets anzeigen“ zur Ermöglichung von Desktop-Aktionen.*
+   *Abbildung: Aktivieren Sie  [!UICONTROL Show Desktop Actions For Assets] die Desktop-Aktionen.*
 
 ## Zugreifen auf und Öffnen von Assets über den Desktop {#openondesktop}
 
@@ -223,7 +223,7 @@ Mithilfe des Programms können Sie Dateien auschecken, damit andere Benutzer kei
 
 1. Wenn Sie das Asset einchecken möchten, sodass es für andere Benutzer verfügbar ist, klicken/tippen Sie im Dialogfeld **Asset Info** (Asset-Informationen) auf das Symbol „Einchecken“.
 
-### Einchecken eines Assets mit Finder oder Explorer und der Web-Benutzeroberfläche  {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Einchecken eines Assets mit Finder oder Explorer und der Web-Benutzeroberfläche {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Wenn Sie mit dem Bearbeiten der Assets fertig sind, speichern Sie sie in Ihrem Desktop-Programm. Wählen Sie im Kontextmenü die Option **Weitere Asset-Informationen** aus und klicken/tippen Sie auf „Einchecken“.
 
