@@ -7,7 +7,7 @@ exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
 workflow-type: tm+mt
 source-wordcount: '4053'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -194,11 +194,11 @@ Sie können die gleichzeitigen Uploads (Beschleunigung) mit der Einstellung **[!
 
 ### Verwalten von Sonderzeichen in Asset-Namen {#special-characters-in-filename}
 
-In der veralteten App blieben die im Repository erstellten Knotennamen die Leerzeichen und die Groß-/Kleinschreibung der vom Benutzer angegebenen Ordnernamen erhalten. Damit die aktuelle Anwendung die Knotennamensregeln der v1.10-App emulieren kann, aktivieren Sie [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in [!UICONTROL Preferences]. Siehe [App-Voreinstellungen](/help/install-upgrade.md#set-preferences). Diese veraltete Voreinstellung ist standardmäßig deaktiviert.
+Im alten Programm behielten die im Repository erstellten Knotennamen die Leerzeichen und die Groß- und Kleinschreibung der vom Benutzer angegebenen Ordnernamen bei. Damit das aktuelle Programm die Knotennamensregeln der Programmversion 1.10 emulieren kann, aktivieren Sie [!UICONTROL Use legacy conventions when creating nodes for assets and folders] unter [!UICONTROL Preferences]. Weitere Informationen finden Sie in den [Programmvoreinstellungen](/help/install-upgrade.md#set-preferences). Diese veraltete Voreinstellung ist standardmäßig deaktiviert.
 
 >[!NOTE]
 >
->Das Programm ändert nur die Knotennamen im Repository anhand der folgenden Benennungskonventionen. Die Anwendung behält die `Title` des Assets unverändert bei.
+>Das Programm ändert nur die Knotennamen im Repository anhand der folgenden Namenskonventionen. Das Programm behält den `Title` des Assets unverändert bei.
 
 <!-- TBD: Do NOT use this table.
 
@@ -214,13 +214,13 @@ In der veralteten App blieben die im Repository erstellten Knotennamen die Leerz
 | Folder name | Uppercase characters | Disabled | Replaced with a `-` (hyphen) | tbd |
 -->
 
-| Zeichen ‡ | Alte Voreinstellung in der App | Bei Auftreten in Dateinamen | Bei Auftreten in Ordnernamen | Beispiel |
+| Zeichen ‡ | Alte Voreinstellung im Programm | Bei Auftreten in Dateinamen | Bei Auftreten in Ordnernamen | Beispiel |
 |---|---|---|---|---|
-| `. / : [ ] | *` | Aktiviert oder Deaktiviert | Ersetzt durch `-` (Bindestrich). Ein `.` (Punkt) in der Dateinamenerweiterung wird unverändert beibehalten. | Ersetzt durch `-` (Bindestrich). | `myimage.jpg` bleibt unverändert und  `my.image.jpg` ändert sich in  `my-image.jpg`. |
-| `% ; # , + ? ^ { } "` und Whitespaces | ![Deaktivieren Sie ](assets/do-not-localize/deselect-icon.png) iconDisabled | Whitespaces werden beibehalten | Ersetzt durch `-` (Bindestrich). | `My Folder.` Änderungen an  `my-folder-`. |
-| `# % { } ? & .` | ![Deaktivieren Sie ](assets/do-not-localize/deselect-icon.png) iconDisabled | Ersetzt durch `-` (Bindestrich). | nicht vorhanden. | `#My New File.` Änderungen an  `-My New File-`. |
-| Großbuchstaben | ![Deaktivieren Sie ](assets/do-not-localize/deselect-icon.png) iconDisabled | Das Casing wird unverändert beibehalten. | In Kleinbuchstaben geändert. | `My New Folder` Änderungen an  `my-new-folder`. |
-| Großbuchstaben | ![Auswahl aktiviert ](assets/do-not-localize/selection-checked-icon.png) iconEnabled | Das Casing wird unverändert beibehalten. | Das Casing wird unverändert beibehalten. | nicht vorhanden. |
+| `. / : [ ] | *` | Aktiviert oder deaktiviert | Ersetzt durch `-` (Bindestrich). Ein `.` (Punkt) in der Dateinamenerweiterung wird unverändert beibehalten. | Ersetzt durch `-` (Bindestrich). | `myimage.jpg` bleibt unverändert und `my.image.jpg` ändert sich in `my-image.jpg`. |
+| `% ; # , + ? ^ { } "` und Leerzeichen | ![deselect icon](assets/do-not-localize/deselect-icon.png) Deaktiviert | Leerzeichen werden beibehalten | Ersetzt durch `-` (Bindestrich). | `My Folder.` ändert sich in `my-folder-`. |
+| `# % { } ? & .` | ![deselect icon](assets/do-not-localize/deselect-icon.png) Deaktiviert | Ersetzt durch `-` (Bindestrich). | Nicht vorhanden. | `#My New File.` ändert sich in `-My New File-`. |
+| Großbuchstaben | ![deselect icon](assets/do-not-localize/deselect-icon.png) Deaktiviert | Groß- und Kleinschreibung wird unverändert beibehalten. | In Kleinbuchstaben geändert. | `My New Folder` ändert sich in `my-new-folder`. |
+| Großbuchstaben | ![selection checked icon](assets/do-not-localize/selection-checked-icon.png) Aktiviert | Groß- und Kleinschreibung wird unverändert beibehalten. | Groß- und Kleinschreibung wird unverändert beibehalten. | Nicht vorhanden. |
 
 ‡ Die Liste der Zeichen ist eine durch Leerzeichen getrennte Liste.
 
