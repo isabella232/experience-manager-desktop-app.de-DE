@@ -5,15 +5,15 @@ mini-toc-levels: 1
 feature: Desktop-Programm, Versionsinformationen
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: d642a33c8e8c2f771a6f996a76167b7f6e42c1ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1649'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm {#release-notes-v2}
 
-Die Versionshinweise für die neueste Desktop-Programm-Version 2.1 (2.1.3.1) finden Sie unten. Die Version wurde am 8. Juni 2021 veröffentlicht.
+Die Versionshinweise für die neueste Desktop-Programm-Version 2.1 (2.1.3.1) finden Sie unten. Das Veröffentlichungssdatum der Version ist der 08. Juni 2021.
 
 Die **unterstützten [!DNL Experience Manager]-Versionen** sind:
 
@@ -72,15 +72,15 @@ Weitere Informationen finden Sie unter [Neue Funktionen in Version 2.0](introduc
 
 Folgender Fehler wurde in der aktuellen Version behoben:
 
-* Die Geschwindigkeit beim Hochladen und Herunterladen von Assets wurde verbessert, auch bei großen Assets. Es wurde ein Problem behoben, bei dem Asset-Uploads mit [!DNL desktop app] beim Hochladen großer Dateien zunehmend fehlschlugen.
+* Die Geschwindigkeit beim Hochladen und Herunterladen von Assets wurde verbessert, auch bei großen Assets. Asset-Uploads mit [!DNL desktop app] schlagen beim Hochladen großer Dateien nicht mehr fehl.
 
 **Aktualisierung in der Programmversion 2.1.2.0**
 
 * Dem Hauptmenü des Programms wurde eine neue Option [!UICONTROL Clear Cookies] hinzugefügt. Sie hilft bei möglichen Anmeldeproblemen, z. B. beim Wechsel der Verbindung von einem Server zu einem anderen. Siehe [Löschen von Cookies vor dem Verbinden](/help/troubleshoot.md#cannot-login-cookies-issue).
 
-* Es wird eine Option hinzugefügt, mit der die App Ordner und Dateien so hochladen kann, dass ihre in [!DNL Adobe Experience Manager] erstellten Knotennamen mit den lokalen Datei- und Ordnernamen übereinstimmen.
+* Es wurde eine Option hinzugefügt, mit der das Programm Ordner und Dateien so hochladen kann, dass ihre in [!DNL Adobe Experience Manager] erstellten Knotennamen mit den lokalen Datei- und Ordnernamen übereinstimmen.
 
-   Dieses Verhalten ähnelt dem Standardverhalten in Version 1 des Desktop-Programms. Wenn die Option in der aktuellen Version nicht aktiviert ist, werden Leerzeichen und die Zeichen `% ; # , + ? ^ { } "` in Ordnernamen durch Bindestriche in Ordnerpfaden ersetzt. Außerdem werden die Großbuchstaben in Ordnerpfaden in Kleinbuchstaben umgewandelt. In Dateinamen werden die Zeichen `# % { } ? &` jedoch durch Bindestriche ersetzt. jedoch bleiben Leerzeichen und Groß-/Kleinschreibung erhalten. Weitere Informationen finden Sie unter [App-Voreinstellungen](/help/install-upgrade.md#set-preferences) und [Hochladen und Hinzufügen neuer Assets](/help/using.md#upload-and-add-new-assets-to-aem).
+   Dieses Verhalten ähnelt dem Standardverhalten in Version 1 des Desktop-Programms. In der aktuellen Version hingegen werden, wenn die Option nicht aktiviert ist, Leerzeichen und die Zeichen `% ; # , + ? ^ { } "` in Ordnernamen in Ordnerpfaden durch Bindestriche ersetzt. Außerdem werden die Großbuchstaben in Ordnerpfaden in Kleinbuchstaben umgewandelt. In Dateinamen werden die Zeichen `# % { } ? &` durch Bindestriche ersetzt. Jedoch bleiben Leerzeichen und Groß-/Kleinschreibung erhalten. Weitere Informationen finden Sie in den [Programmvoreinstellungen](/help/install-upgrade.md#set-preferences) und unter [Hochladen und Hinzufügen neuer Assets](/help/using.md#upload-and-add-new-assets-to-aem).
 
 **Aktualisierung in der Programmversion 2.1.1.0**
 
@@ -92,7 +92,7 @@ Folgender Fehler wurde in der aktuellen Version behoben:
 
 **Aktualisierung in der Programmversion 2.0.3**
 
-Der in dieser Version behobene Fehler lautet:
+Folgender Fehler wurde in der aktuellen Version behoben:
 
 * Das Anmeldeproblem für Programmbenutzer unter Windows, die versuchen, auf das DAM-Repository unter [!DNL Adobe Experience Manager] 6.5.5.0 zuzugreifen, wurde behoben.
 
