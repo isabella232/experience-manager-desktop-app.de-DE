@@ -7,18 +7,18 @@ breadcrumb-title: Handbuch für das Desktop-Programm
 user-guide-description: Erfahren Sie, wie Sie mit dem Experience Manager-Desktop-Programm Repositorys und Desktop-Programmen verbinden und so schneller auf Ressourcen zugreifen und Workflows optimieren können.
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop-Programm
-role: Business Practitioner, Administrator
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+role: User, Admin
+source-git-commit: b661fedb6e33599921d39c0597c7d9f8e576798b
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Benutzerhandbuch zum Adobe-Desktop-Programm {#using}
 
-+ [Überblick](introduction.md)
++ [Übersicht](introduction.md)
 + [Versionshinweise](release-notes.md)
 + [Installieren oder Aktualisieren](install-upgrade.md)
 + [Verwenden des Programms](using.md)
