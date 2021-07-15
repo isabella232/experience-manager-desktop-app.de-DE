@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm
 feature: Desktop-Programm, Asset-Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
 source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2371'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Dank dieser Integration können unterschiedliche Rollen in der Organisation die 
 
 Zu den Hauptaufgaben, die Sie mit dem [!DNL Experience Manager]-Desktop-Programm v1 ausführen, gehören:
 
-1. [Verbindung zu einem [!DNL Experience Manager] -Server herstellen](#installandconnect)
+1. [Verbindung zu einem  [!DNL Experience Manager] -Server herstellen](#installandconnect)
 1. [Assets direkt auf dem Desktop öffnen](#openondesktop)
 1. [Assets auf dem Desktop bearbeiten und auschecken](#workonassets)
 1. [Assets und Ordner stapelweise hochladen](#bulkupload)
@@ -29,7 +29,7 @@ Informationen zu den empfohlenen und nicht empfohlenen Vorgehensweisen finden Si
 >
 >Das Desktop-Programm wurde in [!DNL Experience Manager]-Version 6.1 unter dem Namen [!DNL Experience Manager Assets Companion App] eingeführt.
 
-## Touchpoints des [!DNL Experience Manager]-Desktop-Programms im kreativen Workflow  {#aem-desktop-app-touch-points-in-the-creative-workflow}
+## Touchpoints des [!DNL Experience Manager]-Desktop-Programms im kreativen Workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
 Das [!DNL Experience Manager]-Desktop-Programm fügt sich zusammen mit [!DNL Assets] in Ihren kreativen Workflow ein und bietet die folgenden Touchpoints.
 
@@ -93,7 +93,7 @@ Das Programm unterstützt die Proxy-Konfiguration unter Mac und Windows. Die Kon
 
    ![Anmeldedaten für den [!DNL Experience Manager]-Server auf dem Anmeldebildschirm des [!DNL Experience Manager]-Desktop-Programms angeben](assets/login_screen_v1.png)
 
-### Aktivieren von Desktop-Aktionen in der Web-Oberfläche von [!DNL Experience Manager]  {#desktopactions}
+### Aktivieren von Desktop-Aktionen in der Web-Oberfläche von [!DNL Experience Manager] {#desktopactions}
 
 Über die Assets-Benutzeroberfläche können Sie zu den Asset-Speicherorten navigieren oder Assets auschecken und öffnen, um sie in Ihrem Desktop-Programm zu bearbeiten. Diese Optionen werden als Desktop-Aktionen bezeichnet und sind standardmäßig nicht aktiviert. Führen Sie die folgenden Schritte aus, um sie zu aktivieren.
 
@@ -102,11 +102,11 @@ Das Programm unterstützt die Proxy-Konfiguration unter Mac und Windows. Die Kon
 
    ![[!DNL Experience Manager]-Oberfläche mit Benutzereinstellungen](assets/aem_ui_user_preferences.png)
 
-1. Wählen Sie im Dialogfeld [!UICONTROL User Preferences] **[!UICONTROL Show Desktop Actions For Assets]** und klicken Sie dann auf **[!UICONTROL Accept]**.
+1. Wählen Sie im Dialogfeld [!UICONTROL User Preferences] die Option **[!UICONTROL Show Desktop Actions For Assets]** und klicken Sie dann auf **[!UICONTROL Accept]**.
 
-   ![Aktivieren Sie [!UICONTROL Show Desktop Actions For Assets], um Desktop-Aktionen zu aktivieren.](assets/enable_desktop_actions.png)
+   ![Aktivieren von [!UICONTROL Show Desktop Actions For Assets], um Desktop-Aktionen zu aktivieren](assets/enable_desktop_actions.png)
 
-   *Abbildung: Aktivieren Sie  [!UICONTROL Show Desktop Actions For Assets] die Desktop-Aktionen.*
+   *Abbildung: Aktivieren von [!UICONTROL Show Desktop Actions For Assets], um Desktop-Aktionen zu aktivieren*
 
 ## Zugreifen auf und Öffnen von Assets über den Desktop {#openondesktop}
 
@@ -255,5 +255,5 @@ Alternativ können Sie Dateien/Ordner, die Sie in [!DNL Experience Manager] hoch
 
 >[!MORELIKETHIS]
 >
->* [Fehlerbehebung für das [!DNL Experience Manager] -Desktop-Programm](troubleshoot-app-v1.md)
+>* [Fehlerbehebung für das  [!DNL Experience Manager] -Desktop-Programm](troubleshoot-app-v1.md)
 
