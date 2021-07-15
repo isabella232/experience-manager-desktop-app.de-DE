@@ -3,9 +3,9 @@ title: Best Practices und Fehlerbehebung für das  [!DNL Adobe Experience Manage
 description: Befolgen Sie die Best Practices und führen Sie eine Fehlerbehebung durch, um gelegentliche Probleme im Zusammenhang mit Installation, Aktualisierung, Konfiguration usw. zu beheben.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 source-git-commit: db5aaf7127b94879cb24842fb41b55c099d6221d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2260'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Lesen Sie weiter, um Fehler im Programm zu beheben, lernen Sie die Best Practice
 
 ## Best Practices {#best-practices-to-prevent-troubles}
 
-Befolgen Sie die folgenden Best Practices, um einige häufige Probleme und die Fehlerbehebung zu vermeiden.
+Befolgen Sie die folgenden Best Practices, um einige häufige Probleme zu vermeiden, und für die Fehlerbehebung.
 
 * **So funktioniert das Desktop-Programm**: Bevor Sie mit der Verwendung des Programms beginnen, sollten Sie sich kurz mit ihrer Funktionsweise vertraut machen. Erfahren Sie mehr über die Verknüpfung zwischen der Web-Oberfläche von [!DNL Experience Manager] und Desktop, Repository-Zuordnung, Asset-Zwischenspeicherung, lokales Speichern und Hochladen im Hintergrund. Machen Sie sich mit der [Funktionsweise](release-notes.md#how-app-works) vertraut.
 
@@ -55,7 +55,7 @@ Wenn beim Hochladen vieler Assets einige Dateien nicht hochgeladen werden könne
 >
 >Wenn Sie mit der Kundenunterstützung von Adobe an einer Support-Anfrage/einem Ticket arbeiten, werden Sie möglicherweise aufgefordert, die Protokolldateien zu teilen, damit das Kundenunterstützungs-Team das Problem verstehen kann. Archivieren Sie den gesamten Ordner `Logs` und geben Sie ihn für Ihre Kontaktperson bei der Kundenunterstützung frei.
 
-### Detailebene in Protokolldateien ändern {#level-of-details-in-log}
+### Ändern der Detailebene in Protokolldateien {#level-of-details-in-log}
 
 So ändern Sie die Detailebene in Protokolldateien:
 
@@ -182,7 +182,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 Wenn Sie das Desktop-Programm mit [!DNL Experience Manager] 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Dadurch wird das Problem mit dem Hochladen von Dateien im Zusammenhang mit [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) behoben. Siehe [Installationsanweisungen](install-upgrade.md#install-v2).
 
-## Verbindungsprobleme mit dem [!DNL Experience Manager]-Desktop-Programm  {#connection-issues}
+## Verbindungsprobleme mit dem [!DNL Experience Manager]-Desktop-Programm {#connection-issues}
 
 Wenn allgemeine Verbindungsprobleme auftreten, finden Sie hier einige Möglichkeiten, weitere Informationen zum [!DNL Experience Manager]-Desktop-Programm zu erhalten.
 
