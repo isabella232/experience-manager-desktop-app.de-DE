@@ -2,14 +2,14 @@
 title: Versionshinweise für das Desktop-Programm, v1.10
 description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das AEM-Desktop-Programm, Version 1.10.
 exl-id: 886864e0-016a-4a17-b3ba-4b18a514214a
-source-git-commit: 78f18e68178f711d925d7e308822c657087d009a
+source-git-commit: 32aff5d66f2cb67ab4bb440d7ace747a5cf1dd26
 workflow-type: tm+mt
-source-wordcount: '3897'
-ht-degree: 100%
+source-wordcount: '3898'
+ht-degree: 99%
 
 ---
 
-# Versionshinweise für das [!DNL Adobe Experience Manager]-Desktop-Programm, Version 1.10. {#aem-desktop-app-release-notes}
+# Versionshinweise für das [!DNL Adobe Experience Manager]-Desktop-Programm, Version 1.10.  {#aem-desktop-app-release-notes}
 
 Für das AEM-Desktop-Programm v1.x sind die folgenden Download-Links und AEM-Kompatibilitätsinformationen verfügbar:
 
@@ -182,7 +182,7 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 
    * (Windows) Dateien können nun synchronisiert werden, nachdem sie in der AEM Assets-Benutzeroberfläche auf eine ältere Version zurückgesetzt wurden (CQ-4216411).
 
-### Seit Einführung von AEM-Desktop-Programm 1.7 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-17}
+### Seit Einführung des AEM-Desktop-Programms 1.7 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-17}
 
 * Stabilität:
 
@@ -214,7 +214,7 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 >
 >In der Beta-Version des AEM-Desktop-Programms 1.7 festgestellte Probleme (die in Version 1.6 nicht vorhanden waren) werden in den Versionshinweisen nicht aufgeführt.
 
-### Seit Einführung von AEM-Desktop-Programm 1.6 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-16}
+### Seit Einführung des AEM-Desktop-Programms 1.6 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
 * Dokumentation: Neue Dokumentation [Best Practices für das Programm, v1.x](/help/best-practices-for-v1.md).
 
@@ -258,7 +258,7 @@ In der Folgeversion 1.8.1 des AEM-Desktop-Programms wurden Verbesserungen hinsic
 
    * Ziehen von Dateien per Drag-and-Drop führt zu Fehler beim Hochladen in AEM (CQ-4217006).
 
-### Seit Einführung von AEM-Desktop-Programm 1.5 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-15}
+### Seit Einführung des AEM-Desktop-Programms 1.5 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-15}
 
 **Version 1.5.1.5 für Mac OS X:** Die Version 1.5.1.5 bietet folgende Vorteile:
 
@@ -319,7 +319,7 @@ Diese beiden Fälle treten erwartungsgemäß ein. Sie sind auf die „Delayed Sy
 
    * Verbesserte Handhabung der AEM Assets-URL in den Voreinstellungen (CQ-97388).
 
-### Seit Einführung von AEM-Desktop-Programm 1.4 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-14}
+### Seit Einführung des AEM-Desktop-Programms 1.4 verfügbare Verbesserungen {#Enhancements-Available-Since-AEM-Desktop-App-14}
 
 * Vereinfachter Upload hierarchischer Ordner über die neue Aktion „Erstellen“ > „Ordner hochladen“ in der Touch-optimierten Benutzeroberfläche.
    * Die Aktion löst einen Ordner-Upload-Vorgang aus, der vom Desktop-Programm ausgeführt wird.
@@ -393,10 +393,10 @@ Da für den Ordner „/Volumes“ keine Administratorrechte mehr erforderlich si
 
 **CA-signierte SSL-Zertifikate verwenden:** Beachten Sie, dass das AEM-Desktop-Programm beim Herstellen einer sicheren HTTPS-Verbindung zu AEM keine selbstsignierten SSL-Zertifikate unterstützt. Für derartige Verbindungen ist ein CA-signiertes Zertifikat auf dem Server erforderlich (CQ-87941).
 
-## Bekannte Probleme  {#known-issues}
+## Bekannte Probleme {#known-issues}
 
 * Allgemein:
-   * Es werden Server-URLs benötigt, um ohne Pfad auf den Server zu verweisen (z. B. `http://server`, `https://server`, `http://server:port` oder `https://server:port`). Außer „/content/dam“ werden keine anderen Kontextpfade und Unterordner unterstützt (CQ-89343, CQ-87272).
+   * Server-URLs müssen ohne Pfad auf den Server verweisen (z. B. `http://server`, `https://server`, `http://server:port` oder `https://server:port`). Außer „/content/dam“ werden keine anderen Kontextpfade und Unterordner unterstützt (CQ-89343, CQ-87272).
 * Dateinamen/Lokalisierung:
    * Datei- und Ordnernamen mit reservierten Zeichen werden nicht ordnungsgemäß verarbeitet. Stellen Sie sicher, dass Sie Datei- und Ordnernamen verwenden, die den Anforderungen entsprechen (CQ-93361, CQ-93308, CQ-89276, CQ-4217183).
    * Einige Programme wie Adobe Illustrator erstellen möglicherweise Dateien mit Namen, die in AEM nicht unterstützt werden. Ein Beispiel ist das Hinzufügen von `Converted` nach dem Konvertieren, wodurch das Hochladen verhindert wird (CQ-4216985).
