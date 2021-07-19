@@ -4,9 +4,9 @@ description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität 
 mini-toc-levels: 1
 feature: Desktop-Programm, Versionsinformationen
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 56596ade6e7aca5020af6df485289c5902417594
+source-git-commit: d83f04fb4757bb8025489da7866d36a51ddfe374
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1668'
 ht-degree: 97%
 
 ---
@@ -70,7 +70,7 @@ Weitere Informationen finden Sie unter [Neue Funktionen in Version 2.0](introduc
 
 **Aktualisierungen in der Programmversion 2.1.3.2**
 
-Die neue Version des Programms enthält einige große Fehlerbehebungen.
+Die neue Version der Anwendung bietet eine Fehlerbehebung.
 
 **Aktualisierungen in der Programmversion 2.1.3.1**
 
