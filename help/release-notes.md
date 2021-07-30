@@ -4,9 +4,9 @@ description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität 
 mini-toc-levels: 1
 feature: Desktop-Programm, Versionsinformationen
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: a7a504d80891d68a0895dcf12d5b3734d7a584ec
+source-git-commit: 96be3f61388b7ec83bdb87d3d13a109d8cce0a1c
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1687'
 ht-degree: 97%
 
 ---
@@ -33,8 +33,8 @@ Die **Download-URLs** für die unterstützten Betriebssysteme sind:
 
 | Betriebssystem | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
-| macOS (v2.1.3.3) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) |
-| Windows 64-Bit (v2.1.3.3) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) |
+| macOS (v2.1.3.3) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) |
+| Windows 64-Bit (v2.1.3.3) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) |
 | Windows 32-Bit (v2.1.3.1) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
 
 >[!NOTE]
