@@ -3,9 +3,9 @@ title: Fehlerbehebung für das Desktop-Programm, Version 1.10.
 description: Führen Sie eine Fehlerbehebung für das [!DNL Adobe Experience Manager] -Desktop-Programm, Version 1.10. durch, um Probleme zu lösen, die eventuell bei der Installation, bei Upgrades, bei der Konfiguration usw. auftreten können.
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
 source-git-commit: 32aff5d66f2cb67ab4bb440d7ace747a5cf1dd26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3350'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ Sie können die Leistung auf AEM-Seite verbessern, indem Sie für den Workflow �
 Eine weitere Methode zum Verbessern der AEM-Leistung besteht darin, den Wert der maximal zulässigen parallelen Aufträge für die Warteschlange für Granite-Übergangs-Workflows zu konfigurieren. Der empfohlene Wert beträgt ungefähr die Hälfte der CPU, die für den Server verfügbar sind. Führen Sie die folgenden Schritte aus, um den Wert anzupassen:
 
 1. Navigieren Sie in der zu konfigurierenden AEM-Instanz zu `/system/console/configMgr` (z. B. `https://[aem_server]:[port]/system/console/configMgr`).
-1. Suchen Sie nach `QueueConfiguration`, klicken Sie, um jeden Auftrag zu öffnen, bis Sie den Auftrag **Granite-Übergangs-Workflow-Warteschlange** gefunden haben, und klicken Sie auf **Bearbeiten**.
+1. Suchen Sie nach `QueueConfiguration` und klicken Sie, um die einzelnen Aufträge zu öffnen, bis Sie den Auftrag **Warteschlange für Granite-Übergangs-Workflow** gefunden haben. Klicken Sie dann auf **Bearbeiten**.
 1. Ändern Sie den Wert `Maximum Parallel Jobs` und klicken Sie auf **Speichern**.
 
 ## AWS-Konfiguration {#aws-configuration}
