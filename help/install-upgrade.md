@@ -4,7 +4,7 @@ description: Installieren und konfigurieren Sie die [!DNL Adobe Experience Manag
 feature: Desktop-Programm, Versionsinformationen
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1410'
 ht-degree: 100%
 
