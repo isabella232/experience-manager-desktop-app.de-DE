@@ -5,9 +5,9 @@ mini-toc-levels: 1
 feature: Desktop-Programm, Versionsinformationen
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 96be3f61388b7ec83bdb87d3d13a109d8cce0a1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1687'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -70,17 +70,17 @@ Weitere Informationen finden Sie unter [Neue Funktionen in Version 2.0](introduc
 
 **Aktualisierungen in der Programmversion 2.1.3.3**
 
-Die neue Version der Anwendung bietet eine Fehlerbehebung.
+Die neue Version des Programms bietet eine Fehlerbehebung.
 
 **Aktualisierungen in der Programmversion 2.1.3.2**
 
-Diese Version der Anwendung bot eine Fehlerbehebung an.
+Diese Version des Programms bot eine Fehlerbehebung.
 
 **Aktualisierungen in der Programmversion 2.1.3.1**
 
 Folgender Fehler wurde in der aktuellen Version behoben:
 
-* Die Geschwindigkeit beim Hochladen und Herunterladen von Assets wurde verbessert, auch bei großen Assets. In dieser Version wurde ein Problem behoben, bei dem Asset-Uploads mit [!DNL desktop app] manchmal fehlschlugen, wenn sehr große Dateien hochgeladen wurden.
+* Die Geschwindigkeit beim Upload und Download von Assets wurde verbessert, auch bei großen Assets. In dieser Version wurde ein Problem behoben, bei dem Asset-Uploads mit [!DNL desktop app] manchmal fehlschlugen, wenn sehr große Dateien hochgeladen wurden.
 
 **Aktualisierung in der Programmversion 2.1.2.0**
 
