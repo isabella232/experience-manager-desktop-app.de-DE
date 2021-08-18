@@ -2,9 +2,9 @@
 title: Fehlerbehebung für das Desktop-Programm, Version 1.10.
 description: Führen Sie eine Fehlerbehebung für das [!DNL Adobe Experience Manager] -Desktop-Programm, Version 1.10. durch, um Probleme zu lösen, die eventuell bei der Installation, bei Upgrades, bei der Konfiguration usw. auftreten können.
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
-source-git-commit: 32aff5d66f2cb67ab4bb440d7ace747a5cf1dd26
-workflow-type: ht
-source-wordcount: '3350'
+source-git-commit: 2ae49374b362921a5a82fc2e040064b4e573b8c1
+workflow-type: tm+mt
+source-wordcount: '3291'
 ht-degree: 100%
 
 ---
@@ -96,13 +96,13 @@ Die für einen einzelnen Benutzer verfügbare Bandbreite spielt eine entscheiden
 
 Adobe empfiehlt für einzelne Benutzer eine Upload-Geschwindigkeit von ca. 10 MBit/s. Bei drahtlosen Verbindungen wird die Bandbreite oftmals zwischen mehreren Benutzern aufgeteilt. Wenn mehrere Benutzer gleichzeitig Aufgaben durchführen, die Netzwerkbandbreite verbrauchen, kann sich die Performance weiter verschlechtern. Verwenden Sie eine kabelgebundene Verbindung, um derartige Probleme zu vermeiden.
 
-## Windows-spezifische Konfigurationen {#windows-specific-configurations}
+<!-- AG, 8/18: The Windows KB article is removed by MS now. Giving 404. Also, Win 7 support is gone and the desktop app is also not supported on Win 7. Hiding this content for now.
 
-Wenn Sie AEM unter Windows ausführen, können Sie Windows so konfigurieren, dass die Performance des WebDAV-Clients verbessert wird. Weitere Informationen dazu finden Sie unter [https://support.microsoft.com/de-de/kb/2445570](https://support.microsoft.com/de-de/kb/2445570).
+## Windows-specific configurations {#windows-specific-configurations}
 
-Unter Windows 7 kann die Leistung von WebDAV durch eine Änderung der IE-Einstellungen verbessert werden. Weitere Informationen finden Sie unter [Beheben der langsamen WebDAV-Leistung unter Windows 7](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
+If you use Experience Manager on Windows, you can configure Windows to enhance the performance of the WebDAV client. For more information, go to [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/en-us/kb/2445570).
 
-<!-- TBD: The above performance tip is for Windows 7 which is not supported by the app anymore. Remove it later.
+On Windows 7, modifying IE settings can improve the performance of WebDAV. For details, see how to [fix slow WebDAV performance in Windows 7](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
 -->
 
 ## Gleichzeitig ausgeführte Vorgänge {#concurrent-operations}
