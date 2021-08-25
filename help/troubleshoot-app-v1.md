@@ -3,7 +3,7 @@ title: Fehlerbehebung für das Desktop-Programm, Version 1.10.
 description: Führen Sie eine Fehlerbehebung für das [!DNL Adobe Experience Manager] -Desktop-Programm, Version 1.10. durch, um Probleme zu lösen, die eventuell bei der Installation, bei Upgrades, bei der Konfiguration usw. auftreten können.
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
 source-git-commit: 2ae49374b362921a5a82fc2e040064b4e573b8c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3291'
 ht-degree: 100%
 
