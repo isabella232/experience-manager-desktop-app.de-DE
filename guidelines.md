@@ -1,9 +1,8 @@
 ---
-source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
-workflow-type: ht
-translation-type: ht
+source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
+workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 # Richtlinien für die Teilnahme an der [!DNL Adobe Experience Manager]-Dokumentation
@@ -16,7 +15,7 @@ Das Ziel der [!DNL Experience Manager]-Dokumentation besteht darin, Benutzer von
 
 ## Beiträge zur Dokumentation
 
-Zur stetigen Verbesserung der [!DNL Experience Manager]-Dokumentation ist die gesamte Community von [!DNL Experience Manager]-Benutzern eingeladen, zur Dokumentation beizutragen. Sei es durch Pull-Anforderungen oder Probleme, bei den Verbesserungen der Dokumentation kann es sich um Korrekturen, Klarstellungen, Erweiterungen und weitere Beispiele handeln.
+Zur stetigen Verbesserung der [!DNL Experience Manager]-Dokumentation ist die gesamte Community von [!DNL Experience Manager]-Benutzern eingeladen, zur Dokumentation beizutragen. Sei es durch Pull-Anfragen oder Probleme, bei den Verbesserungen der Dokumentation kann es sich um Korrekturen, Klarstellungen, Erweiterungen und weitere Beispiele handeln.
 
 ## Dokumentationsstandards
 
@@ -40,11 +39,11 @@ Alle Ideen, die Sie möglicherweise zur Verbesserung der [!DNL Experience Manage
 
 Fragen zur Verwendung von [!DNL Experience Manager] oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten entsprechend dem üblichen Support-Prozess über das [[!DNL Experience Cloud] -Support-Portal](https://experienceleague.adobe.com/?support-solution=Experience+Manager&amp;lang=de#support) gemeldet oder in der [Experience Manager-Community diskutiert werden](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
-***[!DNL Experience Manager]-Dokumentationsbeiträge sind kein Ersatz für die Adobe-Kundenunterstützung*** und Beiträge, die um Antwort auf Support-Fragen bitten, werden abgelehnt.
+***[!DNL Experience Manager]Dokumentationsbeiträge sind kein Ersatz für die Adobe-*** Kundenunterstützung. Beiträge, die Antworten auf Supportfragen suchen, werden abgelehnt.
 
 ### Die Beiträge müssen sich eindeutig auf die betroffenen Dokumentationsseiten beziehen.
 
-Wenn Sie ein Problem erstellen, um Verbesserungen an der Dokumentation vorzuschlagen, müssen Sie Links zu den betroffenen Seiten einbeziehen. Wenn Sie ein Problem mithilfe des Links **Diese Seite bearbeiten** auf einer Dokumentationsseite erstellen, wird das Problem automatisch mit einem Link zur Seite erstellt.
+Wenn Sie ein Problem erstellen, um Verbesserungen an der Dokumentation vorzuschlagen, müssen Sie Links zu den betroffenen Seiten angeben. Wenn Sie ein Problem mithilfe des Links **Diese Seite bearbeiten** auf einer Dokumentationsseite erstellen, wird das Problem automatisch mit einem Link zur Seite erstellt.
 
 Dies gilt nicht für Pull-Anforderungen, da Pull-Anforderungen standardmäßig auf die betroffenen Seiten verweisen.
 
@@ -70,9 +69,9 @@ Das [Manual of Style von Microsoft](https://docs.microsoft.com/de-de/style-guide
 
 ### Formatierung
 
-| Item | Stil |
+| Element | Stil |
 |---|---|
-| UI-Element oder UI-Option | **fett** |
+| Element oder Option der Benutzeroberfläche | **fett** |
 | Dateiname, Pfad, Benutzereingabe, Parameterwerte | `monospaced` |
 | Code, Befehlszeile | ```Code Block``` |
 

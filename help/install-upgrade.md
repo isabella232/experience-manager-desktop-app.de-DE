@@ -1,12 +1,12 @@
 ---
 title: Installieren und Konfigurieren des Desktop-Programms
 description: Installieren und konfigurieren Sie die [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] -Server und laden Sie die Elemente auf Ihr lokales Dateisystem herunter.
-feature: Desktop-Programm, Versionsinformationen
+feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
-workflow-type: ht
-source-wordcount: '1410'
-ht-degree: 100%
+source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
+workflow-type: tm+mt
+source-wordcount: '1406'
+ht-degree: 99%
 
 ---
 
@@ -88,7 +88,7 @@ Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren
 
 1. ([!DNL Experience Manager] 6.5.1 oder höher) Wenn Sie das Desktop-Programm mit [!DNL Experience Manager] 6.5.1 oder höher verwenden, aktualisieren Sie den S3- oder Azure-Connector auf Version 1.10.4 oder höher. Siehe [Azure-Connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=de#azure-data-store) oder [S3-Connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=de#amazon-s-data-store).
 
-   Wenn Sie Adobe Managed Services (AMS)-Kunde sind, wenden Sie sich an den Adobe-Kundendienst.
+   Wenn Sie Adobe Managed Services (AMS)-Kunde sind, wenden Sie sich an den Adobe-Support.
 
 ## Festlegen von Voreinstellungen {#set-preferences}
 
