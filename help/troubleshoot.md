@@ -3,9 +3,9 @@ title: Best Practices und Fehlerbehebung für das  [!DNL Adobe Experience Manage
 description: Befolgen Sie die Best Practices und führen Sie eine Fehlerbehebung durch, um gelegentliche Probleme im Zusammenhang mit Installation, Aktualisierung, Konfiguration usw. zu beheben.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2260'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Befolgen Sie die folgenden Best Practices, um einige häufige Probleme zu vermei
 
 ## Fehlerbehebung {#troubleshooting-prep}
 
-Um Probleme mit dem Desktop-Programm zu beheben, beachten Sie die folgenden Informationen. Außerdem werden Sie darauf vorbereitet, die Probleme besser an den Adobe-Support weiterzuleiten, wenn Sie sich für den Support entscheiden.
+Um Probleme mit dem Desktop-Programm zu beheben, beachten Sie die folgenden Informationen. Außerdem werden Sie darauf vorbereitet, die Probleme besser an den Adobe-Support zu übermitteln, wenn Sie sich für den Support entscheiden.
 
 ### Speicherort der Protokolldateien {#check-log-files-v2}
 
@@ -53,7 +53,7 @@ Wenn beim Hochladen vieler Assets einige Dateien nicht hochgeladen werden könne
 
 >[!NOTE]
 >
->Wenn Sie mit dem Kundensupport von Adobe an einer Support-Anfrage oder einem Ticket arbeiten, können Sie aufgefordert werden, die Protokolldateien freizugeben, damit das Support-Team das Problem verstehen kann. Archivieren Sie den gesamten Ordner `Logs` und geben Sie ihn für Ihren Support-Kontakt frei.
+>Wenn Sie mit dem Adobe-Support an einer Support-Anfrage/einem Ticket arbeiten, werden Sie möglicherweise aufgefordert, die Protokolldateien zu teilen, damit das Support-Team das Problem verstehen kann. Archivieren Sie den gesamten Ordner `Logs` und geben Sie ihn für Ihre Kontaktperson beim Support frei.
 
 ### Ändern der Detailebene in Protokolldateien {#level-of-details-in-log}
 
