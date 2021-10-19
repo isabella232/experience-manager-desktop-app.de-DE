@@ -1,8 +1,8 @@
 ---
 source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 # Richtlinien für die Teilnahme an der [!DNL Adobe Experience Manager]-Dokumentation
@@ -39,7 +39,7 @@ Alle Ideen, die Sie möglicherweise zur Verbesserung der [!DNL Experience Manage
 
 Fragen zur Verwendung von [!DNL Experience Manager] oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten entsprechend dem üblichen Support-Prozess über das [[!DNL Experience Cloud] -Support-Portal](https://experienceleague.adobe.com/?support-solution=Experience+Manager&amp;lang=de#support) gemeldet oder in der [Experience Manager-Community diskutiert werden](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
-***[!DNL Experience Manager]Dokumentationsbeiträge sind kein Ersatz für die Adobe-*** Kundenunterstützung. Beiträge, die Antworten auf Supportfragen suchen, werden abgelehnt.
+***[!DNL Experience Manager]-Dokumentationsbeiträge ersetzen nicht den Adobe-Support*** und Beiträge, die um Antwort auf Support-Fragen bitten, werden abgelehnt.
 
 ### Die Beiträge müssen sich eindeutig auf die betroffenen Dokumentationsseiten beziehen.
 
