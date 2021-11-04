@@ -2,18 +2,18 @@
 title: '[!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm'
 description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das [!DNL Adobe Experience Manager] -Desktop-Programm.
 mini-toc-levels: 1
-feature: Desktop-Programm, Versionsinformationen
+feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 96be3f61388b7ec83bdb87d3d13a109d8cce0a1c
-workflow-type: ht
-source-wordcount: '1687'
-ht-degree: 100%
+source-git-commit: 9b69ec8d8bc0d4b29fa13783cf2b618437c44a1b
+workflow-type: tm+mt
+source-wordcount: '1697'
+ht-degree: 99%
 
 ---
 
 # [!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm {#release-notes-v2}
 
-Die Versionshinweise für die neueste Desktop-Programm-Version 2.1 (2.1.3.3) finden Sie unten. Die Version wurde am 29. Juli 2021 veröffentlicht.
+Die Versionshinweise für die neueste Desktop-Programm-Version 2.1 (2.1.3.4) finden Sie unten. Die Version wurde am 5. November 2021 veröffentlicht.
 
 Die **unterstützten [!DNL Experience Manager]-Versionen** sind:
 
@@ -33,16 +33,13 @@ Die **Download-URLs** für die unterstützten Betriebssysteme sind:
 
 | Betriebssystem | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
-| macOS (v2.1.3.3) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) |
-| Windows 64-Bit (v2.1.3.3) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) |
+| macOS (v2.1.3.4) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.4.dmg) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.4.dmg) |
+| Windows 64-Bit (v2.1.3.4) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.4.exe) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.4.exe) |
 | Windows 32-Bit (v2.1.3.1) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
 
 >[!NOTE]
 >
 >Windows 7 wird nicht mehr unterstützt. Nähere Informationen finden Sie im [Artikel über das Ende der Unterstützung von Windows 7](https://support.microsoft.com/de-de/help/4057281/windows-7-support-ended-on-january-14-2020).
-
-<!-- The version of the app you plan to install on your local machine requires a specific [!DNL Adobe Experience Manager] server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your [!DNL Experience Manager] administrator for help.
--->
 
 ## Unterstützung verschiedener Asset- und Dateitypen {#support-for-file-types}
 
@@ -68,13 +65,17 @@ Diese Funktion wird in den Versionen [!DNL Adobe Creative Cloud] 2018 und [!DNL 
 
 Weitere Informationen finden Sie unter [Neue Funktionen in Version 2.0](introduction.md#whats-new-v2).
 
+**Aktualisierungen in der Programmversion 2.1.3.4**
+
+Die neue Version des Programms bietet eine Fehlerbehebung.
+
 **Aktualisierungen in der Programmversion 2.1.3.3**
 
 Die neue Version des Programms bietet eine Fehlerbehebung.
 
 **Aktualisierungen in der Programmversion 2.1.3.2**
 
-Diese Version des Programms bot eine Fehlerbehebung.
+Diese Version der Anwendung bietet eine Fehlerbehebung.
 
 **Aktualisierungen in der Programmversion 2.1.3.1**
 
@@ -186,7 +187,7 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de)
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=de)
->* [Verwenden des  [!DNL Experience Manager] -Desktop-Programms](using.md)
-* [Installieren und Aktualisieren des Desktop-Programms](install-upgrade.md)
-* [Best Practices und Tipps zur Fehlerbehebung](troubleshoot.md)
+>* [Verwenden des [!DNL Experience Manager] -Desktop-Programms](using.md)
+>* [Installieren und Aktualisieren des Desktop-Programms](install-upgrade.md)
+>* [Best Practices und Tipps zur Fehlerbehebung](troubleshoot.md)
 
