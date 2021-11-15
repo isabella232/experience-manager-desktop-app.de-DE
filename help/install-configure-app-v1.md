@@ -126,7 +126,7 @@ Um das Programm auf einen anderen Ordner oder ein anderes Laufwerk zu verweisen,
    >Das Programm erstellt automatisch ein Unterverzeichnis mit der Bezeichnung *&lt;Encoded AEM Endpoint>*. Dieses Verhalten kann nicht konfiguriert werden.
 
 >[!MORELIKETHIS]
-* [Einführung in das [!DNL Experience Manager] -Desktop-Programm](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=de).
-* [Verwenden des [!DNL Experience Manager] -Desktop-Programms](use-app-v1.md).
-* [Fehlerbehebung für das [!DNL Experience Manager] -Desktop-Programm](troubleshoot-app-v1.md).
+>* [Einführung in das [!DNL Experience Manager] -Desktop-Programm](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=de).
+>* [Verwenden des [!DNL Experience Manager] -Desktop-Programms](use-app-v1.md).
+>* [Fehlerbehebung für das [!DNL Experience Manager] -Desktop-Programm](troubleshoot-app-v1.md).
 
