@@ -13,7 +13,7 @@ ht-degree: 99%
 
 # [!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm {#release-notes-v2}
 
-Die Versionshinweise für die neueste Desktop-Programm-Version 2.1 (2.1.4.0) finden Sie unten. Die Version wurde am 16. Dezember 2021 veröffentlicht.
+Die Versionshinweise für die neueste Desktop-Programm-Version 2.1 (2.1.4.0) finden Sie unten. Das Veröffentlichungsdatum ist der 16. Dezember 2021.
 
 Die **unterstützten [!DNL Experience Manager]-Versionen** sind:
 
