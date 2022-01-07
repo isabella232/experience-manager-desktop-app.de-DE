@@ -5,9 +5,9 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: c0a429a965d117ccd2db231c1b68f97616a3c384
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Weitere Informationen finden Sie unter [Neue Funktionen in Version 2.0](introduc
 
 **Aktualisierungen in der Programmversion 2.1.4.0**
 
-Die neue Version der Anwendung bietet Fehlerbehebungen.
+Die neue Version der Anwendung enthält Fehlerkorrekturen.
 
 **Aktualisierungen in der Programmversion 2.1.3.4**
 
