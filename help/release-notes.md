@@ -5,9 +5,9 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 34803cd261c88f6fbe8aa283c057518217a1785e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2027'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Weitere Informationen finden Sie unter [Neue Funktionen in Version 2.0](introduc
 
 * Das Desktop-Programm reagiert nicht mehr, wenn Sie Dateien in einen Ordner hochladen, der chinesische Zeichen enthält (ASSETS-9237).
 
-* Das -Desktop-Programm ersetzt Punkte durch Gedankenstriche in Dateinamen (ASSETS-10955).
+* Das Desktop-Programm ersetzt Punkte in Dateinamen durch Gedankenstriche (ASSETS-10955).
 
 **Aktualisierungen in der Programmversion 2.1.4.0**
 
