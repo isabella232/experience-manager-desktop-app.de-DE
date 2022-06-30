@@ -1,13 +1,13 @@
 ---
 title: Verwenden des  [!DNL Experience Manager] -Desktop-Programms
-description: Verwenden Sie [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] die DAM-Assets direkt von Ihrem Win- oder Mac-Desktop aus und auch in anderen Programmen.
+description: Verwendung [!DNL Adobe Experience Manager] Desktop-Programm, mit dem [!DNL Adobe Experience Manager] DAM-Assets direkt von Ihrem Win- oder Mac-Desktop aus und können in anderen Anwendungen verwendet werden.
 mini-toc-levels: 1
-feature: Desktop-Programm, Asset-Management
+feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
-workflow-type: ht
-source-wordcount: '4053'
-ht-degree: 100%
+source-git-commit: ca04b64e1ebfee4b677fcc5ef84b0e8fd9950d17
+workflow-type: tm+mt
+source-wordcount: '4054'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ Die Integration ermöglicht es verschiedenen Rollen in der Organisation, die Ass
 
 Wenn Sie das Programm nach dem Abmelden oder zum ersten Mal öffnen, müssen Sie die URL des [!DNL Experience Manager]-Servers im Format `https://[aem-server-url]:[port]/` angeben. Wählen Sie dann die Option [!UICONTROL Connect] aus. Geben Sie Ihre Anmeldeinformationen ein, um das Programm mit dem Server zu verbinden.
 
-Die Hauptaufgaben, die Sie mit dem [!DNL Experience Manager]-Desktop-Programm erledigen können, sind:
+Die wichtigsten Aufgaben, die Sie mit dem [!DNL Adobe Experience Manager] Das -Desktop-Programm ist:
 
 ![Workflows und Aufgaben, die Sie mit dem [!DNL Experience Manager]-Desktop-Programm](assets/aem_desktop_app_usecases_v2.png " erledigen können, Workflows und Aufgaben, die Sie mit dem  [!DNL Adobe Experience Manager] -Desktop-Programm Erledigen können")
 Laden Sie sich [diese](assets/aem_desktop_app_usecases_print.pdf) druckfertige PDF-Datei herunter.
@@ -366,7 +366,7 @@ Informationen zu den Einschränkungen dieses Workflows finden Sie in den [System
 
 Gehen Sie wie folgt vor, um diesen Workflow mit einem Bild-Asset und InDesign auszuprobieren:
 
-1. Halten Sie eine INDD-Datei mit platzierten Assets in [!DNL Experience Manager] bereit. Informationen zum Erstellen einer solchen INDD-Datei finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/de/indesign/using/placing-graphics.html).
+1. Halten Sie eine INDD-Datei mit platzierten Assets in [!DNL Experience Manager] bereit. Informationen zum Erstellen einer solchen INDD-Datei finden Sie unter [Platzieren von Grafiken](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 1. Vom Desktop-Programm aus bearbeiten (**[!UICONTROL Edit]**) Sie die INDD-Datei mit den platzierten Assets in [!DNL Experience Manager].
 1. Das Programm lädt sowohl die InDesign-Datei als auch die verknüpften Assets herunter. Wenn InDesign das Dokument öffnet, werden die Verknüpfungen aufgelöst, Assets werden heruntergeladen und die Assets werden im InDesign-Dokument angezeigt.
 1. Wenn Sie eine neue Grafik in die InDesign-Datei einfügen möchten, verwenden Sie die Aktion **[!UICONTROL Reveal File]** für das Asset. Die Aktion lädt das Asset lokal herunter und öffnet den Speicherort für die lokale Netzwerkfreigabe in Windows Explorer oder Mac Finder.
