@@ -1,12 +1,12 @@
 ---
 title: Installieren und Konfigurieren des Desktop-Programms
-description: Installieren und konfigurieren Sie die [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] -Server und laden Sie die Elemente auf Ihr lokales Dateisystem herunter.
+description: Installieren und Konfigurieren [!DNL Adobe Experience Manager] Desktop-Programm, mit dem [!DNL Adobe Experience Manager Assets] -Server und laden Sie die Assets in Ihr lokales Dateisystem herunter.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
-workflow-type: ht
-source-wordcount: '1406'
-ht-degree: 100%
+source-git-commit: 7b884d89c34a6e45f49d4cacb0f5d537dc769742
+workflow-type: tm+mt
+source-wordcount: '1411'
+ht-degree: 98%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 Mithilfe des [!DNL Adobe Experience Manager]-Desktop-Programms können Sie über Ihren lokalen Desktop problemlos auf die Assets in [!DNL Experience Manager] zugreifen und sie in beliebigen nativen Desktop-Programmen verwenden. Assets können als Vorschau angezeigt, in nativen Desktop-Programmen geöffnet, in Mac Finder oder Windows Explorer zur Platzierung in anderen Dokumenten angezeigt und lokal geändert werden. Die Änderungen werden beim Upload dann wieder unter einer neuen, im Repository erstellten Version in [!DNL Experience Manager] gespeichert.
 
-Eine solche Integration bietet verschiedenen Rollen in der Organisation folgende Möglichkeiten:
+Eine solche Integration ermöglicht es verschiedenen Rollen in der Organisation,:
 
 * Assets zentral in [!DNL Experience Manager Assets] verwalten.
 
 * Auf die Assets in allen nativen Desktop-Programmen zugreifen, einschließlich Programmen von Drittanbietern und in Adobe Creative Cloud. Dabei können die Benutzerverschiedene Standards – auch für Branding – problemlos einhalten.
 
-Wenn Sie das [!DNL Experience Manager]-Desktop-Programm verwenden möchten,
+Wenn Sie das [!DNL Experience Manager]-Desktop-Programm verwenden möchten:
 
 * Stellen Sie sicher, dass Ihre [!DNL Experience Manager]-Version vom [!DNL Experience Manager]-Desktop-Programm unterstützt wird. Weitere Informationen finden Sie in den [Systemanforderungen](release-notes.md).
 
@@ -34,7 +34,7 @@ Detaillierte Informationen finden Sie in den Versionshinweisen zum [[!DNL Experi
 
 ## Upgrade von einer früheren Version {#upgrade-from-previous-version}
 
-Wenn Sie bereits Version 1.x des Desktop-Programms benutzen, sollten Sie die Unterschiede und Ähnlichkeiten zwischen der vorherigen und der aktuellen Version des Programms kennen. Siehe [Neue Funktionen im Desktop-Programm](introduction.md#whats-new-v2) und [Funktionsweise des Programms](release-notes.md#how-app-works)
+Wenn Sie bereits Version 1.x des Desktop-Programms benutzen, sollten Sie die Unterschiede und Ähnlichkeiten zwischen der vorherigen und der aktuellen Version des Programms kennen. Siehe [Neue Funktionen im Desktop-Programm](introduction.md#whats-new-v2) und [Funktionsweise des Programms](release-notes.md#how-app-works).
 
 >[!NOTE]
 >
