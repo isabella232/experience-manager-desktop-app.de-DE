@@ -1,12 +1,12 @@
 ---
 title: Installieren und Konfigurieren des Desktop-Programms
-description: Installieren und Konfigurieren [!DNL Adobe Experience Manager] Desktop-Programm, mit dem [!DNL Adobe Experience Manager Assets] -Server und laden Sie die Assets in Ihr lokales Dateisystem herunter.
+description: Installieren und konfigurieren Sie das  [!DNL Adobe Experience Manager] -Desktop-Programm für die Arbeit mit  [!DNL Adobe Experience Manager Assets] -Servern und laden Sie die Assets auf Ihr lokales Dateisystem herunter.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: 7b884d89c34a6e45f49d4cacb0f5d537dc769742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Mithilfe des [!DNL Adobe Experience Manager]-Desktop-Programms können Sie über Ihren lokalen Desktop problemlos auf die Assets in [!DNL Experience Manager] zugreifen und sie in beliebigen nativen Desktop-Programmen verwenden. Assets können als Vorschau angezeigt, in nativen Desktop-Programmen geöffnet, in Mac Finder oder Windows Explorer zur Platzierung in anderen Dokumenten angezeigt und lokal geändert werden. Die Änderungen werden beim Upload dann wieder unter einer neuen, im Repository erstellten Version in [!DNL Experience Manager] gespeichert.
 
-Eine solche Integration ermöglicht es verschiedenen Rollen in der Organisation,:
+Eine solche Integration bietet verschiedenen Rollen in der Organisation folgende Möglichkeiten:
 
 * Assets zentral in [!DNL Experience Manager Assets] verwalten.
 
