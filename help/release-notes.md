@@ -5,21 +5,21 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 2f49c1e952202e627e60fa9ad7998a4927aa817c
-workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 90%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm {#release-notes-v2}
 
-Die Versionsinformationen zur neuesten Version 2.2.0 des Desktop-Programms finden Sie unten. Die Version wurde am 7. Oktober 2022 veröffentlicht.
+Die Informationen zur neueste Desktop-Anwendungsversion 2.2.0 finden Sie unten. Das Veröffentlichungsdatum ist der 7. Oktober 2022.
 
-Die neueste Version des Desktop-Programms umfasst die folgenden Verbesserungen:
+Die neueste Version der Desktop-Anwendung enthält die folgenden Verbesserungen:
 
-* Unterstützung für Apple Silicon (M1).
+* Unterstützung für Apple-Chip (M1).
 
-* Möglichkeit, sich die Verbindungszeichenfolge beim Anmelden beim Desktop-Programm zu merken.
+* Möglichkeit, die Verbindungszeichenfolge beim Anmelden bei der Desktop-Anwendung zu speichern.
 
 Die **unterstützten [!DNL Experience Manager]-Versionen** sind:
 
@@ -40,7 +40,7 @@ Die **Download-URLs** für die unterstützten Betriebssysteme sind:
 | Betriebssystem | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
 | macOS (v2.2.0) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) |
-| macOS Apple Silicon (M1) (v2.2.0) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) |
+| macOS Apple-Chip (M1) (v2.2.0) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) |
 | Windows 64-Bit (v2.2.0) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) |
 | macOS (v2.1.5.0) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.5.0.dmg) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.5.0.dmg) |
 | Windows 64-Bit (v2.1.5.0) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.5.0.exe) | [Download-Link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.5.0.exe) |
@@ -70,11 +70,11 @@ Diese Funktion wird in den Versionen [!DNL Adobe Creative Cloud] 2018 und [!DNL 
 
 * Pfade zu platzierten Dateien im nativen Programm verwenden einen globalen Desktop-Pfad (platziert von der lokalen Netzwerkfreigabe mit der Option [!UICONTROL Reveal]).
 
-* Pfade werden vom nativen Programm im XMP der Datei gespeichert.
+* Pfade werden von der nativen Anwendung im XMP-Datensatz der Datei gespeichert.
 
 * [!DNL Experience Manager] hat den XMP-Datensatz mit den Pfaden zum Metadaten-Datensatz des Assets extrahiert.
 
-* Die Pfade können mit Assets in [!DNL Experience Manager] übereinstimmen, das heißt, die platzierten Dateien befinden sich auch in [!DNL Experience Manager] unter einem übereinstimmenden Pfad.
+* Die Pfade können Assets in [!DNL Experience Manager] zugeordnet werden, das heißt, die platzierten Dateien befinden sich auch in [!DNL Experience Manager] unter einem zugeordneten Pfad.
 
 ## Neue Funktionen, Verbesserungen und Fehlerbehebungen {#what-is-new}
 
@@ -196,7 +196,7 @@ Das folgende Diagramm zeigt den Fluss von Assets und Dateien von der Cloud zum l
 
 * Nach dem Anwenden und Entfernen des Filters, um alle lokal bearbeiteten Assets zu finden, wechselt das Programm nicht zu den Suchergebnissen oder der Ordneransicht, mit denen die Benutzer begonnen haben. Das Programm zeigt den Stammordner des DAM-Repositorys an.
 
-* Manchmal, wenn Sie eine Verbindung zu einer URL herstellen, die nicht über [!DNL Experience Manager] Server ausgeführt wird, reagiert der Bildschirm &quot;Verbindung&quot;nicht mehr. Beenden Sie das Programm und starten Sie es erneut.
+* Wenn Sie eine Verbindung zu einer URL herstellen, bei der kein [!DNL Experience Manager]-Server ausgeführt wird, reagiert der Bildschirm „Verbindung“ manchmal nicht mehr. Beenden Sie das Programm und starten Sie es erneut.
 
 **CRUD-Probleme (Erstellen, Lesen, Aktualisieren und Löschen):**
 
