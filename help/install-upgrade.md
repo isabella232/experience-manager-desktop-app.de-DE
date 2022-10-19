@@ -4,9 +4,9 @@ description: Installieren und konfigurieren Sie das  [!DNL Adobe Experience Mana
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: 5b5970cec02d4a605bd7d826d1daa71fe228b0d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1426'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren
 
    *Abbildung: Verbindungsbildschirm zur Eingabe der Server-Adresse.*
 
-   Auswählen **[!UICONTROL Remember Connection]** um zu vermeiden, bei jeder Anmeldung beim Desktop-Programm die Verbindungsdetails einzugeben.
+   Wählen Sie **[!UICONTROL Remember Connection]** aus, damit Sie nicht bei jeder Anmeldung bei der Desktop-Anwendung die Verbindungsdetails eingeben müssen.
 
    >[!CAUTION]
    >
@@ -138,7 +138,7 @@ Gehen Sie wie folgt vor, um das Programm unter Windows zu deinstallieren:
 
 1. Laden Sie alle Änderungen in [!DNL Experience Manager] hoch, um den Verlust von Änderungen zu vermeiden. Siehe [Bearbeiten von Assets und Hochladen aktualisierter Assets in [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Melden Sie sich ab und beenden ([!UICONTROL Exit]) Sie das Programm.
 
-1. Entfernen Sie die App, da Sie alle anderen OS-Anwendungen entfernen würden. Deinstallieren Sie sie unter Windows über „Programme hinzufügen und entfernen“.
+1. Entfernen Sie die Anwendung so, wie Sie auch jede andere Anwendung im Betriebssystem entfernen würden. Deinstallieren Sie sie unter Windows über „Programme hinzufügen und entfernen“.
 
 1. Um den Cache und die Protokolle zu entfernen, aktivieren Sie das entsprechende Kontrollkästchen.
 
