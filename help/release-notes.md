@@ -5,23 +5,23 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 6dfbfc6d0a1f1947ef03ebde73a5601b790a5d18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2368'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm {#release-notes-v2}
 
-Die Informationen zur neueste Desktop-Anwendungsversion 2.2.1 finden Sie unten. Die Version wurde am 10. Februar 2023 veröffentlicht.
+Die Versionsinformationen zur neueste Desktop-Anwendungsversion 2.2.1 finden Sie unten. Die Version wurde am 10. Februar 2023 veröffentlicht.
 
-Die neueste Version des Desktop-Programms enthält die folgenden Fehlerkorrekturen:
+Die neueste Version der Desktop-Anwendung enthält die folgenden Fehlerbehebungen:
 
-* Das -Desktop-Programm zeigt beim Klicken auf die **[!UICONTROL Sign In]**.
+* Die Desktop-Anwendung zeigt die Fehlermeldung „Sitzungs-Timeout“ beim Klicken auf **[!UICONTROL Sign In]**.
 
-* Probleme beim Zugriff auf das -Desktop-Programm v2.2.0 in macOS.
+* Probleme beim Zugriff auf die Desktop-Anwendung v2.2.0 in macOS.
 
-* Das -Desktop-Programm zeigt eine Fehlermeldung an, wenn Assets durch Klicken auf **[!UICONTROL Edited Locally]**.
+* Die Desktop-Anwendung zeigt eine Fehlermeldung beim Sortieren von Assets durch Klicken auf **[!UICONTROL Edited Locally]** an.
 
 Die **unterstützten [!DNL Experience Manager]-Versionen** sind:
 
