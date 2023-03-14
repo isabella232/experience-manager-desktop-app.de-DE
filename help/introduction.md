@@ -1,12 +1,12 @@
 ---
 title: Einführung in das [!DNL Experience Manager] -Desktop-Programm
-description: Erfahren Sie, wie Sie [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] direkt von ihrem Desktop aus verwenden können.
+description: Erfahren Sie, wie Sie [!DNL Adobe Experience Manager] Desktop-Programm zur Optimierung der Asset-Management-Workflows für kreative Benutzer bei Verwendung von [!DNL Adobe Experience Manager Assets] direkt von ihrem Desktop aus.
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
-source-git-commit: b661fedb6e33599921d39c0597c7d9f8e576798b
-workflow-type: ht
-source-wordcount: '619'
-ht-degree: 100%
+source-git-commit: bc188db916eaa2d45f68849bb1527acd27e03db9
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 96%
 
 ---
 
@@ -40,11 +40,8 @@ Version 2.0 des Programms wurde von Grund auf neu entwickelt, um im Vergleich zu
 Das neue Programm verbessert die Benutzerfreundlichkeit erheblich und unterstützt gleichzeitig dieselben Anwendungsfälle wie bisher. Im Folgenden werden die wichtigsten Verbesserungen beschrieben.
 
 * Benutzer können Assets in einem integrierten Browser im Programm suchen und durchsuchen, anstatt sie in einer virtuellen Netzwerkfreigabe in Mac Finder oder Windows Explorer anzuzeigen.
-
 * Klare Hinweise zu den Aktionen sind für Benutzer verfügbar.
-
 * Die Leistung wird durch die Reduzierung der Bandbreitennutzung verbessert. Die ursprünglichen Binärdateien werden nur bei Bedarf heruntergeladen. Beim Durchsuchen und Suchen von Assets werden nur kleine Miniaturansichten übertragen.
-
 * Optimiert für Massenvorgänge, z. B. Massen-Upload.
 
 Die wichtigsten Anwendungsfälle und Verbesserungen des neuen Programms und ihre Bedeutung für die Customer Journey werden in der folgenden Abbildung gezeigt.
