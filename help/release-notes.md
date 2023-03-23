@@ -5,19 +5,19 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: caedeb988f1a2f4666a1ec73db390452914caf4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2530'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm {#release-notes-v2}
 
-Die Versionsinformationen zur neueste Desktop-Anwendungsversion 2.2.2 finden Sie unten. Die Version wurde am 9. März 2023 veröffentlicht.
+Die Versionsinformationen zur neuesten Desktop-Anwendungsversion 2.2.2 finden Sie unten. Die Version wurde am 09. März 2023 veröffentlicht.
 
 Die neueste Version der Desktop-Anwendung enthält die folgenden Fehlerbehebungen:
 
-* [Nur Windows] Das -Desktop-Programm zeigt nach der Installation der Versionen 2.2.0 und 2.2.1 einen leeren Bildschirm an.
+* [Nur Windows]: Das Desktop-Programm zeigt nach der Installation der Versionen 2.2.0 und 2.2.1 einen leeren Bildschirm an.
 
 Die **unterstützten [!DNL Experience Manager]-Versionen** sind:
 
