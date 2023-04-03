@@ -1,12 +1,12 @@
 ---
 title: Einführung in das [!DNL Experience Manager] -Desktop-Programm
-description: Erfahren Sie, wie Sie [!DNL Adobe Experience Manager] Desktop-Programm zur Optimierung der Asset-Management-Workflows für kreative Benutzer bei Verwendung von [!DNL Adobe Experience Manager Assets] direkt von ihrem Desktop aus.
+description: Erfahren Sie, wie Sie mit der  [!DNL Adobe Experience Manager] -Desktop-App die Asset-Management-Workflows für kreative Benutzerinnen und Benutzer optimieren können, wenn Sie [!DNL Adobe Experience Manager Assets] direkt von ihrem Desktop aus verwenden.
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
 source-git-commit: bc188db916eaa2d45f68849bb1527acd27e03db9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
