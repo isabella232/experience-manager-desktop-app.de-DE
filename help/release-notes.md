@@ -4,9 +4,9 @@ description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität 
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: caedeb988f1a2f4666a1ec73db390452914caf4d
+source-git-commit: 7d6de46583b0a9dd19d920f8c47a825e060b97fc
 workflow-type: ht
-source-wordcount: '2530'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -23,10 +23,6 @@ Die **unterstützten [!DNL Experience Manager]-Versionen** sind:
 
 * [!DNL Experience Manager] as a [!DNL Cloud Service]. Siehe [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=de).
 * [!DNL Experience Manager] 6.5.0 oder höher, für Adobe Managed Services (AMS) oder On-Premise. Weitere Informationen finden Sie in den [Versionshinweisen zum Service Pack](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=de).
-* [!DNL Experience Manager] 6.4.4 oder höher, für Adobe Managed Services (AMS) oder On-Premise. Weitere Informationen finden Sie in den [Versionshinweisen zum Service Pack](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=de).
-* [!DNL Experience Manager] 6.4.0–6.4.3 mit installiertem [Kompatibilitätspaket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support), für Adobe Managed Services (AMS) oder On-Premise.
-* [!DNL Experience Manager] 6.3 (mit Kompatibilitätspaket)
-* [!DNL Experience Manager] 6.3.3.1 oder höher mit installiertem [Kompatibilitätspaket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Das Desktop-Programm wird für [!DNL Experience Manager] 6.3.3.0 oder frühere Versionen nicht unterstützt.
 
 Das [!DNL Adobe Experience Manager]-Desktop-Programm ist für die folgenden **Betriebssysteme** verfügbar:
 
