@@ -2,16 +2,16 @@
 title: Best Practices für das Desktop-Programm, v1.10.
 description: Wichtige Funktionen und empfohlene Verwendung der [!DNL Adobe Experience Manager] -Desktop-Programm Version 1.10.
 exl-id: 5de06b33-c05c-47eb-b884-408b6f9afc94
-source-git-commit: 78f18e68178f711d925d7e308822c657087d009a
+source-git-commit: 7a7236c36f615e97e9d040e6139368a931eb579e
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Best Practices für das AEM-Desktop-Programm, v1.10 {#aem-desktop-app-best-practices}
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
 Das [!DNL Adobe Experience Manager]-Desktop-Programm verknüpft Ihre Digital Asset Management-Lösung (DAM) mit dem Desktop, damit Sie in der AEM-Web-Benutzeroberfläche verfügbare Dateien direkt auf dem Desktop öffnen können. Wenn Sie ein Asset vom Desktop aus speichern, wird es in den entsprechenden Speicherort in AEM hochgeladen.
 
@@ -31,7 +31,7 @@ Das AEM-Desktop-Programm stellt Netzwerkfreigaben über WebDAV (Windows) oder SM
 
 *Abbildung: Architektur des Desktop-Programms*
 
-Das zusätzliche Caching bei Schreibvorgängen führt, wenn eine Datei gespeichert wird, dazu, dass die Datei zunächst lokal gespeichert wird (sodass der Benutzer nicht auf die Netzwerkübertragung warten muss). Dann nach einer vordefinierten Verzögerung (30 Sekunden) die Datei zunächst im Hintergrund in AEM hochgeladen, woraufhin dann das Asset hochgeladen wird. Das AEM-Desktop-Programm verfügt über eine Benutzeroberfläche zum Überwachen des Status von Datei-Uploads im Hintergrund.
+Das zusätzliche Caching bei Schreibvorgängen führt, wenn eine Datei gespeichert wird, dazu, dass die Datei zunächst lokal gespeichert wird (sodass der Benutzer nicht auf die Netzwerkübertragung warten muss). Nach einer vordefinierten Verzögerung (30 Sek.) wird die Datei in den AEM im Hintergrund hochgeladen und dann das Asset in AEM hochgeladen. Das AEM-Desktop-Programm verfügt über eine Benutzeroberfläche zum Überwachen des Status von Datei-Uploads im Hintergrund.
 
 ## Verwendungsempfehlung für das AEM-Desktop-Programm {#recommended-use-of-aem-desktop-app}
 
@@ -113,13 +113,13 @@ Gehen Sie wie folgt vor, wenn ein in AEM gespeichertes Asset aktualisiert werden
 
    * Wenn Sie die Bearbeitung abgeschlossen haben, verschieben, kopieren oder speichern Sie die von AEM zugeordnete Datei, um sie als neue Version hochzuladen.
 
-## Netzwerkleistung  {#network-performance}
+## Netzwerkleistung {#network-performance}
 
 Für ein positives Benutzererlebnis mit dem AEM-Desktop-Programm kommt es in erster Linie auf eine gute, stabile Netzwerkverbindung zwischen Benutzer-Desktops und dem AEM-Server an. Außerdem muss der Server für eine gute Leistung abgestimmt sein, insbesondere in Bezug auf das Hochladen und Aktualisieren von Assets. Diese Empfehlungen gelten für Netzwerk-/IT-Teams von Unternehmen.
 
-### Überlegungen zum Netzwerk  {#network-considerations}
+### Überlegungen zum Netzwerk {#network-considerations}
 
-Die Best Practices für die AEM Assets-Netzwerkkonfiguration finden Sie im Dokument [Überlegungen zum AEM Assets-Netzwerk](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-migration-guide.html?lang=de). Folgende Aspekte sind u. a. beim Optimieren des AEM-Desktop-Programm-Erlebnisses für Benutzer nützlich:
+Best Practices für die AEM Assets-Netzwerkkonfiguration finden Sie unter [Massenmigrierung von Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html?lang=de) Dokument. Folgende Aspekte sind u. a. beim Optimieren des AEM-Desktop-Programm-Erlebnisses für Benutzer nützlich:
 
 * **Ordnungsgemäße Dispatcher-Konfiguration**. Nutzen Sie AEM Dispatcher, um für zusätzliche Sicherheit zu sorgen, und stellen Sie sicher, dass dieser für eine [Verbindung des AEM-Desktop-Programms mit AEM hinter einem Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher) konfiguriert ist.
 
@@ -129,10 +129,10 @@ Die Best Practices für die AEM Assets-Netzwerkkonfiguration finden Sie im Dokum
 >
 >Um die Symbolvorschau zu deaktivieren, gehen Sie im Finder zu [!UICONTROL View], wählen Sie die Option [!UICONTROL View Options] und deaktivieren Sie dann [!UICONTROL Show icon preview]. Diese Einstellung bezieht sich nur auf den aktuellen Ordner. Um sie standardmäßig festzulegen, klicken Sie im selben Fenster auf die Option [!UICONTROL Use as default].
 
-### Optimieren der Serverleistung  {#optimizing-server-performance}
+### Optimieren der Serverleistung {#optimizing-server-performance}
 
 Informationen zur Leistungsoptimierung des AEM Assets-Servers finden Sie im [Handbuch zur Optimierung der AEM Assets-Leistung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=de). Einige wichtige Aspekte im Zusammenhang mit der Server-Leistung des AEM-Desktop-Programms beziehen sich auf das Optimieren der Workflow-Konfiguration für Asset-Uploads:
 
-* **Leistungsstärkere Asset-Uploads**. Konfigurieren Sie das [AEM-Workflow-Modell „AEM Asset-Update“ als Übergangs-Workflow](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html).
+* **Leistungsstärkere Asset-Uploads**. Konfigurieren Sie das [AEM-Workflow-Modell „AEM Asset-Update“ als Übergangs-Workflow](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=de).
 
 * **Server-Prozessoren für Uploads beschränken**. Stellen Sie sicher, dass der Parameter für parallele Workflow-Aufträge korrekt eingestellt ist, damit bei Uploads nicht die gesamte CPU ausgereizt wird.
