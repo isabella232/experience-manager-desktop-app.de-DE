@@ -3,13 +3,13 @@ title: Best Practices für das Desktop-Programm, v1.10.
 description: Wichtige Funktionen und empfohlene Verwendung der [!DNL Adobe Experience Manager] -Desktop-Programm Version 1.10.
 exl-id: 5de06b33-c05c-47eb-b884-408b6f9afc94
 source-git-commit: 7a7236c36f615e97e9d040e6139368a931eb579e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1676'
+ht-degree: 100%
 
 ---
 
-# Best Practices für das AEM-Desktop-Programm, v1.10 {#aem-desktop-app-best-practices}
+# Best Practices für das AEM-Desktop-Programm v1.10 {#aem-desktop-app-best-practices}
 
 ## Übersicht {#overview}
 
@@ -31,7 +31,7 @@ Das AEM-Desktop-Programm stellt Netzwerkfreigaben über WebDAV (Windows) oder SM
 
 *Abbildung: Architektur des Desktop-Programms*
 
-Das zusätzliche Caching bei Schreibvorgängen führt, wenn eine Datei gespeichert wird, dazu, dass die Datei zunächst lokal gespeichert wird (sodass der Benutzer nicht auf die Netzwerkübertragung warten muss). Nach einer vordefinierten Verzögerung (30 Sek.) wird die Datei in den AEM im Hintergrund hochgeladen und dann das Asset in AEM hochgeladen. Das AEM-Desktop-Programm verfügt über eine Benutzeroberfläche zum Überwachen des Status von Datei-Uploads im Hintergrund.
+Das zusätzliche Caching bei Schreibvorgängen führt, wenn eine Datei gespeichert wird, dazu, dass die Datei zunächst lokal gespeichert wird (sodass der Benutzer nicht auf die Netzwerkübertragung warten muss). Nach einer vordefinierten Verzögerung (30 Sekunden) wird die Datei zunächst im Hintergrund in AEM hochgeladen, woraufhin das Asset in AEM hochgeladen wird. Das AEM-Desktop-Programm verfügt über eine Benutzeroberfläche zum Überwachen des Status von Datei-Uploads im Hintergrund.
 
 ## Verwendungsempfehlung für das AEM-Desktop-Programm {#recommended-use-of-aem-desktop-app}
 
@@ -67,7 +67,7 @@ Zu den Hauptfunktionen und -merkmalen des AEM-Desktop-Programms gehören u. a.:
 
 ## Empfehlungen für ausgewählte Anwendungsfälle {#recommendations-for-selected-use-cases}
 
-### Asset-Zugriff für kreative Benutzer {#access-to-assets-for-creative-users}
+### Zugriff auf Assets für kreative Benutzende {#access-to-assets-for-creative-users}
 
 Das AEM-Desktop-Programm ermöglicht einen virtuellen Zugriff auf das gesamte DAM-Repository. Dabei kann es sich für kreative Benutzer als schwierig herausstellen, die richtigen Assets zu finden und auf diese über ihren Desktop zuzugreifen. Wenden Sie diese Best Practices an, um diesen Vorgang für kreative Benutzer zu vereinfachen.
 
@@ -89,7 +89,7 @@ So suchen Sie nach einer Datei, die Sie auf dem Desktop öffnen möchten:
 
 * Wenn Sie das Asset gefunden haben, greifen Sie über die Option „Desktop-Aktionen“ der AEM-Benutzeroberfläche auf das Asset auf dem Desktop zu.
 
-### Aktualisieren von geöffneten Assets mit dem AEM-Desktop-Programm {#updating-assets-opened-using-aem-desktop-app}
+### Aktualisieren von mit dem AEM-Desktop-Programm geöffneten Assets {#updating-assets-opened-using-aem-desktop-app}
 
 Wenn Sie ein Asset direkt in dem Verzeichnis bearbeiten, das AEM Assets einer lokalen Netzwerkfreigabe zugeordnet hat, wird das Asset bei jedem Speichervorgang auf dem Desktop in AEM hochgeladen. Außerdem erstellt AEM eine Version und generiert Wiedergaben.
 
@@ -119,7 +119,7 @@ Für ein positives Benutzererlebnis mit dem AEM-Desktop-Programm kommt es in ers
 
 ### Überlegungen zum Netzwerk {#network-considerations}
 
-Best Practices für die AEM Assets-Netzwerkkonfiguration finden Sie unter [Massenmigrierung von Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html?lang=de) Dokument. Folgende Aspekte sind u. a. beim Optimieren des AEM-Desktop-Programm-Erlebnisses für Benutzer nützlich:
+Um die Best Practices für die AEM Assets-Netzwerkkonfiguration zu verstehen, lesen Sie das Dokument [Massenmigrierung von Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html?lang=de). Folgende Aspekte sind u. a. beim Optimieren des AEM-Desktop-Programm-Erlebnisses für Benutzer nützlich:
 
 * **Ordnungsgemäße Dispatcher-Konfiguration**. Nutzen Sie AEM Dispatcher, um für zusätzliche Sicherheit zu sorgen, und stellen Sie sicher, dass dieser für eine [Verbindung des AEM-Desktop-Programms mit AEM hinter einem Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher) konfiguriert ist.
 
