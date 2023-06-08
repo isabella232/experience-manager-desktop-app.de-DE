@@ -3,7 +3,7 @@ title: Best Practices für das Desktop-Programm, v1.10.
 description: Wichtige Funktionen und empfohlene Verwendung der [!DNL Adobe Experience Manager] -Desktop-Programm Version 1.10.
 exl-id: 5de06b33-c05c-47eb-b884-408b6f9afc94
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 100%
 

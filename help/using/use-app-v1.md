@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie das Adobe Experience Manager-Desktop-Programm
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2367'
 ht-degree: 100%
 
