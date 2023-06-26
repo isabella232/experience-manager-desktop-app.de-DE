@@ -3,9 +3,9 @@ title: Versionshinweise für das Desktop-Programm, v1.10
 description: Versionshinweise, Verbesserungen, neue Funktionen, Kompatibilität und Downloadlinks für das AEM-Desktop-Programm, Version 1.10.
 exl-id: 886864e0-016a-4a17-b3ba-4b18a514214a
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -143,7 +143,7 @@ Durch das Hochladen von umfangreichen Ordnerhierarchien über [!UICONTROL Create
 
 * Wenn die Übertragung einer einzelnen Datei fehlschlägt, wird sie auf der Registerkarte als Fehler angezeigt. Andernfalls werden einzelne Dateien nicht auf der Registerkarte angezeigt, sondern lediglich ein einzelner Eintrag für den gesamten Upload.
 
-**Symbole zur Angabe des Status von Hintergrundvorgängen**
+**Symbole zur Anzeige des Status von Hintergrundvorgängen**
 
 Das Programmsymbol gibt den Status von Hintergrundvorgängen an, um bessere visuelle Hinweise für die Benutzer bereitzustellen. Wenn das Programm beispielsweise nicht mit AEM verbunden ist, ist das Symbol ausgegraut. Im Falle eines aktiven Uploads wird eine Synchronisierungsüberlagerung angezeigt usw.
 
