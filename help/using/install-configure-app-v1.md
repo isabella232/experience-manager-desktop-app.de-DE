@@ -1,11 +1,11 @@
 ---
 title: Installieren und Konfigurieren des Desktop-Programms, v1.10
-description: Installieren und Konfigurieren [!DNL Experience Manager] Desktop-Programm, Version 1.10, mit dem [!DNL Assets] -Server und ordnen Sie die Assets für die Bereitstellung als Laufwerk auf Ihrem Desktop zu.
+description: Installieren und konfigurieren Sie das  [!DNL Experience Manager] -Desktop-Programm Version 1.10 für die Arbeit mit  [!DNL Assets] -Servern und ordnen Sie die Assets als Laufwerk auf Ihrem Desktop zu.
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Detaillierte Informationen finden Sie in den Versionshinweisen zum [[!DNL Experi
 
 ## Installieren und Verbinden des Programms mit dem [!DNL Experience Manager]-Server {#install-and-connect-aem-desktop-app-to-aem-server}
 
-Weitere Informationen finden Sie unter [Installieren und Verbinden [!DNL Experience Manager] Desktop-Programm [!DNL Experience Manager] server](use-app-v1.md#installandconnect).
+Weitere Informationen finden Sie unter [Installieren und Verbinden des  [!DNL Experience Manager] -Desktop-Programms mit dem  [!DNL Experience Manager] -Server](use-app-v1.md#installandconnect).
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Wenn Sie Proxyserver-Einstellungen für Windows konfigurieren oder ändern (Inte
 
 Wenn für den Proxy eine Authentifizierung erforderlich ist, kann die IT-Abteilung die URL von Experience Manager Assets in den Proxyserver-Einstellungen zulassen, um den Programmdatenverkehr durchzulassen.
 
-## Anpassen des Dialogfelds „Asset Info“  {#customize-the-asset-info-dialog}
+## Anpassen des Dialogfelds „Asset-Info“  {#customize-the-asset-info-dialog}
 
 Sie können das Dialogfeld „Asset Info“ (Asset-Informationen) anpassen, indem Sie es mit mindestens einer dieser beiden Komponenten überlagern:
 
@@ -93,7 +93,7 @@ In Windows befindet sich der Cache unter `%LOCALAPPDATA%\Adobe\AssetsCompanion\C
 
 Unter Mac OS X befindet sich unter `~/Library/Group Containers/group.com.adobe.aem.desktop/cache` ein ähnliches Verzeichnis.
 
-### Option zum Verwalten des Cache im Programm {#in-app-option-to-manage-cache}
+### Programminterne Option zum Verwalten des Cache {#in-app-option-to-manage-cache}
 
 Sie können festlegen, wie viel Festplattenspeicher für lokale Caching-Zwecke zur Verfügung gestellt wird. Die Artefakte vom Assets-Server werden für ein reibungsloseres Erlebnis lokal zwischengespeichert. Sie können die Standardeinstellungen Ihren Anforderungen entsprechend anpassen. Außerdem können Sie den Cache löschen, um alle Assets erneut abzurufen. Klicken Sie zum Festlegen der gewünschten Optionen auf das Symbol des Programms und klicken Sie auf **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**.
 
