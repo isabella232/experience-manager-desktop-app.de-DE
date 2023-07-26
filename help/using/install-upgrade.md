@@ -6,7 +6,7 @@ exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: 2382f615ae3a8b9c076d4037e1644233a2363677
 workflow-type: tm+mt
 source-wordcount: '1482'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -82,9 +82,9 @@ Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren
    >
    >Stellen Sie sicher, dass vor oder nach der Adresse des [!DNL Experience Manager]-Servers keine führenden oder nachfolgenden Leerzeichen vorhanden sind. Andernfalls kann das Programm keine Verbindung zum [!DNL Experience Manager]-Server herstellen.
 
-1. [Optional] Klicken **[!UICONTROL I want to connect a different way]** und klicken Sie auf **[!UICONTROL Adobe login]** , um sich mit Adobe Identity Management Service (IMS) beim Experience Manager Assets-Server anzumelden. Mit der IMS-Anmeldung kann die Desktop App automatisch das Zugriffstoken aktualisieren, sodass der Benutzer bis zu 14 Tage lang angemeldet bleiben kann. Klicken **[!UICONTROL Direct login]** , um die Standardanmeldung bei der [!DNL Experience Manager] -Server mit den Anmeldedaten des Benutzers.
+1. [Optional] Klicks **[!UICONTROL I want to connect a different way]** und klicken **[!UICONTROL Adobe login]** , um sich mit Adobe Identity Management Service (IMS) beim Experience Manager Assets-Server anzumelden. Mit der IMS-Anmeldung kann die Desktop-Anwendung automatisch das Zugriffstoken aktualisieren, sodass Benutzerinnen und Benutzer bis zu 14 Tage lang angemeldet bleiben können. Klicks **[!UICONTROL Direct login]** , um die Standardanmeldung bei der [!DNL Experience Manager] -Server mit den Anmeldedaten des Benutzers.
 
-   ![Adobe Login](assets/adobe-login.png)
+   ![Adobe-Anmeldung](assets/adobe-login.png)
 
 1. Nach erfolgreicher Verbindung können Sie die Liste der Ordner und Assets anzeigen, die im Stammordner des [!DNL Experience Manager]-DAM verfügbar sind. Sie können die Ordner im Programm durchsuchen.
 
