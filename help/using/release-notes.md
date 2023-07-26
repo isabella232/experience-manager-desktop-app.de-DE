@@ -5,21 +5,21 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 0f366e07b9d220cf04286b24e4bb45ce0b385e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2624'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Experience Manager] Versionshinweise zum Desktop-Programm {#release-notes-v2}
 
-Die Versionsinformationen zur neuesten Desktop-Anwendungsversion 2.3.0 finden Sie unten. Die Version wurde am 14. Juli 2023 veröffentlicht.
+Die Versionsinformationen zur neuesten Desktop-Anwendungsversion 2.3.0 finden Sie unten. Das Veröffentlichungssdatum ist der 14. Juli 2023.
 
-Die neueste Version des Desktop-Programms enthält die folgenden Fehlerbehebungen und Verbesserungen:
+Die neueste Version der Desktop-Anwendung enthält die folgenden Fehlerbehebungen und Verbesserungen:
 
-* Unterstützung für IMS-Anmeldung hinzugefügt. Durch die IMS-Integration kann die Desktop App automatisch das Zugriffstoken aktualisieren, sodass der Benutzer bis zu 14 Tage lang angemeldet bleiben kann.
+* Unterstützung für IMS-Anmeldung wurde hinzugefügt. Durch die IMS-Integration kann die Desktop-Anwendung automatisch das Zugriffstoken aktualisieren, sodass Benutzerinnen und Benutzer bis zu 14 Tage lang angemeldet bleiben können.
 
-* Verbesserte Unterstützung für Unternehmensprofile und Webfilterung.
+* Verbesserte Unterstützung für Unternehmens-Proxys und Web-Filterung.
 
 
 Die **unterstützten [!DNL Experience Manager]-Versionen** sind:
