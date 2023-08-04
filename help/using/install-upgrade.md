@@ -4,9 +4,9 @@ description: Installieren und konfigurieren Sie das  [!DNL Adobe Experience Mana
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: 2382f615ae3a8b9c076d4037e1644233a2363677
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1482'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Gehen Sie wie folgt vor, um das Desktop-Programm zu installieren. Deinstallieren
    >
    >Stellen Sie sicher, dass vor oder nach der Adresse des [!DNL Experience Manager]-Servers keine führenden oder nachfolgenden Leerzeichen vorhanden sind. Andernfalls kann das Programm keine Verbindung zum [!DNL Experience Manager]-Server herstellen.
 
-1. [Optional] Klicks **[!UICONTROL I want to connect a different way]** und klicken **[!UICONTROL Adobe login]** , um sich mit Adobe Identity Management Service (IMS) beim Experience Manager Assets-Server anzumelden. Mit der IMS-Anmeldung kann die Desktop-Anwendung automatisch das Zugriffstoken aktualisieren, sodass Benutzerinnen und Benutzer bis zu 14 Tage lang angemeldet bleiben können. Klicks **[!UICONTROL Direct login]** , um die Standardanmeldung bei der [!DNL Experience Manager] -Server mit den Anmeldedaten des Benutzers.
+1. [Optional] Klicken Sie auf **[!UICONTROL I want to connect a different way]** und dann auf **[!UICONTROL Adobe login]**, um sich mit Adobe Identity Management Service (IMS) beim Experience Manager Assets-Server anzumelden. Mit der IMS-Anmeldung kann das Desktop-Programm automatisch das Zugriffs-Token aktualisieren, sodass Benutzerinnen und Benutzer bis zu 14 Tage lang angemeldet bleiben können. Klicken Sie auf **[!UICONTROL Direct login]**, um die Standardanmeldung beim [!DNL Experience Manager]-Server mit den Anmeldedaten einer Benutzerin bzw. eines Benutzers durchzuführen.
 
    ![Adobe-Anmeldung](assets/adobe-login.png)
 
