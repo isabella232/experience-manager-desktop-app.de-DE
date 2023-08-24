@@ -5,9 +5,9 @@ mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 source-git-commit: 98e99ee48d835cea0098c4acfe49f6b247ccf658
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4054'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Wenn Sie das Programm nach dem Abmelden oder zum ersten Mal öffnen, müssen Sie
 
 Die wichtigsten Aufgaben, die Sie mit dem [!DNL Adobe Experience Manager]-Desktop-Programm durchführen, sind:
 
-![Workflows und Aufgaben, die Sie mit [!DNL Experience Manager] Desktop-Programm](assets/aem_desktop_app_usecases_v2.png "Workflows und Aufgaben, die Sie mit [!DNL Adobe Experience Manager] Desktop-Programm")
+![Workflows und Aufgaben, die Sie mit der Desktop-App von [!DNL Experience Manager] erledigen können](assets/aem_desktop_app_usecases_v2.png "Workflows und Aufgaben, die Sie mit der Desktop-App von [!DNL Adobe Experience Manager]  erledigen können")
 
-Herunterladen [this](assets/aem_desktop_app_usecases_print.pdf) druckfertige PDF-Datei.
+Laden Sie [diese](assets/aem_desktop_app_usecases_print.pdf) druckfertige PDF-Datei herunter.
 
 ## Funktionsweise des Desktop-Programms {#how-app-works2}
 
