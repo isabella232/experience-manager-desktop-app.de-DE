@@ -4,10 +4,10 @@ description: Verwenden Sie das  [!DNL Adobe Experience Manager] -Desktop-Program
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 98e99ee48d835cea0098c4acfe49f6b247ccf658
-workflow-type: ht
-source-wordcount: '4054'
-ht-degree: 100%
+source-git-commit: 1139b3359042a134d86900e3b7b7f03d8d920cdc
+workflow-type: tm+mt
+source-wordcount: '4032'
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ Sie können die im [!DNL Experience Manager]-Repository verfügbaren Assets vom 
 
 >[!NOTE]
 >
->Das Programm zeigt die Assets an, indem sie die Suchkriterien über mehrere Metadatenfelder hinweg und nicht nur den Titel oder Dateinamen des Assets abgleicht.
+>Das Programm zeigt die Assets an, indem es die Suchkriterien über mehrere Metadatenfelder hinweg und nicht nur den Titel oder Dateinamen des Assets abgleicht.
 
 ## Herunterladen von Assets {#download-assets}
 
@@ -158,7 +158,7 @@ Verwenden Sie **[!UICONTROL Toggle Check-out]** zum Sperren des Assets, um Konfl
 * Sie haben begonnen, ein Asset zu bearbeiten, ohne es vorher auszuchecken (indem Sie es einfach öffnen).
 * Sie möchten demnächst mit der Bearbeitung eines Assets beginnen und möchten nicht, dass andere Benutzer es bearbeiten.
 
-Nachdem Sie die Bearbeitungen vorgenommen haben, zeigt das Programm den Status **[!UICONTROL Edited Locally]** für geänderte Assets an. Alle in den Assets gespeicherten Änderungen sind nur lokal verfügbar, bis Sie die Änderungen in [!DNL Experience Manager] hochladen. Um einzelne Assets oder einige Assets einzeln hochzuladen, klicken Sie in den Optionen für ein Asset auf **[!UICONTROL Upload Changes]**. Dadurch wird eine Version des Assets in [!DNL Experience Manager] erstellt. Über die Web-Oberfläche von [!DNL Assets] können Sie den Asset-Verlauf in der [Zeitleiste](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=de) anzeigen.
+Nachdem Sie die Änderungen vorgenommen haben, zeigt das Programm die **[!UICONTROL Edited Locally]** Status für die geänderten Assets. Alle in den Assets gespeicherten Änderungen sind nur lokal verfügbar, bis Sie die Änderungen in [!DNL Experience Manager] hochladen. Um einzelne Assets oder einige Assets einzeln hochzuladen, klicken Sie in den Optionen für ein Asset auf **[!UICONTROL Upload Changes]**. Dadurch wird eine Version des Assets in [!DNL Experience Manager] erstellt. Über die Web-Oberfläche von [!DNL Assets] können Sie den Asset-Verlauf in der [Zeitleiste](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=de) anzeigen.
 
 ![Option zum Hochladen von Änderungen im Programm](assets/upload_changes_single1_da2.png "Option zum Hochladen von Änderungen im Programm")
 
@@ -217,7 +217,7 @@ Im alten Programm behielten die im Repository erstellten Knotennamen die Leerzei
 
 | Zeichen ‡ | Alte Voreinstellung im Programm | Bei Auftreten in Dateinamen | Bei Auftreten in Ordnernamen | Beispiel |
 |---|---|---|---|---|
-| `. / : [ ] | *` | Aktiviert oder deaktiviert | Ersetzt durch `-` (Bindestrich). Ein `.` (Punkt) in der Dateinamenerweiterung wird unverändert beibehalten. | Ersetzt durch `-` (Bindestrich). | `myimage.jpg` bleibt unverändert und `my.image.jpg` ändert sich in `my-image.jpg`. |
+| `. / : [ ] \| *` | Aktiviert oder deaktiviert | Ersetzt durch `-` (Bindestrich). Ein `.` (Punkt) in der Dateinamenerweiterung wird unverändert beibehalten. | Ersetzt durch `-` (Bindestrich). | `myimage.jpg` bleibt unverändert und `my.image.jpg` ändert sich in `my-image.jpg`. |
 | `% ; # , + ? ^ { } "` und Leerzeichen | ![deselect icon](assets/do-not-localize/deselect-icon.png) Deaktiviert | Leerzeichen werden beibehalten | Ersetzt durch `-` (Bindestrich). | `My Folder.` ändert sich in `my-folder-`. |
 | `# % { } ? & .` | ![deselect icon](assets/do-not-localize/deselect-icon.png) Deaktiviert | Ersetzt durch `-` (Bindestrich). | Nicht vorhanden. | `#My New File.` ändert sich in `-My New File-`. |
 | Großbuchstaben | ![deselect icon](assets/do-not-localize/deselect-icon.png) Deaktiviert | Groß- und Kleinschreibung wird unverändert beibehalten. | In Kleinbuchstaben geändert. | `My New Folder` ändert sich in `my-new-folder`. |
@@ -349,7 +349,7 @@ Wenn ein lokal heruntergeladenes Asset auf dem [!DNL Experience Manager]-Server 
 
 ![Optionen zum Beheben des Konflikts, wenn das Asset remote bearbeitet wird](assets/modified_remotely_dialog_da2.png "Optionen zum Beheben des Konflikts, wenn das Asset remote bearbeitet wird")
 
-Wenn ein lokal bearbeitetes Asset auch ohne Ihr Wissen auf dem Server aktualisiert wurde, zeigt das Programm den Status **[!UICONTROL Editing Conflict]** an. Sie können eine Version der Änderungen beibehalten – entweder Sie behalten Ihre Aktualisierungen bei (klicken Sie auf **[!UICONTROL Keep Mine]**) und löschen die Bearbeitung des anderen Benutzers oder Sie übernehmen die Aktualisierungen des anderen Benutzers und löschen Ihre (**[!UICONTROL Overwrite Mine]**).
+Wenn ein lokal bearbeitetes Asset auch ohne Ihr Wissen auf dem Server aktualisiert wurde, zeigt das Programm den Status **[!UICONTROL Editing Conflict]** an. Sie können einen Satz der Änderungen beibehalten - entweder Ihre Aktualisierungen beibehalten (klicken Sie auf **[!UICONTROL Keep Mine]**) und löschen die Bearbeitung des anderen Benutzers oder übernehmen die Aktualisierungen des anderen Benutzers und löschen Ihre (**[!UICONTROL Overwrite Mine]**).
 
 ![Optionen zum Beheben eines Bearbeitungskonflikts](assets/editing_conflict_dialog_da2.png "Optionen zum Beheben eines Bearbeitungskonflikts")
 
