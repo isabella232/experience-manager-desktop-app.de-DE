@@ -5,9 +5,9 @@ mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 source-git-commit: 1139b3359042a134d86900e3b7b7f03d8d920cdc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4032'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Sie können die im [!DNL Experience Manager]-Repository verfügbaren Assets vom 
 
 >[!NOTE]
 >
->Das Programm zeigt die Assets an, indem es die Suchkriterien über mehrere Metadatenfelder hinweg und nicht nur den Titel oder Dateinamen des Assets abgleicht.
+>Die App zeigt die Assets an, indem sie die Suchkriterien über mehrere Metadatenfelder hinweg und nicht nur den Titel oder Dateinamen des Assets abgleicht.
 
 ## Herunterladen von Assets {#download-assets}
 
@@ -158,7 +158,7 @@ Verwenden Sie **[!UICONTROL Toggle Check-out]** zum Sperren des Assets, um Konfl
 * Sie haben begonnen, ein Asset zu bearbeiten, ohne es vorher auszuchecken (indem Sie es einfach öffnen).
 * Sie möchten demnächst mit der Bearbeitung eines Assets beginnen und möchten nicht, dass andere Benutzer es bearbeiten.
 
-Nachdem Sie die Änderungen vorgenommen haben, zeigt das Programm die **[!UICONTROL Edited Locally]** Status für die geänderten Assets. Alle in den Assets gespeicherten Änderungen sind nur lokal verfügbar, bis Sie die Änderungen in [!DNL Experience Manager] hochladen. Um einzelne Assets oder einige Assets einzeln hochzuladen, klicken Sie in den Optionen für ein Asset auf **[!UICONTROL Upload Changes]**. Dadurch wird eine Version des Assets in [!DNL Experience Manager] erstellt. Über die Web-Oberfläche von [!DNL Assets] können Sie den Asset-Verlauf in der [Zeitleiste](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=de) anzeigen.
+Nachdem Sie die Bearbeitungen vorgenommen haben, zeigt die App den Status **[!UICONTROL Edited Locally]** für geänderte Assets an. Alle in den Assets gespeicherten Änderungen sind nur lokal verfügbar, bis Sie die Änderungen in [!DNL Experience Manager] hochladen. Um einzelne Assets oder einige Assets einzeln hochzuladen, klicken Sie in den Optionen für ein Asset auf **[!UICONTROL Upload Changes]**. Dadurch wird eine Version des Assets in [!DNL Experience Manager] erstellt. Über die Web-Oberfläche von [!DNL Assets] können Sie den Asset-Verlauf in der [Zeitleiste](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=de) anzeigen.
 
 ![Option zum Hochladen von Änderungen im Programm](assets/upload_changes_single1_da2.png "Option zum Hochladen von Änderungen im Programm")
 
@@ -272,7 +272,7 @@ Benutzer können problemlos mit mehreren Assets arbeiten und diese verwalten, in
 
 Wenn Sie mit Ordnern arbeiten, die viele Assets enthalten, führen Sie einen Bildlauf durch, um weitere Assets anzuzeigen. Um mit der Tastatur zu blättern, drücken Sie einige Male die Tabulatortaste, um das Asset oben auszuwählen. Das jeweils ausgewählte Asset ist hervorgehoben. Verwenden Sie jetzt die Nach-unten-Taste, um durch die Liste der Assets zu navigieren.
 
-### Schnellaktionen für ausgewählte Assets {#quick-actions-for-selected-assets}
+### Schnellzugriff für ausgewählte Assets {#quick-actions-for-selected-assets}
 
 Klicken Sie auf die Miniaturansicht einiger Assets, um die Assets auszuwählen. Um alle Assets auszuwählen, aktivieren Sie das Kontrollkästchen in der oberen Leiste des Programms. Die Aktionen, die für alle ausgewählten Assets gemeinsam gelten, werden in einer Symbolleiste am unteren Rand des Programms angezeigt.
 
@@ -314,7 +314,7 @@ Die Funktionalität des Desktop-Programms wird verwendet, wenn Sie die folgenden
 
 * Die [!UICONTROL Desktop Actions], die [!UICONTROL Open], [!UICONTROL Edit] und [!UICONTROL Reveal]
 * [!UICONTROL Upload folder]
-* [!UICONTROL Check-out] oder [!UICONTROL check-in] ermöglichen.
+* [!UICONTROL Check-out] oder [!UICONTROL check-in] ermöglichen
 
 Beispielsweise sind die Aktionen auf der Web-Oberfläche, die für ein Asset verfügbar sind, das im Programm ausgecheckt wurde, [!UICONTROL Open], [!UICONTROL Reveal] und [!UICONTROL Check-in].
 
@@ -349,7 +349,7 @@ Wenn ein lokal heruntergeladenes Asset auf dem [!DNL Experience Manager]-Server 
 
 ![Optionen zum Beheben des Konflikts, wenn das Asset remote bearbeitet wird](assets/modified_remotely_dialog_da2.png "Optionen zum Beheben des Konflikts, wenn das Asset remote bearbeitet wird")
 
-Wenn ein lokal bearbeitetes Asset auch ohne Ihr Wissen auf dem Server aktualisiert wurde, zeigt das Programm den Status **[!UICONTROL Editing Conflict]** an. Sie können einen Satz der Änderungen beibehalten - entweder Ihre Aktualisierungen beibehalten (klicken Sie auf **[!UICONTROL Keep Mine]**) und löschen die Bearbeitung des anderen Benutzers oder übernehmen die Aktualisierungen des anderen Benutzers und löschen Ihre (**[!UICONTROL Overwrite Mine]**).
+Wenn ein lokal bearbeitetes Asset auch ohne Ihr Wissen auf dem Server aktualisiert wurde, zeigt das Programm den Status **[!UICONTROL Editing Conflict]** an. Sie können eine Version der Änderungen beibehalten – entweder Sie behalten Ihre Aktualisierungen bei (klicken Sie auf **[!UICONTROL Keep Mine]**) und löschen die Bearbeitung der anderen Person oder Sie übernehmen die Aktualisierungen der anderen Person und löschen Ihre (**[!UICONTROL Overwrite Mine]**).
 
 ![Optionen zum Beheben eines Bearbeitungskonflikts](assets/editing_conflict_dialog_da2.png "Optionen zum Beheben eines Bearbeitungskonflikts")
 
