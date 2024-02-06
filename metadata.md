@@ -7,9 +7,9 @@ git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.de-DE
 index: y
 recommendations: noDisplay
 source-git-commit: 55b50485e965a7d94d3f5a1296fec16b0ad1eba9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Die metadata.md-Datei enthält Metadaten auf Repo-Ebene, die über die TOC.md-Da
 
 | metadata | Funktion |
 |--- |--- |
-| solution-title | Wird in der Artikelüberschrift als Link verwendet. |
+| solution-title | Wird in der Artikelkopfzeile als Link verwendet. |
 | solution-hub-url | Öffnet die Hub-Seite „Lernen und Support“. |
 | solution-icon | Zeigt das Lösungssymbol neben Lösungstitel an. Noch nicht implementiert. |
 | getting-started-url | Link zur Seite „Erste Schritte“. |
@@ -32,5 +32,5 @@ In der Datei TOC.md
 
 | metadata | Funktion |
 |--- |--- |
-| user-guide-title | Wird in der Artikelüberschrift als Link verwendet. |
+| user-guide-title | Wird in der Artikelkopfzeile als Link verwendet. |
 | user-guide-url | Öffnet die Hub-Seite „Lernen und Support“. |
